@@ -1,0 +1,259 @@
+difficulty	qid	sid	text	type	dep	par
+Easy	fables-01-1	fables-01	Where was the crow sitting?	Story	"1	Where	where	_	WRB	_	5	advmod	_	_
+2	was	be	_	VBD	_	5	aux	_	_
+3	the	the	_	DT	_	4	det	_	_
+4	crow	crow	_	NN	_	5	nsubj	_	_
+5	sitting	sit	_	VBG	_	0	root	_	_
+6	?	?	_	.	_	5	punct	_	_"	(ROOT (SBARQ (WHADVP (WRB Where)) (SQ (VBD was) (NP (DT the) (NN crow)) (VP (VBG sitting))) (. ?)))
+Easy	fables-01-2	fables-01	What did the crow have in her beak?	Story	"1	What	what	_	WP	_	5	dobj	_	_
+2	did	do	_	VBD	_	5	aux	_	_
+3	the	the	_	DT	_	4	det	_	_
+4	crow	crow	_	NN	_	5	nsubj	_	_
+5	have	have	_	VBP	_	0	root	_	_
+6	in	in	_	IN	_	8	case	_	_
+7	her	she	_	PRP$	_	8	nmod:poss	_	_
+8	beak	beak	_	NN	_	5	nmod	_	_
+9	?	?	_	.	_	5	punct	_	_"	(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD did) (NP (DT the) (NN crow)) (VP (VBP have) (PP (IN in) (NP (PRP$ her) (NN beak))))) (. ?)))
+Easy	fables-01-3	fables-01	Who is the Story about?	Story	"1	Who	who	_	WP	_	0	root	_	_
+2	is	be	_	VBZ	_	1	cop	_	_
+3	the	the	_	DT	_	4	det	_	_
+4	Story	Story	_	NNP	_	1	nsubj	_	_
+5	about	about	_	IN	_	4	dep	_	_
+6	?	?	_	.	_	1	punct	_	_"	(ROOT (SBARQ (WHNP (WP Who)) (SQ (VBZ is) (NP (DT the) (NNP Story)) (ADJP (IN about))) (. ?)))
+Easy	fables-01-4	fables-01	What did the fox do to the cheese?	Sch	"1	What	what	_	WP	_	5	dobj	_	_
+2	did	do	_	VBD	_	5	aux	_	_
+3	the	the	_	DT	_	4	det	_	_
+4	fox	fox	_	NN	_	5	nsubj	_	_
+5	do	do	_	VBP	_	0	root	_	_
+6	to	to	_	TO	_	8	case	_	_
+7	the	the	_	DT	_	8	det	_	_
+8	cheese	cheese	_	NN	_	5	nmod	_	_
+9	?	?	_	.	_	5	punct	_	_"	(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD did) (NP (DT the) (NN fox)) (VP (VBP do) (PP (TO to) (NP (DT the) (NN cheese))))) (. ?)))
+Easy	fables-01-5	fables-01	Where was the fox standing?	Sch	"1	Where	where	_	WRB	_	5	advmod	_	_
+2	was	be	_	VBD	_	5	cop	_	_
+3	the	the	_	DT	_	5	det	_	_
+4	fox	fox	_	NN	_	5	compound	_	_
+5	standing	standing	_	NN	_	0	root	_	_
+6	?	?	_	.	_	5	punct	_	_"	(ROOT (SBARQ (WHADVP (WRB Where)) (SQ (VBD was) (NP (DT the) (NN fox) (NN standing))) (. ?)))
+Easy	fables-01-6	fables-01	What did the crow feel?	Sch	"1	What	what	_	WP	_	5	dobj	_	_
+2	did	do	_	VBD	_	5	aux	_	_
+3	the	the	_	DT	_	4	det	_	_
+4	crow	crow	_	NN	_	5	nsubj	_	_
+5	feel	feel	_	VB	_	0	root	_	_
+6	?	?	_	.	_	5	punct	_	_"	(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD did) (NP (DT the) (NN crow)) (VP (VB feel))) (. ?)))
+Easy	fables-01-7	fables-01	Who flattered the crow?	Sch	"1	Who	who	_	WP	_	2	nsubj	_	_
+2	flattered	flatter	_	VBD	_	0	root	_	_
+3	the	the	_	DT	_	4	det	_	_
+4	crow	crow	_	NN	_	2	dobj	_	_
+5	?	?	_	.	_	2	punct	_	_"	(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD flattered) (NP (DT the) (NN crow)))) (. ?)))
+Easy	fables-02-1	fables-02	Who was feeding in a meadow?	Story	"1	Who	who	_	WP	_	3	nsubj	_	_
+2	was	be	_	VBD	_	3	aux	_	_
+3	feeding	feed	_	VBG	_	0	root	_	_
+4	in	in	_	IN	_	6	case	_	_
+5	a	a	_	DT	_	6	det	_	_
+6	meadow	meadow	_	NN	_	3	nmod	_	_
+7	?	?	_	.	_	3	punct	_	_"	(ROOT (SBARQ (WHNP (WP Who)) (SQ (VBD was) (NP (NP (VBG feeding)) (PP (IN in) (NP (DT a) (NN meadow))))) (. ?)))
+Easy	fables-02-2	fables-02	Who was persuaded by this flattery?	Story	"1	Who	who	_	WP	_	3	nsubjpass	_	_
+2	was	be	_	VBD	_	3	auxpass	_	_
+3	persuaded	persuade	_	VBN	_	0	root	_	_
+4	by	by	_	IN	_	6	case	_	_
+5	this	this	_	DT	_	6	det	_	_
+6	flattery	flattery	_	NN	_	3	nmod	_	_
+7	?	?	_	.	_	3	punct	_	_"	(ROOT (SBARQ (WHNP (WP Who)) (SQ (VBD was) (VP (VBN persuaded) (PP (IN by) (NP (DT this) (NN flattery))))) (. ?)))
+Easy	fables-02-3	fables-02	Where was the bull?	Sch	"1	Where	where	_	WRB	_	2	advmod	_	_
+2	was	be	_	VBD	_	0	root	_	_
+3	the	the	_	DT	_	4	det	_	_
+4	bull	bull	_	NN	_	2	nsubj	_	_
+5	?	?	_	.	_	2	punct	_	_"	(ROOT (SBARQ (WHADVP (WRB Where)) (SQ (VBD was) (NP (DT the) (NN bull))) (. ?)))
+Easy	fables-02-4	fables-02	Who was grazing?	Sch	"1	Who	who	_	WP	_	0	root	_	_
+2	was	be	_	VBD	_	1	cop	_	_
+3	grazing	grazing	_	NN	_	1	nsubj	_	_
+4	?	?	_	.	_	1	punct	_	_"	(ROOT (SBARQ (WHNP (WP Who)) (SQ (VBD was) (NP (NN grazing))) (. ?)))
+Easy	fables-02-5	fables-02	Who watched the bull?	Sch	"1	Who	who	_	WP	_	2	nsubj	_	_
+2	watched	watch	_	VBD	_	0	root	_	_
+3	the	the	_	DT	_	4	det	_	_
+4	bull	bull	_	NN	_	2	dobj	_	_
+5	?	?	_	.	_	2	punct	_	_"	(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD watched) (NP (DT the) (NN bull)))) (. ?)))
+Easy	fables-02-6	fables-02	What did the lion feign?	Sch	"1	What	what	_	WP	_	5	dobj	_	_
+2	did	do	_	VBD	_	5	aux	_	_
+3	the	the	_	DT	_	4	det	_	_
+4	lion	lion	_	NN	_	5	nsubj	_	_
+5	feign	feign	_	VB	_	0	root	_	_
+6	?	?	_	.	_	5	punct	_	_"	(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD did) (NP (DT the) (NN lion)) (VP (VB feign))) (. ?)))
+Easy	fables-02-7	fables-02	Who is the story about?	Story	"1	Who	who	_	WP	_	0	root	_	_
+2	is	be	_	VBZ	_	1	cop	_	_
+3	the	the	_	DT	_	4	det	_	_
+4	story	story	_	NN	_	1	nsubj	_	_
+5	about	about	_	IN	_	4	nmod	_	_
+6	?	?	_	.	_	1	punct	_	_"	(ROOT (SBARQ (WHNP (WP Who)) (SQ (VBZ is) (NP (DT the) (NN story)) (ADJP (IN about))) (. ?)))
+Easy	fables-02-8	fables-02	Who was foolish?	Story	"1	Who	who	_	WP	_	0	root	_	_
+2	was	be	_	VBD	_	1	cop	_	_
+3	foolish	foolish	_	JJ	_	1	nsubj	_	_
+4	?	?	_	.	_	1	punct	_	_"	(ROOT (SBARQ (WHNP (WP Who)) (SQ (VBD was) (ADJP (JJ foolish))) (. ?)))
+Easy	fables-02-9	fables-02	What did the lion want?	Sch	"1	What	what	_	WP	_	5	dobj	_	_
+2	did	do	_	VBD	_	5	aux	_	_
+3	the	the	_	DT	_	4	det	_	_
+4	lion	lion	_	NN	_	5	nsubj	_	_
+5	want	want	_	VB	_	0	root	_	_
+6	?	?	_	.	_	5	punct	_	_"	(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD did) (NP (DT the) (NN lion)) (VP (VB want))) (. ?)))
+Easy	fables-02-10	fables-02	Why did not the lion attack the bull?	Sch	"1	Why	why	_	WRB	_	6	advmod	_	_
+2	did	do	_	VBD	_	6	aux	_	_
+3	not	not	_	RB	_	6	neg	_	_
+4	the	the	_	DT	_	6	det	_	_
+5	lion	lion	_	NN	_	6	compound	_	_
+6	attack	attack	_	NN	_	0	root	_	_
+7	the	the	_	DT	_	8	det	_	_
+8	bull	bull	_	NN	_	6	dobj	_	_
+9	?	?	_	.	_	6	punct	_	_"	(ROOT (SBARQ (WHADVP (WRB Why)) (SQ (VBD did) (RB not) (NP (DT the) (NN lion) (NN attack))) (FRAG (X (DT the)) (NP (NN bull))) (. ?)))
+Easy	fables-02-11	fables-02	What did the lion fear?	Sch	"1	What	what	_	WP	_	5	dobj	_	_
+2	did	do	_	VBD	_	5	aux	_	_
+3	the	the	_	DT	_	4	det	_	_
+4	lion	lion	_	NN	_	5	nsubj	_	_
+5	fear	fear	_	NN	_	0	root	_	_
+6	?	?	_	.	_	5	punct	_	_"	(ROOT (SBARQ (WHNP (WP What)) (SQ (VP (VBD did) (NP (DT the) (NN lion) (NN fear)))) (. ?)))
+Easy	blogs-01-1	blogs-01	When did the G20 summit start?	Sch	"1	When	when	_	WRB	_	6	advmod	_	_
+2	did	do	_	VBD	_	6	aux	_	_
+3	the	the	_	DT	_	5	det	_	_
+4	G20	g20	_	NN	_	5	compound	_	_
+5	summit	summit	_	NN	_	6	nsubj	_	_
+6	start	start	_	VB	_	0	root	_	_
+7	?	?	_	.	_	6	punct	_	_"	(ROOT (SBARQ (WHADVP (WRB When)) (SQ (VBD did) (NP (DT the) (NN G20) (NN summit)) (VP (VB start))) (. ?)))
+Easy	blogs-01-2	blogs-01	What is the summit meeting named?	Sch	"1	What	what	_	WP	_	0	root	_	_
+2	is	be	_	VBZ	_	1	cop	_	_
+3	the	the	_	DT	_	5	det	_	_
+4	summit	summit	_	NN	_	5	compound	_	_
+5	meeting	meeting	_	NN	_	1	nsubj	_	_
+6	named	name	_	VBN	_	5	acl	_	_
+7	?	?	_	.	_	1	punct	_	_"	(ROOT (SBARQ (WHNP (WP What)) (SQ (VBZ is) (NP (DT the) (NN summit) (NN meeting)) (VP (VBN named))) (. ?)))
+Easy	blogs-01-3	blogs-01	Where did the protest happen?	Story | Sch	"1	Where	where	_	WRB	_	5	advmod	_	_
+2	did	do	_	VBD	_	5	aux	_	_
+3	the	the	_	DT	_	4	det	_	_
+4	protest	protest	_	NN	_	5	nsubj	_	_
+5	happen	happen	_	VB	_	0	root	_	_
+6	?	?	_	.	_	5	punct	_	_"	(ROOT (SBARQ (WHADVP (WRB Where)) (SQ (VBD did) (NP (DT the) (NN protest)) (VP (VB happen))) (. ?)))
+Easy	blogs-01-4	blogs-01	What did the people burn?	Sch	"1	What	what	_	WP	_	5	dobj	_	_
+2	did	do	_	VBD	_	5	aux	_	_
+3	the	the	_	DT	_	4	det	_	_
+4	people	people	_	NNS	_	5	nsubj	_	_
+5	burn	burn	_	VBP	_	0	root	_	_
+6	?	?	_	.	_	5	punct	_	_"	(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD did) (NP (DT the) (NNS people)) (VP (VBP burn))) (. ?)))
+Easy	blogs-01-5	blogs-01	Who rebelled?	Sch	"1	Who	who	_	WP	_	2	nsubj	_	_
+2	rebelled	rebel	_	VBN	_	0	root	_	_
+3	?	?	_	.	_	2	punct	_	_"	(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBN rebelled))) (. ?)))
+Easy	blogs-01-6	blogs-01	Who created a riot?	Sch	"1	Who	who	_	WP	_	2	nsubj	_	_
+2	created	create	_	VBD	_	0	root	_	_
+3	a	a	_	DT	_	4	det	_	_
+4	riot	riot	_	NN	_	2	dobj	_	_
+5	?	?	_	.	_	2	punct	_	_"	(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD created) (NP (DT a) (NN riot)))) (. ?)))
+Easy	blogs-01-7	blogs-01	What happened to a police car?	Sch	"1	What	what	_	WP	_	2	nsubj	_	_
+2	happened	happen	_	VBD	_	0	root	_	_
+3	to	to	_	TO	_	6	case	_	_
+4	a	a	_	DT	_	6	det	_	_
+5	police	police	_	NN	_	6	compound	_	_
+6	car	car	_	NN	_	2	nmod	_	_
+7	?	?	_	.	_	2	punct	_	_"	(ROOT (SBARQ (WHNP (WP What)) (SQ (VP (VBD happened) (PP (TO to) (NP (DT a) (NN police) (NN car))))) (. ?)))
+Easy	blogs-01-8	blogs-01	Who burned a police car?	Sch	"1	Who	who	_	WP	_	2	nsubj	_	_
+2	burned	burn	_	VBD	_	0	root	_	_
+3	a	a	_	DT	_	5	det	_	_
+4	police	police	_	NN	_	5	compound	_	_
+5	car	car	_	NN	_	2	dobj	_	_
+6	?	?	_	.	_	2	punct	_	_"	(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD burned) (NP (DT a) (NN police) (NN car)))) (. ?)))
+Easy	blogs-01-9	blogs-01	What was burned?	Story | Sch	"1	What	what	_	WP	_	3	nsubjpass	_	_
+2	was	be	_	VBD	_	3	auxpass	_	_
+3	burned	burn	_	VBN	_	0	root	_	_
+4	?	?	_	.	_	3	punct	_	_"	(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD was) (VP (VBN burned))) (. ?)))
+Easy	blogs-01-10	blogs-01	What happened to the police cars?	Story	"1	What	what	_	WP	_	2	nsubj	_	_
+2	happened	happen	_	VBD	_	0	root	_	_
+3	to	to	_	TO	_	6	case	_	_
+4	the	the	_	DT	_	6	det	_	_
+5	police	police	_	NN	_	6	compound	_	_
+6	cars	car	_	NNS	_	2	nmod	_	_
+7	?	?	_	.	_	2	punct	_	_"	(ROOT (SBARQ (WHNP (WP What)) (SQ (VP (VBD happened) (PP (TO to) (NP (DT the) (NN police) (NNS cars))))) (. ?)))
+Easy	blogs-01-11	blogs-01	What was fired?	Story	"1	What	what	_	WP	_	3	nsubjpass	_	_
+2	was	be	_	VBD	_	3	auxpass	_	_
+3	fired	fire	_	VBN	_	0	root	_	_
+4	?	?	_	.	_	3	punct	_	_"	(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD was) (VP (VBN fired))) (. ?)))
+Easy	blogs-01-12	blogs-01	What was fired at the rioters?	Story	"1	What	what	_	WP	_	3	nsubjpass	_	_
+2	was	be	_	VBD	_	3	auxpass	_	_
+3	fired	fire	_	VBN	_	0	root	_	_
+4	at	at	_	IN	_	6	case	_	_
+5	the	the	_	DT	_	6	det	_	_
+6	rioters	rioter	_	NNS	_	3	nmod	_	_
+7	?	?	_	.	_	3	punct	_	_"	(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD was) (VP (VBN fired) (PP (IN at) (NP (DT the) (NNS rioters))))) (. ?)))
+Easy	blogs-01-13	blogs-01	What was smashed?	Story	"1	What	what	_	WP	_	3	nsubjpass	_	_
+2	was	be	_	VBD	_	3	auxpass	_	_
+3	smashed	smash	_	VBN	_	0	root	_	_
+4	?	?	_	.	_	3	punct	_	_"	(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD was) (VP (VBN smashed))) (. ?)))
+Easy	mc500.train.0.1	mc500.train.0	Why did Alyssa go to Miami?	Story	"1	Why	why	_	WRB	_	4	advmod	_	_
+2	did	do	_	VBD	_	4	aux	_	_
+3	Alyssa	Alyssa	_	NNP	_	4	nsubj	_	_
+4	go	go	_	VB	_	0	root	_	_
+5	to	to	_	TO	_	6	case	_	_
+6	Miami	Miami	_	NNP	_	4	nmod	_	_
+7	?	?	_	.	_	4	punct	_	_"	(ROOT (SBARQ (WHADVP (WRB Why)) (SQ (VBD did) (NP (NNP Alyssa)) (VP (VB go) (PP (TO to) (NP (NNP Miami))))) (. ?)))
+Easy	mc500.train.0.2	mc500.train.0	What did Ellen order?	Story	"1	What	what	_	WP	_	4	dobj	_	_
+2	did	do	_	VBD	_	4	aux	_	_
+3	Ellen	Ellen	_	NNP	_	4	nsubj	_	_
+4	order	order	_	VB	_	0	root	_	_
+5	?	?	_	.	_	4	punct	_	_"	(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD did) (NP (NNP Ellen)) (VP (VB order))) (. ?)))
+Easy	mc500.train.0.3	mc500.train.0	who had soup?	Story	"1	who	who	_	WP	_	2	nsubj	_	_
+2	had	have	_	VBD	_	0	root	_	_
+3	soup	soup	_	NN	_	2	dobj	_	_
+4	?	?	_	.	_	2	punct	_	_"	(ROOT (SBARQ (WHNP (WP who)) (SQ (VP (VBD had) (NP (NN soup)))) (. ?)))
+Easy	mc500.train.0.4	mc500.train.0	where did Alyssa travel from?	Story	"1	where	where	_	WRB	_	4	advmod	_	_
+2	did	do	_	VBD	_	4	aux	_	_
+3	Alyssa	Alyssa	_	NNP	_	4	nsubj	_	_
+4	travel	travel	_	VB	_	0	root	_	_
+5	from	from	_	IN	_	4	nmod	_	_
+6	?	?	_	.	_	4	punct	_	_"	(ROOT (SBARQ (WHADVP (WRB where)) (SQ (VBD did) (NP (NNP Alyssa)) (VP (VB travel) (PP (IN from)))) (. ?)))
+Easy	mc500.train.0.5	mc500.train.0	What makes Alyssa happy?	Story	"1	What	what	_	WP	_	2	nsubj	_	_
+2	makes	make	_	VBZ	_	0	root	_	_
+3	Alyssa	Alyssa	_	NNP	_	4	nsubj	_	_
+4	happy	happy	_	JJ	_	2	xcomp	_	_
+5	?	?	_	.	_	2	punct	_	_"	(ROOT (SBARQ (WHNP (WP What)) (SQ (VP (VBZ makes) (S (NP (NNP Alyssa)) (ADJP (JJ happy))))) (. ?)))
+Easy	mc500.train.0.6	mc500.train.0	Why did they stay the night?	Story	"1	Why	why	_	WRB	_	4	advmod	_	_
+2	did	do	_	VBD	_	4	aux	_	_
+3	they	they	_	PRP	_	4	nsubj	_	_
+4	stay	stay	_	VBP	_	0	root	_	_
+5	the	the	_	DT	_	6	det	_	_
+6	night	night	_	NN	_	4	dobj	_	_
+7	?	?	_	.	_	4	punct	_	_"	(ROOT (SBARQ (WHADVP (WRB Why)) (SQ (VBD did) (NP (PRP they)) (VP (VBP stay) (NP-TMP (DT the) (NN night)))) (. ?)))
+Easy	mc500.train.0.7	mc500.train.0	Who traded stories?	Story	"1	Who	who	_	WP	_	2	nsubj	_	_
+2	traded	trade	_	VBD	_	0	root	_	_
+3	stories	story	_	NNS	_	2	dobj	_	_
+4	?	?	_	.	_	2	punct	_	_"	(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD traded) (NP (NNS stories)))) (. ?)))
+Easy	mc500.train.0.8	mc500.train.0	Who went to the beach?	Story	"1	Who	who	_	WP	_	2	nsubj	_	_
+2	went	go	_	VBD	_	0	root	_	_
+3	to	to	_	TO	_	5	case	_	_
+4	the	the	_	DT	_	5	det	_	_
+5	beach	beach	_	NN	_	2	nmod	_	_
+6	?	?	_	.	_	2	punct	_	_"	(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD went) (PP (TO to) (NP (DT the) (NN beach))))) (. ?)))
+Easy	mc500.train.0.9	mc500.train.0	What was the restaurant's special?	Story	"1	What	what	_	WP	_	0	root	_	_
+2	was	be	_	VBD	_	1	cop	_	_
+3	the	the	_	DT	_	4	det	_	_
+4	restaurant	restaurant	_	NN	_	1	nsubj	_	_
+5	's	's	_	POS	_	4	case	_	_
+6	special	special	_	JJ	_	4	amod	_	_
+7	?	?	_	.	_	1	punct	_	_"	(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD was) (NP (NP (DT the) (NN restaurant) (POS 's)) (NP (JJ special)))) (. ?)))
+Easy	mc500.train.0.10	mc500.train.0	What did Kristin have to eat?	Story	"1	What	what	_	WP	_	4	dep	_	_
+2	did	do	_	VBD	_	4	aux	_	_
+3	Kristin	Kristin	_	NNP	_	4	nsubj	_	_
+4	have	have	_	VB	_	0	root	_	_
+5	to	to	_	TO	_	6	mark	_	_
+6	eat	eat	_	VB	_	4	xcomp	_	_
+7	?	?	_	.	_	4	punct	_	_"	(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD did) (NP (NNP Kristin)) (VP (VB have) (S (VP (TO to) (VP (VB eat)))))) (. ?)))
+Easy	mc500.train.0.11	mc500.train.0	Where did the girls go for dinner?	Story	"1	Where	where	_	WRB	_	5	advmod	_	_
+2	did	do	_	VBD	_	5	aux	_	_
+3	the	the	_	DT	_	4	det	_	_
+4	girls	girl	_	NNS	_	5	nsubj	_	_
+5	go	go	_	VB	_	0	root	_	_
+6	for	for	_	IN	_	7	case	_	_
+7	dinner	dinner	_	NN	_	5	nmod	_	_
+8	?	?	_	.	_	5	punct	_	_"	(ROOT (SBARQ (WHADVP (WRB Where)) (SQ (VBD did) (NP (DT the) (NNS girls)) (VP (VB go) (PP (IN for) (NP (NN dinner))))) (. ?)))
+Easy	mc500.train.0.12	mc500.train.0	Where did Alyssa meet her friends?	Story	"1	Where	where	_	WRB	_	4	advmod	_	_
+2	did	do	_	VBD	_	4	aux	_	_
+3	Alyssa	Alyssa	_	NNP	_	4	nsubj	_	_
+4	meet	meet	_	VB	_	0	root	_	_
+5	her	she	_	PRP$	_	6	nmod:poss	_	_
+6	friends	friend	_	NNS	_	4	dobj	_	_
+7	?	?	_	.	_	4	punct	_	_"	(ROOT (SBARQ (WHADVP (WRB Where)) (SQ (VBD did) (NP (NNP Alyssa)) (VP (VB meet) (NP (PRP$ her) (NNS friends)))) (. ?)))
