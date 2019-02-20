@@ -343,9 +343,8 @@ def get_answer(question, story):
 
 
 #############################################################
-###     Dont change the code below here
+###     Dont change the code in this section
 #############################################################
-
 class QAEngine(QABase):
     @staticmethod
     def answer_question(question, story):
@@ -353,30 +352,23 @@ class QAEngine(QABase):
         return answer
 
 
-def run_qa():
-    QA = QAEngine()
+def run_qa(evaluate=False):
+    QA = QAEngine(evaluate=evaluate)
     QA.run()
     QA.save_answers()
 
+#############################################################
+
+
 def main():
-    run_qa()
+    # set evaluate to True/False depending on whether or
+    # not you want to run your system on the evaluation
+    # data. Evaluation data predictions will be saved
+    # to hw6-eval-responses.tsv in the working directory.
+    run_qa(evaluate=False)
     # You can uncomment this next line to evaluate your
     # answers, or you can run score_answers.py
     score_answers()
 
 if __name__ == "__main__":
     main()
-    #lemma = nltk.wordnet.WordNetLemmatizer()
-    #print(lemma.lemmatize('felt','v'))
-    """
-    synonyms = []
-    antonyms = []
-    for syn in wn.synsets("foolish"):
-        for l in syn.lemmas():
-            synonyms.append(l.name())
-            if l.antonyms():
-                antonyms.append(l.antonyms()[0].name())
-
-    print(synonyms)
-    print(antonyms)
-    """
