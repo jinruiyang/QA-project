@@ -53,10 +53,10 @@ def tokenize_words(sentence):
 def find_key_words(words):
     lowered = [w.lower() for w in words]
     pos_tag = nltk.pos_tag(lowered)
-    #print(pos_tag)
+    #print("111", pos_tag)
     main_noun = []
     main_verb = []
-    for item in pos_tag:
+    for item in pos_tag[:-1]:
         if 'NN' in item[1]:
             main_noun.append(item[0])
         elif 'VB' in item[1]:
@@ -186,7 +186,7 @@ def find_the_answer(matched_sentence,question):
 
     #define the main_verb (the verb appeared in question)
     main_verb = [w for (w,a) in words if a == 'v']
-    #print(main_verb)
+    print(main_verb)
     # Get subject, no object
     if clue == 'what':
         #print(word_answer)
