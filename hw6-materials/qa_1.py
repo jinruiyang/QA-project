@@ -18,11 +18,6 @@ def get_sentences(text):
     
     return sentences  
 
-def convert_tree_to_tag(tree):
-    for subtree in tree.subtrees():
-        print(subtree)
-    print('--------------')
-
 def remove_stop_words(words, should_remove=False):
     if should_remove:
         stopwords = nltk.corpus.stopwords.words('english')
@@ -159,7 +154,7 @@ def compare_sentence(question, sentences):
     rel_words = get_a_relative_question(question)
     rel_words = stemming_the_question(rel_words)
 
-    print("question: "+question)
+    print("{Question}: "+question)
     #print("filtered: "+rel_string)
     #print(rel_words)
     for sentence in sentences:
@@ -176,35 +171,6 @@ def compare_sentence(question, sentences):
 
     #print(final_sentence)
     #print("answer: "+matched_sentence)
-    return matched_sentence
-
-def sch_compare_sentence(question, sentences):
-    max_match = 0
-    matched_sentence = "couldn't find the answer"
-
-    rel_words = get_a_relative_question(question)
-    rel_words = stemming_the_question(rel_words)
-
-    possible_answer = []
-
-    print("question: "+question)
-
-    for sentence in sentences:
-        count = 0
-        rel_sentence = stemming_the_sentence(sentence)
-
-        for (x,y) in rel_words:
-            if x in rel_sentence:
-                count += 1
-
-        if count > max_match:
-            possible_answer = []
-            possible_answer.append(sentence)
-            max_match = count
-
-        if count == max_match:
-            possible_answer.append(sentence)
-
     return matched_sentence
 
 
@@ -232,14 +198,14 @@ def find_the_answer(matched_sentence,question):
                     for item in word_answer[:index-1]:
                         #string = string+item[0]+" "
                         string.append(item[0])
-                    print("T1 Find the subject of -ing or -ed:", string)
+                    #print("T1 Find the subject of -ing or -ed:", string)
                 # find out sth/sb do sth, find out sth -ing -ed as the adjective
                 # then pick out the part after the verb as answer
                 else:
                     for item in word_answer[index+1:]:
                         #string = string+item[0]+" "
                         string.append(item[0])
-                    print("T2 Find the object", string)
+                    #print("T2 Find the object", string)
     if clue == 'why':
         found = False
         for item in tokenize_words(matched_sentence):
@@ -260,7 +226,7 @@ def find_the_answer(matched_sentence,question):
                     if 'VB' not in item[1]:
                         #string = string+item[0]+" "
                         string.append(item[0])
-                print("T3 Find the subject who type question", string)
+                #print("T3 Find the subject who type question", string)
 
     if len(string) == 0:
         return matched_sentence
@@ -323,9 +289,9 @@ def get_answer(question, story):
     #return raw_sent_answer
     answer = get_answer_with_chunck(question, matched_sentence, raw_sent_answer)
 
-    print("matched_sentence:",matched_sentence)
-    print("chunk answer",answer)
-    print("-"*50    )
+    print("{Sentence}:", matched_sentence)
+    print("{Answer}:", answer)
+    print("\n")
 
     
 
