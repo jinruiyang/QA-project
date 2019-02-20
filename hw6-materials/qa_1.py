@@ -223,18 +223,23 @@ def find_the_answer(matched_sentence,question):
     #print(main_verb)
     # Get subject, no object
     if clue == 'what':
+        #print(word_answer)
         for index, item in enumerate(word_answer):
             if 'VB' in item[1] and ps.stem(item[0]) in main_verb:
+                #find out sth is/are/are/was/were doing  OR sth is/are/are/was/were done,
+                #then pick out the part before is/are/are/was/were as answer
                 if 'VB' in word_answer[index-1][1]:
                     for item in word_answer[:index-1]:
                         #string = string+item[0]+" "
                         string.append(item[0])
-
+                    print("T1 Find the subject of -ing or -ed:", string)
+                # find out sth/sb do sth, find out sth -ing -ed as the adjective
+                # then pick out the part after the verb as answer
                 else:
                     for item in word_answer[index+1:]:
                         #string = string+item[0]+" "
                         string.append(item[0])
-
+                    print("T2 Find the object", string)
     if clue == 'why':
         found = False
         for item in tokenize_words(matched_sentence):
@@ -246,12 +251,16 @@ def find_the_answer(matched_sentence,question):
     #print("string: "+string)
 
     if clue == 'who':
+        #print(word_answer)
         for index, item in enumerate(word_answer):
             if 'VB' in item[1] and ps.stem(item[0]) in main_verb:
+                # find out sth/sb do sth
+                # then pick out the part before the verb as answer
                 for item in word_answer[:index]:
                     if 'VB' not in item[1]:
                         #string = string+item[0]+" "
                         string.append(item[0])
+                print("T3 Find the subject who type question", string)
 
     if len(string) == 0:
         return matched_sentence
