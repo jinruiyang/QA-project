@@ -5,15 +5,23 @@ from nltk.stem import PorterStemmer
 from nltk.tree import Tree
 from nltk.corpus import wordnet as wn
 import nltk
+import chunk
 
 lemma = nltk.wordnet.WordNetLemmatizer()
+chunker = chunk.build_chunker()
 
-'''
+# The standard NLTK pipeline for POS tagging a document
+def get_sentences(text):
+    sentences = nltk.sent_tokenize(text)
+    sentences = [nltk.word_tokenize(sent) for sent in sentences]
+    sentences = [nltk.pos_tag(sent) for sent in sentences]
+    
+    return sentences  
+
 def convert_tree_to_tag(tree):
     for subtree in tree.subtrees():
         print(subtree)
     print('--------------')
-'''
 
 def remove_stop_words(words, should_remove=False):
     if should_remove:
@@ -170,6 +178,35 @@ def compare_sentence(question, sentences):
     #print("answer: "+matched_sentence)
     return matched_sentence
 
+def sch_compare_sentence(question, sentences):
+    max_match = 0
+    matched_sentence = "couldn't find the answer"
+
+    rel_words = get_a_relative_question(question)
+    rel_words = stemming_the_question(rel_words)
+
+    possible_answer = []
+
+    print("question: "+question)
+
+    for sentence in sentences:
+        count = 0
+        rel_sentence = stemming_the_sentence(sentence)
+
+        for (x,y) in rel_words:
+            if x in rel_sentence:
+                count += 1
+
+        if count > max_match:
+            possible_answer = []
+            possible_answer.append(sentence)
+            max_match = count
+
+        if count == max_match:
+            possible_answer.append(sentence)
+
+    return matched_sentence
+
 
 def find_the_answer(matched_sentence,question):
     ps = PorterStemmer()
@@ -181,9 +218,10 @@ def find_the_answer(matched_sentence,question):
 
     words = stemming_the_question(word_question)
 
-    #define the main_verb
+    #define the main_verb (the verb appeared in question)
     main_verb = [w for (w,a) in words if a == 'v']
     #print(main_verb)
+    # Get subject, no object
     if clue == 'what':
         for index, item in enumerate(word_answer):
             if 'VB' in item[1] and ps.stem(item[0]) in main_verb:
@@ -220,22 +258,69 @@ def find_the_answer(matched_sentence,question):
 
     return " ".join(string)
 
+def get_answer_with_overlap(question, story):
+    answer = ""
+    matched_sentence = ""
+    if 'Sch' in question['type']:
+        #convert_tree_to_tag(question['par'])
+        matched_sentence = compare_sentence(question['text'], tokenize_sentences(story['sch']))
+        #print("before: "+matched_sentence)
+
+        answer = find_the_answer(matched_sentence,question['text'])
+        #print("after: "+answer)
+    else:
+        matched_sentence = compare_sentence(question['text'], tokenize_sentences(story['text']))
+
+        #print("before: "+matched_sentence)
+        answer = find_the_answer(matched_sentence,question['text'])
+        #print("after: "+answer)
+    return answer, matched_sentence
+
+
+""" 
+    Chunking on the high recall answer (1 sentence only).
+    If we have time use stanford pos tagging (higher precision).
+"""
+def get_answer_with_chunck(question, matched_sentence, raw_sent_answer):
+    """
+    : param question: the question dict of a row in question.tsv
+    : param matched_sentence: the sentence in sch or story texts that has the most overlap
+    : return str: the chunked matched sentence
+    """
+    answer = ""
+    question_sents = get_sentences(question["text"])
+    # start word of the question, ex: what, why, where, when, who
+    q_start_word = question_sents[0][0][0].lower() 
+
+    if q_start_word in ("when","where","why"):
+        sentence_words = nltk.word_tokenize(matched_sentence)
+        sentence_word_tag = nltk.pos_tag(sentence_words) 
+        answer_tree = chunk.find_candidates([sentence_word_tag],chunker,q_start_word)
+        # if we found the answer
+        if answer_tree:
+            answer = " ".join([token[0] for token in answer_tree[0].leaves()])
+        else:
+            print("Its raw_sent_answer:")
+            answer = raw_sent_answer
+    else:
+        answer = raw_sent_answer
+    return answer
+    
 
 def get_answer(question, story):
     answer = "couldn't find the answer"
     print('=========================================')
-    if 'Sch' in question['type']:
-        #convert_tree_to_tag(question['par'])
-        matched_sentence = compare_sentence(question['text'], tokenize_sentences(story['sch']))
-        print("before: "+matched_sentence)
+    raw_sent_answer, matched_sentence =  get_answer_with_overlap(question,story)
+    #return raw_sent_answer
+    answer = get_answer_with_chunck(question, matched_sentence, raw_sent_answer)
 
-        answer = find_the_answer(matched_sentence,question['text'])
-        print("after: "+answer)
-    else:
-        matched_sentence = compare_sentence(question['text'], tokenize_sentences(story['text']))
-        print("before: "+matched_sentence)
-        answer = find_the_answer(matched_sentence,question['text'])
-        print("after: "+answer)
+    print("matched_sentence:",matched_sentence)
+    print("chunk answer",answer)
+    print("-"*50    )
+
+    
+
+
 
 
 
