@@ -100,12 +100,8 @@ def stemming_the_sentence(sentence):
 
     stopwords = nltk.corpus.stopwords.words('english')
     stopwords.remove('from')
-    
-    # **Not sure**
-    # Why not x.lower()
-    # In this case stopwords start from the first word of the sentence will be kept in the filtered sentnece. 
+
     filtered = [(x,y) for (x,y) in pos_tag if x not in stopwords]
-    
 
     #lemma = nltk.wordnet.WordNetLemmatizer()
 
@@ -165,10 +161,6 @@ def compare_sentence(question, sentences):
         count = 0
         rel_sentence = stemming_the_sentence(sentence)
         #print(rel_sentence)
-        
-        # **Not sure** 
-        # Why not how many words in the question appears in the review
-        # Now: how many "kinds" of words in the question appears in the review
         for (x,y) in rel_words:
             if x in rel_sentence:
                 count += 1
@@ -373,7 +365,7 @@ def main():
     # not you want to run your system on the evaluation
     # data. Evaluation data predictions will be saved
     # to hw6-eval-responses.tsv in the working directory.
-    run_qa(evaluate=False)
+    run_qa(evaluate=True)
     # You can uncomment this next line to evaluate your
     # answers, or you can run score_answers.py
     score_answers()
