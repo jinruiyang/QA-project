@@ -6,8 +6,8 @@ from nltk.stem import PorterStemmer
 from nltk.tree import Tree
 from nltk.corpus import wordnet as wn
 import nltk
-import dependency
-import preprocess
+#import dependency
+#import preprocess
 #import chunk
 
 lemma = nltk.wordnet.WordNetLemmatizer()
@@ -320,6 +320,23 @@ def get_answer_with_chunck(question, matched_sentence, raw_sent_answer):
         answer = raw_sent_answer
     return answer
     
+def get_answer_with_deps(question, matched_deps, raw_sent_answer):
+    
+    answer = ""
+    # start word of the question, ex: what, why, where, when, who
+    q_start_word = question_sents[0][0][0].lower() 
+    qgraph = question["dep"]
+    sgraph = matched_deps
+
+    if q_start_word in ("where"):
+        answer = dependency.find_answer(qgraph ,sgraph)
+
+        # if we found the answer
+        if not answer:
+            answer = raw_sent_answer
+    else:
+        answer = raw_sent_answer
+    return answer
 
 def get_answer(question, story):
     answer = "couldn't find the answer"
