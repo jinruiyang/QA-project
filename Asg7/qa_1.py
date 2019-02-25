@@ -6,7 +6,7 @@ from nltk.stem import PorterStemmer
 from nltk.tree import Tree
 from nltk.corpus import wordnet as wn
 import nltk
-#import dependency
+import dependency
 #import preprocess
 #import chunk
 
@@ -168,7 +168,7 @@ def compare_sentence(question, sentences, story_deps):
     # TODO: use dep get keywords
     ############################################
 
-    print("question: "+question)
+    #print("question: "+question)
     #print("filtered: "+rel_string)
     #print(rel_words)
     for i in range(len(sentences)):
@@ -323,14 +323,17 @@ def get_answer_with_chunck(question, matched_sentence, raw_sent_answer):
 def get_answer_with_deps(question, matched_deps, raw_sent_answer):
     
     answer = ""
+    question_sents = get_sentences(question["text"])
     # start word of the question, ex: what, why, where, when, who
     q_start_word = question_sents[0][0][0].lower() 
     qgraph = question["dep"]
     sgraph = matched_deps
 
     if q_start_word in ("where"):
-        answer = dependency.find_answer(qgraph ,sgraph)
 
+        answer = dependency.find_answer(qgraph ,sgraph, lemma, q_start_word)
+        print(question["text"])
+        print(answer)
         # if we found the answer
         if not answer:
             answer = raw_sent_answer
@@ -340,18 +343,17 @@ def get_answer_with_deps(question, matched_deps, raw_sent_answer):
 
 def get_answer(question, story):
     answer = "couldn't find the answer"
-    print('=========================================')
     raw_answer, matched_sentence, matched_deps = get_answer_with_overlap(question,story)
 
-    # print(raw_answer)
-    # print(matched_deps)
-    # print("-"*50)
+    
+    print(question["text"])
+
     question_sents = get_sentences(question["text"])
     # start word of the question, ex: what, why, where, when, who
     q_start_word = question_sents[0][0][0].lower()
     q_start_list.append(q_start_word)
+    #answer = get_answer_with_deps(question, matched_deps, raw_answer)
     answer = raw_answer
-    
     
 
 
