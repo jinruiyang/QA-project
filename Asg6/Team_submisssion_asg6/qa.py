@@ -365,7 +365,7 @@ def main():
     # not you want to run your system on the evaluation
     # data. Evaluation data predictions will be saved
     # to hw6-eval-responses.tsv in the working directory.
-    run_qa(evaluate=False)
+    run_qa(evaluate=True)
     # You can uncomment this next line to evaluate your
     # answers, or you can run score_answers.py
     score_answers()
