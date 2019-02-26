@@ -329,7 +329,7 @@ def get_answer_with_deps(question, matched_deps, raw_sent_answer, matched_senten
     qgraph = question["dep"]
     sgraph = matched_deps
 
-    if q_start_word in ("when"):
+    if q_start_word in ("when", "where", "what"):
 
         answer = dependency.find_answer(qgraph ,sgraph, lemma, q_start_word)
         #print(question["text"])
@@ -356,16 +356,16 @@ def get_answer(question, story):
     #answer = raw_answer
     
 
-    # if q_start_word == "when":
-    #     print(question["text"])
-    #     print(raw_answer)
-    #     print(answer)
-    #     # print(matched_deps)
-    #     l = []
-    #     for node in matched_deps.nodes.values():
-    #         l.append((node["address"],node["word"], node["rel"], node["head"]))
-    #     print(l)
-    #     print("-")
+    if q_start_word == "when":
+        print(question["text"])
+        print(raw_answer)
+        print(answer)
+        # print(matched_deps)
+        l = []
+        for node in matched_deps.nodes.values():
+            l.append((node["address"],node["word"], node["rel"], node["head"]))
+        print(l)
+        print("-")
     
 
 
