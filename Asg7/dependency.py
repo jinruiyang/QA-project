@@ -51,7 +51,7 @@ def get_dependents(node, graph):
     return results
 
 
-def find_answer(qgraph, sgraph ,lmtzr):
+def find_answer(qgraph, sgraph ,lmtzr, q_start):
     qmain = find_main(qgraph)
     qword = qmain["word"]
 
@@ -69,20 +69,47 @@ def find_answer(qgraph, sgraph ,lmtzr):
     # if snode is None means we didnt find the right recall senetence with key root in question
     if snode == None:
         return None
+    else:
+        print("Snode word:")
+        print(snode["word"])
         
 
-    # head is the root of the subtree, we want subtree that nodes are directly connected to the main verb
-    for node in sgraph.nodes.values():
-        #print("node[head]=", node["head"])
-        # meaning this subtree sentence has the same node as head
-        if node.get('head', None) == snode["address"]:
-            #print(node["word"], node["rel"])
-            if node['rel'] == "nmod":
-                deps = get_dependents(node, sgraph)
-                deps = sorted(deps+[node], key=operator.itemgetter("address"))
-                # print("DEPS")
-                # print(deps)
-                return " ".join(dep["word"] for dep in deps)
+    if q_start == "where":
+        # head is the root of the subtree, we want subtree that nodes are directly connected to the main verb
+        for node in sgraph.nodes.values():
+            #print("node[head]=", node["head"])
+            # meaning this subtree sentence has the same node as head
+            if node.get('head', None) == snode["address"]:
+                #print(node["word"], node["rel"])
+                if node['rel'] == "nmod":
+                    deps = get_dependents(node, sgraph)
+                    deps = sorted(deps+[node], key=operator.itemgetter("address"))
+                    # print("DEPS")
+                    # print(deps)
+                    return " ".join(dep["word"] for dep in deps)
+    elif q_start == "what":
+        for node in sgraph.nodes.values():
+            if node.get('head', None) == snode["address"]:
+                if node['rel'] == 'dobj':
+                    deps = get_dependents(node, sgraph)
+                    deps = sorted(deps+[node], key=operator.itemgetter("address"))
+                    return " ".join(dep["word"] for dep in deps)
+    elif q_start == "who":
+        pass
+    elif q_start == "when":
+        for node in sgraph.nodes.values():
+            if node.get('head', None) == snode["address"]:
+                if node['rel'] == "nmod":
+                    deps = get_dependents(node, sgraph)
+                    deps = sorted(deps+[node], key=operator.itemgetter("address"))
+                    return " ".join(dep["word"] for dep in deps)
+
+    elif q_start == "why":
+        pass
+    elif q_start == "how":
+        pass
+    elif q_start == "did":
+        pass
 
 
 if __name__ == '__main__':
