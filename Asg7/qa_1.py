@@ -6,7 +6,7 @@ from nltk.stem import PorterStemmer
 from nltk.tree import Tree
 from nltk.corpus import wordnet as wn
 import nltk
-#import dependency
+import dependency
 #import preprocess
 #import chunk
 
@@ -168,7 +168,7 @@ def compare_sentence(question, sentences, story_deps):
     # TODO: use dep get keywords
     ############################################
 
-    print("question: "+question)
+    #print("question: "+question)
     #print("filtered: "+rel_string)
     #print(rel_words)
     for i in range(len(sentences)):
@@ -306,7 +306,7 @@ def get_answer_with_chunck(question, matched_sentence, raw_sent_answer):
     # start word of the question, ex: what, why, where, when, who
     q_start_word = question_sents[0][0][0].lower() 
 
-    if q_start_word in ("when","where","why"):
+    if q_start_word in ("where","what"):
         sentence_words = nltk.word_tokenize(matched_sentence)
         sentence_word_tag = nltk.pos_tag(sentence_words) 
         answer_tree = chunk.find_candidates([sentence_word_tag],chunker,q_start_word)
@@ -320,17 +320,20 @@ def get_answer_with_chunck(question, matched_sentence, raw_sent_answer):
         answer = raw_sent_answer
     return answer
     
-def get_answer_with_deps(question, matched_deps, raw_sent_answer):
+def get_answer_with_deps(question, matched_deps, raw_sent_answer, matched_sentence):
     
     answer = ""
+    question_sents = get_sentences(question["text"])
     # start word of the question, ex: what, why, where, when, who
     q_start_word = question_sents[0][0][0].lower() 
     qgraph = question["dep"]
     sgraph = matched_deps
 
-    if q_start_word in ("where"):
-        answer = dependency.find_answer(qgraph ,sgraph)
+    if q_start_word in ("when"):
 
+        answer = dependency.find_answer(qgraph ,sgraph, lemma, q_start_word)
+        #print(question["text"])
+        #print(answer)
         # if we found the answer
         if not answer:
             answer = raw_sent_answer
@@ -340,22 +343,29 @@ def get_answer_with_deps(question, matched_deps, raw_sent_answer):
 
 def get_answer(question, story):
     answer = "couldn't find the answer"
-    print('=========================================')
     raw_answer, matched_sentence, matched_deps = get_answer_with_overlap(question,story)
 
-    # print(raw_answer)
-    # print(matched_deps)
-    # print("-"*50)
+    
+    
+    
     question_sents = get_sentences(question["text"])
     # start word of the question, ex: what, why, where, when, who
     q_start_word = question_sents[0][0][0].lower()
     q_start_list.append(q_start_word)
-    answer = raw_answer
+    answer = get_answer_with_deps(question, matched_deps, raw_answer, matched_sentence)
+    #answer = raw_answer
     
-    
 
-
-
+    # if q_start_word == "when":
+    #     print(question["text"])
+    #     print(raw_answer)
+    #     print(answer)
+    #     # print(matched_deps)
+    #     l = []
+    #     for node in matched_deps.nodes.values():
+    #         l.append((node["address"],node["word"], node["rel"], node["head"]))
+    #     print(l)
+    #     print("-")
     
 
 
@@ -424,8 +434,8 @@ def main():
     run_qa()
     # You can uncomment this next line to evaluate your
     # answers, or you can run score_answers.py
-    #score_answers()
-    type_answer("where",q_start_list)
+    score_answers()
+    #type_answer("when",q_start_list)
 
 if __name__ == "__main__":
     main()
