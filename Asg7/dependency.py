@@ -90,12 +90,24 @@ def find_answer(qgraph, sgraph ,lmtzr, q_start):
     elif q_start == "what":
         for node in sgraph.nodes.values():
             if node.get('head', None) == snode["address"]:
-                if node['rel'] == 'dobj':
+                # only gets the first sentence that meets the dependency
+                # if qgraph.nodes[2]["word"] == "did":
+                #     if node['rel'] == "nmod":
+                #         deps = get_dependents(node, sgraph)
+                #         deps = sorted(deps+[node], key=operator.itemgetter("address"))
+                #         return " ".join(dep["word"] for dep in deps)
+                # else:
+                if node['rel'] in ('dobj'):
                     deps = get_dependents(node, sgraph)
                     deps = sorted(deps+[node], key=operator.itemgetter("address"))
                     return " ".join(dep["word"] for dep in deps)
     elif q_start == "who":
-        pass
+        for node in sgraph.nodes.values():
+            if node.get('head', None) == snode["address"]:
+                if node['rel'] == "nsubj":
+                    deps = get_dependents(node, sgraph)
+                    deps = sorted(deps+[node], key=operator.itemgetter("address"))
+                    return " ".join(dep["word"] for dep in deps)
     elif q_start == "when":
         for node in sgraph.nodes.values():
             if node.get('head', None) == snode["address"]:
