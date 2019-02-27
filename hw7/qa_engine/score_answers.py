@@ -5,10 +5,8 @@ import numpy as np
 def score_all_answers(gold, pred):
     all_scores = {"p": [], "r": [], "f": []}
     for row in gold.itertuples():
-
         print("-"*40)
         print("\nSCORING {}\n".format(row.Index))
-
         golds = row.answer.lower().split("|")
         scores = {"p": [], "r": [], "f": []}
         for i, gold_answer in enumerate(golds):
@@ -70,7 +68,11 @@ def main():
     print("  * answer key:", qa.ANSWER_FILE)
     print("  * predictions file:", qa.RESPONSE_FILE)
     gold = pd.read_csv(qa.DATA_DIR + qa.ANSWER_FILE, index_col="qid", sep="\t")
+    print('gold var')
+    print(gold)
     pred = pd.read_csv(qa.RESPONSE_FILE, index_col="qid", sep="\t")
+    print('pred var')
+    print(pred)
     run_scoring(gold, pred)
 
 

@@ -1,0 +1,333 @@
+sch
+Once, storm was occurring in Louisiana.
+A narrator watched a channel named Weather Channel and watched some local news media.
+The narrator went back to a store named Home Depot in order to purchase a portable generator.
+The narrator filled a group of cars and filled the container of some gasoline.
+The narrator purchased an important group of things.
+Storm occurred.
+The narrator lost electricity.
+Some wind occurred.
+An area of a neighborhood of the narrator had a large group of pine trees and had a group of oak trees.
+The narrator stood up on a patio and watched a large tree.
+The tree split apart and fell on the yard of a neighbor.
+The narrator began to be nervous because it owned a group of trees and near the house of the narrator.
+The narrator began to be concerned because -- if the first tree were to later fall, and were to later fall on the house of the narrator -- the house of the narrator would have begun to be damaged, and the family of the narrator would begin to be wounded.
+The wife of the narrator stayed in the safe area of some home, a dog stayed in the area of the home, and the group of children of the narrator stayed in the area of the home.
+The narrator heard loud noise.
+The first tree fell onto a RV of the neighbor, and the narrator looked through the window of the narrator.
+The group of trees began to be falling.
+A fourth (#2) tree fell on a lawn mower.
+The fourth tree fell on a golf cart.
+The group of trees didn't fall on the house of the narrator.
+A group of neighbors didn't begin to be fortunate.
+President Bush came into Baton Rouge and in order to assess Baton Rouge.
+The group of friends of the cabinet of a governor named Jindal restored order, and the narrator had the group of friends of the cabinet of Jindal.
+Storm stopped.
+The narrator didn't have electricity because a group of power lines was down.
+The generator didn't begin to be working.
+The narrator brought the generator in repair.
+The parent of the narrator had electricity.
+The narrator brought the family of the narrator to the house of the parent of the narrator.
+The group of power lines began to be down over a city, and the fourth tree began to be down over the city.
+=========================================
+{Question_Text}: Why did the narrator begin to be nervous?
+----------------------------------------
+SCORING blogs-03-8
+Comparing Gold   "because it owned a group of trees and near the house of the narrator"
+      and Resp   "The narrator began to be nervous because it owned a group of trees and near the house of the narrator."
+
+RECALL:    1.000
+PRECISION: 0.706
+F-measure: 0.828
+
+=========================================
+sch
+There once was a fat bull.
+The bull was grazing in a meadow.
+A lion watched the bull and salivated because the lion wanted to eat the bull.
+The lion didn't attack the bull because the lion feared sharp every horn of the bull.
+The lion began to be hungry and decided to attempt to kill the bull.
+The lion planned to trick the bull because the lion wasn't able to fight the bull.
+The lion walked toward the bull and began to feign that the lion was friendly.
+The lion said to the bull that the lion admired the body of the bull, admired the head of the bull, he admired every shoulder of the bull and admired every thigh of the bull.
+The lion advised the bull to remove every horn of the bull because every horn of the bull was ugly.
+The lion succeeded in persuading the bull to remove every horn of the bull.
+The lion ate the bull, and the bull began to be defenseless.
+=========================================
+{Question_Text}: Why did not the lion attack the bull?
+----------------------------------------
+SCORING fables-02-10
+Comparing Gold   "because the lion feared sharp every horn of the bull"
+      and Resp   "The lion didn't attack the bull because the lion feared sharp every horn of the bull."
+
+RECALL:    1.000
+PRECISION: 0.692
+F-measure: 0.818
+
+=========================================
+{Question_Text}: Why did the lion salivate?
+----------------------------------------
+SCORING fables-02-14
+Comparing Gold   "because the lion wanted to eat the bull"
+      and Resp   "A lion watched the bull and salivated because the lion wanted to eat the bull."
+
+RECALL:    1.000
+PRECISION: 0.583
+F-measure: 0.737
+
+=========================================
+{Question_Text}: Why did the lion advise the bull to remove its horns?
+----------------------------------------
+SCORING fables-02-16
+Comparing Gold   "because every horn of the bull was ugly"
+      and Resp   "The lion advised the bull to remove every horn of the bull because every horn of the bull was ugly."
+
+RECALL:    1.000
+PRECISION: 0.615
+F-measure: 0.762
+
+=========================================
+sch
+A summit meeting named G20 summit started on eventful today.
+G20 summit happened annually.
+A world and many leader came and talked about it running a government.
+A people protested because it disagreed about a view.
+The people protested peacefully on a street.
+The people rebelled and created riot.
+The people burned a police car and threw a thing at a police.
+The police alleviated the people of riot.
+The police fired a tear gas at the people and fired a bullet at the people, and the people smashed a window.
+=========================================
+{Question_Text}: Why did the people protest?
+----------------------------------------
+SCORING blogs-01-16
+Comparing Gold   "because they disagreed about a view"
+      and Resp   "The people protested peacefully on a street."
+
+RECALL:    0.167
+PRECISION: 0.125
+F-measure: 0.143
+
+=========================================
+{Question_Text}: Why were the police in full riot gear?
+----------------------------------------
+SCORING blogs-01-18
+Comparing Gold   "to alleviate the violence"
+      and Resp   "Police were in full riot gear to alleviate the violence."
+
+RECALL:    1.000
+PRECISION: 0.364
+F-measure: 0.533
+
+=========================================
+sch
+A clever fox invited a stork to dine.
+The fox only served some soup in a flat and large dish.
+The fox lapped the soup with relish.
+The stork attempted to drink some savory broth and failed.
+The fox believed that distress was amusing.
+The stork shortly invited the fox to dine.
+The stork presented the fox with a pitcher.
+The stork easily fitted the long bill of the stork into the long and narrow neck of the pitcher.
+The stork enjoied some dinner.
+The fox began to be hungry and began to be helpless because he wasn't able to reach some food that was in the pitcher.
+=========================================
+{Question_Text}: Why did the fox begin to be hungry and begin to be helpless?
+----------------------------------------
+SCORING fables-04-6
+Comparing Gold   "because he wasn't able to reach some food that was in the pitcher"
+      and Resp   "The fox began to be hungry and began to be helpless because he wasn't able to reach some food that was in the pitcher."
+
+RECALL:    1.000
+PRECISION: 0.650
+F-measure: 0.788
+
+=========================================
+{Question_Text}: Why did the Fox sit by hungry and helpless?
+----------------------------------------
+SCORING fables-04-8
+Comparing Gold   "for it was impossible for him to reach the tempting contents of the vessel"
+      and Resp   "Thus, while she enjoyed her dinner, the Fox sat by hungry and helpless, for it was impossible for him to reach the tempting contents of the vessel."
+
+RECALL:    1.000
+PRECISION: 0.462
+F-measure: 0.632
+
+=========================================
+sch
+A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man.
+The narrator stayed with the young man and didn't aid him because the young man had broken the neck of the young man.
+The young man died on the spot of the yard of the narrator.
+The narrator later went back to the spot of the yard of the narrator and decided to talk to the young man because it wanted the young man to know the narrator regretting that it had not aided him.
+The narrator saw some bright flash in a group of trees that was above the narrator.
+The narrator thought for the brother of the narrator to use the flashlight of the brother of the narrator.
+The narrator entered the house of the narrator and heard that the asleep family of the narrator was asleep.
+The narrator began to wonder that the flash was an orb
+=========================================
+{Question_Text}: Why did the narrator decide to talk to the young man?
+----------------------------------------
+SCORING blogs-02-4
+Comparing Gold   "because it wanted the young man to know the narrator regretting that it had not aided him"
+      and Resp   "The narrator later went back to the spot of the yard of the narrator and decided to talk to the young man because it wanted the young man to know the narrator regretting that it had not aided him."
+
+RECALL:    1.000
+PRECISION: 0.600
+F-measure: 0.750
+
+=========================================
+sch
+ The narrator placed the bowl on the deck in order for Benjamin to drink the bowl's water.
+The bowl was popular.
+The birds drank the bowl's water.
+The birds bathed themselves in the bowl.
+The birds organized themselves on the deck's railing in order for the birds to wait.
+The squirrels drank the bowl's water.
+The squirrel approached the bowl.
+The squirrel was startled.
+The squirrel leaped because the squirrel was startled.
+The squirrel fell over the deck's railing because the squirrel leaped because the squirrel was startled.
+The squirrel held the deck's railing with the squirrel's paw.
+The squirrel's paw slipped off the deck's railing.
+The squirrel fell.
+=========================================
+{Question_Text}: Why did the narrator place the bowl on the deck?
+----------------------------------------
+SCORING blogs-04-12
+Comparing Gold   "in order for benjamin to drink the bowl's water."
+      and Resp   " The narrator placed the bowl on the deck in order for Benjamin to drink the bowl's water."
+
+RECALL:    1.000
+PRECISION: 0.733
+F-measure: 0.846
+
+=========================================
+{Question_Text}: Why did the birds organize themselves?
+----------------------------------------
+SCORING blogs-04-13
+Comparing Gold   "in order for the birds to wait"
+      and Resp   "The birds organized themselves on the deck's railing in order for the birds to wait."
+
+RECALL:    1.000
+PRECISION: 0.500
+F-measure: 0.667
+
+=========================================
+text
+Alyssa got to the beach after a long trip.
+She's from Charlotte.
+She traveled from Atlanta.
+She's now in Miami.
+She went to Miami to visit some friends.
+But she wanted some time to herself at the beach, so she went there first.
+After going swimming and laying out, she went to her friend Ellen's house.
+Ellen greeted Alyssa and they both had some lemonade to drink.
+Alyssa called her friends Kristin and Rachel to meet at Ellen's house.
+The girls traded stories and caught up on their lives.
+It was a happy time for everyone.
+The girls went to a restaurant for dinner.
+The restaurant had a special on catfish.
+Alyssa enjoyed the restaurant's special.
+Ellen ordered a salad.
+Kristin had soup.
+Rachel had a steak.
+After eating, the ladies went back to Ellen's house to have fun.
+They had lots of fun.
+They stayed the night because they were tired.
+Alyssa was happy to spend time with her friends again.
+=========================================
+{Question_Text}: Why did Alyssa go to Miami?
+----------------------------------------
+SCORING mc500.train.0.1
+Comparing Gold   "visit friends"
+      and Resp   "She went to Miami to visit some friends."
+
+RECALL:    1.000
+PRECISION: 0.250
+F-measure: 0.400
+
+=========================================
+{Question_Text}: Why did they stay the night?
+----------------------------------------
+SCORING mc500.train.0.6
+Comparing Gold   "they were tired."
+      and Resp   "They stayed the night because they were tired."
+
+RECALL:    1.000
+PRECISION: 0.500
+F-measure: 0.667
+
+=========================================
+text
+Kelly woke up one morning and went outside to her back yard.
+She was in a hurry because it was Mother's Day and she had to collect flowers before her mom woke up to give to her as a present.
+She was going to give her mom the biggest, most beautiful bunch of flowers her mother had ever seen.
+She knew where the best flowers were in her yard.
+She got a lot of different sized flowers.
+The red ones were big, the orange ones were small, and the green ones were in the middle.
+After Kelly collected all of the flowers, she went inside and tied them together with string.
+After that, she had to hide the flowers in a secret spot.
+She hoped her baby sister Morgan, who was still in diapers, wouldn't find the flowers and eat them.
+Kelly was worried, so she hid them in a new spot that was up higher.
+Finally, her mother woke up at 8:30 AM, and Kelly was excited!
+Kelly gave her mother the flowers.
+Her mother's favorite was the red one.
+=========================================
+{Question_Text}: Why was Kelly in a hurry?
+----------------------------------------
+SCORING mc500.train.18.9
+Comparing Gold   " because it was mother's day and she had to collect flowers before her mom woke up to give to her as a present"
+      and Resp   "Kelly woke up one morning and went outside to her back yard."
+
+RECALL:    0.238
+PRECISION: 0.385
+F-measure: 0.294
+
+=========================================
+{Question_Text}: Why was Kelly in a hurry?
+----------------------------------------
+SCORING mc500.train.18.12
+Comparing Gold   " because it was mother's day and she had to collect flowers before her mom woke up to give to her as a present"
+      and Resp   "Kelly woke up one morning and went outside to her back yard."
+
+RECALL:    0.238
+PRECISION: 0.385
+F-measure: 0.294
+
+=========================================
+{Question_Text}: Why did Kelly hide the flowers a second time?
+----------------------------------------
+SCORING mc500.train.18.20
+Comparing Gold   "so morgan wouldn't find the flowers and eat them"
+      and Resp   "After Kelly collected all of the flowers, she went inside and tied them together with string."
+
+RECALL:    0.400
+PRECISION: 0.222
+F-measure: 0.286
+
+=========================================
+{Question_Text}: Why was Kelly collecting flowers?
+----------------------------------------
+SCORING mc500.train.18.21
+Comparing Gold   "she was going to give her mother the flowers"
+      and Resp   "After Kelly collected all of the flowers, she went inside and tied them together with string."
+
+RECALL:    0.333
+PRECISION: 0.167
+F-measure: 0.222
+
+
+
+Finished processing 187 questions
+*************************************************************************
+
+FINAL RESULTS
+
+
+AVERAGE RECAL =     0.7868
+AVERAGE PRECISION = 0.4670
+AVERAGE F-MEASURE = 0.5686
+
+*************************************************************************
+
+
+Process finished with exit code 0
