@@ -95,9 +95,11 @@ def find_answer(qgraph, sgraph ,lmtzr, q_start):
     elif q_start == "who":
         answer = traverse_dep_nodes(sgraph, snode, "nsubj")
         # if the qmain word cant find the answer, try to search from its conjunctions 
-        # if snode['rel'] == 'conj':
-        #     head_address = snode["head"]
-        #     snode = sgraph.nodes[head_address]
+        if snode['rel'] == 'conj':
+            head_address = snode["head"]
+            snode = sgraph.nodes[head_address]
+            answer = traverse_dep_nodes(sgraph, snode, "nsubj")
+            
     elif q_start == "when":
         answer = traverse_dep_nodes(sgraph, snode, "nmod")
     elif q_start == "why":
