@@ -50,6 +50,19 @@ def get_dependents(node, graph):
     #print(results)
     return results
 
+"""
+This method is used to traverse all nodes that is the child of the node
+that has certain relation to the snode.
+"""
+def traverse_dep_nodes(sgraph, snode, rel_to_head):
+    for node in sgraph.nodes.values():
+        # meaning this node is the child of its head node
+        if node.get('head', None) == snode["address"]:
+            # define the relation with the snode we want to find for each question
+            if node['rel'] == rel_to_head:
+                deps = get_dependents(node, sgraph)
+                deps = sorted(deps+[node], key=operator.itemgetter("address"))
+                return " ".join(dep["word"] for dep in deps)
 
 def find_answer(qgraph, sgraph ,lmtzr, q_start):
     qmain = find_main(qgraph)
@@ -73,49 +86,20 @@ def find_answer(qgraph, sgraph ,lmtzr, q_start):
         print("Snode word:")
         print(snode["word"])
         
+    answer = None
 
     if q_start == "where":
-        # head is the root of the subtree, we want subtree that nodes are directly connected to the main verb
-        for node in sgraph.nodes.values():
-            #print("node[head]=", node["head"])
-            # meaning this subtree sentence has the same node as head
-            if node.get('head', None) == snode["address"]:
-                #print(node["word"], node["rel"])
-                if node['rel'] == "nmod":
-                    deps = get_dependents(node, sgraph)
-                    deps = sorted(deps+[node], key=operator.itemgetter("address"))
-                    # print("DEPS")
-                    # print(deps)
-                    return " ".join(dep["word"] for dep in deps)
+        answer = traverse_dep_nodes(sgraph, snode, "nmod")
     elif q_start == "what":
-        for node in sgraph.nodes.values():
-            if node.get('head', None) == snode["address"]:
-                # only gets the first sentence that meets the dependency
-                # if qgraph.nodes[2]["word"] == "did":
-                #     if node['rel'] == "nmod":
-                #         deps = get_dependents(node, sgraph)
-                #         deps = sorted(deps+[node], key=operator.itemgetter("address"))
-                #         return " ".join(dep["word"] for dep in deps)
-                # else:
-                if node['rel'] in ('dobj'):
-                    deps = get_dependents(node, sgraph)
-                    deps = sorted(deps+[node], key=operator.itemgetter("address"))
-                    return " ".join(dep["word"] for dep in deps)
+        answer = traverse_dep_nodes(sgraph, snode, "dobj")
     elif q_start == "who":
-        for node in sgraph.nodes.values():
-            if node.get('head', None) == snode["address"]:
-                if node['rel'] == "nsubj":
-                    deps = get_dependents(node, sgraph)
-                    deps = sorted(deps+[node], key=operator.itemgetter("address"))
-                    return " ".join(dep["word"] for dep in deps)
+        answer = traverse_dep_nodes(sgraph, snode, "nsubj")
+        # if the qmain word cant find the answer, try to search from its conjunctions 
+        # if snode['rel'] == 'conj':
+        #     head_address = snode["head"]
+        #     snode = sgraph.nodes[head_address]
     elif q_start == "when":
-        for node in sgraph.nodes.values():
-            if node.get('head', None) == snode["address"]:
-                if node['rel'] == "nmod":
-                    deps = get_dependents(node, sgraph)
-                    deps = sorted(deps+[node], key=operator.itemgetter("address"))
-                    return " ".join(dep["word"] for dep in deps)
-
+        answer = traverse_dep_nodes(sgraph, snode, "nmod")
     elif q_start == "why":
         pass
     elif q_start == "how":
@@ -123,6 +107,7 @@ def find_answer(qgraph, sgraph ,lmtzr, q_start):
     elif q_start == "did":
         pass
 
+    return answer
 
 if __name__ == '__main__':
     driver = QABase()
