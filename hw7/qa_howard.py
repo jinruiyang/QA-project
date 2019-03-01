@@ -58,6 +58,19 @@ def normalize_and_lemmatize(str_of_sentence):
 	return lemmatize_vb(normalized_words)
 
 
+def lemmatize_vb_with_tag(words, tags):
+	lemmatized_words = []
+	for word, tag in zip(words, tags):
+		if 'VB' in tag:
+			if word == 'felt':
+				lemmatized_words.append('feel')
+			else:
+				lemmatized_words.append(lemmatizer.lemmatize(word, 'v'))
+		else:
+			lemmatized_words.append(word)
+	return lemmatized_words
+
+
 def lemmatize_vb(words):
 	key_vb = None
 	vb_count = 0
@@ -123,12 +136,22 @@ def match_sent_from_q(question_text, sentences):
 				if 'has to ' + key_vb in sentence or 'have to ' + key_vb in sentence or 'had to ' + key_vb in sentence:
 					have_to_flag = True
 
-		# remove stopwords after detection
+		#remove stopwords after detection
+		# stopwords = set(nltk.corpus.stopwords.words('english'))
+		# stopwords.remove('from')
+		# normalized_sent_words = [word for word in normalized_sent_words if word not in stopwords]
+		#
+		# key_sent_words = set([word.lower() for word in lemmatize_vb(normalized_sent_words)[0]])
+
+
+		# let's try pos_tag first, store the pairs(word, tag), remove stopwods, then lemmatize.
+		sent_word_tag = nltk.pos_tag(tokenize_words(sentence))
 		stopwords = set(nltk.corpus.stopwords.words('english'))
 		stopwords.remove('from')
-		normalized_sent_words = [word for word in normalized_sent_words if word not in stopwords]
+		normalized_sent_words = [word.lower() for word, tag in sent_word_tag if word not in stopwords]
+		tags = [tag for word, tag in sent_word_tag]
+		key_sent_words = lemmatize_vb_with_tag(normalized_sent_words, tags)
 
-		key_sent_words = set([word.lower() for word in lemmatize_vb(normalized_sent_words)[0]])
 		for word in key_words:
 			if word in key_sent_words:
 				if word == 'the':
@@ -332,7 +355,7 @@ def run_qa_with_score(evaluate=False):
 	QA = QAEngine(evaluate=evaluate)
 	q_start_words = set(['what', 'when', 'where', 'who', 'why', 'how', 'did', 'had'])
 	# QA.run_score(q_start_words)
-	QA.run_score(set(['why']))
+	QA.run_score(set(['what']))
 
 def main():
 

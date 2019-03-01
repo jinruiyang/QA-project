@@ -116,7 +116,7 @@ class QABase(object):
  # ----------------------new functions below defined by Howard-----------------
 
     def get_q_type(self, q):
-        return 'text' if 'story' in q['type'].lower() else 'sch'
+        return 'sch' if 'Sch' in q['type'] else 'text'
 
     def get_q_startword(self, q_str):
         return nltk.word_tokenize(q_str)[0].lower()
@@ -126,16 +126,16 @@ class QABase(object):
         for sentence in sentences:
             print(sentence)
 
-    def check_and_print_text(self, visited_sid, q):
+    def check_and_print_text(self, visited_sid_type, q):
         sid = q['sid']
-        if sid not in visited_sid:
+        q_type = self.get_q_type(q)
+        if (sid, q_type) not in visited_sid_type:
             story = self._stories.get(sid)
-            q_type = self.get_q_type(q)
             print('=========================================')
             print(q_type)
             self.print_text(story[q_type])
             # print(story[q_type])
-            visited_sid.add(sid)
+            visited_sid_type.add((sid, q_type))
 
     def calculate_and_print_scores(self, row, pred_str, all_scores):
         print("-" * 40)
@@ -193,16 +193,17 @@ class QABase(object):
 
     def run_score(self, q_startwords=set(['what', 'when', 'where', 'who', 'why', 'how', 'did', 'had'])):
         print(q_startwords)
-        visited_sid = set()
+        visited_sid_type = set()
         all_scores = {"p": [], "r": [], "f": []}
         gold = pd.read_csv(DATA_DIR + ANSWER_FILE, index_col="qid", sep="\t")
         for (qid, q), row in zip(self._questions.items(), gold.itertuples()):
             q_startword = self.get_q_startword(q['text'])
             if q_startword not in q_startwords:
                 continue
-            self.check_and_print_text(visited_sid, q)
+            self.check_and_print_text(visited_sid_type, q)
             pred_str = self.answer_question(q, self._stories.get(q["sid"]))
             self._answers[qid] = {"answer": pred_str, "qid": qid}
+            print('answer_type:' + q['type'])
             self.calculate_and_print_scores(row, pred_str, all_scores)
         self.print_final_score(all_scores, gold)
 

@@ -1,3 +1,4 @@
 import nltk
-
-print(nltk.pos_tag(['put']))
+lemmatizer = nltk.wordnet.WordNetLemmatizer()
+print(nltk.pos_tag(['The', 'narrator', 'saw', 'some', 'bright', 'flash']))
+print(lemmatizer.lemm)
