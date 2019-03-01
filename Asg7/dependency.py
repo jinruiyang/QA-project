@@ -22,12 +22,16 @@ def find_node(word, graph, lmtzr):
             continue
         if tag.startswith("V"):
             sword = lmtzr.lemmatize(sword,'v')
+            # because the error of wordnet
+            if sword == "felt":
+                sword = "feel"
         else:
             sword = lmtzr.lemmatize(sword,'n')
         if sword == word:
             return node
     return None
-    
+ 
+
 def get_dependents(node, graph):
     #print("Graph nodes")
     #print(graph.nodes)
@@ -90,8 +94,36 @@ def find_answer(qgraph, sgraph ,lmtzr, q_start):
 
     if q_start == "where":
         answer = traverse_dep_nodes(sgraph, snode, "nmod")
+
+
     elif q_start == "what":
-        answer = traverse_dep_nodes(sgraph, snode, "dobj")
+        # the relation between q_start and the qmain word
+        q_start_rel = qgraph.nodes[1]["rel"]
+        #print(q_start_rel)
+        if q_start_rel == "dobj":
+            answer = traverse_dep_nodes(sgraph, snode, "dobj")
+
+            if not answer and snode['rel'] == 'conj':
+                head_address = snode["head"]
+                snode = sgraph.nodes[head_address]
+                answer = traverse_dep_nodes(sgraph, snode, "dobj")
+
+        elif q_start_rel == "nsubj":
+            answer = traverse_dep_nodes(sgraph, snode, "nsubj")
+
+            if not answer and snode['rel'] == 'conj':
+                head_address = snode["head"]
+                snode = sgraph.nodes[head_address]
+                answer = traverse_dep_nodes(sgraph, snode, "nsubj")
+
+        else:
+            answer = traverse_dep_nodes(sgraph, snode, "dobj")
+
+        if not answer:
+            answer = traverse_dep_nodes(sgraph, snode, "xcomp")
+        if not answer:
+            answer = traverse_dep_nodes(sgraph, snode, "ccomp")
+
     elif q_start == "who":
         answer = traverse_dep_nodes(sgraph, snode, "nsubj")
         # if the qmain word cant find the answer, try to search from its conjunctions 
@@ -99,7 +131,7 @@ def find_answer(qgraph, sgraph ,lmtzr, q_start):
             head_address = snode["head"]
             snode = sgraph.nodes[head_address]
             answer = traverse_dep_nodes(sgraph, snode, "nsubj")
-            
+
     elif q_start == "when":
         answer = traverse_dep_nodes(sgraph, snode, "nmod")
     elif q_start == "why":
@@ -110,6 +142,9 @@ def find_answer(qgraph, sgraph ,lmtzr, q_start):
         pass
 
     return answer
+
+
+
 
 if __name__ == '__main__':
     driver = QABase()
