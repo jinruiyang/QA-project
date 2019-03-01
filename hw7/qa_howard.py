@@ -58,12 +58,17 @@ def normalize_and_lemmatize(str_of_sentence):
 	return lemmatize_vb(normalized_words)
 
 
-def lemmatize_vb_with_tag(words, tags):
+def lemmatize_vb_with_tag(word_tag):
 	lemmatized_words = []
-	for word, tag in zip(words, tags):
+	for word, tag in word_tag:
+		if word == 'spat':
+			lemmatized_words.append('spit')
+			continue
 		if 'VB' in tag:
 			if word == 'felt':
 				lemmatized_words.append('feel')
+			if word == 'saw':
+				lemmatized_words.append('see')
 			else:
 				lemmatized_words.append(lemmatizer.lemmatize(word, 'v'))
 		else:
@@ -76,6 +81,9 @@ def lemmatize_vb(words):
 	vb_count = 0
 	lemmatized_words = []
 	for word, tag in nltk.pos_tag(words):
+		if word == 'spat':
+			lemmatized_words.append('spit')
+			continue
 		if 'VB' in tag:
 			if vb_count == 0:
 				key_vb = word
@@ -84,6 +92,8 @@ def lemmatize_vb(words):
 
 			if word == 'felt':
 				lemmatized_words.append('feel')
+			if word == 'saw':
+				lemmatized_words.append('see')
 			else:
 				lemmatized_words.append(lemmatizer.lemmatize(word, 'v'))
 		else:
@@ -95,7 +105,7 @@ def lemmatize_vb(words):
 def normalize_to_words(str_of_sentence, sent_type='text'):
 	words = tokenize_words(str_of_sentence)
 	if sent_type == 'q' or True:
-		lower_words = [w.lower() for w in words if re.search('^\w', w) and w not in BE_VERBS]
+		lower_words = [w.lower() for w in words if re.search('^\w', w)]
 		return lower_words
 	# stopwords = set(nltk.corpus.stopwords.words('english'))
 	# stopwords.remove('from')
@@ -115,6 +125,7 @@ def match_sent_from_q(question_text, sentences):
 
 	normalized_words = normalize_to_words(question_text, 'q')
 	q_start_word = normalized_words[0]
+	normalized_words = normalized_words[1:]  # remove start_word
 	key_words, key_vb = lemmatize_vb(normalized_words)
 	if key_words[-1] == 'about':
 		return sentences[0]
@@ -148,9 +159,8 @@ def match_sent_from_q(question_text, sentences):
 		sent_word_tag = nltk.pos_tag(tokenize_words(sentence))
 		stopwords = set(nltk.corpus.stopwords.words('english'))
 		stopwords.remove('from')
-		normalized_sent_words = [word.lower() for word, tag in sent_word_tag if word not in stopwords]
-		tags = [tag for word, tag in sent_word_tag]
-		key_sent_words = lemmatize_vb_with_tag(normalized_sent_words, tags)
+		normalized_sent_word_tag = [(word.lower(), tag) for word, tag in sent_word_tag if word not in stopwords]
+		key_sent_words = lemmatize_vb_with_tag(normalized_sent_word_tag)
 
 		for word in key_words:
 			if word in key_sent_words:

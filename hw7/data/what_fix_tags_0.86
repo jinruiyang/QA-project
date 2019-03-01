@@ -32,6 +32,7 @@ Thankfully, my parents' house had electricity restored the day after the storm s
 There are downed trees and power lines all over the city.
 =========================================
 {Question_Text}: What was Louisiana adversely affected by?
+answer_type:Story
 ----------------------------------------
 SCORING blogs-03-1
 Comparing Gold   "hurricane gustav"
@@ -43,6 +44,7 @@ F-measure: 0.400
 
 =========================================
 {Question_Text}: What rolled in on Monday, September 1, in the morning?
+answer_type:Story
 ----------------------------------------
 SCORING blogs-03-2
 Comparing Gold   "the storm"
@@ -54,6 +56,7 @@ F-measure: 0.308
 
 =========================================
 {Question_Text}: What started kicking up?
+answer_type:Story
 ----------------------------------------
 SCORING blogs-03-3
 Comparing Gold   "winds"
@@ -64,7 +67,40 @@ PRECISION: 0.200
 F-measure: 0.333
 
 =========================================
+sch
+Once, storm was occurring in Louisiana.
+A narrator watched a channel named Weather Channel and watched some local news media.
+The narrator went back to a store named Home Depot in order to purchase a portable generator.
+The narrator filled a group of cars and filled the container of some gasoline.
+The narrator purchased an important group of things.
+Storm occurred.
+The narrator lost electricity.
+Some wind occurred.
+An area of a neighborhood of the narrator had a large group of pine trees and had a group of oak trees.
+The narrator stood up on a patio and watched a large tree.
+The tree split apart and fell on the yard of a neighbor.
+The narrator began to be nervous because it owned a group of trees and near the house of the narrator.
+The narrator began to be concerned because -- if the first tree were to later fall, and were to later fall on the house of the narrator -- the house of the narrator would have begun to be damaged, and the family of the narrator would begin to be wounded.
+The wife of the narrator stayed in the safe area of some home, a dog stayed in the area of the home, and the group of children of the narrator stayed in the area of the home.
+The narrator heard loud noise.
+The first tree fell onto a RV of the neighbor, and the narrator looked through the window of the narrator.
+The group of trees began to be falling.
+A fourth (#2) tree fell on a lawn mower.
+The fourth tree fell on a golf cart.
+The group of trees didn't fall on the house of the narrator.
+A group of neighbors didn't begin to be fortunate.
+President Bush came into Baton Rouge and in order to assess Baton Rouge.
+The group of friends of the cabinet of a governor named Jindal restored order, and the narrator had the group of friends of the cabinet of Jindal.
+Storm stopped.
+The narrator didn't have electricity because a group of power lines was down.
+The generator didn't begin to be working.
+The narrator brought the generator in repair.
+The parent of the narrator had electricity.
+The narrator brought the family of the narrator to the house of the parent of the narrator.
+The group of power lines began to be down over a city, and the fourth tree began to be down over the city.
+=========================================
 {Question_Text}: What did the area of a neighborhood of the narrator have?
+answer_type:Sch
 ----------------------------------------
 SCORING blogs-03-7
 Comparing Gold   "a large group of pine trees and had a group of oak trees"
@@ -76,6 +112,7 @@ F-measure: 0.750
 
 =========================================
 {Question_Text}: What fell on the yard of a neighbor?
+answer_type:Sch
 ----------------------------------------
 SCORING blogs-03-12
 Comparing Gold   "the tree"
@@ -87,6 +124,7 @@ F-measure: 0.286
 
 =========================================
 {Question_Text}: What did the first tree fall onto?
+answer_type:Sch
 ----------------------------------------
 SCORING blogs-03-14
 Comparing Gold   "a rv of the neighbor"
@@ -106,6 +144,7 @@ The Crow was hugely flattered by this, and just to show the Fox that she could s
 Down came the cheese, of course, and the Fox, snatching it up, said, "You have a voice, madam, I see: what you want is wits."
 =========================================
 {Question_Text}: What did the crow have in her beak?
+answer_type:Story
 ----------------------------------------
 SCORING fables-01-2
 Comparing Gold   "a piece of cheese"
@@ -116,18 +155,34 @@ PRECISION: 0.138
 F-measure: 0.242
 
 =========================================
+sch
+There once was a crow.
+The crow was sitting on a branch of a tree.
+Some cheese was in the beak of the crow.
+A fox observed the crow and tried to discover how to get the cheese.
+The fox came and stood under the tree.
+The fox looked toward the crow and said that he saw a noble bird who was above him.
+The fox said that the beauty of the bird was incomparable.
+The fox said that the hue of the plumage of the bird was exquisite.
+The fox said that -- if the sweetness of the voice of the bird is equal to the fairness of the appearance of the bird -- the bird would be undoubtedly the queen of every bird.
+The crow felt that the fox had flattered her and cawed loudly in order for she to show him that she was able to sing.
+The cheese fell.
+The fox snatched the cheese, said that the crow was able to sing and the fox said that the crow needed wits.
+=========================================
 {Question_Text}: What did the fox do to the cheese?
+answer_type:Sch
 ----------------------------------------
 SCORING fables-01-4
 Comparing Gold   "snatched"
-      and Resp   "A fox observed the crow and tried to discover how to get the cheese."
+      and Resp   "The fox snatched the cheese, said that the crow was able to sing and the fox said that the crow needed wits."
 
-RECALL:    0.000
-PRECISION: 0.000
-F-measure: 0.000
+RECALL:    1.000
+PRECISION: 0.062
+F-measure: 0.118
 
 =========================================
 {Question_Text}: What did the crow feel?
+answer_type:Sch
 ----------------------------------------
 SCORING fables-01-6
 Comparing Gold   " that the fox had flattered her"
@@ -139,17 +194,19 @@ F-measure: 0.429
 
 =========================================
 {Question_Text}: What was the crow doing?
+answer_type:Sch
 ----------------------------------------
 SCORING fables-01-8
 Comparing Gold   "sitting on the branch of a tree"
-      and Resp   "There once was a crow."
+      and Resp   "The crow was sitting on a branch of a tree."
 
-RECALL:    0.143
-PRECISION: 0.167
-F-measure: 0.154
+RECALL:    1.000
+PRECISION: 0.700
+F-measure: 0.824
 
 =========================================
 {Question_Text}: What did the fox say about the bird’s beauty?
+answer_type:Sch
 ----------------------------------------
 SCORING fables-01-12
 Comparing Gold   "the beauty of the bird was incomparable"
@@ -174,6 +231,7 @@ The lion succeeded in persuading the bull to remove every horn of the bull.
 The lion ate the bull, and the bull began to be defenseless.
 =========================================
 {Question_Text}: What did the lion feign?
+answer_type:Sch
 ----------------------------------------
 SCORING fables-02-6
 Comparing Gold   "that the lion was friendly"
@@ -185,6 +243,7 @@ F-measure: 0.556
 
 =========================================
 {Question_Text}: What did the lion want?
+answer_type:Sch
 ----------------------------------------
 SCORING fables-02-9
 Comparing Gold   "to eat the bull"
@@ -196,6 +255,7 @@ F-measure: 0.500
 
 =========================================
 {Question_Text}: What did the lion fear?
+answer_type:Sch
 ----------------------------------------
 SCORING fables-02-11
 Comparing Gold   "sharp every horn of the bull"
@@ -206,7 +266,19 @@ PRECISION: 0.462
 F-measure: 0.632
 
 =========================================
+text
+A Lion watched a fat Bull feeding in a meadow, and his mouth watered when he thought of the royal feast he would make, but he did not dare to attack him, for he was afraid of his sharp horns.
+Hunger, however, presently compelled him to do something: and as the use of force did not promise success, he determined to resort to artifice.
+Going up to the Bull in friendly fashion, he said to him, "I cannot help saying how much I admire your magnificent figure.
+What a fine head!
+What powerful shoulders and thighs!
+But, my dear friend, what in the world makes you wear those ugly horns?
+You must find them as awkward as they are unsightly.
+Believe me, you would do much better without them."
+The Bull was foolish enough to be persuaded by this flattery to have his horns cut off; and, having now lost his only means of defense, fell an easy prey to the Lion.
+=========================================
 {Question_Text}: What is ugly?
+answer_type:Story
 ----------------------------------------
 SCORING fables-02-12
 Comparing Gold   "horns"
@@ -218,6 +290,7 @@ F-measure: 0.118
 
 =========================================
 {Question_Text}: What did the lion advise the bull?
+answer_type:Sch
 ----------------------------------------
 SCORING fables-02-15
 Comparing Gold   "to remove every horn of the bull"
@@ -229,6 +302,7 @@ F-measure: 0.700
 
 =========================================
 {Question_Text}: What did the lion decide?
+answer_type:Sch
 ----------------------------------------
 SCORING fables-02-17
 Comparing Gold   "to attempt to kill the bull"
@@ -251,6 +325,7 @@ The police alleviated the people of riot.
 The police fired a tear gas at the people and fired a bullet at the people, and the people smashed a window.
 =========================================
 {Question_Text}: What is the summit meeting named?
+answer_type:Sch
 ----------------------------------------
 SCORING blogs-01-2
 Comparing Gold   "g20 summit"
@@ -262,6 +337,7 @@ F-measure: 0.333
 
 =========================================
 {Question_Text}: What did the people burn?
+answer_type:Sch
 ----------------------------------------
 SCORING blogs-01-4
 Comparing Gold   "a police car "
@@ -273,6 +349,7 @@ F-measure: 0.429
 
 =========================================
 {Question_Text}: What happened to a police car?
+answer_type:Sch
 ----------------------------------------
 SCORING blogs-01-7
 Comparing Gold   " burned"
@@ -284,6 +361,7 @@ F-measure: 0.167
 
 =========================================
 {Question_Text}: What was burned?
+answer_type:Story | Sch
 ----------------------------------------
 SCORING blogs-01-9
 Comparing Gold   "a police car "
@@ -294,7 +372,19 @@ PRECISION: 0.273
 F-measure: 0.429
 
 =========================================
+text
+Today was a very eventful work day.
+Today was the start of the G20 summit.
+It happens every year and it is where 20 of the leaders of the world come together to talk about how to run their governments effectively and what not.
+Since there are so many leaders coming together their are going to be a lot of people who have different views on how to run the government they follow so they protest.
+There was a protest that happened along the street where I work and at first it looked peaceful until a bunch of people started rebelling and creating a riot.
+Police cars were burned and things were thrown at cops.
+Police were in full riot gear to alleviate the violence.
+As things got worse tear gas and bean bag bullets were fired at the rioters while they smash windows of stores.
+And this all happened right in front of my store which was kind of scary but it was kind of interesting since I've never seen a riot before.
+=========================================
 {Question_Text}: What happened to the police cars?
+answer_type:Story
 ----------------------------------------
 SCORING blogs-01-10
 Comparing Gold   "were burned "
@@ -306,6 +396,7 @@ F-measure: 0.333
 
 =========================================
 {Question_Text}: What was fired?
+answer_type:Story
 ----------------------------------------
 SCORING blogs-01-11
 Comparing Gold   "bean bag bullets"
@@ -317,6 +408,7 @@ F-measure: 0.240
 
 =========================================
 {Question_Text}: What was fired at the rioters?
+answer_type:Story
 ----------------------------------------
 SCORING blogs-01-12
 Comparing Gold   "bean bag bullets"
@@ -328,6 +420,7 @@ F-measure: 0.240
 
 =========================================
 {Question_Text}: What was smashed?
+answer_type:Story
 ----------------------------------------
 SCORING blogs-01-13
 Comparing Gold   "windows of stores"
@@ -339,6 +432,7 @@ F-measure: 0.240
 
 =========================================
 {Question_Text}: What did the people create?
+answer_type:Sch
 ----------------------------------------
 SCORING blogs-01-17
 Comparing Gold   "riot"
@@ -357,6 +451,7 @@ But not long after the Stork invited him in turn, and set before him a pitcher w
 Thus, while she enjoyed her dinner, the Fox sat by hungry and helpless, for it was impossible for him to reach the tempting contents of the vessel.
 =========================================
 {Question_Text}: What was the only fare provided?
+answer_type:Story
 ----------------------------------------
 SCORING fables-04-2
 Comparing Gold   "a large flat dish of soup"
@@ -367,7 +462,20 @@ PRECISION: 0.300
 F-measure: 0.462
 
 =========================================
+sch
+A clever fox invited a stork to dine.
+The fox only served some soup in a flat and large dish.
+The fox lapped the soup with relish.
+The stork attempted to drink some savory broth and failed.
+The fox believed that distress was amusing.
+The stork shortly invited the fox to dine.
+The stork presented the fox with a pitcher.
+The stork easily fitted the long bill of the stork into the long and narrow neck of the pitcher.
+The stork enjoied some dinner.
+The fox began to be hungry and began to be helpless because he wasn't able to reach some food that was in the pitcher.
+=========================================
 {Question_Text}: What did the fox do to the soup?
+answer_type:Sch|Story
 ----------------------------------------
 SCORING fables-04-5
 Comparing Gold   "lapped the soup with relish"
@@ -379,6 +487,7 @@ F-measure: 0.222
 
 =========================================
 {Question_Text}: What did the stork easily fitted the long bill into?
+answer_type:Sch
 ----------------------------------------
 SCORING fables-04-7
 Comparing Gold   "the long and narrow neck of the pitcher"
@@ -390,6 +499,7 @@ F-measure: 0.700
 
 =========================================
 {Question_Text}: What was savoury?
+answer_type:Story
 ----------------------------------------
 SCORING fables-04-9
 Comparing Gold   "broth"
@@ -401,8 +511,9 @@ F-measure: 0.083
 
 =========================================
 {Question_Text}: What was the shape of the neck of the pitcher?
+answer_type:Sch
 ----------------------------------------
-    SCORING fables-04-11
+SCORING fables-04-11
 Comparing Gold   "long and narrow"
       and Resp   "The stork easily fitted the long bill of the stork into the long and narrow neck of the pitcher."
 
@@ -412,6 +523,7 @@ F-measure: 0.375
 
 =========================================
 {Question_Text}: What was clever?
+answer_type:Sch
 ----------------------------------------
 SCORING fables-04-12
 Comparing Gold   "the fox"
@@ -423,6 +535,7 @@ F-measure: 0.200
 
 =========================================
 {Question_Text}: What was the soup served in?
+answer_type:Sch
 ----------------------------------------
 SCORING fables-04-13
 Comparing Gold   "a flat and large dish"
@@ -433,30 +546,30 @@ PRECISION: 0.385
 F-measure: 0.556
 
 =========================================
-text
-A few years ago, a young man died out on my front lawn when he crashed his motorbike.
-I was with him in his last moments but there was
-nothing I could do because he was badly injured with a broken neck.
-Later, when I was visiting the place where he died, I decided to talk to him as if he were still there because I wanted him to know how bad I felt that I couldnt help him.
-And I know this sounds crazy, but I saw this ball of light in the trees above me.
-At first, my logical mind thought that it was my brother playing around with his new flashlight (not at all like it, but the closest thing I could imagine)
-And when I went inside the house, everyone was snoring!
-Lol could this have been what they call an orb
-PS.
-Not the first weird experience ive had.
+sch
+A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man.
+The narrator stayed with the young man and didn't aid him because the young man had broken the neck of the young man.
+The young man died on the spot of the yard of the narrator.
+The narrator later went back to the spot of the yard of the narrator and decided to talk to the young man because it wanted the young man to know the narrator regretting that it had not aided him.
+The narrator saw some bright flash in a group of trees that was above the narrator.
+The narrator thought for the brother of the narrator to use the flashlight of the brother of the narrator.
+The narrator entered the house of the narrator and heard that the asleep family of the narrator was asleep.
+The narrator began to wonder that the flash was an orb
 =========================================
 {Question_Text}: What did the narrator see?
+answer_type:Story | Sch
 ----------------------------------------
 SCORING blogs-02-6
 Comparing Gold   " some bright flash in a group of trees that was above the narrator"
-      and Resp   "A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man."
+      and Resp   "The narrator stayed with the young man and didn't aid him because the young man had broken the neck of the young man."
 
-RECALL:    0.308
-PRECISION: 0.235
-F-measure: 0.267
+RECALL:    0.231
+PRECISION: 0.176
+F-measure: 0.200
 
 =========================================
 {Question_Text}: What did the narrator begin to wonder?
+answer_type:Sch
 ----------------------------------------
 SCORING blogs-02-11
 Comparing Gold   "that the flash was an orb"
@@ -468,6 +581,7 @@ F-measure: 0.750
 
 =========================================
 {Question_Text}: What was in a group of trees that was above the narrator?
+answer_type:Sch
 ----------------------------------------
 SCORING blogs-02-12
 Comparing Gold   "some bright flash"
@@ -494,6 +608,7 @@ The squirrel's paw slipped off the deck's railing.
 The squirrel fell.
 =========================================
 {Question_Text}: What slipped off the deck's railing?
+answer_type:Sch
 ----------------------------------------
 SCORING blogs-04-3
 Comparing Gold   "the squirrel's paw"
@@ -505,6 +620,7 @@ F-measure: 0.615
 
 =========================================
 {Question_Text}: What did the birds bath themselves in?
+answer_type:Sch
 ----------------------------------------
 SCORING blogs-04-4
 Comparing Gold   "the bowl"
@@ -515,7 +631,21 @@ PRECISION: 0.286
 F-measure: 0.444
 
 =========================================
+text
+This is one of those times I wish I had a digital camera.
+We keep a large stainless steel bowl of water outside on the back deck for Benjamin to drink out of when he's playing outside.
+His bowl has become a very popular site.
+Throughout the day, many birds drink out of it and bathe in it.
+The birds literally line up on the railing and wait their turn.
+Squirrels also come to drink out of it.
+The craziest squirrel just came by- he was literally jumping in fright at what I believe was his own reflection in the bowl.
+He was startled so much at one point that he leap in the air and fell off the deck.
+But not quite, I saw his one little paw hanging on!
+After a moment or two his paw slipped and he tumbled down a few feet.
+But oh, if you could have seen the look on his startled face and how he jumped back each time he caught his reflection in the bowl!
+=========================================
 {Question_Text}: What did I wish I had?
+answer_type:Story
 ----------------------------------------
 SCORING blogs-04-7
 Comparing Gold   "a digital camera"
@@ -527,6 +657,7 @@ F-measure: 0.375
 
 =========================================
 {Question_Text}: What did we keep outside on the back deck?
+answer_type:Story
 ----------------------------------------
 SCORING blogs-04-14
 Comparing Gold   "a large stainless steel bowl of water"
@@ -545,6 +676,7 @@ In revenge the Serpent spat some of his poison into the man's drinking-horn.
 Heated with his exertions, the man was about to slake his thirst with a draught from the horn, when the Eagle knocked it out of his hand, and spilled its contents upon the ground.
 =========================================
 {Question_Text}: What did the Eagle seize it with?
+answer_type:Story
 ----------------------------------------
 SCORING fables-03-3
 Comparing Gold   "his talons"
@@ -555,11 +687,21 @@ PRECISION: 0.095
 F-measure: 0.174
 
 =========================================
+sch
+An eagle swooped toward a serpent and seized it in order for he to devour it.
+The eagle fought with the serpent, and the serpent coiled around him.
+A countryman who owned a drinking vessel tried to help the eagle to escape.
+The eagle escaped, and the countryman freed the eagle from the serpent.
+The serpent spat some poison in the drinking vessel.
+The countryman decided to sip from the drinking vessel.
+The eagle spilled the drinking vessel.
+=========================================
 {Question_Text}: What did the Serpent spit?
+answer_type:Story | Sch
 ----------------------------------------
 SCORING fables-03-5
 Comparing Gold   "some poison "
-      and Resp   "An eagle swooped toward a serpent and seized it in order for he to devour it."
+      and Resp   "The eagle fought with the serpent, and the serpent coiled around him."
 
 RECALL:    0.000
 PRECISION: 0.000
@@ -567,6 +709,7 @@ F-measure: 0.000
 
 =========================================
 {Question_Text}: What did the countryman decide?
+answer_type:Sch
 ----------------------------------------
 SCORING fables-03-7
 Comparing Gold   "to sip from the drinking vessel"
@@ -578,6 +721,7 @@ F-measure: 0.800
 
 =========================================
 {Question_Text}: What did the eagle spill?
+answer_type:Sch
 ----------------------------------------
 SCORING fables-03-9
 Comparing Gold   "the drinking vessel"
@@ -589,6 +733,7 @@ F-measure: 0.667
 
 =========================================
 {Question_Text}: What was heated?
+answer_type:Story
 ----------------------------------------
 SCORING fables-03-11
 Comparing Gold   "his exertions"
@@ -600,6 +745,7 @@ F-measure: 0.125
 
 =========================================
 {Question_Text}: What did the Serpent do in revenge?
+answer_type:Story
 ----------------------------------------
 SCORING fables-03-12
 Comparing Gold   "spat some of his poison into the man's drinking-horn"
@@ -611,6 +757,7 @@ F-measure: 0.833
 
 =========================================
 {Question_Text}: What did the countryman own?
+answer_type:Sch
 ----------------------------------------
 SCORING fables-03-17
 Comparing Gold   "a drinking vessel"
@@ -622,6 +769,7 @@ F-measure: 0.375
 
 =========================================
 {Question_Text}: What did the countryman free the eagle from?
+answer_type:Sch
 ----------------------------------------
 SCORING fables-03-19
 Comparing Gold   "the serpent"
@@ -633,6 +781,7 @@ F-measure: 0.333
 
 =========================================
 {Question_Text}: What did the Serpent spat?
+answer_type:Sch | Story
 ----------------------------------------
 SCORING fables-03-20
 Comparing Gold   "some poison "
@@ -667,6 +816,7 @@ They stayed the night because they were tired.
 Alyssa was happy to spend time with her friends again.
 =========================================
 {Question_Text}: What did Ellen order?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.0.2
 Comparing Gold   "a salad"
@@ -678,6 +828,7 @@ F-measure: 0.571
 
 =========================================
 {Question_Text}: What makes Alyssa happy?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.0.5
 Comparing Gold   "spend time with her friends"
@@ -689,6 +840,7 @@ F-measure: 0.625
 
 =========================================
 {Question_Text}: What was the restaurant's special?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.0.9
 Comparing Gold   "catfish"
@@ -700,6 +852,7 @@ F-measure: 0.222
 
 =========================================
 {Question_Text}: What did Kristin have to eat?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.0.10
 Comparing Gold   "soup"
@@ -711,6 +864,7 @@ F-measure: 0.000
 
 =========================================
 {Question_Text}: What did Ellen and Alyssa have to drink?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.0.13
 Comparing Gold   "some lemonade"
@@ -722,14 +876,15 @@ F-measure: 0.286
 
 =========================================
 {Question_Text}: What did the ladies do after dinner?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.0.14
-Comparing Gold   "go back to ellen's house "
-      and Resp   "The girls went to a restaurant for dinner."
+Comparing Gold   " go back to ellen's house to have fun"
+      and Resp   "After eating, the ladies went back to Ellen's house to have fun."
 
-RECALL:    0.167
-PRECISION: 0.111
-F-measure: 0.133
+RECALL:    0.875
+PRECISION: 0.500
+F-measure: 0.636
 
 =========================================
 text
@@ -756,17 +911,19 @@ There weren't any peanuts left to bring home to the goldfish.
 Andrew and his dad had a lot of fun at the circus.
 =========================================
 {Question_Text}: What day was it?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.23.2
 Comparing Gold   "saturday"
-      and Resp   "He had been watching TV all day."
+      and Resp   "It was Saturday afternoon and Andrew was bored."
 
-RECALL:    0.000
-PRECISION: 0.000
-F-measure: 0.000
+RECALL:    1.000
+PRECISION: 0.125
+F-measure: 0.222
 
 =========================================
 {Question_Text}: what did Andrew see by the door?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.23.4
 Comparing Gold   "the newspaper"
@@ -778,6 +935,7 @@ F-measure: 0.308
 
 =========================================
 {Question_Text}: What did Andrew and his dad read?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.23.7
 Comparing Gold   "the story"
@@ -789,6 +947,7 @@ F-measure: 0.400
 
 =========================================
 {Question_Text}: What did Andrew feed the goldfish?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.23.10
 Comparing Gold   "goldfish food "
@@ -800,6 +959,7 @@ F-measure: 0.091
 
 =========================================
 {Question_Text}: What did Andrew and his dad eat?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.23.12
 Comparing Gold   "lots of peanuts "
@@ -811,6 +971,7 @@ F-measure: 0.000
 
 =========================================
 {Question_Text}: What  did Andrew's dad say about the newspaper?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.23.16
 Comparing Gold   "“i think the newspaper is here. maybe we can find an idea in the newspaper”"
@@ -822,6 +983,7 @@ F-measure: 0.483
 
 =========================================
 {Question_Text}: What were the animals at the circus doing?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.23.19
 Comparing Gold   "tricks"
@@ -833,6 +995,7 @@ F-measure: 0.167
 
 =========================================
 {Question_Text}: What did he bring to his dad?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.23.20
 Comparing Gold   "the newspaper"
@@ -844,6 +1007,7 @@ F-measure: 0.286
 
 =========================================
 {Question_Text}: What did Andrew need to do before he could go to the circus?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.23.21
 Comparing Gold   "feed his goldfish"
@@ -870,6 +1034,7 @@ Kelly gave her mother the flowers.
 Her mother's favorite was the red one.
 =========================================
 {Question_Text}: what did Kelly do after she woke up?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.18.3
 Comparing Gold   "went outside to her back yard"
@@ -881,6 +1046,7 @@ F-measure: 0.632
 
 =========================================
 {Question_Text}: What is big and beautiful?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.18.4
 Comparing Gold   "bunch of flowers"
@@ -892,6 +1058,7 @@ F-measure: 0.261
 
 =========================================
 {Question_Text}: what did Kelly get?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.18.5
 Comparing Gold   "a lot of different sized flowers"
@@ -903,6 +1070,7 @@ F-measure: 0.000
 
 =========================================
 {Question_Text}: What did Kelly collect?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.18.6
 Comparing Gold   "all of the flowers "
@@ -914,6 +1082,7 @@ F-measure: 0.364
 
 =========================================
 {Question_Text}: What did Kelly want to give her mom?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.18.10
 Comparing Gold   "flowers"
@@ -925,6 +1094,7 @@ F-measure: 0.080
 
 =========================================
 {Question_Text}: what size were the orange ones?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.18.13
 Comparing Gold   "small"
@@ -936,10 +1106,11 @@ F-measure: 0.143
 
 =========================================
 {Question_Text}: what did Kelly hide?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.18.14
 Comparing Gold   "the flowers"
-      and Resp   "Kelly woke up one morning and went outside to her back yard."
+      and Resp   "Kelly was worried, so she hid them in a new spot that was up higher."
 
 RECALL:    0.000
 PRECISION: 0.000
@@ -947,6 +1118,7 @@ F-measure: 0.000
 
 =========================================
 {Question_Text}: What time did Kelly's mother wake up?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.18.16
 Comparing Gold   "“8:30 am”"
@@ -958,6 +1130,7 @@ F-measure: 0.222
 
 =========================================
 {Question_Text}: What did Kelly use to tie the flowers together?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.18.17
 Comparing Gold   "string"
@@ -969,6 +1142,7 @@ F-measure: 0.105
 
 =========================================
 {Question_Text}: what did Kelly give her mom as a present?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.18.18
 Comparing Gold   "flowers"
@@ -980,6 +1154,7 @@ F-measure: 0.080
 
 =========================================
 {Question_Text}: What was her baby sister's name?
+answer_type:Story
 ----------------------------------------
 SCORING mc500.train.18.19
 Comparing Gold   "morgan"
@@ -997,9 +1172,9 @@ Finished processing 187 questions
 FINAL RESULTS
 
 
-AVERAGE RECAL =     0.8225
-AVERAGE PRECISION = 0.2278
-AVERAGE F-MEASURE = 0.3300
+AVERAGE RECAL =     0.8690
+AVERAGE PRECISION = 0.2418
+AVERAGE F-MEASURE = 0.3493
 
 *************************************************************************
 
