@@ -7,6 +7,7 @@ import nltk
 import chunk
 import re
 from nltk.corpus import wordnet as wn
+from collections import Counter
 
 BE_VERBS = set(['be', 'am', 'is', 'are', 'was', 'were', 'being', 'been'])
 
@@ -69,6 +70,8 @@ def lemmatize_vb_with_tag(word_tag):
 				lemmatized_words.append('feel')
 			if word == 'saw':
 				lemmatized_words.append('see')
+			if word == 'ate':
+				lemmatized_words.append('eat')
 			else:
 				lemmatized_words.append(lemmatizer.lemmatize(word, 'v'))
 		else:
@@ -77,7 +80,7 @@ def lemmatize_vb_with_tag(word_tag):
 
 
 def lemmatize_vb(words):
-	key_vb = None
+	single_vb = None
 	vb_count = 0
 	lemmatized_words = []
 	for word, tag in nltk.pos_tag(words):
@@ -86,20 +89,22 @@ def lemmatize_vb(words):
 			continue
 		if 'VB' in tag:
 			if vb_count == 0:
-				key_vb = word
+				single_vb = word
 			if vb_count == 1:
-				key_vb = None
+				single_vb = None
 
 			if word == 'felt':
 				lemmatized_words.append('feel')
 			if word == 'saw':
 				lemmatized_words.append('see')
+			if word == 'ate':
+				lemmatized_words.append('eat')
 			else:
 				lemmatized_words.append(lemmatizer.lemmatize(word, 'v'))
 		else:
 			lemmatized_words.append(word)
 
-	return lemmatized_words, key_vb
+	return lemmatized_words, single_vb
 
 # now we have to remove stopwords of sentences after some keyword detection
 def normalize_to_words(str_of_sentence, sent_type='text'):
@@ -125,14 +130,17 @@ def match_sent_from_q(question_text, sentences):
 
 	normalized_words = normalize_to_words(question_text, 'q')
 	q_start_word = normalized_words[0]
-	normalized_words = normalized_words[1:]  # remove start_word
-	key_words, key_vb = lemmatize_vb(normalized_words)
+	q_normalized_words = normalized_words[1:]  # remove start_word
+	key_words, single_vb = lemmatize_vb(q_normalized_words)
 	if key_words[-1] == 'about':
 		return sentences[0]
 
 	print("{Question_Text}: " + question_text)
 
 	have_to_flag = False
+
+	index = 0
+	match_index = 0
 	for sentence in sentences:
 		if have_to_flag:
 			return sentence
@@ -143,8 +151,8 @@ def match_sent_from_q(question_text, sentences):
 		if q_start_word == 'why':
 			if 'because' in normalized_sent_words:
 				score += 1
-			if key_vb:
-				if 'has to ' + key_vb in sentence or 'have to ' + key_vb in sentence or 'had to ' + key_vb in sentence:
+			if single_vb:
+				if 'has to ' + single_vb in sentence or 'have to ' + single_vb in sentence or 'had to ' + single_vb in sentence:
 					have_to_flag = True
 
 		#remove stopwords after detection
@@ -160,18 +168,34 @@ def match_sent_from_q(question_text, sentences):
 		stopwords = set(nltk.corpus.stopwords.words('english'))
 		stopwords.remove('from')
 		normalized_sent_word_tag = [(word.lower(), tag) for word, tag in sent_word_tag if word not in stopwords]
+
+
 		key_sent_words = lemmatize_vb_with_tag(normalized_sent_word_tag)
 
 		for word in key_words:
 			if word in key_sent_words:
 				if word == 'the':
 					score += 0.5
+				elif word is single_vb:
+					score += 1.5
 				else:
 					score += 1
 
 		if score > max_match:
 			matched_sentence = sentence
 			max_match = score
+			match_index = index
+
+		index += 1
+
+	if 'what' in q_start_word and 'say' in key_words:
+		if Counter(matched_sentence)['\"'] == 1:
+			matched_quote = matched_sentence
+			for i in range(match_index + 1, len(sentences)):
+				matched_quote += ' '
+				matched_quote += sentences[i]
+				if Counter(sentences[i])['\"'] > 0:
+					return matched_quote.lower()
 
 	return matched_sentence
 
@@ -364,8 +388,8 @@ def run_qa(evaluate=False):
 def run_qa_with_score(evaluate=False):
 	QA = QAEngine(evaluate=evaluate)
 	q_start_words = set(['what', 'when', 'where', 'who', 'why', 'how', 'did', 'had'])
-	# QA.run_score(q_start_words)
-	QA.run_score(set(['what']))
+	QA.run_score(q_start_words)
+	# QA.run_score(set(['what']))
 
 def main():
 
