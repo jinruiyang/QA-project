@@ -6,12 +6,14 @@ import numpy as np
 def score_all_answers(gold, pred, q_start, q_start_list):
     all_scores = {"p": [], "r": [], "f": []}
     idx = 0
+    cnt = 0
     for row in gold.itertuples():
         if q_start_list[idx] != q_start:
             idx+=1
             continue
         else:
             #print(q_start_list[idx])
+            cnt+=1
             idx+=1
         # print("-"*40)
         # print("\nSCORING {}\n".format(row.Index))
@@ -58,12 +60,12 @@ def score_all_answers(gold, pred, q_start, q_start_list):
     # print("-" * 40)
     # print("Length of precision:")
     # print(len(all_scores["p"]))
-    return np.mean(all_scores["p"]), np.mean(all_scores["r"]), np.mean(all_scores["f"])
+    return np.mean(all_scores["p"]), np.mean(all_scores["r"]), np.mean(all_scores["f"]), cnt
 
 
 def run_scoring(gold, pred, q_start, q_start_list):
-    p, r, f = score_all_answers(gold, pred, q_start, q_start_list)
-    print("\n\nFinished processing {} questions".format(gold.shape[0]))
+    p, r, f , cnt= score_all_answers(gold, pred, q_start, q_start_list)
+    print("\n\nFinished processing {} questions".format(cnt))
     print("*************************************************************************\n")
     print("FINAL RESULTS\n\n")
 
