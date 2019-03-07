@@ -11,14 +11,19 @@ import dependency
 from nltk.corpus import wordnet as wn
 from collections import Counter
 
+
 BE_VERBS = set(['be', 'am', 'is', 'are', 'was', 'were', 'being', 'been'])
 
 lemmatizer = nltk.wordnet.WordNetLemmatizer()
 # To record question type for type_answer to  record only certain types of question
 q_start_list = []
+# To record entity counts for each story, key:sid, value:list of tuples with the most populor n entities
+story_entities = {}
 # If want to see certain types of question in the file, set to True and change target_qstart
 verbose = True
-target_qstart = "what"
+target_qstart = "who"
+test = set()
+
 
 
 #chunker = chunk.build_chunker()
@@ -276,6 +281,37 @@ def find_the_answer(matched_sentence,question):
     return " ".join(string)
 
 
+"""
+
+This function will cnt all nouns cnts in the story and 
+save most popular n entities to global variable story_entities.
+
+"""
+def entity_counts(question, story, n):
+    if story['sid'] in story_entities.keys():
+        return
+
+    cnt = Counter()
+    sentences = None
+    if 'Sch' in question['type']:
+        sentences  =get_sentences(story['sch'])
+    else:
+        sentences = get_sentences(story['text'])
+
+    for sent in sentences:
+        for w,t in sent:
+            if "NN" in t:
+                lemma_word = lemmatizer.lemmatize(w.lower(),'n')
+                if lemma_word not in cnt.keys():
+                    cnt[lemma_word] = 1
+                else:
+                    cnt[lemma_word] += 1
+                
+    story_entities[story['sid']] = cnt.most_common(n)
+
+
+
+
 def get_answer_with_overlap(question, story):
     answer = ""
     matched_sentence = ""
@@ -345,6 +381,8 @@ def get_answer_with_deps(question, matched_deps, raw_sent_answer, matched_senten
     return answer
 
 
+
+
 def get_verbose(question, q_start_word, raw_sent_answer, answer, matched_deps):
     with open("tmp.txt", "a") as f:
         f.write(question["text"]+"\n")
@@ -358,7 +396,7 @@ def get_verbose(question, q_start_word, raw_sent_answer, answer, matched_deps):
         for node in question["dep"].nodes.values():
             if node["word"] == None:
                 continue
-            f.write("address: {0}, word: {1}, rel: {2}, head: {3}\n\n".format(str(node["address"]),node["word"],node["rel"], str(node["head"])))
+            f.write("address: {0}, word: {1}, rel: {2}, head: {3}\n".format(str(node["address"]),node["word"],node["rel"], str(node["head"])))
             #q.append((node["address"],node["word"], node["rel"], node["head"]))
 
         # l = []
@@ -369,7 +407,7 @@ def get_verbose(question, q_start_word, raw_sent_answer, answer, matched_deps):
             for node in matched_deps.nodes.values():
                 if node["word"] == None:
                     continue
-                f.write("address:{0}, word:{1}, rel:{2}, head:{3}\n\n".format(str(node["address"]),node["word"],node["rel"], str(node["head"])))
+                f.write("address:{0}, word:{1}, rel:{2}, head:{3}\n".format(str(node["address"]),node["word"],node["rel"], str(node["head"])))
                 #l.append((node["address"],node["word"], node["rel"], node["head"]))
         else:
             f.write("Matched deps is None")
@@ -400,6 +438,8 @@ def get_answer(question, story):
     # print("{Answer}:", answer)
     # print("\n")
 
+
+    entity_counts(question, story, 2)
     question_sents = get_sentences(question["text"])
     q_start_word = question_sents[0][0][0].lower()
     q_start_list.append(q_start_word)
@@ -407,6 +447,8 @@ def get_answer(question, story):
 
     if verbose and q_start_word==target_qstart:
         get_verbose(question, q_start_word, raw_sent_answer, answer, matched_deps)
+
+    
     """
     :param question: dict
     :param story: dict
@@ -481,6 +523,7 @@ def main():
         if os.path.exists("tmp.txt"):
             os.remove("tmp.txt")
     run_qa(evaluate=False)
+
     # You can uncomment this next line to evaluate your
     # answers, or you can run score_answers.py
     # score_answers()
