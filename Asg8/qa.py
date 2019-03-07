@@ -21,8 +21,7 @@ q_start_list = []
 story_entities = {}
 # If want to see certain types of question in the file, set to True and change target_qstart
 verbose = True
-target_qstart = "who"
-test = set()
+target_qstart = "wh0"
 
 
 
@@ -287,7 +286,7 @@ This function will cnt all nouns cnts in the story and
 save most popular n entities to global variable story_entities.
 
 """
-def entity_counts(question, story, n):
+def entity_counts(question, story):
     if story['sid'] in story_entities.keys():
         return
 
@@ -306,10 +305,26 @@ def entity_counts(question, story, n):
                     cnt[lemma_word] = 1
                 else:
                     cnt[lemma_word] += 1
-                
-    story_entities[story['sid']] = cnt.most_common(n)
+    
+    entities = cnt.most_common()
+    tmp = [(entities[0][0], entities[0][1])]
+    for i in range(1,len(entities)):
+        if entities[i][1]>tmp[0][1]/2:
+            tmp.append(entities[i])
+
+    # get at most 3 entities
+    story_entities[story['sid']] = tmp[:3]
 
 
+def get_story_about_anwer(question):
+
+    entities = [t[0] for t in story_entities[question['sid']]]
+    if len(entities) == 3:
+        return "A {0}, a {1} and a {2}.".format(entities[0], entities[1], entities[2])
+    elif len(entities) == 2:
+        return "A {0} and a {1}.".format(entities[0], entities[1])
+    else:
+        return "A {0}.".format(entities[0])
 
 
 def get_answer_with_overlap(question, story):
@@ -418,6 +433,7 @@ def get_verbose(question, q_start_word, raw_sent_answer, answer, matched_deps):
 def get_answer(question, story):
     #print('=========================================')
     raw_sent_answer, matched_sentence, matched_deps = get_answer_with_overlap(question, story)
+    answer = raw_sent_answer
     # print(normalize_and_lemmatize(question['text']))
     # if 'Sch' in question['type']:
     #   print(story['sch'])
@@ -427,11 +443,24 @@ def get_answer(question, story):
     #   print(text_to_sent_words(story['text']))
     # print(matched_sentence)
 
-    #answer = raw_sent_answer
-    if matched_deps != None:
-        answer = get_answer_with_deps(question, matched_deps, raw_sent_answer, matched_sentence)
+
+    question_sents = get_sentences(question["text"])
+    q_start_word = question_sents[0][0][0].lower()
+    q_start_list.append(q_start_word)
+
+
+    entity_counts(question, story)
+    if "story" in question["text"] and "about" in question["text"]:
+        answer = get_story_about_anwer(question)
     else:
-        answer = raw_sent_answer
+        if matched_deps != None:
+            answer = get_answer_with_deps(question, matched_deps, raw_sent_answer, matched_sentence)
+        else:
+            answer = raw_sent_answer
+        
+    if verbose and q_start_word==target_qstart:
+        get_verbose(question, q_start_word, raw_sent_answer, answer, matched_deps)
+
     
     # answer = get_answer_with_chunck(question, matched_sentence, raw_sent_answer)
     # print("{Sentence}:", matched_sentence)
@@ -439,14 +468,9 @@ def get_answer(question, story):
     # print("\n")
 
 
-    entity_counts(question, story, 2)
-    question_sents = get_sentences(question["text"])
-    q_start_word = question_sents[0][0][0].lower()
-    q_start_list.append(q_start_word)
 
 
-    if verbose and q_start_word==target_qstart:
-        get_verbose(question, q_start_word, raw_sent_answer, answer, matched_deps)
+    
 
     
     """
@@ -523,7 +547,7 @@ def main():
         if os.path.exists("tmp.txt"):
             os.remove("tmp.txt")
     run_qa(evaluate=False)
-
+    print(story_entities)
     # You can uncomment this next line to evaluate your
     # answers, or you can run score_answers.py
     # score_answers()
