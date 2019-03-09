@@ -6,7 +6,7 @@ from collections import defaultdict
 import nltk
 import numpy as np
 
-HW = 7
+HW = 8
 DATA_DIR = "data/"
 QUESTION_FILE = "hw{}-questions.tsv".format(HW)
 ANSWER_FILE = "hw{}-answers.tsv".format(HW)
@@ -138,7 +138,7 @@ class QABase(object):
             visited_sid_type.add((sid, q_type))
 
     def calculate_and_print_scores(self, row, pred_str, all_scores):
-        print("-" * 40)
+
         print("SCORING {}".format(row.Index))
         golds = row.answer.lower().split("|")
         scores = {"p": [], "r": [], "f": []}
@@ -191,18 +191,19 @@ class QABase(object):
         print("AVERAGE F-MEASURE = {:.4f}".format(f))
         print("\n*************************************************************************\n")
 
-    def run_score(self, q_startwords=set(['what', 'when', 'where', 'who', 'why', 'how', 'did', 'had'])):
+    def run_score(self, q_difficulties=set(['Easy', 'Medium', 'Hard']),
+                  q_startwords=set(['what', 'when', 'where', 'who', 'why', 'how', 'did', 'had'])):
         print(q_startwords)
+        print(q_difficulties)
         visited_sid_type = set()
         all_scores = {"p": [], "r": [], "f": []}
         gold = pd.read_csv(DATA_DIR + ANSWER_FILE, index_col="qid", sep="\t")
         for (qid, q), row in zip(self._questions.items(), gold.itertuples()):
             q_startword = self.get_q_startword(q['text'])
-            if q_startword not in q_startwords:
+            if q_startword not in q_startwords or q['difficulty'] not in q_difficulties:
                 continue
             self.check_and_print_text(visited_sid_type, q)
             pred_str = self.answer_question(q, self._stories.get(q["sid"]))
-            print(pred_str)
             if type(pred_str) is not str:
                 pred_str = pred_str[0]
             self._answers[qid] = {"answer": pred_str, "qid": qid}

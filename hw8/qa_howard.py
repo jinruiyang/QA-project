@@ -4,16 +4,15 @@ from nltk.stem import PorterStemmer
 from nltk.tree import Tree
 from nltk.corpus import wordnet as wn
 import nltk
-import chunk
 import re
 from nltk.corpus import wordnet as wn
 from collections import Counter
+from wordnet_loader import load_reshape_wordnet_dict
 
 BE_VERBS = set(['be', 'am', 'is', 'are', 'was', 'were', 'being', 'been'])
 
 lemmatizer = nltk.wordnet.WordNetLemmatizer()
 
-chunker = chunk.build_chunker()
 
 # question in the following code stands for the question_dict object
 # a whole row in the question.tsv
@@ -124,24 +123,91 @@ def normalize_to_words(str_of_sentence, sent_type='text'):
 	# return normalized_words
 
 
+def get_synsets(word):
+	word_synsets = wn.synsets(word)
+	synonym_synset_ids = []
+	hypernym_synset_ids = []
+	hyponym_synset_ids = []
+	for synset in word_synsets:
+		synonym_synset_ids.append(synset.name())
+		if synset.hypernyms():
+			hypernym_synsets = synset.hypernyms()
+			hypernym_synset_ids += [synset.name() for synset in hypernym_synsets]
+		if synset.hyponyms():
+			hyponym_synsets = synset.hyponyms()
+			hyponym_synset_ids += [synset.name() for synset in hyponym_synsets]
+	synsets = synonym_synset_ids + hypernym_synset_ids + hyponym_synset_ids
+	return synsets
+
+
 # special past tense can find original form, but doesn't work the other way around
-def find_synonyms(word):
-	return [str(synset.name()).split('.')[0] for synset in wn.synsets(word)]
+def find_synonym_n_replace(key_word_tag, vb_n_synset_dicts, question_words, lemma_word_dict):
+	for word, tag in key_word_tag:
+		if 'NN' in tag or 'VB' in tag:
+			word_synsets_set = set(get_synsets(word))
+			if 'VB' in tag:
+				synset_word_dict = vb_n_synset_dicts[0]
+			if 'NN' in tag:
+				synset_word_dict = vb_n_synset_dicts[1]
+			for synset_id in synset_word_dict:
+				if synset_id in word_synsets_set:
+					word_synonym = synset_word_dict[synset_id]
+					word_index = question_words.index(lemma_word_dict[word])
+					question_words[word_index] = word_synonym
+					break
+
+
+def lemmatize_v_n(word_tag):
+	lemmatized_word_tag = []
+	lemma_word_dict = {}
+	for word, tag in word_tag:
+		if 'VB' in tag or 'NN' in tag:
+			if 'VB' in tag:
+				lemmatized_word = lemmatizer.lemmatize(word, 'v')
+			if 'NN' in tag:
+				lemmatized_word = lemmatizer.lemmatize(word)
+			lemmatized_word_tag.append((lemmatized_word, tag))
+			lemma_word_dict[lemmatized_word] = word
+	return lemmatized_word_tag, lemma_word_dict
+
+
+def replace_synonym(question, reshape_verb_dict, reshape_noun_dict):
+	verb_synset_word_dict = reshape_verb_dict[question['sid']]
+	noun_synset_word_dict = reshape_noun_dict[question['sid']]
+	stopwords = set(nltk.corpus.stopwords.words('english'))
+	question_words = tokenize_words(question['text'])
+	question_word_tag = nltk.pos_tag(question_words)
+	lemmatized_word_tag, lemma_word_dict = lemmatize_v_n(question_word_tag)
+	key_word_tag = [(word, tag) for word, tag in lemmatized_word_tag
+					if re.search('^[a-z]+$', word) and word not in stopwords]
+	find_synonym_n_replace(key_word_tag, (verb_synset_word_dict, noun_synset_word_dict), question_words, lemma_word_dict)
+	new_question_text = ' '.join(question_words)
+	return new_question_text
 
 
 # originally called compare_sentence, parameter question changed to question_text
-def match_sent_from_q(question_text, sentences):
+def match_sent_from_q(question, sentences):
+	reshape_verb_dict = load_reshape_wordnet_dict('v')
+	reshape_noun_dict = load_reshape_wordnet_dict('n')
+
+	if question['difficulty'] == 'Hard' and question['sid'] in {**reshape_verb_dict, **reshape_noun_dict}:
+		new_question_text = replace_synonym(question, reshape_verb_dict, reshape_noun_dict)
+		print('question before sub:')
+		print(question['text'])
+	else:
+		new_question_text = question['text']
+
 	max_match = 0
 	matched_sentence = sentences[0], 0  # better return a sentence in the text
 
-	normalized_words = normalize_to_words(question_text, 'q')
+	normalized_words = normalize_to_words(new_question_text, 'q')
 	q_start_word = normalized_words[0]
 	q_normalized_words = normalized_words[1:]  # remove start_word
 	key_words, key_vb = lemmatize_vb(q_normalized_words)
 	if key_words[-1] == 'about':
 		return sentences[0]
 
-	print("{Question_Text}: " + question_text)
+	print("{Question_Text}: " + new_question_text)
 
 	have_to_flag = False
 
@@ -160,14 +226,6 @@ def match_sent_from_q(question_text, sentences):
 			if key_vb:
 				if 'has to ' + key_vb in sentence or 'have to ' + key_vb in sentence or 'had to ' + key_vb in sentence:
 					have_to_flag = True
-
-		#remove stopwords after detection
-		# stopwords = set(nltk.corpus.stopwords.words('english'))
-		# stopwords.remove('from')
-		# normalized_sent_words = [word for word in normalized_sent_words if word not in stopwords]
-		#
-		# key_sent_words = set([word.lower() for word in lemmatize_vb(normalized_sent_words)[0]])
-
 
 		# let's try pos_tag first, store the pairs(word, tag), remove stopwods, then lemmatize.
 		sent_word_tag = nltk.pos_tag(tokenize_words(sentence))
@@ -206,71 +264,9 @@ def match_sent_from_q(question_text, sentences):
 	return matched_sentence
 
 
-def find_the_answer(matched_sentence,question):
-	ps = PorterStemmer()
-	string = []
-	word_answer = tokenize_words(matched_sentence)
-	word_question = tokenize_words(question)
-	clue = word_question[0].lower()
-	word_answer = nltk.pos_tag(word_answer)
-
-	words = normalize_to_words(question)
-
-	#define the main_verb (the verb appeared in question)
-	main_verb = [w for (w,a) in words if a == 'v']
-	print(main_verb)
-	# Get subject, no object
-	if clue == 'what':
-		#print(word_answer)
-		for index, item in enumerate(word_answer):
-			if 'VB' in item[1] and ps.stem(item[0]) in main_verb:
-				#find out sth is/are/are/was/were doing  OR sth is/are/are/was/were done,
-				#then pick out the part before is/are/are/was/were as answer
-				if 'VB' in word_answer[index-1][1]:
-					for item in word_answer[:index-1]:
-						#string = string+item[0]+" "
-						string.append(item[0])
-					#print("T1 Find the subject of -ing or -ed:", string)
-				# find out sth/sb do sth, find out sth -ing -ed as the adjective
-				# then pick out the part after the verb as answer
-				else:
-					for item in word_answer[index+1:]:
-						#string = string+item[0]+" "
-						string.append(item[0])
-					#print("T2 Find the object", string)
-	if clue == 'why':
-		found = False
-		for item in tokenize_words(matched_sentence):
-			if item == 'because':
-				found = True
-			if 'because' not in item and found == True:
-				#string = string+item+" "
-				string.append(item)
-	#print("string: "+string)
-
-	if clue == 'who':
-		#print(word_answer)
-		for index, item in enumerate(word_answer):
-			if 'VB' in item[1] and ps.stem(item[0]) in main_verb:
-				# find out sth/sb do sth
-				# then pick out the part before the verb as answer
-				for item in word_answer[:index]:
-					if 'VB' not in item[1]:
-						#string = string+item[0]+" "
-						string.append(item[0])
-				#print("T3 Find the subject who type question", string)
-
-	if len(string) == 0:
-		return matched_sentence
-
-	return " ".join(string)
-
-
 def get_answer_with_overlap(question, story):
-	answer = ""
-	matched_sentence = ""
 	if 'Sch' in question['type']:
-		matched_sentence = match_sent_from_q(question['text'], tokenize_sentences(story['sch']))
+		matched_sentence = match_sent_from_q(question, tokenize_sentences(story['sch']))
 
 
 		# matched_sch_dep = story['sch_dep'][matched_index]
@@ -278,7 +274,7 @@ def get_answer_with_overlap(question, story):
 
 		# answer = find_the_answer(matched_sentence,question['text'])
 	else:
-		matched_sentence = match_sent_from_q(question['text'], tokenize_sentences(story['text']))
+		matched_sentence = match_sent_from_q(question, tokenize_sentences(story['text']))
 
 		# matched_story_dep = story['story_dep'][matched_index]
 		# print(matched_story_dep)
@@ -400,8 +396,7 @@ def run_qa(evaluate=False):
 
 def run_qa_with_score(evaluate=False):
 	QA = QAEngine(evaluate=evaluate)
-	q_start_words = set(['what', 'when', 'where', 'who', 'why', 'how', 'did', 'had'])
-	QA.run_score(q_start_words)
+	QA.run_score()
 	# QA.run_score(set(['what']))
 
 def main():
