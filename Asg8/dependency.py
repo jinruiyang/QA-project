@@ -133,6 +133,18 @@ def find_answer(qgraph, sgraph, lmtzr, q_start):
             snode = sgraph.nodes[head_address]
             answer = traverse_dep_nodes(sgraph, snode, "nmod")
 
+        if not answer:
+            for node in qgraph.nodes.values():
+                if node["head"] == qmain["address"] and node["rel"] in ("xcomp","ccomp"):
+                    qword = lemmatize_qmain(qmain, qword, lmtzr)
+                    snode = find_node(qword, sgraph, lmtzr)
+                    answer = traverse_dep_nodes(sgraph, node, "nmod")
+                    break
+
+        
+        # if not answer:
+        #     answer = traverse_dep_nodes(sgraph, snode, "ccomp")
+
 
     elif q_start == "what":
         # print(q_start_rel)
@@ -187,6 +199,8 @@ def find_answer(qgraph, sgraph, lmtzr, q_start):
                 head_address = snode["head"]
                 snode = sgraph.nodes[head_address]
                 answer = traverse_dep_nodes(sgraph, snode, "nsubj")
+
+        
 
     elif q_start == "when":
         answer = traverse_dep_nodes(sgraph, snode, "nmod")
