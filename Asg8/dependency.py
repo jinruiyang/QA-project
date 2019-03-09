@@ -13,6 +13,7 @@ def find_main(graph):
             return node
     return None
 
+
 def get_words_from_graph(graph):
     words = []
     for item in graph.nodes.values():
@@ -33,6 +34,9 @@ def find_node(word, graph, lmtzr):
             # because the error of wordnet
             if sword == "felt":
                 sword = "feel"
+            elif sword == "gnawing":
+                sword = "gnaw"
+            
         else:
             sword = lmtzr.lemmatize(sword, 'n')
         if sword == word:
@@ -63,6 +67,8 @@ def get_dependents(node, graph):
     return results
 
 
+
+
 """
 This method is used to traverse all nodes that is the child of the node
 that has certain relation to the snode.
@@ -79,17 +85,28 @@ def traverse_dep_nodes(sgraph, snode, rel_to_head):
                 deps = sorted(deps + [node], key=operator.itemgetter("address"))
                 return " ".join(dep["word"] for dep in deps)
 
-
-def find_answer(qgraph, sgraph, lmtzr, q_start):
-    qmain = find_main(qgraph)
-    qword = qmain["word"]
-
+def lemmatize_qmain(qmain, qword, lmtzr):
     tag = qmain["tag"]
+
     if tag.startswith("V"):
         qword = lmtzr.lemmatize(qword, 'v')
     else:
         qword = lmtzr.lemmatize(qword, 'n')
 
+        if qword == "standing":
+            return "stand"
+
+    return qword
+
+
+def find_answer(qgraph, sgraph, lmtzr, q_start):
+    qmain = find_main(qgraph)
+    qword = qmain["word"]
+    # the relation between q_start and the qmain word
+    q_start_rel = qgraph.nodes[1]["rel"]
+    answer = None
+    
+    qword = lemmatize_qmain(qmain, qword, lmtzr)
     snode = find_node(qword, sgraph, lmtzr)
 
     if verbose:
@@ -106,15 +123,18 @@ def find_answer(qgraph, sgraph, lmtzr, q_start):
                 f.write("Snode word:\n")
                 f.write(snode["word"]+"\n")
 
-    answer = None
+
 
     if q_start == "where":
         answer = traverse_dep_nodes(sgraph, snode, "nmod")
 
+        if not answer and snode['rel'] == "conj":
+            head_address = snode["head"]
+            snode = sgraph.nodes[head_address]
+            answer = traverse_dep_nodes(sgraph, snode, "nmod")
+
 
     elif q_start == "what":
-        # the relation between q_start and the qmain word
-        q_start_rel = qgraph.nodes[1]["rel"]
         # print(q_start_rel)
         if q_start_rel == "dobj":
             answer = traverse_dep_nodes(sgraph, snode, "dobj")
@@ -124,8 +144,13 @@ def find_answer(qgraph, sgraph, lmtzr, q_start):
                 snode = sgraph.nodes[head_address]
                 answer = traverse_dep_nodes(sgraph, snode, "dobj")
 
-        elif q_start_rel == "nsubj":
-            answer = traverse_dep_nodes(sgraph, snode, "nsubj")
+        elif q_start_rel in ("nsubj", "nsubjpass"):
+            if q_start_rel == "nsubj":
+                answer = traverse_dep_nodes(sgraph, snode, "nsubj")
+            elif q_start_rel == "nsubjpass":
+                answer = traverse_dep_nodes(sgraph, snode, "nsubjpass")
+                if not answer: 
+                    answer = traverse_dep_nodes(sgraph, snode, "nsubj")
 
             if not answer and snode['rel'] == 'conj':
                 head_address = snode["head"]
@@ -141,32 +166,47 @@ def find_answer(qgraph, sgraph, lmtzr, q_start):
             answer = traverse_dep_nodes(sgraph, snode, "ccomp")
 
     elif q_start == "who":
-        answer = traverse_dep_nodes(sgraph, snode, "nsubj")
-        # if the qmain word cant find the answer, try to search from its conjunctions
-        if snode['rel'] == 'conj':
-            head_address = snode["head"]
-            snode = sgraph.nodes[head_address]
+        if q_start_rel in ("nsubj", "nsubjpass"):
+            if q_start_rel == "nsubj":
+                answer = traverse_dep_nodes(sgraph, snode, "nsubj")
+            elif q_start_rel == "nsubjpass":
+                answer = traverse_dep_nodes(sgraph, snode, "nsubjpass")
+                if not answer: answer = traverse_dep_nodes(sgraph, snode, "nsubj")
+        else:        
+            answer = traverse_dep_nodes(sgraph, snode, q_start_rel)
+
+        if not answer and q_start_rel=="dep":
             answer = traverse_dep_nodes(sgraph, snode, "nsubj")
+
+        if not answer and q_start_rel=="dep":
+            answer = traverse_dep_nodes(sgraph, snode, "dobj")
+
+        if not answer:
+            # if the qmain word cant find the answer, try to search from its conjunctions
+            if snode['rel'] == 'conj':
+                head_address = snode["head"]
+                snode = sgraph.nodes[head_address]
+                answer = traverse_dep_nodes(sgraph, snode, "nsubj")
 
     elif q_start == "when":
         answer = traverse_dep_nodes(sgraph, snode, "nmod")
     elif q_start == "why":
         words = get_words_from_graph(sgraph)
-        print("---------------------------")
-        print(words)
+        #print("---------------------------")
+        #print(words)
         keys1 = [['in', 'order', 'for'], ['in', 'order', 'to']]
         for key in keys1:
             if key in words:
                 index = words.index(key[0])
                 return ' '.join(word for word in words[index:])
-                print(' '.join(word for word in words[index:]))
-                print("11111111111")
+                #print(' '.join(word for word in words[index:]))
+                #print("11111111111")
         keys2 = ['because', 'so', 'for', 'to']
         for key in keys2:
             if key in words:
                 index = words.index(key)
                 return ' '.join(word for word in words[index:])
-                print(' '.join(word for word in words[index:]))
+                #print(' '.join(word for word in words[index:]))
     elif q_start == "how":
         pass
     elif q_start == "did":
