@@ -20,7 +20,7 @@ q_start_list = []
 # To record entity counts for each story, key:sid, value:list of tuples with the most populor n entities
 story_entities = {}
 # If want to see certain types of question in the file, set to True and change target_qstart
-verbose = True
+verbose = False
 target_qstart = "where"
 
 
@@ -620,8 +620,8 @@ def main():
 	run_qa(evaluate=False)
 	# # You can uncomment this next line to evaluate your
 	# # answers, or you can run score_answers.py
-	#score_answers()
-	type_answer(target_qstart, q_start_list)
+	score_answers()
+	#type_answer(target_qstart, q_start_list)
 	# run_qa_with_score()
 
 # run_qa_with_score()
