@@ -203,6 +203,7 @@ def lemmatize_v_n(word_tag):
 	lemmatized_word_tag = []
 	lemma_word_dict = {}
 	for word, tag in word_tag:
+		lemmatized_word = ''
 		if 'VB' in tag or 'NN' in tag:
 			if 'VB' in tag:
 				if word == 'felt':
@@ -227,8 +228,10 @@ def lemmatize_v_n(word_tag):
 						lemmatized_word = lemmatized_verb
 			if 'NN' in tag:
 				lemmatized_word = lemmatizer.lemmatize(word)
-			lemmatized_word_tag.append((lemmatized_word, tag))
-			lemma_word_dict[lemmatized_word] = word
+		else:
+			lemmatized_word = word
+		lemmatized_word_tag.append((lemmatized_word, tag))
+		lemma_word_dict[lemmatized_word] = word
 	return lemmatized_word_tag, lemma_word_dict
 
 def get_postag_from_qgraph(qgraph):
