@@ -265,6 +265,17 @@ def replace_synonym(question, reshape_verb_dict, reshape_noun_dict):
 	new_question_text = ' '.join(question_words)
 	return new_question_text
 
+def match_synsets(synsets_1, synsets_2):
+	set_1 = set(synsets_1)
+	set_2 = set(synsets_2)
+	for synset in synsets_1:
+		if synset in set_2:
+			return True
+	for synset in synsets_2:
+		if synset in set_1:
+			return True
+	return False
+
 
 def replace_sent_synonym_in_q(lemmatized_word_tag, question):
 	replace_dict = {}
@@ -276,12 +287,13 @@ def replace_sent_synonym_in_q(lemmatized_word_tag, question):
 	if len(graph_word_tag) == len(question_word_tag) and valid_words(
 			graph_word_tag, question_word_tag):
 		question_word_tag = graph_word_tag
+	print("question_word_tag:{}".format(question_word_tag))
 	# print(question_word_tag)
 	q_lemmatized_word_tag, q_lemma_word_dict = lemmatize_v_n(question_word_tag)
 	# print(lemmatized_word_tag)
 	key_word_tag = [(word, tag) for word, tag in q_lemmatized_word_tag
 					if re.search('^[a-z]+$', word) and word not in stopwords]
-
+	print("q_key_word_tag:{}".format(key_word_tag))
 	reshape_verb_dict = load_reshape_wordnet_dict_2('v')
 	reshape_noun_dict = load_reshape_wordnet_dict_2('n')
 
@@ -296,13 +308,11 @@ def replace_sent_synonym_in_q(lemmatized_word_tag, question):
 				word_synset = verb_synset_word_dict[word]
 				for q_word, q_tag in key_word_tag:
 					q_word_synsets = set(get_synsets(q_word))
-					if 'VB' in q_tag and word_synset in q_word_synsets:
+					if q_word != word and word_synset in q_word_synsets:
 						replace_dict[q_word] = word
 			else:
-				word_synsets = set(get_synsets(word))
 				for q_word, q_tag in key_word_tag:
-					q_word_synsets = set(get_synsets(q_word))
-					if word in q_word_synsets or q_word in word_synsets:
+					if match_synsets(get_synsets(q_word), get_synsets(word)):
 						replace_dict[q_word] = word
 		if 'NN' in tag:
 			if word in noun_synset_word_dict:
@@ -312,10 +322,8 @@ def replace_sent_synonym_in_q(lemmatized_word_tag, question):
 					if 'NN' in q_tag and word_synset in q_word_synsets:
 						replace_dict[q_word] = word
 			else:
-				word_synsets = set(get_synsets(word))
 				for q_word, q_tag in key_word_tag:
-					q_word_synsets = set(get_synsets(q_word))
-					if word in q_word_synsets or q_word in word_synsets:
+					if match_synsets(get_synsets(q_word), get_synsets(word)):
 						replace_dict[q_word] = word
 	key_q_words = []
 	for word, tag in key_word_tag:
@@ -357,6 +365,7 @@ def match_sent_from_q(question, sentences, story_deps):
 	index = 0
 	match_index = 0
 	sub_record = [] # list of dictionaries of substitutions
+	print(sentences)
 	for sentence in sentences:
 
 		# if question['text']
@@ -381,11 +390,18 @@ def match_sent_from_q(question, sentences, story_deps):
 		# key_sent_words = set([word.lower() for word in lemmatize_vb(normalized_sent_words)[0]])
 
 		# let's try pos_tag first, store the pairs(word, tag), remove stopwods, then lemmatize.
-		sent_graph_word_tag = get_postag_from_qgraph(story_deps[index])
+
+
+		if len(story_deps) == len(sentences):
+			sent_graph_word_tag = get_postag_from_qgraph(story_deps[index])
+		else:
+			sent_graph_word_tag = []
 
 		sent_word_tag = nltk.pos_tag(tokenize_words(sentence))
 		if len(sent_word_tag) == len(sent_graph_word_tag) and valid_words(sent_graph_word_tag, sent_word_tag):
 			sent_word_tag = sent_graph_word_tag
+
+		print("sent_word_tag: {}".format(sent_word_tag))
 
 		stopwords = set(nltk.corpus.stopwords.words('english'))
 		stopwords.remove('from')
@@ -393,6 +409,7 @@ def match_sent_from_q(question, sentences, story_deps):
 									sent_word_tag if word.lower() not in stopwords
 									and re.search('^[a-z]+', word.lower())]
 		lemmatized_sent_word_tag, lemma_word_dict = lemmatize_v_n(normalized_sent_word_tag)  #
+		print("lemmatized_sent_word_tag: {}".format(lemmatized_sent_word_tag))
 
 		reshape_verb_dict = load_reshape_wordnet_dict_2('v')
 		reshape_noun_dict = load_reshape_wordnet_dict_2('n')
@@ -403,6 +420,8 @@ def match_sent_from_q(question, sentences, story_deps):
 			else:
 				sub_record.append(None)
 		key_sent_words = lemmatize_vb_with_tag(normalized_sent_word_tag)
+		print("key_words: {}".format(key_words))
+		print("key_sent_words: {}".format(key_sent_words))
 
 		for word in key_words:
 			if word in key_sent_words:
@@ -429,10 +448,12 @@ def match_sent_from_q(question, sentences, story_deps):
 				if Counter(sentences[i])['\"'] > 0:
 					return matched_quote.lower(), None
 
+	print('sub_record: {}'.format(sub_record))
 	if question['difficulty'] == 'Hard' and sub_record[match_index]:
 		replace_dict = sub_record[match_index]
 		update_qgraph(replace_dict, question)
 
+		print('replace_dict: {}'.format(replace_dict))
 	# print(match_index)
 	# print(story_deps[match_index])
 	return matched_sentence, story_deps[match_index]

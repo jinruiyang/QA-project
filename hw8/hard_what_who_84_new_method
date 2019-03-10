@@ -1,0 +1,2441 @@
+C:\Users\华\AppData\Local\Programs\Python\Python37-32\python.exe D:/Users/华/PycharmProjects/QA-project-new/hw8/qa_jim.py
+{'what', 'who'}
+{'Hard'}
+=========================================
+sch
+There once was a lion.
+The lion was sleeping in a lair.
+The lion awaked because a mouse ran into the face of the lion.
+The lion lost temper and seized the mouse with the paw of the lion.
+The lion began attacking the mouse.
+The mouse began to be extremely frightened and piteously entreated the lion to spare it.
+The mouse said that -- if the lion were to free the mouse -- the mouse would repay kindness.
+The lion began to be amused.
+The lion laughed aloud because he thought that the mouse is extremely not able to help him.
+The lion good-naturedly freed the mouse.
+Opportunity arrived.
+A trapper spread some net in order to catch a big game.
+The lion entangled himself in the net.
+The mouse heard that the lion was roaring with anger.
+The mouse recognized the voice of the lion.
+The mouse ran to the lion.
+The mouse immediately began gnawing the rope of the net with the tooth of the mouse.
+The mouse soon succeeded in freeing the lion.
+The mouse said that the lion had aloud laughed because he thought that the mouse is extremely not able to help him.
+The mouse said that the lion was seeing that the mouse is able to help him.
+=========================================
+{Question_Text}: Who expressed mirth?
+key_words: ['express', 'mirth']
+key_sent_words: ['lion']
+key_words: ['express', 'mirth']
+key_sent_words: ['lion', 'sleep', 'lair']
+key_words: ['express', 'mirth']
+key_sent_words: ['lion', 'awake', 'mouse', 'run', 'face', 'lion']
+key_words: ['express', 'mirth']
+key_sent_words: ['lion', 'lose', 'temper', 'seize', 'mouse', 'paw', 'lion']
+key_words: ['express', 'mirth']
+key_sent_words: ['lion', 'begin', 'attack', 'mouse']
+key_words: ['express', 'mirth']
+key_sent_words: ['mouse', 'begin', 'extremely', 'frightened', 'piteously', 'entreat', 'lion', 'spare']
+key_words: ['express', 'mirth']
+key_sent_words: ['mouse', 'say', 'lion', 'free', 'mouse', 'mouse', 'would', 'repay', 'kindness']
+key_words: ['express', 'mirth']
+key_sent_words: ['lion', 'begin', 'amuse']
+key_words: ['express', 'mirth']
+key_sent_words: ['lion', 'laugh', 'aloud', 'think', 'mouse', 'extremely', 'able', 'help']
+key_words: ['express', 'mirth']
+key_sent_words: ['lion', 'good-naturedly', 'free', 'mouse']
+key_words: ['express', 'mirth']
+key_sent_words: ['opportunity', 'arrive']
+key_words: ['express', 'mirth']
+key_sent_words: ['trapper', 'spread', 'net', 'order', 'catch', 'big', 'game']
+key_words: ['express', 'mirth']
+key_sent_words: ['lion', 'entangle', 'net']
+key_words: ['express', 'mirth']
+key_sent_words: ['mouse', 'heard', 'lion', 'roar', 'anger']
+key_words: ['express', 'mirth']
+key_sent_words: ['mouse', 'recognize', 'voice', 'lion']
+key_words: ['express', 'mirth']
+key_sent_words: ['mouse', 'run', 'lion']
+key_words: ['express', 'mirth']
+key_sent_words: ['mouse', 'immediately', 'begin', 'gnaw', 'rope', 'net', 'tooth', 'mouse']
+key_words: ['express', 'mirth']
+key_sent_words: ['mouse', 'soon', 'succeed', 'free', 'lion']
+key_words: ['express', 'mirth']
+key_sent_words: ['mouse', 'say', 'lion', 'aloud', 'laughed', 'think', 'mouse', 'extremely', 'able', 'help']
+key_words: ['express', 'mirth']
+key_sent_words: ['mouse', 'say', 'lion', 'see', 'mouse', 'able', 'help']
+answer_type:Sch
+SCORING fables-06-16
+Comparing Gold   "the lion"
+      and Resp   "There once was a lion."
+
+RECALL:    0.500
+PRECISION: 0.167
+F-measure: 0.250
+
+=========================================
+{Question_Text}: Who gnawed the bungee?
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['lion']
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['lion', 'sleep', 'lair']
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['lion', 'awake', 'mouse', 'run', 'face', 'lion']
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['lion', 'lose', 'temper', 'seize', 'mouse', 'paw', 'lion']
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['lion', 'begin', 'attack', 'mouse']
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['mouse', 'begin', 'extremely', 'frightened', 'piteously', 'entreat', 'lion', 'spare']
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['mouse', 'say', 'lion', 'free', 'mouse', 'mouse', 'would', 'repay', 'kindness']
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['lion', 'begin', 'amuse']
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['lion', 'laugh', 'aloud', 'think', 'mouse', 'extremely', 'able', 'help']
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['lion', 'good-naturedly', 'free', 'mouse']
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['opportunity', 'arrive']
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['trapper', 'spread', 'net', 'order', 'catch', 'big', 'game']
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['lion', 'entangle', 'net']
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['mouse', 'heard', 'lion', 'roar', 'anger']
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['mouse', 'recognize', 'voice', 'lion']
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['mouse', 'run', 'lion']
+key_words: ['gnaw', 'rope']
+key_sent_words: ['mouse', 'immediately', 'begin', 'gnaw', 'rope', 'net', 'tooth', 'mouse']
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['mouse', 'soon', 'succeed', 'free', 'lion']
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['mouse', 'say', 'lion', 'aloud', 'laughed', 'think', 'mouse', 'extremely', 'able', 'help']
+key_words: ['gnaw', 'bungee']
+key_sent_words: ['mouse', 'say', 'lion', 'see', 'mouse', 'able', 'help']
+question after sub:
+Who gnawed the rope ?
+answer_type:Sch
+SCORING fables-06-17
+Comparing Gold   "the mouse"
+      and Resp   "The mouse immediately began gnawing the rope of the net with the tooth of the mouse."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+{Question_Text}: Who entangled himself in the meshing?
+key_words: ['meshing']
+key_sent_words: ['lion']
+key_words: ['meshing']
+key_sent_words: ['lion', 'sleep', 'lair']
+key_words: ['meshing']
+key_sent_words: ['lion', 'awake', 'mouse', 'run', 'face', 'lion']
+key_words: ['meshing']
+key_sent_words: ['lion', 'lose', 'temper', 'seize', 'mouse', 'paw', 'lion']
+key_words: ['meshing']
+key_sent_words: ['lion', 'begin', 'attack', 'mouse']
+key_words: ['meshing']
+key_sent_words: ['mouse', 'begin', 'extremely', 'frightened', 'piteously', 'entreat', 'lion', 'spare']
+key_words: ['meshing']
+key_sent_words: ['mouse', 'say', 'lion', 'free', 'mouse', 'mouse', 'would', 'repay', 'kindness']
+key_words: ['meshing']
+key_sent_words: ['lion', 'begin', 'amuse']
+key_words: ['meshing']
+key_sent_words: ['lion', 'laugh', 'aloud', 'think', 'mouse', 'extremely', 'able', 'help']
+key_words: ['meshing']
+key_sent_words: ['lion', 'good-naturedly', 'free', 'mouse']
+key_words: ['meshing']
+key_sent_words: ['opportunity', 'arrive']
+key_words: ['meshing']
+key_sent_words: ['trapper', 'spread', 'net', 'order', 'catch', 'big', 'game']
+key_words: ['net']
+key_sent_words: ['lion', 'entangle', 'net']
+key_words: ['meshing']
+key_sent_words: ['mouse', 'heard', 'lion', 'roar', 'anger']
+key_words: ['meshing']
+key_sent_words: ['mouse', 'recognize', 'voice', 'lion']
+key_words: ['meshing']
+key_sent_words: ['mouse', 'run', 'lion']
+key_words: ['meshing']
+key_sent_words: ['mouse', 'immediately', 'begin', 'gnaw', 'rope', 'net', 'tooth', 'mouse']
+key_words: ['meshing']
+key_sent_words: ['mouse', 'soon', 'succeed', 'free', 'lion']
+key_words: ['meshing']
+key_sent_words: ['mouse', 'say', 'lion', 'aloud', 'laughed', 'think', 'mouse', 'extremely', 'able', 'help']
+key_words: ['meshing']
+key_sent_words: ['mouse', 'say', 'lion', 'see', 'mouse', 'able', 'help']
+question after sub:
+Who entangled himself in the net ?
+answer_type:Sch
+SCORING fables-06-19
+Comparing Gold   "the lion"
+      and Resp   "The lion entangled himself in the net."
+
+RECALL:    1.000
+PRECISION: 0.286
+F-measure: 0.444
+
+=========================================
+{Question_Text}: What did the hunter spread?
+key_words: ['hunter', 'spread']
+key_sent_words: ['lion']
+key_words: ['hunter', 'spread']
+key_sent_words: ['lion', 'sleep', 'lair']
+key_words: ['hunter', 'spread']
+key_sent_words: ['lion', 'awake', 'mouse', 'run', 'face', 'lion']
+key_words: ['hunter', 'spread']
+key_sent_words: ['lion', 'lose', 'temper', 'seize', 'mouse', 'paw', 'lion']
+key_words: ['hunter', 'spread']
+key_sent_words: ['lion', 'begin', 'attack', 'mouse']
+key_words: ['hunter', 'spread']
+key_sent_words: ['mouse', 'begin', 'extremely', 'frightened', 'piteously', 'entreat', 'lion', 'spare']
+key_words: ['hunter', 'spread']
+key_sent_words: ['mouse', 'say', 'lion', 'free', 'mouse', 'mouse', 'would', 'repay', 'kindness']
+key_words: ['hunter', 'spread']
+key_sent_words: ['lion', 'begin', 'amuse']
+key_words: ['hunter', 'spread']
+key_sent_words: ['lion', 'laugh', 'aloud', 'think', 'mouse', 'extremely', 'able', 'help']
+key_words: ['hunter', 'spread']
+key_sent_words: ['lion', 'good-naturedly', 'free', 'mouse']
+key_words: ['hunter', 'spread']
+key_sent_words: ['opportunity', 'arrive']
+key_words: ['trapper', 'spread']
+key_sent_words: ['trapper', 'spread', 'net', 'order', 'catch', 'big', 'game']
+key_words: ['hunter', 'spread']
+key_sent_words: ['lion', 'entangle', 'net']
+key_words: ['hunter', 'spread']
+key_sent_words: ['mouse', 'heard', 'lion', 'roar', 'anger']
+key_words: ['hunter', 'spread']
+key_sent_words: ['mouse', 'recognize', 'voice', 'lion']
+key_words: ['hunter', 'spread']
+key_sent_words: ['mouse', 'run', 'lion']
+key_words: ['hunter', 'spread']
+key_sent_words: ['mouse', 'immediately', 'begin', 'gnaw', 'rope', 'net', 'tooth', 'mouse']
+key_words: ['hunter', 'spread']
+key_sent_words: ['mouse', 'soon', 'succeed', 'free', 'lion']
+key_words: ['hunter', 'spread']
+key_sent_words: ['mouse', 'say', 'lion', 'aloud', 'laughed', 'think', 'mouse', 'extremely', 'able', 'help']
+key_words: ['hunter', 'spread']
+key_sent_words: ['mouse', 'say', 'lion', 'see', 'mouse', 'able', 'help']
+question after sub:
+What did the trapper spread ?
+answer_type:Sch
+SCORING fables-06-20
+Comparing Gold   "some net"
+      and Resp   "A trapper spread some net in order to catch a big game."
+
+RECALL:    1.000
+PRECISION: 0.167
+F-measure: 0.286
+
+=========================================
+{Question_Text}: Who would reward kindness?
+key_words: ['reward', 'kindness']
+key_sent_words: ['lion']
+key_words: ['reward', 'kindness']
+key_sent_words: ['lion', 'sleep', 'lair']
+key_words: ['reward', 'kindness']
+key_sent_words: ['lion', 'awake', 'mouse', 'run', 'face', 'lion']
+key_words: ['reward', 'kindness']
+key_sent_words: ['lion', 'lose', 'temper', 'seize', 'mouse', 'paw', 'lion']
+key_words: ['reward', 'kindness']
+key_sent_words: ['lion', 'begin', 'attack', 'mouse']
+key_words: ['reward', 'kindness']
+key_sent_words: ['mouse', 'begin', 'extremely', 'frightened', 'piteously', 'entreat', 'lion', 'spare']
+key_words: ['reward', 'kindness']
+key_sent_words: ['mouse', 'say', 'lion', 'free', 'mouse', 'mouse', 'would', 'repay', 'kindness']
+key_words: ['reward', 'kindness']
+key_sent_words: ['lion', 'begin', 'amuse']
+key_words: ['reward', 'kindness']
+key_sent_words: ['lion', 'laugh', 'aloud', 'think', 'mouse', 'extremely', 'able', 'help']
+key_words: ['reward', 'kindness']
+key_sent_words: ['lion', 'good-naturedly', 'free', 'mouse']
+key_words: ['reward', 'kindness']
+key_sent_words: ['opportunity', 'arrive']
+key_words: ['reward', 'kindness']
+key_sent_words: ['trapper', 'spread', 'net', 'order', 'catch', 'big', 'game']
+key_words: ['reward', 'kindness']
+key_sent_words: ['lion', 'entangle', 'net']
+key_words: ['reward', 'kindness']
+key_sent_words: ['mouse', 'heard', 'lion', 'roar', 'anger']
+key_words: ['reward', 'kindness']
+key_sent_words: ['mouse', 'recognize', 'voice', 'lion']
+key_words: ['reward', 'kindness']
+key_sent_words: ['mouse', 'run', 'lion']
+key_words: ['reward', 'kindness']
+key_sent_words: ['mouse', 'immediately', 'begin', 'gnaw', 'rope', 'net', 'tooth', 'mouse']
+key_words: ['reward', 'kindness']
+key_sent_words: ['mouse', 'soon', 'succeed', 'free', 'lion']
+key_words: ['reward', 'kindness']
+key_sent_words: ['mouse', 'say', 'lion', 'aloud', 'laughed', 'think', 'mouse', 'extremely', 'able', 'help']
+key_words: ['reward', 'kindness']
+key_sent_words: ['mouse', 'say', 'lion', 'see', 'mouse', 'able', 'help']
+answer_type:Sch
+SCORING fables-06-25
+Comparing Gold   "the mouse"
+      and Resp   "The mouse said that -- if the lion were to free the mouse -- the mouse would repay kindness."
+
+RECALL:    1.000
+PRECISION: 0.143
+F-measure: 0.250
+
+=========================================
+{Question_Text}: What did the mouse know?
+key_words: ['mouse', 'know']
+key_sent_words: ['lion']
+key_words: ['mouse', 'know']
+key_sent_words: ['lion', 'sleep', 'lair']
+key_words: ['mouse', 'know']
+key_sent_words: ['lion', 'awake', 'mouse', 'run', 'face', 'lion']
+key_words: ['mouse', 'know']
+key_sent_words: ['lion', 'lose', 'temper', 'seize', 'mouse', 'paw', 'lion']
+key_words: ['mouse', 'know']
+key_sent_words: ['lion', 'begin', 'attack', 'mouse']
+key_words: ['mouse', 'know']
+key_sent_words: ['mouse', 'begin', 'extremely', 'frightened', 'piteously', 'entreat', 'lion', 'spare']
+key_words: ['mouse', 'know']
+key_sent_words: ['mouse', 'say', 'lion', 'free', 'mouse', 'mouse', 'would', 'repay', 'kindness']
+key_words: ['mouse', 'know']
+key_sent_words: ['lion', 'begin', 'amuse']
+key_words: ['mouse', 'know']
+key_sent_words: ['lion', 'laugh', 'aloud', 'think', 'mouse', 'extremely', 'able', 'help']
+key_words: ['mouse', 'know']
+key_sent_words: ['lion', 'good-naturedly', 'free', 'mouse']
+key_words: ['mouse', 'know']
+key_sent_words: ['opportunity', 'arrive']
+key_words: ['mouse', 'know']
+key_sent_words: ['trapper', 'spread', 'net', 'order', 'catch', 'big', 'game']
+key_words: ['mouse', 'know']
+key_sent_words: ['lion', 'entangle', 'net']
+key_words: ['mouse', 'know']
+key_sent_words: ['mouse', 'heard', 'lion', 'roar', 'anger']
+key_words: ['mouse', 'recognize']
+key_sent_words: ['mouse', 'recognize', 'voice', 'lion']
+key_words: ['mouse', 'know']
+key_sent_words: ['mouse', 'run', 'lion']
+key_words: ['mouse', 'know']
+key_sent_words: ['mouse', 'immediately', 'begin', 'gnaw', 'rope', 'net', 'tooth', 'mouse']
+key_words: ['mouse', 'know']
+key_sent_words: ['mouse', 'soon', 'succeed', 'free', 'lion']
+key_words: ['mouse', 'know']
+key_sent_words: ['mouse', 'say', 'lion', 'aloud', 'laughed', 'think', 'mouse', 'extremely', 'able', 'help']
+key_words: ['mouse', 'know']
+key_sent_words: ['mouse', 'say', 'lion', 'see', 'mouse', 'able', 'help']
+question after sub:
+What did the mouse recognize ?
+answer_type:Sch
+SCORING fables-06-26
+Comparing Gold   "the voice of the lion"
+      and Resp   "The mouse recognized the voice of the lion."
+
+RECALL:    1.000
+PRECISION: 0.571
+F-measure: 0.727
+
+=========================================
+{Question_Text}: What did the lion take with the paw of the lion?
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['lion']
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['lion', 'sleep', 'lair']
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['lion', 'awake', 'mouse', 'run', 'face', 'lion']
+key_words: ['lion', 'seize', 'paw', 'lion']
+key_sent_words: ['lion', 'lose', 'temper', 'seize', 'mouse', 'paw', 'lion']
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['lion', 'begin', 'attack', 'mouse']
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['mouse', 'begin', 'extremely', 'frightened', 'piteously', 'entreat', 'lion', 'spare']
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['mouse', 'say', 'lion', 'free', 'mouse', 'mouse', 'would', 'repay', 'kindness']
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['lion', 'begin', 'amuse']
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['lion', 'laugh', 'aloud', 'think', 'mouse', 'extremely', 'able', 'help']
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['lion', 'good-naturedly', 'free', 'mouse']
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['opportunity', 'arrive']
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['trapper', 'spread', 'net', 'order', 'catch', 'big', 'game']
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['lion', 'entangle', 'net']
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['mouse', 'heard', 'lion', 'roar', 'anger']
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['mouse', 'recognize', 'voice', 'lion']
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['mouse', 'run', 'lion']
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['mouse', 'immediately', 'begin', 'gnaw', 'rope', 'net', 'tooth', 'mouse']
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['mouse', 'soon', 'succeed', 'free', 'lion']
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['mouse', 'say', 'lion', 'aloud', 'laughed', 'think', 'mouse', 'extremely', 'able', 'help']
+key_words: ['lion', 'take', 'paw', 'lion']
+key_sent_words: ['mouse', 'say', 'lion', 'see', 'mouse', 'able', 'help']
+question after sub:
+What did the lion seize with the paw of the lion ?
+answer_type:Sch
+SCORING fables-06-27
+Comparing Gold   "the mouse"
+      and Resp   "The lion lost temper and seized the mouse with the paw of the lion."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+sch
+Once, storm was occurring in Louisiana.
+A narrator watched a channel named Weather Channel and watched some local news media.
+The narrator went back to a store named Home Depot in order to purchase a portable generator.
+The narrator filled a group of cars and filled the container of some gasoline.
+The narrator purchased an important group of things.
+Storm occurred.
+The narrator lost electricity.
+Some wind occurred.
+An area of a neighborhood of the narrator had a large group of pine trees and had a group of oak trees.
+The narrator stood up on a patio and watched a large tree.
+The tree split apart and fell on the yard of a neighbor.
+The narrator began to be nervous because it owned a group of trees and near the house of the narrator.
+The narrator began to be concerned because -- if the first tree were to later fall, and were to later fall on the house of the narrator -- the house of the narrator would have begun to be damaged, and the family of the narrator would begin to be wounded.
+The wife of the narrator stayed in the safe area of some home, a dog stayed in the area of the home, and the group of children of the narrator stayed in the area of the home.
+The narrator heard loud noise.
+The first tree fell onto a RV of the neighbor, and the narrator looked through the window of the narrator.
+The group of trees began to be falling.
+A fourth (#2) tree fell on a lawn mower.
+The fourth tree fell on a golf cart.
+The group of trees didn't fall on the house of the narrator.
+A group of neighbors didn't begin to be fortunate.
+President Bush came into Baton Rouge and in order to assess Baton Rouge.
+The group of friends of the cabinet of a governor named Jindal restored order, and the narrator had the group of friends of the cabinet of Jindal.
+Storm stopped.
+The narrator didn't have electricity because a group of power lines was down.
+The generator didn't begin to be working.
+The narrator brought the generator in repair.
+The parent of the narrator had electricity.
+The narrator brought the family of the narrator to the house of the parent of the narrator.
+The group of power lines began to be down over a city, and the fourth tree began to be down over the city.
+=========================================
+{Question_Text}: What began to be down over a municipality?
+key_words: ['begin', 'municipality']
+key_sent_words: ['storm', 'occur', 'louisiana']
+key_words: ['begin', 'municipality']
+key_sent_words: ['narrator', 'watch', 'channel', 'name', 'weather', 'channel', 'watch', 'local', 'news', 'media']
+key_words: ['begin', 'municipality']
+key_sent_words: ['narrator', 'go', 'back', 'store', 'name', 'home', 'depot', 'order', 'purchase', 'portable', 'generator']
+key_words: ['begin', 'municipality']
+key_sent_words: ['narrator', 'fill', 'group', 'cars', 'fill', 'container', 'gasoline']
+key_words: ['begin', 'municipality']
+key_sent_words: ['narrator', 'purchase', 'important', 'group', 'things']
+key_words: ['begin', 'municipality']
+key_sent_words: ['storm', 'occur']
+key_words: ['begin', 'municipality']
+key_sent_words: ['narrator', 'lose', 'electricity']
+key_words: ['begin', 'municipality']
+key_sent_words: ['wind', 'occur']
+key_words: ['begin', 'municipality']
+key_sent_words: ['area', 'neighborhood', 'narrator', 'large', 'group', 'pine', 'trees', 'group', 'oak', 'trees']
+key_words: ['begin', 'municipality']
+key_sent_words: ['narrator', 'stand', 'patio', 'watch', 'large', 'tree']
+key_words: ['begin', 'municipality']
+key_sent_words: ['tree', 'split', 'apart', 'fell', 'yard', 'neighbor']
+key_words: ['begin', 'municipality']
+key_sent_words: ['narrator', 'begin', 'nervous', 'own', 'group', 'trees', 'near', 'house', 'narrator']
+key_words: ['begin', 'municipality']
+key_sent_words: ['narrator', 'begin', 'concern', 'first', 'tree', 'later', 'fall', 'later', 'fall', 'house', 'narrator', 'house', 'narrator', 'would', 'begin', 'damage', 'family', 'narrator', 'would', 'begin', 'wound']
+key_words: ['begin', 'municipality']
+key_sent_words: ['wife', 'narrator', 'stay', 'safe', 'area', 'home', 'dog', 'stay', 'area', 'home', 'group', 'children', 'narrator', 'stay', 'area', 'home']
+key_words: ['begin', 'municipality']
+key_sent_words: ['narrator', 'hear', 'loud', 'noise']
+key_words: ['begin', 'municipality']
+key_sent_words: ['first', 'tree', 'fell', 'onto', 'rv', 'neighbor', 'narrator', 'look', 'window', 'narrator']
+key_words: ['begin', 'municipality']
+key_sent_words: ['group', 'trees', 'begin', 'fall']
+key_words: ['begin', 'municipality']
+key_sent_words: ['fourth', 'tree', 'fell', 'lawn', 'mower']
+key_words: ['begin', 'municipality']
+key_sent_words: ['fourth', 'tree', 'fell', 'golf', 'cart']
+key_words: ['begin', 'municipality']
+key_sent_words: ['group', 'trees', "n't", 'fall', 'house', 'narrator']
+key_words: ['begin', 'municipality']
+key_sent_words: ['group', 'neighbors', "n't", 'begin', 'fortunate']
+key_words: ['begin', 'municipality']
+key_sent_words: ['president', 'bush', 'come', 'baton', 'rouge', 'order', 'assess', 'baton', 'rouge']
+key_words: ['begin', 'municipality']
+key_sent_words: ['group', 'friends', 'cabinet', 'governor', 'name', 'jindal', 'restore', 'order', 'narrator', 'group', 'friends', 'cabinet', 'jindal']
+key_words: ['begin', 'municipality']
+key_sent_words: ['storm', 'stop']
+key_words: ['begin', 'municipality']
+key_sent_words: ['narrator', "n't", 'electricity', 'group', 'power', 'lines']
+key_words: ['begin', 'municipality']
+key_sent_words: ['generator', "n't", 'begin', 'work']
+key_words: ['begin', 'municipality']
+key_sent_words: ['narrator', 'bring', 'generator', 'repair']
+key_words: ['begin', 'municipality']
+key_sent_words: ['parent', 'narrator', 'electricity']
+key_words: ['begin', 'municipality']
+key_sent_words: ['narrator', 'bring', 'family', 'narrator', 'house', 'parent', 'narrator']
+key_words: ['begin', 'city']
+key_sent_words: ['group', 'power', 'lines', 'begin', 'city', 'fourth', 'tree', 'begin', 'city']
+question after sub:
+What began to be down over a city ?
+answer_type:Sch
+SCORING blogs-03-16
+Comparing Gold   "the group of power lines"
+      and Resp   "The group of power lines began to be down over a city, and the fourth tree began to be down over the city."
+
+RECALL:    1.000
+PRECISION: 0.294
+F-measure: 0.455
+
+=========================================
+{Question_Text}: What happened in Louisiana?
+key_words: ['happen']
+key_sent_words: ['storm', 'occur', 'louisiana']
+key_words: ['happen']
+key_sent_words: ['narrator', 'watch', 'channel', 'name', 'weather', 'channel', 'watch', 'local', 'news', 'media']
+key_words: ['happen']
+key_sent_words: ['narrator', 'go', 'back', 'store', 'name', 'home', 'depot', 'order', 'purchase', 'portable', 'generator']
+key_words: ['happen']
+key_sent_words: ['narrator', 'fill', 'group', 'cars', 'fill', 'container', 'gasoline']
+key_words: ['happen']
+key_sent_words: ['narrator', 'purchase', 'important', 'group', 'things']
+key_words: ['happen']
+key_sent_words: ['storm', 'occur']
+key_words: ['happen']
+key_sent_words: ['narrator', 'lose', 'electricity']
+key_words: ['happen']
+key_sent_words: ['wind', 'occur']
+key_words: ['happen']
+key_sent_words: ['area', 'neighborhood', 'narrator', 'large', 'group', 'pine', 'trees', 'group', 'oak', 'trees']
+key_words: ['happen']
+key_sent_words: ['narrator', 'stand', 'patio', 'watch', 'large', 'tree']
+key_words: ['happen']
+key_sent_words: ['tree', 'split', 'apart', 'fell', 'yard', 'neighbor']
+key_words: ['happen']
+key_sent_words: ['narrator', 'begin', 'nervous', 'own', 'group', 'trees', 'near', 'house', 'narrator']
+key_words: ['happen']
+key_sent_words: ['narrator', 'begin', 'concern', 'first', 'tree', 'later', 'fall', 'later', 'fall', 'house', 'narrator', 'house', 'narrator', 'would', 'begin', 'damage', 'family', 'narrator', 'would', 'begin', 'wound']
+key_words: ['happen']
+key_sent_words: ['wife', 'narrator', 'stay', 'safe', 'area', 'home', 'dog', 'stay', 'area', 'home', 'group', 'children', 'narrator', 'stay', 'area', 'home']
+key_words: ['happen']
+key_sent_words: ['narrator', 'hear', 'loud', 'noise']
+key_words: ['happen']
+key_sent_words: ['first', 'tree', 'fell', 'onto', 'rv', 'neighbor', 'narrator', 'look', 'window', 'narrator']
+key_words: ['happen']
+key_sent_words: ['group', 'trees', 'begin', 'fall']
+key_words: ['happen']
+key_sent_words: ['fourth', 'tree', 'fell', 'lawn', 'mower']
+key_words: ['happen']
+key_sent_words: ['fourth', 'tree', 'fell', 'golf', 'cart']
+key_words: ['happen']
+key_sent_words: ['group', 'trees', "n't", 'fall', 'house', 'narrator']
+key_words: ['happen']
+key_sent_words: ['group', 'neighbors', "n't", 'begin', 'fortunate']
+key_words: ['happen']
+key_sent_words: ['president', 'bush', 'come', 'baton', 'rouge', 'order', 'assess', 'baton', 'rouge']
+key_words: ['happen']
+key_sent_words: ['group', 'friends', 'cabinet', 'governor', 'name', 'jindal', 'restore', 'order', 'narrator', 'group', 'friends', 'cabinet', 'jindal']
+key_words: ['happen']
+key_sent_words: ['storm', 'stop']
+key_words: ['happen']
+key_sent_words: ['narrator', "n't", 'electricity', 'group', 'power', 'lines']
+key_words: ['happen']
+key_sent_words: ['generator', "n't", 'begin', 'work']
+key_words: ['happen']
+key_sent_words: ['narrator', 'bring', 'generator', 'repair']
+key_words: ['happen']
+key_sent_words: ['parent', 'narrator', 'electricity']
+key_words: ['happen']
+key_sent_words: ['narrator', 'bring', 'family', 'narrator', 'house', 'parent', 'narrator']
+key_words: ['happen']
+key_sent_words: ['group', 'power', 'lines', 'begin', 'city', 'fourth', 'tree', 'begin', 'city']
+answer_type:Sch
+SCORING blogs-03-17
+Comparing Gold   "storm"
+      and Resp   "Once, storm was occurring in Louisiana."
+
+RECALL:    1.000
+PRECISION: 0.125
+F-measure: 0.222
+
+=========================================
+{Question_Text}: Who bought a portable generator?
+key_words: ['buy', 'generator']
+key_sent_words: ['storm', 'occur', 'louisiana']
+key_words: ['buy', 'generator']
+key_sent_words: ['narrator', 'watch', 'channel', 'name', 'weather', 'channel', 'watch', 'local', 'news', 'media']
+key_words: ['purchase', 'generator']
+key_sent_words: ['narrator', 'go', 'back', 'store', 'name', 'home', 'depot', 'order', 'purchase', 'portable', 'generator']
+key_words: ['buy', 'generator']
+key_sent_words: ['narrator', 'fill', 'group', 'cars', 'fill', 'container', 'gasoline']
+key_words: ['purchase', 'generator']
+key_sent_words: ['narrator', 'purchase', 'important', 'group', 'things']
+key_words: ['buy', 'generator']
+key_sent_words: ['storm', 'occur']
+key_words: ['buy', 'generator']
+key_sent_words: ['narrator', 'lose', 'electricity']
+key_words: ['buy', 'generator']
+key_sent_words: ['wind', 'occur']
+key_words: ['buy', 'generator']
+key_sent_words: ['area', 'neighborhood', 'narrator', 'large', 'group', 'pine', 'trees', 'group', 'oak', 'trees']
+key_words: ['buy', 'generator']
+key_sent_words: ['narrator', 'stand', 'patio', 'watch', 'large', 'tree']
+key_words: ['buy', 'generator']
+key_sent_words: ['tree', 'split', 'apart', 'fell', 'yard', 'neighbor']
+key_words: ['buy', 'generator']
+key_sent_words: ['narrator', 'begin', 'nervous', 'own', 'group', 'trees', 'near', 'house', 'narrator']
+key_words: ['buy', 'generator']
+key_sent_words: ['narrator', 'begin', 'concern', 'first', 'tree', 'later', 'fall', 'later', 'fall', 'house', 'narrator', 'house', 'narrator', 'would', 'begin', 'damage', 'family', 'narrator', 'would', 'begin', 'wound']
+key_words: ['buy', 'generator']
+key_sent_words: ['wife', 'narrator', 'stay', 'safe', 'area', 'home', 'dog', 'stay', 'area', 'home', 'group', 'children', 'narrator', 'stay', 'area', 'home']
+key_words: ['buy', 'generator']
+key_sent_words: ['narrator', 'hear', 'loud', 'noise']
+key_words: ['buy', 'generator']
+key_sent_words: ['first', 'tree', 'fell', 'onto', 'rv', 'neighbor', 'narrator', 'look', 'window', 'narrator']
+key_words: ['buy', 'generator']
+key_sent_words: ['group', 'trees', 'begin', 'fall']
+key_words: ['buy', 'generator']
+key_sent_words: ['fourth', 'tree', 'fell', 'lawn', 'mower']
+key_words: ['buy', 'generator']
+key_sent_words: ['fourth', 'tree', 'fell', 'golf', 'cart']
+key_words: ['buy', 'generator']
+key_sent_words: ['group', 'trees', "n't", 'fall', 'house', 'narrator']
+key_words: ['buy', 'generator']
+key_sent_words: ['group', 'neighbors', "n't", 'begin', 'fortunate']
+key_words: ['buy', 'generator']
+key_sent_words: ['president', 'bush', 'come', 'baton', 'rouge', 'order', 'assess', 'baton', 'rouge']
+key_words: ['buy', 'generator']
+key_sent_words: ['group', 'friends', 'cabinet', 'governor', 'name', 'jindal', 'restore', 'order', 'narrator', 'group', 'friends', 'cabinet', 'jindal']
+key_words: ['buy', 'generator']
+key_sent_words: ['storm', 'stop']
+key_words: ['buy', 'generator']
+key_sent_words: ['narrator', "n't", 'electricity', 'group', 'power', 'lines']
+key_words: ['buy', 'generator']
+key_sent_words: ['generator', "n't", 'begin', 'work']
+key_words: ['buy', 'generator']
+key_sent_words: ['narrator', 'bring', 'generator', 'repair']
+key_words: ['buy', 'generator']
+key_sent_words: ['parent', 'narrator', 'electricity']
+key_words: ['buy', 'generator']
+key_sent_words: ['narrator', 'bring', 'family', 'narrator', 'house', 'parent', 'narrator']
+key_words: ['buy', 'generator']
+key_sent_words: ['group', 'power', 'lines', 'begin', 'city', 'fourth', 'tree', 'begin', 'city']
+question after sub:
+Who bought a portable generator ?
+answer_type:Sch
+SCORING blogs-03-18
+Comparing Gold   "the narrator"
+      and Resp   "The narrator went back to a store named Home Depot in order to purchase a portable generator."
+
+RECALL:    1.000
+PRECISION: 0.125
+F-measure: 0.222
+
+=========================================
+{Question_Text}: Who filled the container of some gasoline?
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['storm', 'occur', 'louisiana']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['narrator', 'watch', 'channel', 'name', 'weather', 'channel', 'watch', 'local', 'news', 'media']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['narrator', 'go', 'back', 'store', 'name', 'home', 'depot', 'order', 'purchase', 'portable', 'generator']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['narrator', 'fill', 'group', 'cars', 'fill', 'container', 'gasoline']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['narrator', 'purchase', 'important', 'group', 'things']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['storm', 'occur']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['narrator', 'lose', 'electricity']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['wind', 'occur']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['area', 'neighborhood', 'narrator', 'large', 'group', 'pine', 'trees', 'group', 'oak', 'trees']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['narrator', 'stand', 'patio', 'watch', 'large', 'tree']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['tree', 'split', 'apart', 'fell', 'yard', 'neighbor']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['narrator', 'begin', 'nervous', 'own', 'group', 'trees', 'near', 'house', 'narrator']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['narrator', 'begin', 'concern', 'first', 'tree', 'later', 'fall', 'later', 'fall', 'house', 'narrator', 'house', 'narrator', 'would', 'begin', 'damage', 'family', 'narrator', 'would', 'begin', 'wound']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['wife', 'narrator', 'stay', 'safe', 'area', 'home', 'dog', 'stay', 'area', 'home', 'group', 'children', 'narrator', 'stay', 'area', 'home']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['narrator', 'hear', 'loud', 'noise']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['first', 'tree', 'fell', 'onto', 'rv', 'neighbor', 'narrator', 'look', 'window', 'narrator']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['group', 'trees', 'begin', 'fall']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['fourth', 'tree', 'fell', 'lawn', 'mower']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['fourth', 'tree', 'fell', 'golf', 'cart']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['group', 'trees', "n't", 'fall', 'house', 'narrator']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['group', 'neighbors', "n't", 'begin', 'fortunate']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['president', 'bush', 'come', 'baton', 'rouge', 'order', 'assess', 'baton', 'rouge']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['group', 'friends', 'cabinet', 'governor', 'name', 'jindal', 'restore', 'order', 'narrator', 'group', 'friends', 'cabinet', 'jindal']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['storm', 'stop']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['narrator', "n't", 'electricity', 'group', 'power', 'lines']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['generator', "n't", 'begin', 'work']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['narrator', 'bring', 'generator', 'repair']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['parent', 'narrator', 'electricity']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['narrator', 'bring', 'family', 'narrator', 'house', 'parent', 'narrator']
+key_words: ['fill', 'container', 'gasoline']
+key_sent_words: ['group', 'power', 'lines', 'begin', 'city', 'fourth', 'tree', 'begin', 'city']
+question after sub:
+Who filled the container of some gasoline ?
+answer_type:Sch
+SCORING blogs-03-20
+Comparing Gold   "the narrator"
+      and Resp   "The narrator filled a group of cars and filled the container of some gasoline."
+
+RECALL:    1.000
+PRECISION: 0.167
+F-measure: 0.286
+
+=========================================
+sch
+An oven broke because the broiler of the oven activated.
+The oven scorched a group of treats and created some fire.
+The husband of a narrator who owned a house and owned the oven attempted for the husband of the narrator to retrieve the group of treats and discovered that the oven had created the fire.
+The husband of the narrator unsuccessfully tried to eliminate the fire.
+The husband of the narrator quickly shut the door of the oven in order to prevent the fire spreading.
+The narrator retrieved a fire extinguisher.
+The husband of the narrator opened the door of the oven.
+The fire ascended to the ceiling of the house.
+The oven began to be broken, and the fire extinguisher eliminated the fire.
+The fire didn't damage the group of things of the house.
+The house aired, and the husband of the narrator and the narrator cleaned the house in order for the house to be normal.
+The husband of the narrator and the narrator used some griddle and used a toaster oven.
+The narrator ordered a new second oven.
+The narrator began to be excited because she had ordered the second oven.
+=========================================
+{Question_Text}: What made some fire?
+key_words: ['make', 'fire']
+key_sent_words: ['oven', 'broke', 'broiler', 'oven', 'activate']
+key_words: ['create', 'fire']
+key_sent_words: ['oven', 'scorch', 'group', 'treats', 'create', 'fire']
+key_words: ['create', 'fire']
+key_sent_words: ['husband', 'narrator', 'own', 'house', 'own', 'oven', 'attempt', 'husband', 'narrator', 'retrieve', 'group', 'treats', 'discover', 'oven', 'create', 'fire']
+key_words: ['make', 'fire']
+key_sent_words: ['husband', 'narrator', 'unsuccessfully', 'try', 'eliminate', 'fire']
+key_words: ['make', 'fire']
+key_sent_words: ['husband', 'narrator', 'quickly', 'shut', 'door', 'oven', 'order', 'prevent', 'fire', 'spreading']
+key_words: ['make', 'fire']
+key_sent_words: ['narrator', 'retrieve', 'fire', 'extinguisher']
+key_words: ['make', 'fire']
+key_sent_words: ['husband', 'narrator', 'open', 'door', 'oven']
+key_words: ['make', 'fire']
+key_sent_words: ['fire', 'ascend', 'ceiling', 'house']
+key_words: ['make', 'fire']
+key_sent_words: ['oven', 'begin', 'break', 'fire', 'extinguisher', 'eliminate', 'fire']
+key_words: ['make', 'fire']
+key_sent_words: ['fire', "n't", 'damage', 'group', 'things', 'house']
+key_words: ['make', 'fire']
+key_sent_words: ['house', 'air', 'husband', 'narrator', 'narrator', 'clean', 'house', 'order', 'house', 'normal']
+key_words: ['make', 'fire']
+key_sent_words: ['husband', 'narrator', 'narrator', 'use', 'griddle', 'use', 'toaster', 'oven']
+key_words: ['make', 'fire']
+key_sent_words: ['narrator', 'order', 'new', 'second', 'oven']
+key_words: ['make', 'fire']
+key_sent_words: ['narrator', 'begin', 'excite', 'order', 'second', 'oven']
+question after sub:
+What made some fire ?
+answer_type:Sch
+SCORING blogs-06-16
+Comparing Gold   "the oven"
+      and Resp   "The oven scorched a group of treats and created some fire."
+
+RECALL:    1.000
+PRECISION: 0.167
+F-measure: 0.286
+
+=========================================
+{Question_Text}: Who tried to extinguish the fire?
+key_words: ['try', 'extinguish', 'fire']
+key_sent_words: ['oven', 'broke', 'broiler', 'oven', 'activate']
+key_words: ['try', 'extinguish', 'fire']
+key_sent_words: ['oven', 'scorch', 'group', 'treats', 'create', 'fire']
+key_words: ['try', 'extinguish', 'fire']
+key_sent_words: ['husband', 'narrator', 'own', 'house', 'own', 'oven', 'attempt', 'husband', 'narrator', 'retrieve', 'group', 'treats', 'discover', 'oven', 'create', 'fire']
+key_words: ['try', 'eliminate', 'fire']
+key_sent_words: ['husband', 'narrator', 'unsuccessfully', 'try', 'eliminate', 'fire']
+key_words: ['try', 'extinguish', 'fire']
+key_sent_words: ['husband', 'narrator', 'quickly', 'shut', 'door', 'oven', 'order', 'prevent', 'fire', 'spreading']
+key_words: ['try', 'extinguish', 'fire']
+key_sent_words: ['narrator', 'retrieve', 'fire', 'extinguisher']
+key_words: ['try', 'extinguish', 'fire']
+key_sent_words: ['husband', 'narrator', 'open', 'door', 'oven']
+key_words: ['try', 'extinguish', 'fire']
+key_sent_words: ['fire', 'ascend', 'ceiling', 'house']
+key_words: ['try', 'eliminate', 'fire']
+key_sent_words: ['oven', 'begin', 'break', 'fire', 'extinguisher', 'eliminate', 'fire']
+key_words: ['try', 'extinguish', 'fire']
+key_sent_words: ['fire', "n't", 'damage', 'group', 'things', 'house']
+key_words: ['try', 'extinguish', 'fire']
+key_sent_words: ['house', 'air', 'husband', 'narrator', 'narrator', 'clean', 'house', 'order', 'house', 'normal']
+key_words: ['try', 'extinguish', 'fire']
+key_sent_words: ['husband', 'narrator', 'narrator', 'use', 'griddle', 'use', 'toaster', 'oven']
+key_words: ['try', 'extinguish', 'fire']
+key_sent_words: ['narrator', 'order', 'new', 'second', 'oven']
+key_words: ['try', 'extinguish', 'fire']
+key_sent_words: ['narrator', 'begin', 'excite', 'order', 'second', 'oven']
+question after sub:
+Who tried to eliminate the fire ?
+answer_type:Sch
+SCORING blogs-06-17
+Comparing Gold   "the husband of the narrator"
+      and Resp   "The husband of the narrator unsuccessfully tried to eliminate the fire."
+
+RECALL:    1.000
+PRECISION: 0.400
+F-measure: 0.571
+
+=========================================
+{Question_Text}: What broke because the broiler of the oven tripped?
+key_words: ['break', 'broiler', 'oven', 'activate']
+key_sent_words: ['oven', 'broke', 'broiler', 'oven', 'activate']
+key_words: ['break', 'oven', 'oven', 'trip']
+key_sent_words: ['oven', 'scorch', 'group', 'treats', 'create', 'fire']
+key_words: ['break', 'oven', 'oven', 'trip']
+key_sent_words: ['husband', 'narrator', 'own', 'house', 'own', 'oven', 'attempt', 'husband', 'narrator', 'retrieve', 'group', 'treats', 'discover', 'oven', 'create', 'fire']
+key_words: ['break', 'broiler', 'oven', 'trip']
+key_sent_words: ['husband', 'narrator', 'unsuccessfully', 'try', 'eliminate', 'fire']
+key_words: ['break', 'oven', 'oven', 'trip']
+key_sent_words: ['husband', 'narrator', 'quickly', 'shut', 'door', 'oven', 'order', 'prevent', 'fire', 'spreading']
+key_words: ['break', 'broiler', 'oven', 'trip']
+key_sent_words: ['narrator', 'retrieve', 'fire', 'extinguisher']
+key_words: ['break', 'oven', 'oven', 'trip']
+key_sent_words: ['husband', 'narrator', 'open', 'door', 'oven']
+key_words: ['break', 'broiler', 'oven', 'trip']
+key_sent_words: ['fire', 'ascend', 'ceiling', 'house']
+key_words: ['break', 'oven', 'oven', 'trip']
+key_sent_words: ['oven', 'begin', 'break', 'fire', 'extinguisher', 'eliminate', 'fire']
+key_words: ['damage', 'broiler', 'oven', 'trip']
+key_sent_words: ['fire', "n't", 'damage', 'group', 'things', 'house']
+key_words: ['break', 'broiler', 'oven', 'trip']
+key_sent_words: ['house', 'air', 'husband', 'narrator', 'narrator', 'clean', 'house', 'order', 'house', 'normal']
+key_words: ['break', 'broiler', 'oven', 'trip']
+key_sent_words: ['husband', 'narrator', 'narrator', 'use', 'griddle', 'use', 'toaster', 'oven']
+key_words: ['break', 'oven', 'oven', 'trip']
+key_sent_words: ['narrator', 'order', 'new', 'second', 'oven']
+key_words: ['break', 'oven', 'oven', 'trip']
+key_sent_words: ['narrator', 'begin', 'excite', 'order', 'second', 'oven']
+question after sub:
+What broke because the broiler of the oven tripped ?
+answer_type:Sch
+SCORING blogs-06-18
+Comparing Gold   "an oven"
+      and Resp   "An oven broke because the broiler of the oven activated."
+
+RECALL:    1.000
+PRECISION: 0.222
+F-measure: 0.364
+
+=========================================
+{Question_Text}: What did the husband of the narrator quickly close?
+key_words: ['husband', 'narrator', 'close']
+key_sent_words: ['oven', 'broke', 'broiler', 'oven', 'activate']
+key_words: ['husband', 'narrator', 'close']
+key_sent_words: ['oven', 'scorch', 'group', 'treats', 'create', 'fire']
+key_words: ['husband', 'narrator', 'close']
+key_sent_words: ['husband', 'narrator', 'own', 'house', 'own', 'oven', 'attempt', 'husband', 'narrator', 'retrieve', 'group', 'treats', 'discover', 'oven', 'create', 'fire']
+key_words: ['husband', 'narrator', 'close']
+key_sent_words: ['husband', 'narrator', 'unsuccessfully', 'try', 'eliminate', 'fire']
+key_words: ['husband', 'narrator', 'shut']
+key_sent_words: ['husband', 'narrator', 'quickly', 'shut', 'door', 'oven', 'order', 'prevent', 'fire', 'spreading']
+key_words: ['husband', 'narrator', 'close']
+key_sent_words: ['narrator', 'retrieve', 'fire', 'extinguisher']
+key_words: ['husband', 'narrator', 'close']
+key_sent_words: ['husband', 'narrator', 'open', 'door', 'oven']
+key_words: ['husband', 'narrator', 'close']
+key_sent_words: ['fire', 'ascend', 'ceiling', 'house']
+key_words: ['husband', 'narrator', 'close']
+key_sent_words: ['oven', 'begin', 'break', 'fire', 'extinguisher', 'eliminate', 'fire']
+key_words: ['husband', 'narrator', 'close']
+key_sent_words: ['fire', "n't", 'damage', 'group', 'things', 'house']
+key_words: ['husband', 'narrator', 'close']
+key_sent_words: ['house', 'air', 'husband', 'narrator', 'narrator', 'clean', 'house', 'order', 'house', 'normal']
+key_words: ['husband', 'narrator', 'close']
+key_sent_words: ['husband', 'narrator', 'narrator', 'use', 'griddle', 'use', 'toaster', 'oven']
+key_words: ['husband', 'narrator', 'close']
+key_sent_words: ['narrator', 'order', 'new', 'second', 'oven']
+key_words: ['husband', 'narrator', 'close']
+key_sent_words: ['narrator', 'begin', 'excite', 'order', 'second', 'oven']
+question after sub:
+What did the husband of the narrator quickly shut ?
+answer_type:Sch
+SCORING blogs-06-21
+Comparing Gold   "the door of the oven"
+      and Resp   "The husband of the narrator quickly shut the door of the oven in order to prevent the fire spreading."
+
+RECALL:    1.000
+PRECISION: 0.267
+F-measure: 0.421
+
+=========================================
+{Question_Text}: What did the narrator recover?
+key_words: ['narrator', 'recover']
+key_sent_words: ['oven', 'broke', 'broiler', 'oven', 'activate']
+key_words: ['narrator', 'recover']
+key_sent_words: ['oven', 'scorch', 'group', 'treats', 'create', 'fire']
+key_words: ['narrator', 'retrieve']
+key_sent_words: ['husband', 'narrator', 'own', 'house', 'own', 'oven', 'attempt', 'husband', 'narrator', 'retrieve', 'group', 'treats', 'discover', 'oven', 'create', 'fire']
+key_words: ['narrator', 'recover']
+key_sent_words: ['husband', 'narrator', 'unsuccessfully', 'try', 'eliminate', 'fire']
+key_words: ['narrator', 'recover']
+key_sent_words: ['husband', 'narrator', 'quickly', 'shut', 'door', 'oven', 'order', 'prevent', 'fire', 'spreading']
+key_words: ['narrator', 'retrieve']
+key_sent_words: ['narrator', 'retrieve', 'fire', 'extinguisher']
+key_words: ['narrator', 'recover']
+key_sent_words: ['husband', 'narrator', 'open', 'door', 'oven']
+key_words: ['narrator', 'recover']
+key_sent_words: ['fire', 'ascend', 'ceiling', 'house']
+key_words: ['narrator', 'recover']
+key_sent_words: ['oven', 'begin', 'break', 'fire', 'extinguisher', 'eliminate', 'fire']
+key_words: ['narrator', 'recover']
+key_sent_words: ['fire', "n't", 'damage', 'group', 'things', 'house']
+key_words: ['narrator', 'recover']
+key_sent_words: ['house', 'air', 'husband', 'narrator', 'narrator', 'clean', 'house', 'order', 'house', 'normal']
+key_words: ['narrator', 'recover']
+key_sent_words: ['husband', 'narrator', 'narrator', 'use', 'griddle', 'use', 'toaster', 'oven']
+key_words: ['narrator', 'recover']
+key_sent_words: ['narrator', 'order', 'new', 'second', 'oven']
+key_words: ['narrator', 'recover']
+key_sent_words: ['narrator', 'begin', 'excite', 'order', 'second', 'oven']
+question after sub:
+What did the narrator retrieve ?
+answer_type:Sch
+SCORING blogs-06-22
+Comparing Gold   " the group of treats"
+      and Resp   "The husband of a narrator who owned a house and owned the oven attempted for the husband of the narrator to retrieve the group of treats and discovered that the oven had created the fire."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+sch
+There once was a crow.
+The crow was sitting on a branch of a tree.
+Some cheese was in the beak of the crow.
+A fox observed the crow and tried to discover how to get the cheese.
+The fox came and stood under the tree.
+The fox looked toward the crow and said that he saw a noble bird who was above him.
+The fox said that the beauty of the bird was incomparable.
+The fox said that the hue of the plumage of the bird was exquisite.
+The fox said that -- if the sweetness of the voice of the bird is equal to the fairness of the appearance of the bird -- the bird would be undoubtedly the queen of every bird.
+The crow felt that the fox had flattered her and cawed loudly in order for she to show him that she was able to sing.
+The cheese fell.
+The fox snatched the cheese, said that the crow was able to sing and the fox said that the crow needed wits.
+=========================================
+{Question_Text}: Who did the fox notice?
+key_words: ['fox', 'notice']
+key_sent_words: ['crow']
+key_words: ['fox', 'notice']
+key_sent_words: ['crow', 'sit', 'branch', 'tree']
+key_words: ['fox', 'notice']
+key_sent_words: ['cheese', 'beak', 'crow']
+key_words: ['fox', 'notice']
+key_sent_words: ['fox', 'observe', 'crow', 'try', 'discover', 'get', 'cheese']
+key_words: ['fox', 'notice']
+key_sent_words: ['fox', 'come', 'stand', 'tree']
+key_words: ['fox', 'notice']
+key_sent_words: ['fox', 'look', 'toward', 'crow', 'say', 'see', 'saw', 'noble', 'bird']
+key_words: ['fox', 'notice']
+key_sent_words: ['fox', 'say', 'beauty', 'bird', 'incomparable']
+key_words: ['fox', 'notice']
+key_sent_words: ['fox', 'say', 'hue', 'plumage', 'bird', 'exquisite']
+key_words: ['fox', 'notice']
+key_sent_words: ['fox', 'say', 'sweetness', 'voice', 'bird', 'equal', 'fairness', 'appearance', 'bird', 'bird', 'would', 'undoubtedly', 'queen', 'every', 'bird']
+key_words: ['fox', 'notice']
+key_sent_words: ['crow', 'feel', 'felt', 'fox', 'flatter', 'caw', 'loudly', 'order', 'show', 'able', 's']
+key_words: ['fox', 'notice']
+key_sent_words: ['cheese', 'fell']
+key_words: ['fox', 'notice']
+key_sent_words: ['fox', 'snatch', 'cheese', 'say', 'crow', 'able', 's', 'fox', 'say', 'crow', 'need', 'wits']
+question after sub:
+Who did the fox notice ?
+answer_type:Sch
+SCORING fables-01-14
+Comparing Gold   "the crow"
+      and Resp   "A fox observed the crow and tried to discover how to get the cheese."
+
+RECALL:    1.000
+PRECISION: 0.154
+F-measure: 0.267
+
+=========================================
+{Question_Text}: Who observed the corvine bird?
+key_words: ['observe', 'corvine', 'bird']
+key_sent_words: ['crow']
+key_words: ['observe', 'corvine', 'bird']
+key_sent_words: ['crow', 'sit', 'branch', 'tree']
+key_words: ['observe', 'corvine', 'bird']
+key_sent_words: ['cheese', 'beak', 'crow']
+key_words: ['observe', 'corvine', 'bird']
+key_sent_words: ['fox', 'observe', 'crow', 'try', 'discover', 'get', 'cheese']
+key_words: ['observe', 'corvine', 'bird']
+key_sent_words: ['fox', 'come', 'stand', 'tree']
+key_words: ['observe', 'corvine', 'bird']
+key_sent_words: ['fox', 'look', 'toward', 'crow', 'say', 'see', 'saw', 'noble', 'bird']
+key_words: ['observe', 'corvine', 'bird']
+key_sent_words: ['fox', 'say', 'beauty', 'bird', 'incomparable']
+key_words: ['observe', 'corvine', 'bird']
+key_sent_words: ['fox', 'say', 'hue', 'plumage', 'bird', 'exquisite']
+key_words: ['observe', 'corvine', 'bird']
+key_sent_words: ['fox', 'say', 'sweetness', 'voice', 'bird', 'equal', 'fairness', 'appearance', 'bird', 'bird', 'would', 'undoubtedly', 'queen', 'every', 'bird']
+key_words: ['observe', 'corvine', 'bird']
+key_sent_words: ['crow', 'feel', 'felt', 'fox', 'flatter', 'caw', 'loudly', 'order', 'show', 'able', 's']
+key_words: ['observe', 'corvine', 'bird']
+key_sent_words: ['cheese', 'fell']
+key_words: ['observe', 'corvine', 'bird']
+key_sent_words: ['fox', 'snatch', 'cheese', 'say', 'crow', 'able', 's', 'fox', 'say', 'crow', 'need', 'wits']
+answer_type:Sch
+SCORING fables-01-15
+Comparing Gold   "a fox"
+      and Resp   "A fox observed the crow and tried to discover how to get the cheese."
+
+RECALL:    1.000
+PRECISION: 0.154
+F-measure: 0.267
+
+=========================================
+{Question_Text}: Who needed intelligence?
+key_words: ['need', 'intelligence']
+key_sent_words: ['crow']
+key_words: ['need', 'intelligence']
+key_sent_words: ['crow', 'sit', 'branch', 'tree']
+key_words: ['need', 'intelligence']
+key_sent_words: ['cheese', 'beak', 'crow']
+key_words: ['need', 'intelligence']
+key_sent_words: ['fox', 'observe', 'crow', 'try', 'discover', 'get', 'cheese']
+key_words: ['need', 'intelligence']
+key_sent_words: ['fox', 'come', 'stand', 'tree']
+key_words: ['need', 'intelligence']
+key_sent_words: ['fox', 'look', 'toward', 'crow', 'say', 'see', 'saw', 'noble', 'bird']
+key_words: ['need', 'intelligence']
+key_sent_words: ['fox', 'say', 'beauty', 'bird', 'incomparable']
+key_words: ['need', 'intelligence']
+key_sent_words: ['fox', 'say', 'hue', 'plumage', 'bird', 'exquisite']
+key_words: ['need', 'intelligence']
+key_sent_words: ['fox', 'say', 'sweetness', 'voice', 'bird', 'equal', 'fairness', 'appearance', 'bird', 'bird', 'would', 'undoubtedly', 'queen', 'every', 'bird']
+key_words: ['need', 'intelligence']
+key_sent_words: ['crow', 'feel', 'felt', 'fox', 'flatter', 'caw', 'loudly', 'order', 'show', 'able', 's']
+key_words: ['need', 'intelligence']
+key_sent_words: ['cheese', 'fell']
+key_words: ['need', 'intelligence']
+key_sent_words: ['fox', 'snatch', 'cheese', 'say', 'crow', 'able', 's', 'fox', 'say', 'crow', 'need', 'wits']
+answer_type:Sch
+SCORING fables-01-16
+Comparing Gold   "the crow"
+      and Resp   "The fox snatched the cheese, said that the crow was able to sing and the fox said that the crow needed wits."
+
+RECALL:    1.000
+PRECISION: 0.125
+F-measure: 0.222
+
+=========================================
+{Question_Text}: Who was perched on a branch?
+key_words: ['perch', 'branch']
+key_sent_words: ['crow']
+key_words: ['sit', 'branch']
+key_sent_words: ['crow', 'sit', 'branch', 'tree']
+key_words: ['perch', 'branch']
+key_sent_words: ['cheese', 'beak', 'crow']
+key_words: ['perch', 'branch']
+key_sent_words: ['fox', 'observe', 'crow', 'try', 'discover', 'get', 'cheese']
+key_words: ['perch', 'branch']
+key_sent_words: ['fox', 'come', 'stand', 'tree']
+key_words: ['perch', 'branch']
+key_sent_words: ['fox', 'look', 'toward', 'crow', 'say', 'see', 'saw', 'noble', 'bird']
+key_words: ['perch', 'branch']
+key_sent_words: ['fox', 'say', 'beauty', 'bird', 'incomparable']
+key_words: ['perch', 'branch']
+key_sent_words: ['fox', 'say', 'hue', 'plumage', 'bird', 'exquisite']
+key_words: ['perch', 'branch']
+key_sent_words: ['fox', 'say', 'sweetness', 'voice', 'bird', 'equal', 'fairness', 'appearance', 'bird', 'bird', 'would', 'undoubtedly', 'queen', 'every', 'bird']
+key_words: ['perch', 'branch']
+key_sent_words: ['crow', 'feel', 'felt', 'fox', 'flatter', 'caw', 'loudly', 'order', 'show', 'able', 's']
+key_words: ['perch', 'branch']
+key_sent_words: ['cheese', 'fell']
+key_words: ['perch', 'branch']
+key_sent_words: ['fox', 'snatch', 'cheese', 'say', 'crow', 'able', 's', 'fox', 'say', 'crow', 'need', 'wits']
+question after sub:
+Who was perched on a branch ?
+answer_type:Sch
+SCORING fables-01-17
+Comparing Gold   "the crow"
+      and Resp   "The crow was sitting on a branch of a tree."
+
+RECALL:    1.000
+PRECISION: 0.200
+F-measure: 0.333
+
+=========================================
+{Question_Text}: Who felt buttered up?
+key_words: ['feel', 'butter']
+key_sent_words: ['crow']
+key_words: ['feel', 'butter']
+key_sent_words: ['crow', 'sit', 'branch', 'tree']
+key_words: ['feel', 'butter']
+key_sent_words: ['cheese', 'beak', 'crow']
+key_words: ['feel', 'butter']
+key_sent_words: ['fox', 'observe', 'crow', 'try', 'discover', 'get', 'cheese']
+key_words: ['feel', 'butter']
+key_sent_words: ['fox', 'come', 'stand', 'tree']
+key_words: ['feel', 'butter']
+key_sent_words: ['fox', 'look', 'toward', 'crow', 'say', 'see', 'saw', 'noble', 'bird']
+key_words: ['feel', 'butter']
+key_sent_words: ['fox', 'say', 'beauty', 'bird', 'incomparable']
+key_words: ['feel', 'butter']
+key_sent_words: ['fox', 'say', 'hue', 'plumage', 'bird', 'exquisite']
+key_words: ['feel', 'butter']
+key_sent_words: ['fox', 'say', 'sweetness', 'voice', 'bird', 'equal', 'fairness', 'appearance', 'bird', 'bird', 'would', 'undoubtedly', 'queen', 'every', 'bird']
+key_words: ['feel', 'butter']
+key_sent_words: ['crow', 'feel', 'felt', 'fox', 'flatter', 'caw', 'loudly', 'order', 'show', 'able', 's']
+key_words: ['feel', 'butter']
+key_sent_words: ['cheese', 'fell']
+key_words: ['feel', 'butter']
+key_sent_words: ['fox', 'snatch', 'cheese', 'say', 'crow', 'able', 's', 'fox', 'say', 'crow', 'need', 'wits']
+question after sub:
+Who felt buttered up ?
+answer_type:Sch
+SCORING fables-01-18
+Comparing Gold   "the crow"
+      and Resp   "The crow felt that the fox had flattered her and cawed loudly in order for she to show him that she was able to sing."
+
+RECALL:    1.000
+PRECISION: 0.091
+F-measure: 0.167
+
+=========================================
+sch
+There once was a fat bull.
+The bull was grazing in a meadow.
+A lion watched the bull and salivated because the lion wanted to eat the bull.
+The lion didn't attack the bull because the lion feared sharp every horn of the bull.
+The lion began to be hungry and decided to attempt to kill the bull.
+The lion planned to trick the bull because the lion wasn't able to fight the bull.
+The lion walked toward the bull and began to feign that the lion was friendly.
+The lion said to the bull that the lion admired the body of the bull, admired the head of the bull, he admired every shoulder of the bull and admired every thigh of the bull.
+The lion advised the bull to remove every horn of the bull because every horn of the bull was ugly.
+The lion succeeded in persuading the bull to remove every horn of the bull.
+The lion ate the bull, and the bull began to be defenseless.
+=========================================
+{Question_Text}: Who did the big cat witness?
+key_words: ['cat', 'witness']
+key_sent_words: ['fat', 'bull']
+key_words: ['cat', 'witness']
+key_sent_words: ['bull', 'graze', 'meadow']
+key_words: ['lion', 'witness']
+key_sent_words: ['lion', 'watch', 'bull', 'salivate', 'lion', 'want', 'eat', 'bull']
+key_words: ['lion', 'witness']
+key_sent_words: ['lion', "n't", 'attack', 'bull', 'lion', 'fear', 'sharp', 'every', 'horn', 'bull']
+key_words: ['lion', 'witness']
+key_sent_words: ['lion', 'begin', 'hungry', 'decide', 'attempt', 'kill', 'bull']
+key_words: ['lion', 'witness']
+key_sent_words: ['lion', 'plan', 'trick', 'bull', 'lion', "n't", 'able', 'fight', 'bull']
+key_words: ['lion', 'witness']
+key_sent_words: ['lion', 'walk', 'toward', 'bull', 'begin', 'feign', 'lion', 'friendly']
+key_words: ['lion', 'witness']
+key_sent_words: ['lion', 'say', 'bull', 'lion', 'admire', 'body', 'bull', 'admire', 'head', 'bull', 'admire', 'every', 'shoulder', 'bull', 'admire', 'every', 'thigh', 'bull']
+key_words: ['lion', 'witness']
+key_sent_words: ['lion', 'advise', 'bull', 'remove', 'every', 'horn', 'bull', 'every', 'horn', 'bull', 'ugly']
+key_words: ['lion', 'witness']
+key_sent_words: ['lion', 'succeed', 'persuade', 'bull', 'remove', 'every', 'horn', 'bull']
+key_words: ['lion', 'witness']
+key_sent_words: ['lion', 'eat', 'eat', 'bull', 'bull', 'begin', 'defenseless']
+question after sub:
+Who did the big lion witness ?
+answer_type:Sch
+SCORING fables-02-19
+Comparing Gold   "the bull"
+      and Resp   "A lion watched the bull and salivated because the lion wanted to eat the bull."
+
+RECALL:    1.000
+PRECISION: 0.167
+F-measure: 0.286
+
+=========================================
+{Question_Text}: What did the lion gobble?
+key_words: ['lion', 'gobble']
+key_sent_words: ['fat', 'bull']
+key_words: ['lion', 'gobble']
+key_sent_words: ['bull', 'graze', 'meadow']
+key_words: ['lion', 'gobble']
+key_sent_words: ['lion', 'watch', 'bull', 'salivate', 'lion', 'want', 'eat', 'bull']
+key_words: ['lion', 'gobble']
+key_sent_words: ['lion', "n't", 'attack', 'bull', 'lion', 'fear', 'sharp', 'every', 'horn', 'bull']
+key_words: ['lion', 'gobble']
+key_sent_words: ['lion', 'begin', 'hungry', 'decide', 'attempt', 'kill', 'bull']
+key_words: ['lion', 'gobble']
+key_sent_words: ['lion', 'plan', 'trick', 'bull', 'lion', "n't", 'able', 'fight', 'bull']
+key_words: ['lion', 'gobble']
+key_sent_words: ['lion', 'walk', 'toward', 'bull', 'begin', 'feign', 'lion', 'friendly']
+key_words: ['lion', 'gobble']
+key_sent_words: ['lion', 'say', 'bull', 'lion', 'admire', 'body', 'bull', 'admire', 'head', 'bull', 'admire', 'every', 'shoulder', 'bull', 'admire', 'every', 'thigh', 'bull']
+key_words: ['lion', 'gobble']
+key_sent_words: ['lion', 'advise', 'bull', 'remove', 'every', 'horn', 'bull', 'every', 'horn', 'bull', 'ugly']
+key_words: ['lion', 'gobble']
+key_sent_words: ['lion', 'succeed', 'persuade', 'bull', 'remove', 'every', 'horn', 'bull']
+key_words: ['lion', 'gobble']
+key_sent_words: ['lion', 'eat', 'eat', 'bull', 'bull', 'begin', 'defenseless']
+question after sub:
+What did the lion gobble ?
+answer_type:Sch
+SCORING fables-02-21
+Comparing Gold   "the bull"
+      and Resp   "A lion watched the bull and salivated because the lion wanted to eat the bull."
+
+RECALL:    1.000
+PRECISION: 0.167
+F-measure: 0.286
+
+=========================================
+{Question_Text}: What did the lion consume?
+key_words: ['lion', 'consume']
+key_sent_words: ['fat', 'bull']
+key_words: ['lion', 'consume']
+key_sent_words: ['bull', 'graze', 'meadow']
+key_words: ['lion', 'eat']
+key_sent_words: ['lion', 'watch', 'bull', 'salivate', 'lion', 'want', 'eat', 'bull']
+key_words: ['lion', 'consume']
+key_sent_words: ['lion', "n't", 'attack', 'bull', 'lion', 'fear', 'sharp', 'every', 'horn', 'bull']
+key_words: ['lion', 'consume']
+key_sent_words: ['lion', 'begin', 'hungry', 'decide', 'attempt', 'kill', 'bull']
+key_words: ['lion', 'consume']
+key_sent_words: ['lion', 'plan', 'trick', 'bull', 'lion', "n't", 'able', 'fight', 'bull']
+key_words: ['lion', 'consume']
+key_sent_words: ['lion', 'walk', 'toward', 'bull', 'begin', 'feign', 'lion', 'friendly']
+key_words: ['lion', 'consume']
+key_sent_words: ['lion', 'say', 'bull', 'lion', 'admire', 'body', 'bull', 'admire', 'head', 'bull', 'admire', 'every', 'shoulder', 'bull', 'admire', 'every', 'thigh', 'bull']
+key_words: ['lion', 'consume']
+key_sent_words: ['lion', 'advise', 'bull', 'remove', 'every', 'horn', 'bull', 'every', 'horn', 'bull', 'ugly']
+key_words: ['lion', 'consume']
+key_sent_words: ['lion', 'succeed', 'persuade', 'bull', 'remove', 'every', 'horn', 'bull']
+key_words: ['lion', 'eat']
+key_sent_words: ['lion', 'eat', 'eat', 'bull', 'bull', 'begin', 'defenseless']
+question after sub:
+What did the lion eat ?
+answer_type:Sch
+SCORING fables-02-22
+Comparing Gold   "the bull"
+      and Resp   "A lion watched the bull and salivated because the lion wanted to eat the bull."
+
+RECALL:    1.000
+PRECISION: 0.167
+F-measure: 0.286
+
+=========================================
+{Question_Text}: Who tried to kill the bull?
+key_words: ['try', 'kill', 'bull']
+key_sent_words: ['fat', 'bull']
+key_words: ['try', 'kill', 'bull']
+key_sent_words: ['bull', 'graze', 'meadow']
+key_words: ['try', 'kill', 'bull']
+key_sent_words: ['lion', 'watch', 'bull', 'salivate', 'lion', 'want', 'eat', 'bull']
+key_words: ['try', 'kill', 'bull']
+key_sent_words: ['lion', "n't", 'attack', 'bull', 'lion', 'fear', 'sharp', 'every', 'horn', 'bull']
+key_words: ['decide', 'kill', 'bull']
+key_sent_words: ['lion', 'begin', 'hungry', 'decide', 'attempt', 'kill', 'bull']
+key_words: ['try', 'kill', 'bull']
+key_sent_words: ['lion', 'plan', 'trick', 'bull', 'lion', "n't", 'able', 'fight', 'bull']
+key_words: ['try', 'kill', 'bull']
+key_sent_words: ['lion', 'walk', 'toward', 'bull', 'begin', 'feign', 'lion', 'friendly']
+key_words: ['try', 'kill', 'bull']
+key_sent_words: ['lion', 'say', 'bull', 'lion', 'admire', 'body', 'bull', 'admire', 'head', 'bull', 'admire', 'every', 'shoulder', 'bull', 'admire', 'every', 'thigh', 'bull']
+key_words: ['try', 'kill', 'bull']
+key_sent_words: ['lion', 'advise', 'bull', 'remove', 'every', 'horn', 'bull', 'every', 'horn', 'bull', 'ugly']
+key_words: ['try', 'kill', 'bull']
+key_sent_words: ['lion', 'succeed', 'persuade', 'bull', 'remove', 'every', 'horn', 'bull']
+key_words: ['try', 'kill', 'bull']
+key_sent_words: ['lion', 'eat', 'eat', 'bull', 'bull', 'begin', 'defenseless']
+question after sub:
+Who tried to kill the bull ?
+answer_type:Sch
+SCORING fables-02-23
+Comparing Gold   "the lion"
+      and Resp   "The lion began to be hungry and decided to attempt to kill the bull."
+
+RECALL:    1.000
+PRECISION: 0.167
+F-measure: 0.286
+
+=========================================
+sch
+A summit meeting named G20 summit started on eventful today.
+G20 summit happened annually.
+A world and many leader came and talked about it running a government.
+A people protested because it disagreed about a view.
+The people protested peacefully on a street.
+The people rebelled and created riot.
+The people burned a police car and threw a thing at a police.
+The police alleviated the people of riot.
+The police fired a tear gas at the people and fired a bullet at the people, and the people smashed a window.
+=========================================
+{Question_Text}: Who blasted tear gas?
+key_words: ['blast', 'tear', 'gas']
+key_sent_words: ['summit', 'meeting', 'name', 'g20', 'summit', 'start', 'eventful', 'today']
+key_words: ['blast', 'tear', 'gas']
+key_sent_words: ['g20', 'summit', 'happen', 'annually']
+key_words: ['blast', 'tear', 'gas']
+key_sent_words: ['world', 'many', 'leader', 'come', 'talk', 'run', 'government']
+key_words: ['blast', 'tear', 'gas']
+key_sent_words: ['people', 'protest', 'disagree', 'view']
+key_words: ['blast', 'tear', 'gas']
+key_sent_words: ['people', 'protest', 'peacefully', 'street']
+key_words: ['blast', 'tear', 'gas']
+key_sent_words: ['people', 'rebel', 'create', 'riot']
+key_words: ['blast', 'tear', 'gas']
+key_sent_words: ['people', 'burn', 'police', 'car', 'throw', 'thing', 'police']
+key_words: ['blast', 'tear', 'gas']
+key_sent_words: ['police', 'alleviate', 'people', 'riot']
+key_words: ['smash', 'tear', 'gas']
+key_sent_words: ['police', 'fire', 'tear', 'gas', 'people', 'fire', 'bullet', 'people', 'people', 'smash', 'window']
+question after sub:
+Who blasted tear gas ?
+answer_type:Sch
+SCORING blogs-01-19
+Comparing Gold   "the police"
+      and Resp   "The police fired a tear gas at the people and fired a bullet at the people, and the people smashed a window."
+
+RECALL:    1.000
+PRECISION: 0.143
+F-measure: 0.250
+
+=========================================
+{Question_Text}: Who created disorder?
+key_words: ['create', 'disorder']
+key_sent_words: ['summit', 'meeting', 'name', 'g20', 'summit', 'start', 'eventful', 'today']
+key_words: ['create', 'disorder']
+key_sent_words: ['g20', 'summit', 'happen', 'annually']
+key_words: ['create', 'disorder']
+key_sent_words: ['world', 'many', 'leader', 'come', 'talk', 'run', 'government']
+key_words: ['create', 'disorder']
+key_sent_words: ['people', 'protest', 'disagree', 'view']
+key_words: ['create', 'disorder']
+key_sent_words: ['people', 'protest', 'peacefully', 'street']
+key_words: ['create', 'disorder']
+key_sent_words: ['people', 'rebel', 'create', 'riot']
+key_words: ['create', 'disorder']
+key_sent_words: ['people', 'burn', 'police', 'car', 'throw', 'thing', 'police']
+key_words: ['create', 'disorder']
+key_sent_words: ['police', 'alleviate', 'people', 'riot']
+key_words: ['create', 'disorder']
+key_sent_words: ['police', 'fire', 'tear', 'gas', 'people', 'fire', 'bullet', 'people', 'people', 'smash', 'window']
+answer_type:Sch
+SCORING blogs-01-20
+Comparing Gold   "the people"
+      and Resp   "The people rebelled and created riot."
+
+RECALL:    1.000
+PRECISION: 0.286
+F-measure: 0.444
+
+=========================================
+{Question_Text}: Who fired a chemical weapon?
+key_words: ['fire', 'chemical', 'weapon']
+key_sent_words: ['summit', 'meeting', 'name', 'g20', 'summit', 'start', 'eventful', 'today']
+key_words: ['fire', 'chemical', 'weapon']
+key_sent_words: ['g20', 'summit', 'happen', 'annually']
+key_words: ['fire', 'chemical', 'weapon']
+key_sent_words: ['world', 'many', 'leader', 'come', 'talk', 'run', 'government']
+key_words: ['fire', 'chemical', 'weapon']
+key_sent_words: ['people', 'protest', 'disagree', 'view']
+key_words: ['fire', 'chemical', 'weapon']
+key_sent_words: ['people', 'protest', 'peacefully', 'street']
+key_words: ['fire', 'chemical', 'weapon']
+key_sent_words: ['people', 'rebel', 'create', 'riot']
+key_words: ['fire', 'chemical', 'weapon']
+key_sent_words: ['people', 'burn', 'police', 'car', 'throw', 'thing', 'police']
+key_words: ['fire', 'chemical', 'weapon']
+key_sent_words: ['police', 'alleviate', 'people', 'riot']
+key_words: ['fire', 'chemical', 'weapon']
+key_sent_words: ['police', 'fire', 'tear', 'gas', 'people', 'fire', 'bullet', 'people', 'people', 'smash', 'window']
+answer_type:Sch
+SCORING blogs-01-21
+Comparing Gold   "the police"
+      and Resp   "The police fired a tear gas at the people and fired a bullet at the people, and the people smashed a window."
+
+RECALL:    1.000
+PRECISION: 0.143
+F-measure: 0.250
+
+=========================================
+{Question_Text}: Who revolted?
+key_words: ['revolt']
+key_sent_words: ['summit', 'meeting', 'name', 'g20', 'summit', 'start', 'eventful', 'today']
+key_words: ['revolt']
+key_sent_words: ['g20', 'summit', 'happen', 'annually']
+key_words: ['revolt']
+key_sent_words: ['world', 'many', 'leader', 'come', 'talk', 'run', 'government']
+key_words: ['revolt']
+key_sent_words: ['people', 'protest', 'disagree', 'view']
+key_words: ['revolt']
+key_sent_words: ['people', 'protest', 'peacefully', 'street']
+key_words: ['revolt']
+key_sent_words: ['people', 'rebel', 'create', 'riot']
+key_words: ['revolt']
+key_sent_words: ['people', 'burn', 'police', 'car', 'throw', 'thing', 'police']
+key_words: ['revolt']
+key_sent_words: ['police', 'alleviate', 'people', 'riot']
+key_words: ['revolt']
+key_sent_words: ['police', 'fire', 'tear', 'gas', 'people', 'fire', 'bullet', 'people', 'people', 'smash', 'window']
+answer_type:Sch
+SCORING blogs-01-22
+Comparing Gold   "the people"
+      and Resp   "A summit meeting named G20 summit started on eventful today."
+
+RECALL:    0.000
+PRECISION: 0.000
+F-measure: 0.000
+
+=========================================
+{Question_Text}: What combusted?
+key_words: ['combust']
+key_sent_words: ['summit', 'meeting', 'name', 'g20', 'summit', 'start', 'eventful', 'today']
+key_words: ['combust']
+key_sent_words: ['g20', 'summit', 'happen', 'annually']
+key_words: ['combust']
+key_sent_words: ['world', 'many', 'leader', 'come', 'talk', 'run', 'government']
+key_words: ['combust']
+key_sent_words: ['people', 'protest', 'disagree', 'view']
+key_words: ['combust']
+key_sent_words: ['people', 'protest', 'peacefully', 'street']
+key_words: ['combust']
+key_sent_words: ['people', 'rebel', 'create', 'riot']
+key_words: ['combust']
+key_sent_words: ['people', 'burn', 'police', 'car', 'throw', 'thing', 'police']
+key_words: ['combust']
+key_sent_words: ['police', 'alleviate', 'people', 'riot']
+key_words: ['combust']
+key_sent_words: ['police', 'fire', 'tear', 'gas', 'people', 'fire', 'bullet', 'people', 'people', 'smash', 'window']
+answer_type:Sch
+SCORING blogs-01-23
+Comparing Gold   "a police car"
+      and Resp   "A summit meeting named G20 summit started on eventful today."
+
+RECALL:    0.333
+PRECISION: 0.100
+F-measure: 0.154
+
+=========================================
+{Question_Text}: Who was a slug fired at?
+key_words: ['slug', 'fire']
+key_sent_words: ['summit', 'meeting', 'name', 'g20', 'summit', 'start', 'eventful', 'today']
+key_words: ['slug', 'fire']
+key_sent_words: ['g20', 'summit', 'happen', 'annually']
+key_words: ['slug', 'fire']
+key_sent_words: ['world', 'many', 'leader', 'come', 'talk', 'run', 'government']
+key_words: ['slug', 'fire']
+key_sent_words: ['people', 'protest', 'disagree', 'view']
+key_words: ['slug', 'fire']
+key_sent_words: ['people', 'protest', 'peacefully', 'street']
+key_words: ['slug', 'fire']
+key_sent_words: ['people', 'rebel', 'create', 'riot']
+key_words: ['slug', 'fire']
+key_sent_words: ['people', 'burn', 'police', 'car', 'throw', 'thing', 'police']
+key_words: ['slug', 'fire']
+key_sent_words: ['police', 'alleviate', 'people', 'riot']
+key_words: ['bullet', 'fire']
+key_sent_words: ['police', 'fire', 'tear', 'gas', 'people', 'fire', 'bullet', 'people', 'people', 'smash', 'window']
+question after sub:
+Who was a bullet fired at ?
+answer_type:Sch
+SCORING blogs-01-24
+Comparing Gold   "the people"
+      and Resp   "The police fired a tear gas at the people and fired a bullet at the people, and the people smashed a window."
+
+RECALL:    1.000
+PRECISION: 0.143
+F-measure: 0.250
+
+=========================================
+sch
+A clever fox invited a stork to dine.
+The fox only served some soup in a flat and large dish.
+The fox lapped the soup with relish.
+The stork attempted to drink some savory broth and failed.
+The fox believed that distress was amusing.
+The stork shortly invited the fox to dine.
+The stork presented the fox with a pitcher.
+The stork easily fitted the long bill of the stork into the long and narrow neck of the pitcher.
+The stork enjoied some dinner.
+The fox began to be hungry and began to be helpless because he wasn't able to reach some food that was in the pitcher.
+=========================================
+{Question_Text}: Who tried to drink some savory broth and failed?
+key_words: ['try', 'drink', 'broth', 'fail']
+key_sent_words: ['clever', 'fox', 'invite', 'stork', 'dine']
+key_words: ['try', 'drink', 'soup', 'fail']
+key_sent_words: ['fox', 'serve', 'soup', 'flat', 'large', 'dish']
+key_words: ['try', 'drink', 'soup', 'fail']
+key_sent_words: ['fox', 'lap', 'soup', 'relish']
+key_words: ['try', 'drink', 'broth', 'fail']
+key_sent_words: ['stork', 'attempt', 'drink', 'savory', 'broth', 'fail']
+key_words: ['try', 'drink', 'broth', 'fail']
+key_sent_words: ['fox', 'believe', 'distress', 'amuse']
+key_words: ['try', 'drink', 'broth', 'fail']
+key_sent_words: ['stork', 'shortly', 'invite', 'fox', 'dine']
+key_words: ['try', 'drink', 'broth', 'fail']
+key_sent_words: ['stork', 'present', 'fox', 'pitcher']
+key_words: ['try', 'drink', 'broth', 'fail']
+key_sent_words: ['stork', 'easily', 'fit', 'long', 'bill', 'stork', 'long', 'narrow', 'neck', 'pitcher']
+key_words: ['try', 'drink', 'broth', 'fail']
+key_sent_words: ['stork', 'enjoi', 'dinner']
+key_words: ['try', 'drink', 'broth', 'fail']
+key_sent_words: ['fox', 'begin', 'hungry', 'begin', 'helpless', "n't", 'able', 'reach', 'food', 'pitcher']
+question after sub:
+Who tried to drink some savory broth and failed ?
+answer_type:Sch
+SCORING fables-04-14
+Comparing Gold   "the stork"
+      and Resp   "The stork attempted to drink some savory broth and failed."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+{Question_Text}: Who tried to drink some savory stock?
+key_words: ['try', 'drink', 'stock']
+key_sent_words: ['clever', 'fox', 'invite', 'stork', 'dine']
+key_words: ['try', 'drink', 'soup']
+key_sent_words: ['fox', 'serve', 'soup', 'flat', 'large', 'dish']
+key_words: ['try', 'drink', 'soup']
+key_sent_words: ['fox', 'lap', 'soup', 'relish']
+key_words: ['try', 'drink', 'stock']
+key_sent_words: ['stork', 'attempt', 'drink', 'savory', 'broth', 'fail']
+key_words: ['try', 'drink', 'stock']
+key_sent_words: ['fox', 'believe', 'distress', 'amuse']
+key_words: ['try', 'drink', 'stock']
+key_sent_words: ['stork', 'shortly', 'invite', 'fox', 'dine']
+key_words: ['try', 'drink', 'stock']
+key_sent_words: ['stork', 'present', 'fox', 'pitcher']
+key_words: ['try', 'drink', 'stock']
+key_sent_words: ['stork', 'easily', 'fit', 'long', 'bill', 'stork', 'long', 'narrow', 'neck', 'pitcher']
+key_words: ['try', 'drink', 'stock']
+key_sent_words: ['stork', 'enjoi', 'dinner']
+key_words: ['try', 'drink', 'stock']
+key_sent_words: ['fox', 'begin', 'hungry', 'begin', 'helpless', "n't", 'able', 'reach', 'food', 'pitcher']
+question after sub:
+Who tried to drink some savory soup ?
+answer_type:Sch
+SCORING fables-04-15
+Comparing Gold   "the stork"
+      and Resp   "The fox only served some soup in a flat and large dish."
+
+RECALL:    0.500
+PRECISION: 0.077
+F-measure: 0.133
+
+=========================================
+{Question_Text}: What did the canine serve?
+key_words: ['serve']
+key_sent_words: ['clever', 'fox', 'invite', 'stork', 'dine']
+key_words: ['serve']
+key_sent_words: ['fox', 'serve', 'soup', 'flat', 'large', 'dish']
+key_words: ['serve']
+key_sent_words: ['fox', 'lap', 'soup', 'relish']
+key_words: ['serve']
+key_sent_words: ['stork', 'attempt', 'drink', 'savory', 'broth', 'fail']
+key_words: ['serve']
+key_sent_words: ['fox', 'believe', 'distress', 'amuse']
+key_words: ['serve']
+key_sent_words: ['stork', 'shortly', 'invite', 'fox', 'dine']
+key_words: ['serve']
+key_sent_words: ['stork', 'present', 'fox', 'pitcher']
+key_words: ['serve']
+key_sent_words: ['stork', 'easily', 'fit', 'long', 'bill', 'stork', 'long', 'narrow', 'neck', 'pitcher']
+key_words: ['serve']
+key_sent_words: ['stork', 'enjoi', 'dinner']
+key_words: ['serve']
+key_sent_words: ['fox', 'begin', 'hungry', 'begin', 'helpless', "n't", 'able', 'reach', 'food', 'pitcher']
+question after sub:
+What did the canine serve ?
+answer_type:Sch
+SCORING fables-04-16
+Comparing Gold   "some soup in a flat and large dish"
+      and Resp   "The fox only served some soup in a flat and large dish."
+
+RECALL:    1.000
+PRECISION: 0.615
+F-measure: 0.762
+
+=========================================
+{Question_Text}: Who attempted to drink some savory soup?
+key_words: ['attempt', 'drink', 'soup']
+key_sent_words: ['clever', 'fox', 'invite', 'stork', 'dine']
+key_words: ['attempt', 'drink', 'soup']
+key_sent_words: ['fox', 'serve', 'soup', 'flat', 'large', 'dish']
+key_words: ['attempt', 'drink', 'soup']
+key_sent_words: ['fox', 'lap', 'soup', 'relish']
+key_words: ['attempt', 'drink', 'soup']
+key_sent_words: ['stork', 'attempt', 'drink', 'savory', 'broth', 'fail']
+key_words: ['attempt', 'drink', 'soup']
+key_sent_words: ['fox', 'believe', 'distress', 'amuse']
+key_words: ['attempt', 'drink', 'soup']
+key_sent_words: ['stork', 'shortly', 'invite', 'fox', 'dine']
+key_words: ['attempt', 'drink', 'soup']
+key_sent_words: ['stork', 'present', 'fox', 'pitcher']
+key_words: ['attempt', 'drink', 'soup']
+key_sent_words: ['stork', 'easily', 'fit', 'long', 'bill', 'stork', 'long', 'narrow', 'neck', 'pitcher']
+key_words: ['attempt', 'drink', 'soup']
+key_sent_words: ['stork', 'enjoi', 'dinner']
+key_words: ['attempt', 'drink', 'soup']
+key_sent_words: ['fox', 'begin', 'hungry', 'begin', 'helpless', "n't", 'able', 'reach', 'food', 'pitcher']
+question after sub:
+Who attempted to drink some savory soup ?
+answer_type:Sch
+SCORING fables-04-17
+Comparing Gold   "the stork"
+      and Resp   "The stork attempted to drink some savory broth and failed."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+sch
+There once was a group of students and a narrator.
+The narrator was a teacher, owned some white slip and owned a desk.
+The narrator was teaching the group of students language.
+The narrator checked the group of students for presence and stood at the front of a classroom.
+The slip fell because the not-functional elastic of the slip was dysfunctional.
+The group of students saw that the slip had fallen because the elastic of the slip was dysfunctional.
+The narrator noticed that the ankle of the narrator was observed.
+The narrator nervously looked toward the ankle of the narrator and observed that the slip had fallen because the elastic of the slip was dysfunctional.
+The narrator glanced around the group of students.
+The narrator carefully stepped over the slip.
+The narrator feigned bewilderment.
+The narrator lifted the slip and inserted it into a bottom drawer of the desk.
+The narrator resumed teaching, and the group of students didn't react.
+The narrator later feared for the group of students to tell a parent of the group of students that the group of students had seen that the slip had fallen because the elastic of the slip was dysfunctional.
+=========================================
+{Question_Text}: Who detected that the ankle of the narrator was observed?
+key_words: ['detect', 'ankle', 'narrator', 'observe']
+key_sent_words: ['group', 'students', 'narrator']
+key_words: ['detect', 'ankle', 'narrator', 'observe']
+key_sent_words: ['narrator', 'teacher', 'own', 'white', 'slip', 'own', 'desk']
+key_words: ['detect', 'ankle', 'narrator', 'observe']
+key_sent_words: ['narrator', 'teach', 'group', 'students', 'language']
+key_words: ['detect', 'ankle', 'narrator', 'observe']
+key_sent_words: ['narrator', 'check', 'group', 'students', 'presence', 'stood', 'front', 'classroom']
+key_words: ['detect', 'ankle', 'narrator', 'observe']
+key_sent_words: ['slip', 'fell', 'not-functional', 'elastic', 'slip', 'dysfunctional']
+key_words: ['detect', 'ankle', 'narrator', 'observe']
+key_sent_words: ['group', 'students', 'see', 'saw', 'slip', 'fall', 'elastic', 'slip', 'dysfunctional']
+key_words: ['notice', 'ankle', 'narrator', 'notice']
+key_sent_words: ['narrator', 'notice', 'ankle', 'narrator', 'observe']
+key_words: ['detect', 'ankle', 'narrator', 'observe']
+key_sent_words: ['narrator', 'nervously', 'look', 'toward', 'ankle', 'narrator', 'observe', 'slip', 'fall', 'elastic', 'slip', 'dysfunctional']
+key_words: ['detect', 'ankle', 'narrator', 'observe']
+key_sent_words: ['narrator', 'glance', 'around', 'group', 'students']
+key_words: ['detect', 'ankle', 'narrator', 'observe']
+key_sent_words: ['narrator', 'carefully', 'step', 'slip']
+key_words: ['detect', 'ankle', 'narrator', 'observe']
+key_sent_words: ['narrator', 'feign', 'bewilderment']
+key_words: ['detect', 'ankle', 'narrator', 'observe']
+key_sent_words: ['narrator', 'lift', 'slip', 'insert', 'bottom', 'drawer', 'desk']
+key_words: ['detect', 'ankle', 'narrator', 'observe']
+key_sent_words: ['narrator', 'resume', 'teaching', 'group', 'students', "n't", 'react']
+key_words: ['detect', 'ankle', 'narrator', 'observe']
+key_sent_words: ['narrator', 'later', 'fear', 'group', 'students', 'tell', 'parent', 'group', 'students', 'group', 'students', 'see', 'slip', 'fall', 'elastic', 'slip', 'dysfunctional']
+question after sub:
+Who detected that the ankle of the narrator was observed ?
+answer_type:Sch
+SCORING blogs-05-16
+Comparing Gold   "the narrator"
+      and Resp   "The narrator noticed that the ankle of the narrator was observed."
+
+RECALL:    1.000
+PRECISION: 0.222
+F-measure: 0.364
+
+=========================================
+{Question_Text}: What did the narrator raise?
+key_words: ['narrator', 'raise']
+key_sent_words: ['group', 'students', 'narrator']
+key_words: ['narrator', 'raise']
+key_sent_words: ['narrator', 'teacher', 'own', 'white', 'slip', 'own', 'desk']
+key_words: ['narrator', 'raise']
+key_sent_words: ['narrator', 'teach', 'group', 'students', 'language']
+key_words: ['narrator', 'raise']
+key_sent_words: ['narrator', 'check', 'group', 'students', 'presence', 'stood', 'front', 'classroom']
+key_words: ['narrator', 'raise']
+key_sent_words: ['slip', 'fell', 'not-functional', 'elastic', 'slip', 'dysfunctional']
+key_words: ['narrator', 'raise']
+key_sent_words: ['group', 'students', 'see', 'saw', 'slip', 'fall', 'elastic', 'slip', 'dysfunctional']
+key_words: ['narrator', 'raise']
+key_sent_words: ['narrator', 'notice', 'ankle', 'narrator', 'observe']
+key_words: ['narrator', 'raise']
+key_sent_words: ['narrator', 'nervously', 'look', 'toward', 'ankle', 'narrator', 'observe', 'slip', 'fall', 'elastic', 'slip', 'dysfunctional']
+key_words: ['narrator', 'raise']
+key_sent_words: ['narrator', 'glance', 'around', 'group', 'students']
+key_words: ['narrator', 'raise']
+key_sent_words: ['narrator', 'carefully', 'step', 'slip']
+key_words: ['narrator', 'raise']
+key_sent_words: ['narrator', 'feign', 'bewilderment']
+key_words: ['narrator', 'lift']
+key_sent_words: ['narrator', 'lift', 'slip', 'insert', 'bottom', 'drawer', 'desk']
+key_words: ['narrator', 'raise']
+key_sent_words: ['narrator', 'resume', 'teaching', 'group', 'students', "n't", 'react']
+key_words: ['narrator', 'raise']
+key_sent_words: ['narrator', 'later', 'fear', 'group', 'students', 'tell', 'parent', 'group', 'students', 'group', 'students', 'see', 'slip', 'fall', 'elastic', 'slip', 'dysfunctional']
+question after sub:
+What did the narrator lift ?
+answer_type:Sch
+SCORING blogs-05-17
+Comparing Gold   "the slip"
+      and Resp   "The narrator lifted the slip and inserted it into a bottom drawer of the desk."
+
+RECALL:    1.000
+PRECISION: 0.143
+F-measure: 0.250
+
+=========================================
+{Question_Text}: What did the narrator see the group of students for?
+key_words: ['narrator', 'see', 'group', 'student']
+key_sent_words: ['group', 'students', 'narrator']
+key_words: ['narrator', 'see', 'group', 'student']
+key_sent_words: ['narrator', 'teacher', 'own', 'white', 'slip', 'own', 'desk']
+key_words: ['narrator', 'see', 'group', 'student']
+key_sent_words: ['narrator', 'teach', 'group', 'students', 'language']
+key_words: ['narrator', 'check', 'group', 'student']
+key_sent_words: ['narrator', 'check', 'group', 'students', 'presence', 'stood', 'front', 'classroom']
+key_words: ['narrator', 'see', 'group', 'student']
+key_sent_words: ['slip', 'fell', 'not-functional', 'elastic', 'slip', 'dysfunctional']
+key_words: ['narrator', 'see', 'group', 'student']
+key_sent_words: ['group', 'students', 'see', 'saw', 'slip', 'fall', 'elastic', 'slip', 'dysfunctional']
+key_words: ['narrator', 'notice', 'group', 'student']
+key_sent_words: ['narrator', 'notice', 'ankle', 'narrator', 'observe']
+key_words: ['narrator', 'see', 'group', 'student']
+key_sent_words: ['narrator', 'nervously', 'look', 'toward', 'ankle', 'narrator', 'observe', 'slip', 'fall', 'elastic', 'slip', 'dysfunctional']
+key_words: ['narrator', 'see', 'group', 'student']
+key_sent_words: ['narrator', 'glance', 'around', 'group', 'students']
+key_words: ['narrator', 'see', 'group', 'student']
+key_sent_words: ['narrator', 'carefully', 'step', 'slip']
+key_words: ['narrator', 'see', 'group', 'student']
+key_sent_words: ['narrator', 'feign', 'bewilderment']
+key_words: ['narrator', 'see', 'group', 'student']
+key_sent_words: ['narrator', 'lift', 'slip', 'insert', 'bottom', 'drawer', 'desk']
+key_words: ['narrator', 'see', 'group', 'student']
+key_sent_words: ['narrator', 'resume', 'teaching', 'group', 'students', "n't", 'react']
+key_words: ['narrator', 'see', 'group', 'student']
+key_sent_words: ['narrator', 'later', 'fear', 'group', 'students', 'tell', 'parent', 'group', 'students', 'group', 'students', 'see', 'slip', 'fall', 'elastic', 'slip', 'dysfunctional']
+question after sub:
+What did the narrator check the group of students for ?
+answer_type:Sch
+SCORING blogs-05-20
+Comparing Gold   "presence"
+      and Resp   "The narrator checked the group of students for presence and stood at the front of a classroom."
+
+RECALL:    1.000
+PRECISION: 0.067
+F-measure: 0.125
+
+=========================================
+sch
+There once was a fox and a fowl.
+The fox was nightly prowling a yard.
+He was stealing the fowl.
+An agriculturist began to be annoyed by the fox.
+The agriculturist set a trap and caught the fox.
+The agriculturist tied some fiber onto the tail of the fox and in order to retaliate.
+The agriculturist kindled the fiber and freed the fox.
+The agriculturist began to be unlucky because the fox ran into a field.
+Some corn began to be ripe in the field and began to be ready to a harvest.
+The corn ignited and burned completely.
+The agriculturist lost a crop.
+=========================================
+{Question_Text}: Who was stealing the chicken?
+key_words: ['steal', 'chicken']
+key_sent_words: ['fox', 'fowl']
+key_words: ['steal', 'chicken']
+key_sent_words: ['fox', 'nightly', 'prowl', 'yard']
+key_words: ['steal', 'chicken']
+key_sent_words: ['steal', 'fowl']
+key_words: ['steal', 'chicken']
+key_sent_words: ['agriculturist', 'begin', 'annoy', 'fox']
+key_words: ['steal', 'chicken']
+key_sent_words: ['agriculturist', 'set', 'trap', 'catch', 'fox']
+key_words: ['steal', 'chicken']
+key_sent_words: ['agriculturist', 'tie', 'fiber', 'onto', 'tail', 'fox', 'order', 'retaliate']
+key_words: ['steal', 'chicken']
+key_sent_words: ['agriculturist', 'kindle', 'fiber', 'free', 'fox']
+key_words: ['steal', 'chicken']
+key_sent_words: ['agriculturist', 'begin', 'unlucky', 'fox', 'run', 'field']
+key_words: ['steal', 'chicken']
+key_sent_words: ['corn', 'begin', 'ripe', 'field', 'begin', 'ready', 'harvest']
+key_words: ['steal', 'chicken']
+key_sent_words: ['corn', 'ignite', 'burn', 'completely']
+key_words: ['steal', 'chicken']
+key_sent_words: ['agriculturist', 'lose', 'crop']
+question after sub:
+Who was stealing the chicken ?
+answer_type:Sch
+SCORING fables-05-14
+Comparing Gold   "the fox"
+      and Resp   "He was stealing the fowl."
+
+RECALL:    0.500
+PRECISION: 0.167
+F-measure: 0.250
+
+=========================================
+{Question_Text}: What did the agriculturist ignite?
+key_words: ['agriculturist', 'ignite']
+key_sent_words: ['fox', 'fowl']
+key_words: ['agriculturist', 'ignite']
+key_sent_words: ['fox', 'nightly', 'prowl', 'yard']
+key_words: ['agriculturist', 'ignite']
+key_sent_words: ['steal', 'fowl']
+key_words: ['agriculturist', 'ignite']
+key_sent_words: ['agriculturist', 'begin', 'annoy', 'fox']
+key_words: ['agriculturist', 'ignite']
+key_sent_words: ['agriculturist', 'set', 'trap', 'catch', 'fox']
+key_words: ['agriculturist', 'ignite']
+key_sent_words: ['agriculturist', 'tie', 'fiber', 'onto', 'tail', 'fox', 'order', 'retaliate']
+key_words: ['agriculturist', 'kindle']
+key_sent_words: ['agriculturist', 'kindle', 'fiber', 'free', 'fox']
+key_words: ['agriculturist', 'ignite']
+key_sent_words: ['agriculturist', 'begin', 'unlucky', 'fox', 'run', 'field']
+key_words: ['agriculturist', 'ignite']
+key_sent_words: ['corn', 'begin', 'ripe', 'field', 'begin', 'ready', 'harvest']
+key_words: ['agriculturist', 'ignite']
+key_sent_words: ['corn', 'ignite', 'burn', 'completely']
+key_words: ['agriculturist', 'ignite']
+key_sent_words: ['agriculturist', 'lose', 'crop']
+question after sub:
+What did the agriculturist kindle ?
+answer_type:Sch
+SCORING fables-05-15
+Comparing Gold   "the fiber"
+      and Resp   "The agriculturist kindled the fiber and freed the fox."
+
+RECALL:    1.000
+PRECISION: 0.250
+F-measure: 0.400
+
+=========================================
+{Question_Text}: Who did the agriculturist unloosen?
+key_words: ['agriculturist', 'unloosen']
+key_sent_words: ['fox', 'fowl']
+key_words: ['agriculturist', 'unloosen']
+key_sent_words: ['fox', 'nightly', 'prowl', 'yard']
+key_words: ['agriculturist', 'unloosen']
+key_sent_words: ['steal', 'fowl']
+key_words: ['agriculturist', 'unloosen']
+key_sent_words: ['agriculturist', 'begin', 'annoy', 'fox']
+key_words: ['agriculturist', 'unloosen']
+key_sent_words: ['agriculturist', 'set', 'trap', 'catch', 'fox']
+key_words: ['agriculturist', 'unloosen']
+key_sent_words: ['agriculturist', 'tie', 'fiber', 'onto', 'tail', 'fox', 'order', 'retaliate']
+key_words: ['agriculturist', 'unloosen']
+key_sent_words: ['agriculturist', 'kindle', 'fiber', 'free', 'fox']
+key_words: ['agriculturist', 'unloosen']
+key_sent_words: ['agriculturist', 'begin', 'unlucky', 'fox', 'run', 'field']
+key_words: ['agriculturist', 'unloosen']
+key_sent_words: ['corn', 'begin', 'ripe', 'field', 'begin', 'ready', 'harvest']
+key_words: ['agriculturist', 'unloosen']
+key_sent_words: ['corn', 'ignite', 'burn', 'completely']
+key_words: ['agriculturist', 'unloosen']
+key_sent_words: ['agriculturist', 'lose', 'crop']
+question after sub:
+Who did the agriculturist unloosen ?
+answer_type:Sch
+SCORING fables-05-16
+Comparing Gold   "the fox"
+      and Resp   "An agriculturist began to be annoyed by the fox."
+
+RECALL:    1.000
+PRECISION: 0.200
+F-measure: 0.333
+
+=========================================
+sch
+A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man.
+The narrator stayed with the young man and didn't aid him because the young man had broken the neck of the young man.
+The young man died on the spot of the yard of the narrator.
+The narrator later went back to the spot of the yard of the narrator and decided to talk to the young man because it wanted the young man to know the narrator regretting that it had not aided him.
+The narrator saw some bright flash in a group of trees that was above the narrator.
+The narrator thought for the brother of the narrator to use the flashlight of the brother of the narrator.
+The narrator entered the house of the narrator and heard that the asleep family of the narrator was asleep.
+The narrator began to wonder that the flash was an orb
+=========================================
+{Question_Text}: What did the narrator go into?
+key_words: ['narrator', 'go']
+key_sent_words: ['young', 'man', 'long', 'ago', 'crash', 'motorbike', 'young', 'man', 'front', 'yard', 'narrator', 'break', 'neck', 'young', 'man']
+key_words: ['narrator', 'go']
+key_sent_words: ['narrator', 'stay', 'young', 'man', "n't", 'aid', 'young', 'man', 'break', 'neck', 'young', 'man']
+key_words: ['narrator', 'die']
+key_sent_words: ['young', 'man', 'die', 'spot', 'yard', 'narrator']
+key_words: ['narrator', 'go']
+key_sent_words: ['narrator', 'later', 'go', 'back', 'spot', 'yard', 'narrator', 'decide', 'talk', 'young', 'man', 'want', 'young', 'man', 'know', 'narrator', 'regret', 'aid']
+key_words: ['narrator', 'go']
+key_sent_words: ['narrator', 'see', 'saw', 'bright', 'flash', 'group', 'trees', 'narrator']
+key_words: ['narrator', 'go']
+key_sent_words: ['narrator', 'think', 'brother', 'narrator', 'use', 'flashlight', 'brother', 'narrator']
+key_words: ['narrator', 'go']
+key_sent_words: ['narrator', 'enter', 'house', 'narrator', 'heard', 'asleep', 'family', 'narrator', 'asleep']
+key_words: ['narrator', 'go']
+key_sent_words: ['narrator', 'begin', 'wonder', 'flash', 'orb']
+question after sub:
+What did the narrator die into ?
+answer_type:Sch
+SCORING blogs-02-17
+Comparing Gold   "the house of the narrator"
+      and Resp   "The young man died on the spot of the yard of the narrator."
+
+RECALL:    0.750
+PRECISION: 0.300
+F-measure: 0.429
+
+=========================================
+{Question_Text}: Who was catching some Zs?
+key_words: ['catch']
+key_sent_words: ['young', 'man', 'long', 'ago', 'crash', 'motorbike', 'young', 'man', 'front', 'yard', 'narrator', 'break', 'neck', 'young', 'man']
+key_words: ['catch']
+key_sent_words: ['narrator', 'stay', 'young', 'man', "n't", 'aid', 'young', 'man', 'break', 'neck', 'young', 'man']
+key_words: ['catch']
+key_sent_words: ['young', 'man', 'die', 'spot', 'yard', 'narrator']
+key_words: ['catch']
+key_sent_words: ['narrator', 'later', 'go', 'back', 'spot', 'yard', 'narrator', 'decide', 'talk', 'young', 'man', 'want', 'young', 'man', 'know', 'narrator', 'regret', 'aid']
+key_words: ['catch']
+key_sent_words: ['narrator', 'see', 'saw', 'bright', 'flash', 'group', 'trees', 'narrator']
+key_words: ['catch']
+key_sent_words: ['narrator', 'think', 'brother', 'narrator', 'use', 'flashlight', 'brother', 'narrator']
+key_words: ['catch']
+key_sent_words: ['narrator', 'enter', 'house', 'narrator', 'heard', 'asleep', 'family', 'narrator', 'asleep']
+key_words: ['catch']
+key_sent_words: ['narrator', 'begin', 'wonder', 'flash', 'orb']
+answer_type:Sch
+SCORING blogs-02-18
+Comparing Gold   "the family of the narrator"
+      and Resp   "A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man."
+
+RECALL:    0.750
+PRECISION: 0.176
+F-measure: 0.286
+
+=========================================
+{Question_Text}: Who walked in the house of the narrator?
+key_words: ['walk', 'house', 'narrator']
+key_sent_words: ['young', 'man', 'long', 'ago', 'crash', 'motorbike', 'young', 'man', 'front', 'yard', 'narrator', 'break', 'neck', 'young', 'man']
+key_words: ['walk', 'house', 'narrator']
+key_sent_words: ['narrator', 'stay', 'young', 'man', "n't", 'aid', 'young', 'man', 'break', 'neck', 'young', 'man']
+key_words: ['walk', 'house', 'narrator']
+key_sent_words: ['young', 'man', 'die', 'spot', 'yard', 'narrator']
+key_words: ['walk', 'house', 'narrator']
+key_sent_words: ['narrator', 'later', 'go', 'back', 'spot', 'yard', 'narrator', 'decide', 'talk', 'young', 'man', 'want', 'young', 'man', 'know', 'narrator', 'regret', 'aid']
+key_words: ['walk', 'house', 'narrator']
+key_sent_words: ['narrator', 'see', 'saw', 'bright', 'flash', 'group', 'trees', 'narrator']
+key_words: ['walk', 'house', 'narrator']
+key_sent_words: ['narrator', 'think', 'brother', 'narrator', 'use', 'flashlight', 'brother', 'narrator']
+key_words: ['walk', 'house', 'narrator']
+key_sent_words: ['narrator', 'enter', 'house', 'narrator', 'heard', 'asleep', 'family', 'narrator', 'asleep']
+key_words: ['walk', 'house', 'narrator']
+key_sent_words: ['narrator', 'begin', 'wonder', 'flash', 'orb']
+question after sub:
+Who walked in the house of the narrator ?
+answer_type:Sch
+SCORING blogs-02-19
+Comparing Gold   "the narrator"
+      and Resp   "The narrator entered the house of the narrator and heard that the asleep family of the narrator was asleep."
+
+RECALL:    1.000
+PRECISION: 0.167
+F-measure: 0.286
+
+=========================================
+{Question_Text}: What did the narrator perceive?
+key_words: ['narrator', 'perceive']
+key_sent_words: ['young', 'man', 'long', 'ago', 'crash', 'motorbike', 'young', 'man', 'front', 'yard', 'narrator', 'break', 'neck', 'young', 'man']
+key_words: ['narrator', 'perceive']
+key_sent_words: ['narrator', 'stay', 'young', 'man', "n't", 'aid', 'young', 'man', 'break', 'neck', 'young', 'man']
+key_words: ['narrator', 'perceive']
+key_sent_words: ['young', 'man', 'die', 'spot', 'yard', 'narrator']
+key_words: ['narrator', 'perceive']
+key_sent_words: ['narrator', 'later', 'go', 'back', 'spot', 'yard', 'narrator', 'decide', 'talk', 'young', 'man', 'want', 'young', 'man', 'know', 'narrator', 'regret', 'aid']
+key_words: ['narrator', 'perceive']
+key_sent_words: ['narrator', 'see', 'saw', 'bright', 'flash', 'group', 'trees', 'narrator']
+key_words: ['narrator', 'perceive']
+key_sent_words: ['narrator', 'think', 'brother', 'narrator', 'use', 'flashlight', 'brother', 'narrator']
+key_words: ['narrator', 'perceive']
+key_sent_words: ['narrator', 'enter', 'house', 'narrator', 'heard', 'asleep', 'family', 'narrator', 'asleep']
+key_words: ['narrator', 'perceive']
+key_sent_words: ['narrator', 'begin', 'wonder', 'flash', 'orb']
+question after sub:
+What did the narrator perceive ?
+answer_type:Sch
+SCORING blogs-02-20
+Comparing Gold   "some bright flash"
+      and Resp   "A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man."
+
+RECALL:    0.000
+PRECISION: 0.000
+F-measure: 0.000
+
+=========================================
+sch
+An eagle swooped toward a serpent and seized it in order for he to devour it.
+The eagle fought with the serpent, and the serpent coiled around him.
+A countryman who owned a drinking vessel tried to help the eagle to escape.
+The eagle escaped, and the countryman freed the eagle from the serpent.
+The serpent spat some poison in the drinking vessel.
+The countryman decided to sip from the drinking vessel.
+The eagle spilled the drinking vessel.
+=========================================
+{Question_Text}: Who swooped towards a snake?
+key_words: ['swoop', 'snake']
+key_sent_words: ['eagle', 'swoop', 'toward', 'serpent', 'seize', 'order', 'devour']
+key_words: ['swoop', 'snake']
+key_sent_words: ['eagle', 'fought', 'serpent', 'serpent', 'coil', 'around']
+key_words: ['swoop', 'snake']
+key_sent_words: ['countryman', 'own', 'drinking', 'vessel', 'try', 'help', 'eagle', 'escape']
+key_words: ['swoop', 'snake']
+key_sent_words: ['eagle', 'escape', 'countryman', 'free', 'eagle', 'from', 'serpent']
+key_words: ['swoop', 'snake']
+key_sent_words: ['serpent', 'spit', 'poison', 'drinking', 'vessel']
+key_words: ['swoop', 'snake']
+key_sent_words: ['countryman', 'decide', 'sip', 'from', 'drinking', 'vessel']
+key_words: ['swoop', 'snake']
+key_sent_words: ['eagle', 'spill', 'drinking', 'vessel']
+question after sub:
+Who swooped towards a snake ?
+answer_type:Sch
+SCORING fables-03-22
+Comparing Gold   "an eagle"
+      and Resp   "An eagle swooped toward a serpent and seized it in order for he to devour it."
+
+RECALL:    1.000
+PRECISION: 0.125
+F-measure: 0.222
+
+=========================================
+{Question_Text}: Who spiraled around the eagle?
+key_words: ['spiral', 'eagle']
+key_sent_words: ['eagle', 'swoop', 'toward', 'serpent', 'seize', 'order', 'devour']
+key_words: ['coil', 'eagle']
+key_sent_words: ['eagle', 'fought', 'serpent', 'serpent', 'coil', 'around']
+key_words: ['spiral', 'eagle']
+key_sent_words: ['countryman', 'own', 'drinking', 'vessel', 'try', 'help', 'eagle', 'escape']
+key_words: ['spiral', 'eagle']
+key_sent_words: ['eagle', 'escape', 'countryman', 'free', 'eagle', 'from', 'serpent']
+key_words: ['spiral', 'eagle']
+key_sent_words: ['serpent', 'spit', 'poison', 'drinking', 'vessel']
+key_words: ['spiral', 'eagle']
+key_sent_words: ['countryman', 'decide', 'sip', 'from', 'drinking', 'vessel']
+key_words: ['spiral', 'eagle']
+key_sent_words: ['eagle', 'spill', 'drinking', 'vessel']
+question after sub:
+Who spiraled around the eagle ?
+answer_type:Sch
+SCORING fables-03-23
+Comparing Gold   "an eagle"
+      and Resp   "The eagle fought with the serpent, and the serpent coiled around him."
+
+RECALL:    0.500
+PRECISION: 0.091
+F-measure: 0.154
+
+=========================================
+{Question_Text}: What did the bird of prey descend toward?
+key_words: ['bird', 'prey', 'descend']
+key_sent_words: ['eagle', 'swoop', 'toward', 'serpent', 'seize', 'order', 'devour']
+key_words: ['bird', 'prey', 'descend']
+key_sent_words: ['eagle', 'fought', 'serpent', 'serpent', 'coil', 'around']
+key_words: ['bird', 'prey', 'descend']
+key_sent_words: ['countryman', 'own', 'drinking', 'vessel', 'try', 'help', 'eagle', 'escape']
+key_words: ['bird', 'prey', 'descend']
+key_sent_words: ['eagle', 'escape', 'countryman', 'free', 'eagle', 'from', 'serpent']
+key_words: ['bird', 'prey', 'descend']
+key_sent_words: ['serpent', 'spit', 'poison', 'drinking', 'vessel']
+key_words: ['bird', 'prey', 'descend']
+key_sent_words: ['countryman', 'decide', 'sip', 'from', 'drinking', 'vessel']
+key_words: ['bird', 'prey', 'descend']
+key_sent_words: ['eagle', 'spill', 'drinking', 'vessel']
+answer_type:Sch
+SCORING fables-03-24
+Comparing Gold   "a serpent"
+      and Resp   "An eagle swooped toward a serpent and seized it in order for he to devour it."
+
+RECALL:    1.000
+PRECISION: 0.125
+F-measure: 0.222
+
+=========================================
+{Question_Text}: Who skirmished with the serpent?
+key_words: ['skirmish', 'serpent']
+key_sent_words: ['eagle', 'swoop', 'toward', 'serpent', 'seize', 'order', 'devour']
+key_words: ['skirmish', 'serpent']
+key_sent_words: ['eagle', 'fought', 'serpent', 'serpent', 'coil', 'around']
+key_words: ['skirmish', 'serpent']
+key_sent_words: ['countryman', 'own', 'drinking', 'vessel', 'try', 'help', 'eagle', 'escape']
+key_words: ['skirmish', 'serpent']
+key_sent_words: ['eagle', 'escape', 'countryman', 'free', 'eagle', 'from', 'serpent']
+key_words: ['skirmish', 'serpent']
+key_sent_words: ['serpent', 'spit', 'poison', 'drinking', 'vessel']
+key_words: ['skirmish', 'serpent']
+key_sent_words: ['countryman', 'decide', 'sip', 'from', 'drinking', 'vessel']
+key_words: ['skirmish', 'serpent']
+key_sent_words: ['eagle', 'spill', 'drinking', 'vessel']
+answer_type:Sch
+SCORING fables-03-25
+Comparing Gold   "the eagle"
+      and Resp   "An eagle swooped toward a serpent and seized it in order for he to devour it."
+
+RECALL:    0.500
+PRECISION: 0.062
+F-measure: 0.111
+
+=========================================
+{Question_Text}: Who tried to support the eagle?
+key_words: ['try', 'support', 'eagle']
+key_sent_words: ['eagle', 'swoop', 'toward', 'serpent', 'seize', 'order', 'devour']
+key_words: ['try', 'support', 'eagle']
+key_sent_words: ['eagle', 'fought', 'serpent', 'serpent', 'coil', 'around']
+key_words: ['try', 'help', 'eagle']
+key_sent_words: ['countryman', 'own', 'drinking', 'vessel', 'try', 'help', 'eagle', 'escape']
+key_words: ['try', 'support', 'eagle']
+key_sent_words: ['eagle', 'escape', 'countryman', 'free', 'eagle', 'from', 'serpent']
+key_words: ['try', 'support', 'eagle']
+key_sent_words: ['serpent', 'spit', 'poison', 'drinking', 'vessel']
+key_words: ['decide', 'support', 'eagle']
+key_sent_words: ['countryman', 'decide', 'sip', 'from', 'drinking', 'vessel']
+key_words: ['try', 'support', 'eagle']
+key_sent_words: ['eagle', 'spill', 'drinking', 'vessel']
+question after sub:
+Who tried to help the eagle ?
+answer_type:Sch
+SCORING fables-03-26
+Comparing Gold   "the countryman"
+      and Resp   "A countryman who owned a drinking vessel tried to help the eagle to escape."
+
+RECALL:    1.000
+PRECISION: 0.154
+F-measure: 0.267
+
+=========================================
+text
+Maxine was a happy frog that lived in a beautiful pond by the river.
+She loved to play in the water and take a bath every day.
+But her friends, Martin, Edgar, and Cindy didn't like to take baths.
+So one day when she was swimming alone, she met a new friend named Thomas.
+Thomas loved to take lots of baths, so he became friends with Maxine.
+But Martin, Edgar, and Cindy didn't like Thomas.
+So one day when Maxine and Thomas were swimming, Cindy did something mean.
+She threw rocks at Maxine and Thomas.
+Maxine's dad saw what happened and he was very mad.
+He went over and yelled at Cindy for what she did.
+After that Cindy didn't throw any rocks, and Maxine and Thomas could swim together and take lots of baths.
+They were very happy since they could play in the water as much as they wanted without other frogs being mean to them.
+=========================================
+{Question_Text}: What did Cindy throw?
+key_words: ['do', 'cindy', 'throw']
+key_sent_words: ['maxine', 'happy', 'frog', 'live', 'beautiful', 'pond', 'river']
+key_words: ['do', 'cindy', 'throw']
+key_sent_words: ['love', 'play', 'water', 'take', 'bath', 'every', 'day']
+key_words: ['do', 'cindy', 'throw']
+key_sent_words: ['friends', 'martin', 'edgar', 'cindy', "n't", 'like', 'take', 'baths']
+key_words: ['do', 'cindy', 'throw']
+key_sent_words: ['one', 'day', 'swim', 'alone', 'meet', 'new', 'friend', 'name', 'thomas']
+key_words: ['do', 'cindy', 'throw']
+key_sent_words: ['thomas', 'love', 'take', 'lots', 'baths', 'become', 'friends', 'maxine']
+key_words: ['do', 'cindy', 'throw']
+key_sent_words: ['martin', 'edgar', 'cindy', "n't", 'like', 'thomas']
+key_words: ['do', 'cindy', 'throw']
+key_sent_words: ['one', 'day', 'maxine', 'thomas', 'swim', 'cindy', 'something', 'mean']
+key_words: ['do', 'cindy', 'throw']
+key_sent_words: ['throw', 'rocks', 'maxine', 'thomas']
+key_words: ['do', 'cindy', 'throw']
+key_sent_words: ['maxine', 'dad', 'see', 'saw', 'happen', 'mad']
+key_words: ['do', 'cindy', 'throw']
+key_sent_words: ['go', 'yell', 'cindy']
+key_words: ['do', 'cindy', 'throw']
+key_sent_words: ['cindy', "n't", 'throw', 'rocks', 'maxine', 'thomas', 'could', 'swim', 'together', 'take', 'lots', 'baths']
+key_words: ['do', 'cindy', 'throw']
+key_sent_words: ['happy', 'since', 'could', 'play', 'water', 'much', 'want', 'without', 'frogs', 'mean']
+answer_type:Story
+SCORING mc500.train.25.2
+Comparing Gold   "rocks"
+      and Resp   "After that Cindy didn't throw any rocks, and Maxine and Thomas could swim together and take lots of baths."
+
+RECALL:    1.000
+PRECISION: 0.050
+F-measure: 0.095
+
+=========================================
+{Question_Text}: Who did Maxine meet?
+key_words: ['do', 'maxine', 'meet']
+key_sent_words: ['maxine', 'happy', 'frog', 'live', 'beautiful', 'pond', 'river']
+key_words: ['do', 'maxine', 'meet']
+key_sent_words: ['love', 'play', 'water', 'take', 'bath', 'every', 'day']
+key_words: ['do', 'maxine', 'meet']
+key_sent_words: ['friends', 'martin', 'edgar', 'cindy', "n't", 'like', 'take', 'baths']
+key_words: ['do', 'maxine', 'meet']
+key_sent_words: ['one', 'day', 'swim', 'alone', 'meet', 'new', 'friend', 'name', 'thomas']
+key_words: ['do', 'maxine', 'meet']
+key_sent_words: ['thomas', 'love', 'take', 'lots', 'baths', 'become', 'friends', 'maxine']
+key_words: ['do', 'maxine', 'meet']
+key_sent_words: ['martin', 'edgar', 'cindy', "n't", 'like', 'thomas']
+key_words: ['do', 'maxine', 'meet']
+key_sent_words: ['one', 'day', 'maxine', 'thomas', 'swim', 'cindy', 'something', 'mean']
+key_words: ['do', 'maxine', 'meet']
+key_sent_words: ['throw', 'rocks', 'maxine', 'thomas']
+key_words: ['do', 'maxine', 'meet']
+key_sent_words: ['maxine', 'dad', 'see', 'saw', 'happen', 'mad']
+key_words: ['do', 'maxine', 'meet']
+key_sent_words: ['go', 'yell', 'cindy']
+key_words: ['do', 'maxine', 'meet']
+key_sent_words: ['cindy', "n't", 'throw', 'rocks', 'maxine', 'thomas', 'could', 'swim', 'together', 'take', 'lots', 'baths']
+key_words: ['do', 'maxine', 'meet']
+key_sent_words: ['happy', 'since', 'could', 'play', 'water', 'much', 'want', 'without', 'frogs', 'mean']
+answer_type:Story
+SCORING mc500.train.25.3
+Comparing Gold   "a new friend"
+      and Resp   "Maxine was a happy frog that lived in a beautiful pond by the river."
+
+RECALL:    0.333
+PRECISION: 0.071
+F-measure: 0.118
+
+=========================================
+text
+Alyssa got to the beach after a long trip.
+She's from Charlotte.
+She traveled from Atlanta.
+She's now in Miami.
+She went to Miami to visit some friends.
+But she wanted some time to herself at the beach, so she went there first.
+After going swimming and laying out, she went to her friend Ellen's house.
+Ellen greeted Alyssa and they both had some lemonade to drink.
+Alyssa called her friends Kristin and Rachel to meet at Ellen's house.
+The girls traded stories and caught up on their lives.
+It was a happy time for everyone.
+The girls went to a restaurant for dinner.
+The restaurant had a special on catfish.
+Alyssa enjoyed the restaurant's special.
+Ellen ordered a salad.
+Kristin had soup.
+Rachel had a steak.
+After eating, the ladies went back to Ellen's house to have fun.
+They had lots of fun.
+They stayed the night because they were tired.
+Alyssa was happy to spend time with her friends again.
+=========================================
+{Question_Text}: What city is Alyssa in?
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['alyssa', 'get', 'beach', 'long', 'trip']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['from', 'charlotte']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['travel', 'from', 'atlanta']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['miami']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['go', 'miami', 'visit', 'friends']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['want', 'time', 'beach', 'go', 'first']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['go', 'swimming', 'lay', 'go', 'friend', 'ellen', 'house']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['ellen', 'greet', 'alyssa', 'lemonade', 'drink']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['alyssa', 'call', 'friends', 'kristin', 'rachel', 'meet', 'ellen', 'house']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['girls', 'trade', 'stories', 'catch', 'lives']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['happy', 'time', 'everyone']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['girls', 'go', 'restaurant', 'dinner']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['restaurant', 'special', 'catfish']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['alyssa', 'enjoy', 'restaurant', 'special']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['ellen', 'order', 'salad']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['kristin', 'soup']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['rachel', 'steak']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['eat', 'ladies', 'go', 'back', 'ellen', 'house', 'fun']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['lots', 'fun']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['stay', 'night', 'tire']
+key_words: ['city', 'be', 'alyssa', 'in']
+key_sent_words: ['alyssa', 'happy', 'spend', 'time', 'friends']
+answer_type:Story
+SCORING mc500.train.0.19
+Comparing Gold   "miami"
+      and Resp   "Alyssa got to the beach after a long trip."
+
+RECALL:    0.000
+PRECISION: 0.000
+F-measure: 0.000
+
+=========================================
+text
+It was Saturday afternoon and Andrew was bored.
+He had been watching TV all day.
+He told his dad, "There's nothing to do!"
+Andrew's dad said, "I think the newspaper is here.
+Maybe we can find an idea in the newspaper."
+Andrew looked outside the window and saw the newspaper by the door.
+On the front was a picture of an elephant.
+He picked up the newspaper and brought it to his dad.
+Andrew and his dad read the story.
+The circus was in town!
+Andrew had never been to the circus.
+He asked his dad, "Can we go?"
+"Yes, we can,' Andrew's dad said, 'but first you need to feed your goldfish."
+Andrew fed his goldfish some goldfish food.
+He promised to bring it some peanuts from the circus for later.
+Andrew and his dad went to the circus.
+The people and animals at the circus did lots of tricks.
+The elephant even went down a slide!
+Andrew and his dad ate lots of peanuts.
+There weren't any peanuts left to bring home to the goldfish.
+Andrew and his dad had a lot of fun at the circus.
+=========================================
+{Question_Text}: What was on the front page of the newspaper?
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['saturday', 'afternoon', 'andrew', 'bore']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['watch', 'tv', 'day']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['tell', 'dad', 'nothing']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['andrew', 'dad', 'say', 'think', 'newspaper']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['maybe', 'find', 'idea', 'newspaper']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['andrew', 'look', 'outside', 'window', 'see', 'saw', 'newspaper', 'door']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['front', 'picture', 'elephant']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['pick', 'newspaper', 'bring', 'dad']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['andrew', 'dad', 'read', 'story']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['circus', 'town']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['andrew', 'never', 'circus']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['ask', 'dad', 'go']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['yes', 'andrew', 'dad', 'say', 'first', 'ne', 'fee', 'goldfish']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['andrew', 'feed', 'goldfish', 'goldfish', 'food']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['promise', 'br', 'peanuts', 'from', 'circus', 'later']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['andrew', 'dad', 'go', 'circus']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['people', 'animals', 'circus', 'lots', 'tricks']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['elephant', 'even', 'go', 'slide']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['andrew', 'dad', 'eat', 'eat', 'lots', 'peanuts']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ["n't", 'peanuts', 'leave', 'br', 'home', 'goldfish']
+key_words: ['be', 'on', 'the', 'front', 'page', 'of', 'the', 'newspaper']
+key_sent_words: ['andrew', 'dad', 'lot', 'fun', 'circus']
+answer_type:Story
+SCORING mc500.train.23.23
+Comparing Gold   "a picture of an elephant"
+      and Resp   "Andrew's dad said, "I think the newspaper is here."
+
+RECALL:    0.000
+PRECISION: 0.000
+F-measure: 0.000
+
+=========================================
+text
+Kelly woke up one morning and went outside to her back yard.
+She was in a hurry because it was Mother's Day and she had to collect flowers before her mom woke up to give to her as a present.
+She was going to give her mom the biggest, most beautiful bunch of flowers her mother had ever seen.
+She knew where the best flowers were in her yard.
+She got a lot of different sized flowers.
+The red ones were big, the orange ones were small, and the green ones were in the middle.
+After Kelly collected all of the flowers, she went inside and tied them together with string.
+After that, she had to hide the flowers in a secret spot.
+She hoped her baby sister Morgan, who was still in diapers, wouldn't find the flowers and eat them.
+Kelly was worried, so she hid them in a new spot that was up higher.
+Finally, her mother woke up at 8:30 AM, and Kelly was excited!
+Kelly gave her mother the flowers.
+Her mother's favorite was the red one.
+=========================================
+{Question_Text}: What did she tie together with a string?
+key_words: ['do', 'she', 'tie', 'together', 'with', 'a', 'string']
+key_sent_words: ['kelly', 'wake', 'one', 'morning', 'go', 'outside', 'back', 'yard']
+key_words: ['do', 'she', 'tie', 'together', 'with', 'a', 'string']
+key_sent_words: ['hurry', 'mother', 'day', 'collect', 'flowers', 'mom', 'wake', 'give', 'present']
+key_words: ['do', 'she', 'tie', 'together', 'with', 'a', 'string']
+key_sent_words: ['go', 'give', 'mom', 'biggest', 'beautiful', 'bunch', 'flowers', 'mother', 'ever', 'see']
+key_words: ['do', 'she', 'tie', 'together', 'with', 'a', 'string']
+key_sent_words: ['know', 'best', 'flowers', 'yard']
+key_words: ['do', 'she', 'tie', 'together', 'with', 'a', 'string']
+key_sent_words: ['get', 'lot', 'different', 'size', 'flowers']
+key_words: ['do', 'she', 'tie', 'together', 'with', 'a', 'string']
+key_sent_words: ['red', 'ones', 'big', 'orange', 'ones', 'small', 'green', 'ones', 'middle']
+key_words: ['do', 'she', 'tie', 'together', 'with', 'a', 'string']
+key_sent_words: ['kelly', 'collect', 'flowers', 'go', 'inside', 'tie', 'together', 'string']
+key_words: ['do', 'she', 'tie', 'together', 'with', 'a', 'string']
+key_sent_words: ['hide', 'flowers', 'secret', 'spot']
+key_words: ['do', 'she', 'tie', 'together', 'with', 'a', 'string']
+key_sent_words: ['hop', 'baby', 'sister', 'morgan', 'still', 'diapers', 'would', "n't", 'find', 'flowers', 'eat']
+key_words: ['do', 'she', 'tie', 'together', 'with', 'a', 'string']
+key_sent_words: ['kelly', 'worry', 'hide', 'new', 'spot', 'higher']
+key_words: ['do', 'she', 'tie', 'together', 'with', 'a', 'string']
+key_sent_words: ['finally', 'mother', 'wake', 'kelly', 'excite']
+key_words: ['do', 'she', 'tie', 'together', 'with', 'a', 'string']
+key_sent_words: ['kelly', 'give', 'mother', 'flowers']
+key_words: ['do', 'she', 'tie', 'together', 'with', 'a', 'string']
+key_sent_words: ['mother', 'favorite', 'red', 'one']
+answer_type:Story
+SCORING mc500.train.18.22
+Comparing Gold   "the flowers"
+      and Resp   "After Kelly collected all of the flowers, she went inside and tied them together with string."
+
+RECALL:    1.000
+PRECISION: 0.111
+F-measure: 0.200
+
+
+
+Finished processing 326 questions
+*************************************************************************
+
+FINAL RESULTS
+
+
+AVERAGE RECAL =     0.8485
+AVERAGE PRECISION = 0.1707
+AVERAGE F-MEASURE = 0.2741
+
+*************************************************************************
+
+
+Process finished with exit code 0
