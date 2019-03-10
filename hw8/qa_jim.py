@@ -5,12 +5,13 @@ from nltk.stem import PorterStemmer
 from nltk.tree import Tree
 from nltk.corpus import wordnet as wn
 import nltk
-# import chunk
+import chunk
 import re, os
 # import dependency
 from nltk.corpus import wordnet as wn
 from collections import Counter
 from wordnet_loader import load_reshape_wordnet_dict
+from wordnet_loader import load_reshape_wordnet_dict_2
 
 BE_VERBS = set(['be', 'am', 'is', 'are', 'was', 'were', 'being', 'been'])
 
@@ -20,9 +21,9 @@ q_start_list = []
 # To record entity counts for each story, key:sid, value:list of tuples with the most populor n entities
 story_entities = {}
 # If want to see certain types of question in the file, set to True and change target_qstart
-verbose = True
-target_qstart = "who"
-test = set()
+verbose = False
+target_qstart = "where"
+
 
 
 # chunker = chunk.build_chunker()
@@ -78,6 +79,29 @@ def normalize_and_lemmatize(str_of_sentence):
 	return lemmatize_vb(normalized_words)
 
 
+def lemmatize_vb_block(word, lemmatized_words):
+	if word == 'felt':
+		lemmatized_words.append('feel')
+	if word == 'saw':
+		lemmatized_words.append('see')
+	if word == 'ate':
+		lemmatized_words.append('eat')
+	if word == 'occurring':
+		lemmatized_words.append('occur')
+	else:
+		lemmatized_verb = lemmatizer.lemmatize(word, 'v')
+		# if doesn't change form we can cut ing and ed
+		if lemmatized_verb == word:
+			if word[-3:] == 'ing':
+				lemmatized_words.append(word[:-3])
+			elif word[-2:] == 'ed':
+				lemmatized_words.append(word[:-2])
+			else:
+				lemmatized_words.append(lemmatized_verb)
+		else:
+			lemmatized_words.append(lemmatized_verb)
+
+
 def lemmatize_vb_with_tag(word_tag):
 	lemmatized_words = []
 	for word, tag in word_tag:
@@ -85,14 +109,7 @@ def lemmatize_vb_with_tag(word_tag):
 			lemmatized_words.append('spit')
 			continue
 		if 'VB' in tag:
-			if word == 'felt':
-				lemmatized_words.append('feel')
-			if word == 'saw':
-				lemmatized_words.append('see')
-			if word == 'ate':
-				lemmatized_words.append('eat')
-			else:
-				lemmatized_words.append(lemmatizer.lemmatize(word, 'v'))
+			lemmatize_vb_block(word, lemmatized_words)
 		else:
 			lemmatized_words.append(word)
 	return lemmatized_words
@@ -112,14 +129,7 @@ def lemmatize_vb(words):
 			if vb_count == 1:
 				single_vb = None
 
-			if word == 'felt':
-				lemmatized_words.append('feel')
-			if word == 'saw':
-				lemmatized_words.append('see')
-			if word == 'ate':
-				lemmatized_words.append('eat')
-			else:
-				lemmatized_words.append(lemmatizer.lemmatize(word, 'v'))
+			lemmatize_vb_block(word, lemmatized_words)
 		else:
 			lemmatized_words.append(word)
 
@@ -160,21 +170,28 @@ def get_synsets(word):
 def sub_word_qdep(question, word_index, word_synonym):
 	qgraph = question['dep']
 	qgraph.nodes[word_index + 1]['word'] = word_synonym
-	print(qgraph.nodes[word_index + 1])
+	#print(qgraph.nodes[word_index + 1])
 
 
 # special past tense can find original form, but doesn't work the other way around
 def find_synonym_n_replace(question, key_word_tag, vb_n_synset_dicts, question_words, lemma_word_dict):
+	print(key_word_tag)
 	for word, tag in key_word_tag:
 		if 'NN' in tag or 'VB' in tag:
 			word_synsets_set = set(get_synsets(word))
+			synset_word_dict = {}
 			if 'VB' in tag:
 				synset_word_dict = vb_n_synset_dicts[0]
 			if 'NN' in tag:
 				synset_word_dict = vb_n_synset_dicts[1]
+			print(word)
+			print(get_synsets(word))
+			print(synset_word_dict)
 			for synset_id in synset_word_dict:
 				if synset_id in word_synsets_set:
+					print(synset_id)
 					word_synonym = synset_word_dict[synset_id]
+					print(word_synonym)
 					word_index = question_words.index(lemma_word_dict[word])
 					sub_word_qdep(question, word_index, word_synonym)
 					question_words[word_index] = word_synonym
@@ -188,20 +205,60 @@ def lemmatize_v_n(word_tag):
 	for word, tag in word_tag:
 		if 'VB' in tag or 'NN' in tag:
 			if 'VB' in tag:
-				lemmatized_word = lemmatizer.lemmatize(word, 'v')
+				if word == 'felt':
+					lemmatized_word = 'feel'
+				elif word == 'saw':
+					lemmatized_word = 'see'
+				elif word == 'ate':
+					lemmatized_word = 'eat'
+				elif word == 'occurring':
+					lemmatized_word = 'occur'
+				else:
+					lemmatized_verb = lemmatizer.lemmatize(word, 'v')
+					# if doesn't change form we can cut ing and ed
+					if lemmatized_verb == word:
+						if word[-3:] == 'ing':
+							lemmatized_word = word[:-3]
+						elif word[-2:] == 'ed':
+							lemmatized_word = word[:-2]
+						else:
+							lemmatized_word = lemmatized_verb
+					else:
+						lemmatized_word = lemmatized_verb
 			if 'NN' in tag:
 				lemmatized_word = lemmatizer.lemmatize(word)
 			lemmatized_word_tag.append((lemmatized_word, tag))
 			lemma_word_dict[lemmatized_word] = word
 	return lemmatized_word_tag, lemma_word_dict
 
+def get_postag_from_qgraph(qgraph):
+	word_tag = []
+	size = len(qgraph.nodes)
+	for i in range(1, size):
+		word, tag = qgraph.nodes[i]['word'], qgraph.nodes[i]['tag']
+		word_tag.append((word, tag))
+	return word_tag
+
+
+def valid_words(graph_word_tag, question_word_tag):
+		for (word1, tag1), (word2, tag2) in zip(graph_word_tag, question_word_tag):
+			if word1 != word2:
+				return False
+		return True
+
 def replace_synonym(question, reshape_verb_dict, reshape_noun_dict):
+
 	verb_synset_word_dict = reshape_verb_dict[question['sid']]
 	noun_synset_word_dict = reshape_noun_dict[question['sid']]
 	stopwords = set(nltk.corpus.stopwords.words('english'))
 	question_words = tokenize_words(question['text'])
+	graph_word_tag = get_postag_from_qgraph(question['dep'])
 	question_word_tag = nltk.pos_tag(question_words)
+	if len(graph_word_tag) == len(question_word_tag) and valid_words(graph_word_tag, question_word_tag):
+		question_word_tag = graph_word_tag
+	print(question_word_tag)
 	lemmatized_word_tag, lemma_word_dict = lemmatize_v_n(question_word_tag)
+	print(lemmatized_word_tag)
 	key_word_tag = [(word, tag) for word, tag in lemmatized_word_tag
 					if re.search('^[a-z]+$', word) and word not in stopwords]
 	find_synonym_n_replace(question, key_word_tag, (verb_synset_word_dict, noun_synset_word_dict), question_words, lemma_word_dict)
@@ -209,18 +266,79 @@ def replace_synonym(question, reshape_verb_dict, reshape_noun_dict):
 	return new_question_text
 
 
+def replace_sent_synonym_in_q(lemmatized_word_tag, question):
+	replace_dict = {}
+
+	stopwords = set(nltk.corpus.stopwords.words('english'))
+	question_words = tokenize_words(question['text'])
+	graph_word_tag = get_postag_from_qgraph(question['dep'])
+	question_word_tag = nltk.pos_tag(question_words)
+	if len(graph_word_tag) == len(question_word_tag) and valid_words(
+			graph_word_tag, question_word_tag):
+		question_word_tag = graph_word_tag
+	# print(question_word_tag)
+	q_lemmatized_word_tag, q_lemma_word_dict = lemmatize_v_n(question_word_tag)
+	# print(lemmatized_word_tag)
+	key_word_tag = [(word, tag) for word, tag in q_lemmatized_word_tag
+					if re.search('^[a-z]+$', word) and word not in stopwords]
+
+	reshape_verb_dict = load_reshape_wordnet_dict_2('v')
+	reshape_noun_dict = load_reshape_wordnet_dict_2('n')
+
+	verb_synset_word_dict = reshape_verb_dict[question['sid']]
+	noun_synset_word_dict = reshape_noun_dict[question['sid']]
+
+	# we only have verbs and nouns in lemmatized_word_tag
+
+	for word, tag in lemmatized_word_tag:
+		if 'VB' in tag:
+			if word in verb_synset_word_dict:
+				word_synset = verb_synset_word_dict[word]
+				for q_word, q_tag in key_word_tag:
+					q_word_synsets = set(get_synsets(q_word))
+					if 'VB' in q_tag and word_synset in q_word_synsets:
+						replace_dict[q_word] = word
+			else:
+				word_synsets = set(get_synsets(word))
+				for q_word, q_tag in key_word_tag:
+					q_word_synsets = set(get_synsets(q_word))
+					if word in q_word_synsets or q_word in word_synsets:
+						replace_dict[q_word] = word
+		if 'NN' in tag:
+			if word in noun_synset_word_dict:
+				word_synset = noun_synset_word_dict[word]
+				for q_word, q_tag in key_word_tag:
+					q_word_synsets = set(get_synsets(q_word))
+					if 'NN' in q_tag and word_synset in q_word_synsets:
+						replace_dict[q_word] = word
+			else:
+				word_synsets = set(get_synsets(word))
+				for q_word, q_tag in key_word_tag:
+					q_word_synsets = set(get_synsets(q_word))
+					if word in q_word_synsets or q_word in word_synsets:
+						replace_dict[q_word] = word
+	key_q_words = []
+	for word, tag in key_word_tag:
+		if replace_dict.get(word):
+			new_word = replace_dict[word]
+			key_q_words.append(new_word)
+		else:
+			key_q_words.append(word)
+
+	return key_q_words, replace_dict
+
 # originally called compare_sentence, parameter question changed to question_text
 def match_sent_from_q(question, sentences, story_deps):
-	reshape_verb_dict = load_reshape_wordnet_dict('v')
-	reshape_noun_dict = load_reshape_wordnet_dict('n')
-
-	if question['difficulty'] == 'Hard' and question['sid'] in {**reshape_verb_dict, **reshape_noun_dict}:
-		new_question_text = replace_synonym(question, reshape_verb_dict,
-											reshape_noun_dict)
-		print('question before sub:')
-		print(question['text'])
-	else:
-		new_question_text = question['text']
+	# reshape_verb_dict = load_reshape_wordnet_dict('v')
+	# reshape_noun_dict = load_reshape_wordnet_dict('n')
+	#
+	# if question['difficulty'] == 'Hard' and question['sid'] in {**reshape_verb_dict, **reshape_noun_dict}:
+	# 	new_question_text = replace_synonym(question, reshape_verb_dict,
+	# 										reshape_noun_dict)
+	# 	print('question before sub:')
+	# 	print(question['text'])
+	# else:
+	new_question_text = question['text']
 
 	max_match = 0
 	matched_sentence = sentences[0]  # better return a sentence in the text
@@ -238,7 +356,10 @@ def match_sent_from_q(question, sentences, story_deps):
 
 	index = 0
 	match_index = 0
+	sub_record = [] # list of dictionaries of substitutions
 	for sentence in sentences:
+
+		# if question['text']
 		if have_to_flag:
 			return sentence, story_deps[match_index]
 		score = 0
@@ -260,12 +381,27 @@ def match_sent_from_q(question, sentences, story_deps):
 		# key_sent_words = set([word.lower() for word in lemmatize_vb(normalized_sent_words)[0]])
 
 		# let's try pos_tag first, store the pairs(word, tag), remove stopwods, then lemmatize.
+		sent_graph_word_tag = get_postag_from_qgraph(story_deps[index])
+
 		sent_word_tag = nltk.pos_tag(tokenize_words(sentence))
+		if len(sent_word_tag) == len(sent_graph_word_tag) and valid_words(sent_graph_word_tag, sent_word_tag):
+			sent_word_tag = sent_graph_word_tag
+
 		stopwords = set(nltk.corpus.stopwords.words('english'))
 		stopwords.remove('from')
 		normalized_sent_word_tag = [(word.lower(), tag) for word, tag in
-									sent_word_tag if word not in stopwords]
+									sent_word_tag if word.lower() not in stopwords
+									and re.search('^[a-z]+', word.lower())]
+		lemmatized_sent_word_tag, lemma_word_dict = lemmatize_v_n(normalized_sent_word_tag)  #
 
+		reshape_verb_dict = load_reshape_wordnet_dict_2('v')
+		reshape_noun_dict = load_reshape_wordnet_dict_2('n')
+		if question['difficulty'] == 'Hard':
+			if question['sid'] in {**reshape_verb_dict, **reshape_noun_dict}:
+				key_words, replace_dict = replace_sent_synonym_in_q(lemmatized_sent_word_tag, question)  #
+				sub_record.append(replace_dict)
+			else:
+				sub_record.append(None)
 		key_sent_words = lemmatize_vb_with_tag(normalized_sent_word_tag)
 
 		for word in key_words:
@@ -293,9 +429,27 @@ def match_sent_from_q(question, sentences, story_deps):
 				if Counter(sentences[i])['\"'] > 0:
 					return matched_quote.lower(), None
 
+	if question['difficulty'] == 'Hard' and sub_record[match_index]:
+		replace_dict = sub_record[match_index]
+		update_qgraph(replace_dict, question)
+
 	# print(match_index)
 	# print(story_deps[match_index])
 	return matched_sentence, story_deps[match_index]
+
+def update_qgraph(replace_dict, question):
+	l_question_after_sub = []
+	qgraph = question['dep']
+	n = len(qgraph.nodes)
+	for i in range(1, n):
+		q_graph_word = qgraph.nodes[i]['word'][:]
+		if q_graph_word in replace_dict:
+			qgraph.nodes[i]['word'] = replace_dict[q_graph_word]
+			l_question_after_sub.append(replace_dict[q_graph_word])
+		else:
+			l_question_after_sub.append(q_graph_word)
+	print('question after sub:')
+	print(' '.join(l_question_after_sub))
 
 
 def find_the_answer(matched_sentence, question):
@@ -435,7 +589,7 @@ def get_answer_with_chunck(question, matched_sentence, raw_sent_answer):
 		if answer_tree:
 			answer = " ".join([token[0] for token in answer_tree[0].leaves()])
 		else:
-			print("Its raw_sent_answer:")
+			#print("Its raw_sent_answer:")
 			answer = raw_sent_answer
 	else:
 		answer = raw_sent_answer
@@ -510,7 +664,7 @@ def get_answer(question, story):
 	print('=========================================')
 	raw_sent_answer, matched_sentence, matched_deps = get_answer_with_overlap(
 		question, story)
-	print("get_q_dep: {}".format(question['dep'].nodes[2]['word']))
+
 	return raw_sent_answer
 	# print(normalize_and_lemmatize(question['text']))
 	# if 'Sch' in question['type']:
@@ -522,11 +676,19 @@ def get_answer(question, story):
 	# print(matched_sentence)
 
 	# answer = raw_sent_answer
+	question_sents = get_sentences(question["text"])
+	q_start_word = question_sents[0][0][0].lower()
+	q_start_list.append(q_start_word)
+
 	if matched_deps != None:
 		answer = get_answer_with_deps(question, matched_deps, raw_sent_answer,
 									  matched_sentence)
 	else:
 		answer = raw_sent_answer
+
+	if q_start_word=="where" and answer == raw_sent_answer:
+		answer = get_answer_with_chunck(question, matched_sentence, raw_sent_answer)
+
 
 	# answer = get_answer_with_chunck(question, matched_sentence, raw_sent_answer)
 	# print("{Sentence}:", matched_sentence)
@@ -534,10 +696,6 @@ def get_answer(question, story):
 	# print("\n")
 
 	entity_counts(question, story, 2)
-	question_sents = get_sentences(question["text"])
-	q_start_word = question_sents[0][0][0].lower()
-	q_start_list.append(q_start_word)
-
 	if verbose and q_start_word == target_qstart:
 		get_verbose(question, q_start_word, raw_sent_answer, answer,
 					matched_deps)
@@ -603,23 +761,22 @@ def run_qa(evaluate=False):
 
 def run_qa_with_score(evaluate=False):
 	QA = QAEngine(evaluate=evaluate)
-	QA.run_score(set(['Hard']))
+	QA.run_score(set(['Hard']), set(['what', 'who']))
 
 
 def main():
 	# set evaluate to True/False depending on whether or
 	# not you want to run your system on the evaluation
 	# data. Evaluation data predictions will be saved
-	# # to hw6-eval-responses.tsv in the working directory.
+	# to hw6-eval-responses.tsv in the working directory.
 	# if verbose:
 	# 	if os.path.exists("tmp.txt"):
 	# 		os.remove("tmp.txt")
 	# run_qa(evaluate=False)
-	#
-	# # You can uncomment this next line to evaluate your
-	# # answers, or you can run score_answers.py
-	# # score_answers()
-	# type_answer(target_qstart, q_start_list)
+	# # # You can uncomment this next line to evaluate your
+	# # # answers, or you can run score_answers.py
+	# score_answers()
+	#type_answer(target_qstart, q_start_list)
 	run_qa_with_score()
 
 # run_qa_with_score()

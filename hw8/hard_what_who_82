@@ -1,0 +1,1623 @@
+C:\Users\华\AppData\Local\Programs\Python\Python37-32\python.exe D:/Users/华/PycharmProjects/QA-project-new/hw8/qa_jim.py
+{'what', 'who'}
+{'Hard'}
+=========================================
+sch
+There once was a lion.
+The lion was sleeping in a lair.
+The lion awaked because a mouse ran into the face of the lion.
+The lion lost temper and seized the mouse with the paw of the lion.
+The lion began attacking the mouse.
+The mouse began to be extremely frightened and piteously entreated the lion to spare it.
+The mouse said that -- if the lion were to free the mouse -- the mouse would repay kindness.
+The lion began to be amused.
+The lion laughed aloud because he thought that the mouse is extremely not able to help him.
+The lion good-naturedly freed the mouse.
+Opportunity arrived.
+A trapper spread some net in order to catch a big game.
+The lion entangled himself in the net.
+The mouse heard that the lion was roaring with anger.
+The mouse recognized the voice of the lion.
+The mouse ran to the lion.
+The mouse immediately began gnawing the rope of the net with the tooth of the mouse.
+The mouse soon succeeded in freeing the lion.
+The mouse said that the lion had aloud laughed because he thought that the mouse is extremely not able to help him.
+The mouse said that the lion was seeing that the mouse is able to help him.
+=========================================
+[('Who', 'WP'), ('expressed', 'VBD'), ('mirth', 'NN'), ('?', '.')]
+[('express', 'VBD'), ('mirth', 'NN')]
+[('express', 'VBD'), ('mirth', 'NN')]
+express
+['express.n.01', 'express.n.02', 'express.n.03', 'express.v.01', 'express.v.02', 'carry.v.04', 'express.v.04', 'express.v.05', 'press_out.v.03', 'express.v.07', 'express.s.01', 'express.s.02', 'express.r.01', 'mail.n.01', 'public_transport.n.01', 'transportation.n.05', 'convey.v.01', 'communicate.v.02', 'denote.v.02', 'realize.v.03', 'get.v.01', 'mail.v.02', 'pony_express.n.01', 'beam.v.03', 'burst_out.v.01', 'exude.v.02', 'give.v.36', 'give_voice.v.01', 'imply.v.01', 'imply.v.02', 'menace.v.02', 'smile.v.02', 'sneer.v.01', 'stress.v.01', 'suggest.v.05', 'vent.v.01', 'breathe.v.05', 'clamor.v.02', 'curse.v.01', 'drop.v.06', 'exclaim.v.01', 'get_off.v.11', 'hurl.v.03', 'marvel.v.02', 'platitudinize.v.01', 'pooh-pooh.v.01', 'pour_out.v.01', 'raise.v.03', 'represent.v.05', 'say.v.08', 'state.v.01', 'vociferate.v.01', 'voice.v.01', 'wish.v.03', 'quantify.v.02', 'vote.v.02', 'vote.v.03', 'ream.v.01']
+{'attack.v.01': 'attack', 'run.v.01': 'run', 'succeed.v.01': 'succeed', 'roar.v.04': 'roar', 'lose.v.01': 'lose', 'wake_up.v.02': 'awake', 'gnaw.v.01': 'gnaw', 'hear.v.01': 'hear', 'help.v.01': 'help', 'entangle.v.01': 'entangle', 'seize.v.01': 'seize', 'spiffing.s.01': 'repay', 'sleep.v.01': 'sleep', 'bid.v.03': 'entreat', 'recognize.v.02': 'recognize', 'laugh.v.01': 'laugh', 'catch.v.01': 'catch', 'spare.v.02': 'spare', 'arrive.v.01': 'arrive', 'think.v.01': 'think', 'get_down.v.07': 'begin'}
+mirth
+['hilarity.n.01', 'gaiety.n.01']
+{'lair.n.01': 'lair', 'topographic_point.n.01': 'topographic_point', 'trapper.n.01': 'trapper', 'rope.n.01': 'rope', 'forgivingness.n.01': 'forgivingness', 'voice.n.01': 'voice', 'lion.n.01': 'lion', 'anger.n.02': 'anger', 'net.n.06': 'net', 'opportunity.n.01': 'opportunity', 'temper.n.02': 'temper', 'big_game.n.01': 'big_game', 'mouse.n.01': 'mouse'}
+question before sub:
+Who expressed mirth?
+{Question_Text}: Who expressed mirth ?
+answer_type:Sch
+SCORING fables-06-16
+Comparing Gold   "the lion"
+      and Resp   "There once was a lion."
+
+RECALL:    0.500
+PRECISION: 0.167
+F-measure: 0.250
+
+=========================================
+[('Who', 'WP'), ('gnawed', 'VBD'), ('the', 'DT'), ('bungee', 'NN'), ('?', '.')]
+[('gnaw', 'VBD'), ('bungee', 'NN')]
+[('gnaw', 'VBD'), ('bungee', 'NN')]
+gnaw
+['gnaw.v.01', 'erode.v.01', 'bite.v.01', 'chew.v.01', 'decay.v.02']
+{'attack.v.01': 'attack', 'run.v.01': 'run', 'succeed.v.01': 'succeed', 'roar.v.04': 'roar', 'lose.v.01': 'lose', 'wake_up.v.02': 'awake', 'gnaw.v.01': 'gnaw', 'hear.v.01': 'hear', 'help.v.01': 'help', 'entangle.v.01': 'entangle', 'seize.v.01': 'seize', 'spiffing.s.01': 'repay', 'sleep.v.01': 'sleep', 'bid.v.03': 'entreat', 'recognize.v.02': 'recognize', 'laugh.v.01': 'laugh', 'catch.v.01': 'catch', 'spare.v.02': 'spare', 'arrive.v.01': 'arrive', 'think.v.01': 'think', 'get_down.v.07': 'begin'}
+gnaw.v.01
+gnaw
+bungee
+['bungee.n.01', 'rope.n.01']
+{'lair.n.01': 'lair', 'topographic_point.n.01': 'topographic_point', 'trapper.n.01': 'trapper', 'rope.n.01': 'rope', 'forgivingness.n.01': 'forgivingness', 'voice.n.01': 'voice', 'lion.n.01': 'lion', 'anger.n.02': 'anger', 'net.n.06': 'net', 'opportunity.n.01': 'opportunity', 'temper.n.02': 'temper', 'big_game.n.01': 'big_game', 'mouse.n.01': 'mouse'}
+rope.n.01
+rope
+question before sub:
+Who gnawed the bungee?
+{Question_Text}: Who gnaw the rope ?
+answer_type:Sch
+SCORING fables-06-17
+Comparing Gold   "the mouse"
+      and Resp   "The mouse immediately began gnawing the rope of the net with the tooth of the mouse."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+[('Who', 'WP'), ('entangled', 'JJ'), ('himself', 'PRP'), ('in', 'IN'), ('the', 'DT'), ('meshing', 'NN'), ('?', '.')]
+[('meshing', 'NN')]
+[('meshing', 'NN')]
+meshing
+['engagement.n.06', 'net.n.06', 'mesh.n.05', 'engage.v.10', 'interlock.v.01', 'mesh.v.03', 'enmesh.v.01', 'contact.n.04', 'fabric.n.01', 'catch.n.09', 'move.v.02', 'organize.v.04', 'relate.v.05', 'entangle.v.02', 'chicken_wire.n.01', 'gauze.n.02', 'hairnet.n.01', 'reseau.n.01', 'safety_net.n.02', 'save-all.n.03', 'snood.n.01', 'spark_arrester.n.02', 'tulle.n.01', 'wirework.n.01', 'ride.v.13', 'throw.v.06']
+{'lair.n.01': 'lair', 'topographic_point.n.01': 'topographic_point', 'trapper.n.01': 'trapper', 'rope.n.01': 'rope', 'forgivingness.n.01': 'forgivingness', 'voice.n.01': 'voice', 'lion.n.01': 'lion', 'anger.n.02': 'anger', 'net.n.06': 'net', 'opportunity.n.01': 'opportunity', 'temper.n.02': 'temper', 'big_game.n.01': 'big_game', 'mouse.n.01': 'mouse'}
+net.n.06
+net
+question before sub:
+Who entangled himself in the meshing?
+{Question_Text}: Who entangled himself in the net ?
+answer_type:Sch
+SCORING fables-06-19
+Comparing Gold   "the lion"
+      and Resp   "The lion entangled himself in the net."
+
+RECALL:    1.000
+PRECISION: 0.286
+F-measure: 0.444
+
+=========================================
+[('What', 'WP'), ('did', 'VBD'), ('the', 'DT'), ('hunter', 'NN'), ('spread', 'NN'), ('?', '.')]
+[('do', 'VBD'), ('hunter', 'NN'), ('spread', 'NN')]
+[('hunter', 'NN'), ('spread', 'NN')]
+hunter
+['hunter.n.01', 'hunter.n.02', 'orion.n.02', 'hunter.n.04', 'skilled_worker.n.01', 'seeker.n.01', 'diffuse_nebula.n.01', 'watch.n.01', 'bounty_hunter.n.02', 'courser.n.01', 'deer_hunter.n.01', 'duck_hunter.n.01', 'falconer.n.01', 'fowler.n.02', 'huntress.n.01', 'lion-hunter.n.02', 'pothunter.n.03', 'snarer.n.01', 'stalker.n.02', 'tracker.n.01', 'trapper.n.01', 'forager.n.01']
+{'lair.n.01': 'lair', 'topographic_point.n.01': 'topographic_point', 'trapper.n.01': 'trapper', 'rope.n.01': 'rope', 'forgivingness.n.01': 'forgivingness', 'voice.n.01': 'voice', 'lion.n.01': 'lion', 'anger.n.02': 'anger', 'net.n.06': 'net', 'opportunity.n.01': 'opportunity', 'temper.n.02': 'temper', 'big_game.n.01': 'big_game', 'mouse.n.01': 'mouse'}
+trapper.n.01
+trapper
+spread
+['spread.n.01', 'gap.n.01', 'ranch.n.01', 'scatter.n.01', 'spread.n.05', 'banquet.n.02', 'spread.n.07', 'spread.n.08', 'bedspread.n.01', 'spread.n.10', 'spread.v.01', 'spread.v.02', 'spread.v.03', 'unfold.v.04', 'circulate.v.02', 'go_around.v.02', 'spread.v.07', 'diffuse.v.01', 'spread.v.09', 'spread.v.10', 'dispersed.s.01', 'spread.s.02', 'outspread.s.01', 'change_of_location.n.01', 'disparity.n.01', 'farm.n.01', 'distribution.n.02', 'condiment.n.01', 'meal.n.01', 'page.n.01', 'girth.n.01', 'bedclothes.n.01', 'extension.n.02', 'move.v.03', 'cover.v.03', 'undo.v.01', 'publicize.v.01', 'travel.v.01', 'circulate.v.03', 'spread.v.01', 'cover.v.01', 'diffusion.n.02', 'dispersion.n.01', 'invasion.n.03', 'irradiation.n.03', 'radiation.n.05', 'diffuseness.n.01', 'anchovy_butter.n.01', 'cheese_spread.n.01', 'fishpaste.n.01', 'garlic_butter.n.01', 'hummus.n.01', 'lobster_butter.n.01', 'margarine.n.01', 'marshmallow_fluff.n.01', 'miso.n.01', 'nut_butter.n.01', 'onion_butter.n.01', 'pate.n.01', 'peanut_butter.n.01', 'pimento_butter.n.01', 'shrimp_butter.n.01', 'tahini.n.01', 'tapenade.n.01', 'center_spread.n.01', 'centerfold.n.01', 'coverlet.n.01', 'quilted_bedspread.n.01', 'circulation.n.06', 'decentralization.n.02', 'dispersion.n.03', 'scatter.n.02', 'deploy.v.02', 'diffuse.v.01', 'discharge.v.02', 'export.v.03', 'generalize.v.04', 'metastasize.v.01', 'propagate.v.05', 'redistribute.v.01', 'sprawl.v.02', 'strew.v.01', 'catch.v.26', 'transgress.v.02', 'butterfly.v.02', 'divaricate.v.02', 'exfoliate.v.01', 'grass.v.03', 'splay.v.01', 'uncross.v.01', 'carry.v.15', 'podcast.v.01', 'popularize.v.01', 'sow.v.02', 'birdlime.v.01', 'circumfuse.v.01', 'distribute.v.07', 'manure.v.01', 'creep.v.03', 'mantle.v.01', 'percolate.v.02', 'run.v.27', 'slather.v.01']
+{'lair.n.01': 'lair', 'topographic_point.n.01': 'topographic_point', 'trapper.n.01': 'trapper', 'rope.n.01': 'rope', 'forgivingness.n.01': 'forgivingness', 'voice.n.01': 'voice', 'lion.n.01': 'lion', 'anger.n.02': 'anger', 'net.n.06': 'net', 'opportunity.n.01': 'opportunity', 'temper.n.02': 'temper', 'big_game.n.01': 'big_game', 'mouse.n.01': 'mouse'}
+question before sub:
+What did the hunter spread?
+{Question_Text}: What did the trapper spread ?
+answer_type:Sch
+SCORING fables-06-20
+Comparing Gold   "some net"
+      and Resp   "A trapper spread some net in order to catch a big game."
+
+RECALL:    1.000
+PRECISION: 0.167
+F-measure: 0.286
+
+=========================================
+[('Who', 'WP'), ('would', 'MD'), ('reward', 'VB'), ('kindness', 'NN'), ('?', '.')]
+[('reward', 'VB'), ('kindness', 'NN')]
+[('reward', 'VB'), ('kindness', 'NN')]
+reward
+['wages.n.01', 'reward.n.02', 'reward.n.03', 'reward.n.04', 'advantage.n.03', 'honor.v.01', 'reinforce.v.02', 'reward.v.03', 'consequence.n.02', 'payment.n.01', 'blessing.n.01', 'offer.n.02', 'benefit.n.02', 'recognize.v.09', 'teach.v.01', 'act.v.01', 'blood_money.n.02', 'bounty.n.01', 'guerdon.n.01', 'honorarium.n.01', 'meed.n.01', 'carrot.n.04', 'price.n.05', 'decorate.v.03', 'ennoble.v.01', 'toast.v.02']
+{'attack.v.01': 'attack', 'run.v.01': 'run', 'succeed.v.01': 'succeed', 'roar.v.04': 'roar', 'lose.v.01': 'lose', 'wake_up.v.02': 'awake', 'gnaw.v.01': 'gnaw', 'hear.v.01': 'hear', 'help.v.01': 'help', 'entangle.v.01': 'entangle', 'seize.v.01': 'seize', 'spiffing.s.01': 'repay', 'sleep.v.01': 'sleep', 'bid.v.03': 'entreat', 'recognize.v.02': 'recognize', 'laugh.v.01': 'laugh', 'catch.v.01': 'catch', 'spare.v.02': 'spare', 'arrive.v.01': 'arrive', 'think.v.01': 'think', 'get_down.v.07': 'begin'}
+kindness
+['kindness.n.01', 'forgivingness.n.01', 'kindness.n.03', 'good.n.02', 'mercifulness.n.02', 'action.n.01', 'benevolence.n.02', 'consideration.n.04', 'generosity.n.01', 'loving-kindness.n.01', 'benevolence.n.03', 'consideration.n.06', 'cupboard_love.n.01', 'endearment.n.01', 'favor.n.01', 'forgiveness.n.02']
+{'lair.n.01': 'lair', 'topographic_point.n.01': 'topographic_point', 'trapper.n.01': 'trapper', 'rope.n.01': 'rope', 'forgivingness.n.01': 'forgivingness', 'voice.n.01': 'voice', 'lion.n.01': 'lion', 'anger.n.02': 'anger', 'net.n.06': 'net', 'opportunity.n.01': 'opportunity', 'temper.n.02': 'temper', 'big_game.n.01': 'big_game', 'mouse.n.01': 'mouse'}
+forgivingness.n.01
+forgivingness
+question before sub:
+Who would reward kindness?
+{Question_Text}: Who would reward forgivingness ?
+answer_type:Sch
+SCORING fables-06-25
+Comparing Gold   "the mouse"
+      and Resp   "The mouse said that -- if the lion were to free the mouse -- the mouse would repay kindness."
+
+RECALL:    1.000
+PRECISION: 0.143
+F-measure: 0.250
+
+=========================================
+[('What', 'WP'), ('did', 'VBD'), ('the', 'DT'), ('mouse', 'NN'), ('know', 'VB'), ('?', '.')]
+[('do', 'VBD'), ('mouse', 'NN'), ('know', 'VB')]
+[('mouse', 'NN'), ('know', 'VB')]
+mouse
+['mouse.n.01', 'shiner.n.01', 'mouse.n.03', 'mouse.n.04', 'sneak.v.01', 'mouse.v.02', 'rodent.n.01', 'bruise.n.01', 'person.n.01', 'electronic_device.n.01', 'walk.v.01', 'manipulate.v.02', 'field_mouse.n.02', 'harvest_mouse.n.02', 'house_mouse.n.01', 'nude_mouse.n.01', 'wood_mouse.n.01']
+{'lair.n.01': 'lair', 'topographic_point.n.01': 'topographic_point', 'trapper.n.01': 'trapper', 'rope.n.01': 'rope', 'forgivingness.n.01': 'forgivingness', 'voice.n.01': 'voice', 'lion.n.01': 'lion', 'anger.n.02': 'anger', 'net.n.06': 'net', 'opportunity.n.01': 'opportunity', 'temper.n.02': 'temper', 'big_game.n.01': 'big_game', 'mouse.n.01': 'mouse'}
+mouse.n.01
+mouse
+know
+['know.n.01', 'know.v.01', 'know.v.02', 'know.v.03', 'know.v.04', 'know.v.05', 'acknowledge.v.06', 'know.v.07', 'sleep_together.v.01', 'know.v.09', 'know.v.10', 'know.v.11', 'knowing.n.01', 'experience.v.01', 'accept.v.01', 'copulate.v.01', 'recognize.v.02', 'distinguish.v.01', 'remember.v.01', 'keep_track.v.01', 'recognize.v.02', 'know_the_score.v.01', 'master.v.01', 'master.v.04', 'anticipate.v.03', 'relive.v.01', 'taste.v.06', 'have_down.v.01', 'fornicate.v.01', 'take.v.35']
+{'attack.v.01': 'attack', 'run.v.01': 'run', 'succeed.v.01': 'succeed', 'roar.v.04': 'roar', 'lose.v.01': 'lose', 'wake_up.v.02': 'awake', 'gnaw.v.01': 'gnaw', 'hear.v.01': 'hear', 'help.v.01': 'help', 'entangle.v.01': 'entangle', 'seize.v.01': 'seize', 'spiffing.s.01': 'repay', 'sleep.v.01': 'sleep', 'bid.v.03': 'entreat', 'recognize.v.02': 'recognize', 'laugh.v.01': 'laugh', 'catch.v.01': 'catch', 'spare.v.02': 'spare', 'arrive.v.01': 'arrive', 'think.v.01': 'think', 'get_down.v.07': 'begin'}
+recognize.v.02
+recognize
+question before sub:
+What did the mouse know?
+{Question_Text}: What did the mouse recognize ?
+answer_type:Sch
+SCORING fables-06-26
+Comparing Gold   "the voice of the lion"
+      and Resp   "The mouse recognized the voice of the lion."
+
+RECALL:    1.000
+PRECISION: 0.571
+F-measure: 0.727
+
+=========================================
+[('What', 'WP'), ('did', 'VBD'), ('the', 'DT'), ('lion', 'NN'), ('take', 'VB'), ('with', 'IN'), ('the', 'DT'), ('paw', 'NN'), ('of', 'IN'), ('the', 'DT'), ('lion', 'NN'), ('?', '.')]
+[('do', 'VBD'), ('lion', 'NN'), ('take', 'VB'), ('paw', 'NN'), ('lion', 'NN')]
+[('lion', 'NN'), ('take', 'VB'), ('paw', 'NN'), ('lion', 'NN')]
+lion
+['lion.n.01', 'lion.n.02', 'leo.n.01', 'leo.n.03', 'big_cat.n.01', 'celebrity.n.01', 'person.n.01', 'lion_cub.n.01', 'lioness.n.01', 'lionet.n.01']
+{'lair.n.01': 'lair', 'topographic_point.n.01': 'topographic_point', 'trapper.n.01': 'trapper', 'rope.n.01': 'rope', 'forgivingness.n.01': 'forgivingness', 'voice.n.01': 'voice', 'lion.n.01': 'lion', 'anger.n.02': 'anger', 'net.n.06': 'net', 'opportunity.n.01': 'opportunity', 'temper.n.02': 'temper', 'big_game.n.01': 'big_game', 'mouse.n.01': 'mouse'}
+lion.n.01
+lion
+take
+['return.n.06', 'take.n.02', 'take.v.01', 'take.v.02', 'lead.v.01', 'take.v.04', 'assume.v.03', 'take.v.06', 'bring.v.01', 'take.v.08', 'take.v.09', 'choose.v.01', 'accept.v.02', 'fill.v.04', 'consider.v.03', 'necessitate.v.01', 'take.v.15', 'film.v.01', 'remove.v.01', 'consume.v.02', 'take.v.19', 'take.v.20', 'take.v.21', 'assume.v.05', 'accept.v.05', 'take.v.24', 'learn.v.04', 'claim.v.05', 'take.v.27', 'aim.v.01', 'take.v.29', 'carry.v.02', 'lease.v.04', 'subscribe.v.05', 'take.v.33', 'take.v.34', 'take.v.35', 'claim.v.04', 'accept.v.08', 'contain.v.05', 'take.v.39', 'drive.v.16', 'take.v.41', 'contract.v.04', 'income.n.01', 'filming.n.01', 'act.v.01', 'use.v.03', 'change.v.02', 'interpret.v.01', 'transport.v.02', 'use.v.01', 'decide.v.01', 'get.v.01', 'work.v.02', 'think_about.v.01', 'experience.v.03', 'record.v.01', 'undergo.v.01', 'move.v.03', 'accept.v.02', 'receive.v.02', 'necessitate.v.01', 'head.v.01', 'position.v.01', 'become.v.01', 'have.v.02', 'get.v.01', 'buy.v.01', 'buy.v.01', 'sleep_together.v.01', 'affirm.v.02', 'be.v.01', 'be.v.01', 'traverse.v.01', 'win.v.01', 'sicken.v.02', 'economic_rent.n.01', 'payback.n.01', 'retake.n.01', 'be.v.10', 'beacon.v.02', 'hand.v.02', 'mislead.v.01', 'usher.v.01', 'seize.v.01', 'seize.v.02', 're-assume.v.01', 'misread.v.02', 'ferry.v.01', 'fetch.v.03', 'impart.v.03', 'land.v.04', 'return.v.05', 'transit.v.04', 'tube.v.02', 'whisk.v.01', 'adopt.v.05', 'bear.v.06', 'collect.v.02', 'deprive.v.01', 'impound.v.01', 'pocket.v.01', 'recall.v.07', 'sequester.v.01', 'snap_up.v.01', 'take_away.v.04', 'take_back.v.02', 'unburden.v.01', 'adopt.v.01', 'anoint.v.01', 'assign.v.04', 'cream_off.v.02', 'cull_out.v.01', 'dial.v.02', 'draw.v.09', 'elect.v.01', 'elect.v.02', 'empanel.v.02', 'excerpt.v.01', 'field.v.04', 'nominate.v.02', 'pick.v.01', 'plump.v.04', 'screen.v.03', 'sieve.v.04', 'sieve_out.v.01', 'single_out.v.01', 'specify.v.02', 'think_of.v.06', 'vote.v.01', 'vote_in.v.01', 'accept.v.05', 'adopt.v.02', 'honor.v.03', 'welcome.v.01', 'abstract.v.03', 'contemplate.v.02', 'dally.v.04', 'warm_to.v.01', 'claim.v.05', 'compel.v.02', 'cost.v.02', 'cry_out_for.v.01', 'draw.v.22', 'govern.v.04', 'reshoot.v.01', 'ablate.v.02', 'amputate.v.01', 'aspirate.v.01', 'bail.v.05', 'bail_out.v.02', 'bone.v.02', 'brush.v.05', 'bur.v.01', 'burl.v.01', 'carve_out.v.02', 'chip_away.v.01', 'circumcise.v.02', 'clean.v.02', 'clean.v.07', 'clean.v.08', 'clean.v.10', 'clear.v.05', 'clear.v.24', 'clear_off.v.01', 'condense.v.03', 'crumb.v.03', 'de-iodinate.v.01', 'de-ionate.v.01', 'decalcify.v.02', 'decarbonize.v.01', 'decorticate.v.02', 'defang.v.01', 'defuse.v.01', 'degas.v.01', 'dehorn.v.01', 'delete.v.01', 'delouse.v.01', 'demineralize.v.01', 'desorb.v.02', 'detoxify.v.01', 'dig.v.01', 'discharge.v.04', 'disembowel.v.01', 'dislodge.v.01', 'draw.v.05', 'draw.v.07', 'draw.v.17', 'draw_off.v.01', 'dredge.v.03', 'eliminate.v.07', 'empty.v.04', 'enucleate.v.01', 'enucleate.v.02', 'epilate.v.01', 'excavate.v.04', 'exenterate.v.01', 'expectorate.v.01', 'extirpate.v.03', 'extract.v.01', 'flick.v.09', 'gut.v.02', 'harvest.v.02', 'head.v.09', 'hull.v.01', 'husk.v.01', 'hypophysectomize.v.01', 'knock_out.v.03', 'ladle.v.02', 'leach.v.01', 'leach.v.03', 'lift.v.11', 'lift.v.22', 'lift.v.23', 'muck.v.01', 'pick.v.05', 'pit.v.03', 'pull.v.17', 'ream.v.02', 'resect.v.01', 'scale.v.06', 'scalp.v.02', 'scavenge.v.04', 'scoop.v.01', 'seed.v.08', 'shed.v.01', 'shell.v.07', 'shuck.v.01', 'shuck.v.02', 'skim.v.06', 'spoon.v.01', 'stem.v.04', 'string.v.06', 'strip.v.03', 'strip.v.08', 'strip.v.10', 'strip.v.11', 'strip.v.13', 'take_away.v.01', 'take_away.v.03', 'take_off.v.02', 'take_out.v.06', 'tear_away.v.01', 'tip.v.09', 'tusk.v.02', 'unburden.v.02', 'undock.v.02', 'unhinge.v.02', 'unpack.v.01', 'unsaddle.v.01', 'unstring.v.01', 'unveil.v.03', 'wash.v.09', 'wear_away.v.02', 'weed.v.01', 'winnow.v.04', 'wipe_off.v.01', 'withdraw.v.09', 'cannibalize.v.01', 'drink.v.01', 'drink.v.02', 'drug.v.02', 'eat.v.01', 'eat.v.02', 'feed.v.06', 'hit.v.15', 'partake.v.03', 'sample.v.01', 'satiate.v.01', 'smoke.v.01', 'sup.v.01', 'swallow.v.01', 'take_in.v.14', 'use.v.02', 'test.v.07', 'co-opt.v.04', 'assume.v.06', 'extort.v.01', 'plunder.v.03', 'recapture.v.03', 'relieve.v.09', 'rescue.v.02', 'sack.v.01', 'scale.v.03', 'steal.v.01', 'profess.v.05', 'audit.v.02', 'drill.v.03', 'train.v.02', 'charge.v.17', 'draw_a_bead_on.v.01', 'hold.v.33', 'level.v.01', 'sight.v.02', 'swing.v.07', 'target.v.01', 'turn.v.23', 'catch.v.19']
+{'attack.v.01': 'attack', 'run.v.01': 'run', 'succeed.v.01': 'succeed', 'roar.v.04': 'roar', 'lose.v.01': 'lose', 'wake_up.v.02': 'awake', 'gnaw.v.01': 'gnaw', 'hear.v.01': 'hear', 'help.v.01': 'help', 'entangle.v.01': 'entangle', 'seize.v.01': 'seize', 'spiffing.s.01': 'repay', 'sleep.v.01': 'sleep', 'bid.v.03': 'entreat', 'recognize.v.02': 'recognize', 'laugh.v.01': 'laugh', 'catch.v.01': 'catch', 'spare.v.02': 'spare', 'arrive.v.01': 'arrive', 'think.v.01': 'think', 'get_down.v.07': 'begin'}
+seize.v.01
+seize
+paw
+['paw.n.01', 'hand.n.01', 'paw.v.01', 'paw.v.02', 'animal_foot.n.01', 'extremity.n.05', 'scrape.v.01', 'caress.v.01', 'forepaw.n.01', 'fist.n.01', 'hooks.n.01', 'left.n.03', 'right.n.05']
+{'lair.n.01': 'lair', 'topographic_point.n.01': 'topographic_point', 'trapper.n.01': 'trapper', 'rope.n.01': 'rope', 'forgivingness.n.01': 'forgivingness', 'voice.n.01': 'voice', 'lion.n.01': 'lion', 'anger.n.02': 'anger', 'net.n.06': 'net', 'opportunity.n.01': 'opportunity', 'temper.n.02': 'temper', 'big_game.n.01': 'big_game', 'mouse.n.01': 'mouse'}
+lion
+['lion.n.01', 'lion.n.02', 'leo.n.01', 'leo.n.03', 'big_cat.n.01', 'celebrity.n.01', 'person.n.01', 'lion_cub.n.01', 'lioness.n.01', 'lionet.n.01']
+{'lair.n.01': 'lair', 'topographic_point.n.01': 'topographic_point', 'trapper.n.01': 'trapper', 'rope.n.01': 'rope', 'forgivingness.n.01': 'forgivingness', 'voice.n.01': 'voice', 'lion.n.01': 'lion', 'anger.n.02': 'anger', 'net.n.06': 'net', 'opportunity.n.01': 'opportunity', 'temper.n.02': 'temper', 'big_game.n.01': 'big_game', 'mouse.n.01': 'mouse'}
+lion.n.01
+lion
+question before sub:
+What did the lion take with the paw of the lion?
+{Question_Text}: What did the lion seize with the paw of the lion ?
+answer_type:Sch
+SCORING fables-06-27
+Comparing Gold   "the mouse"
+      and Resp   "The lion lost temper and seized the mouse with the paw of the lion."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+sch
+Once, storm was occurring in Louisiana.
+A narrator watched a channel named Weather Channel and watched some local news media.
+The narrator went back to a store named Home Depot in order to purchase a portable generator.
+The narrator filled a group of cars and filled the container of some gasoline.
+The narrator purchased an important group of things.
+Storm occurred.
+The narrator lost electricity.
+Some wind occurred.
+An area of a neighborhood of the narrator had a large group of pine trees and had a group of oak trees.
+The narrator stood up on a patio and watched a large tree.
+The tree split apart and fell on the yard of a neighbor.
+The narrator began to be nervous because it owned a group of trees and near the house of the narrator.
+The narrator began to be concerned because -- if the first tree were to later fall, and were to later fall on the house of the narrator -- the house of the narrator would have begun to be damaged, and the family of the narrator would begin to be wounded.
+The wife of the narrator stayed in the safe area of some home, a dog stayed in the area of the home, and the group of children of the narrator stayed in the area of the home.
+The narrator heard loud noise.
+The first tree fell onto a RV of the neighbor, and the narrator looked through the window of the narrator.
+The group of trees began to be falling.
+A fourth (#2) tree fell on a lawn mower.
+The fourth tree fell on a golf cart.
+The group of trees didn't fall on the house of the narrator.
+A group of neighbors didn't begin to be fortunate.
+President Bush came into Baton Rouge and in order to assess Baton Rouge.
+The group of friends of the cabinet of a governor named Jindal restored order, and the narrator had the group of friends of the cabinet of Jindal.
+Storm stopped.
+The narrator didn't have electricity because a group of power lines was down.
+The generator didn't begin to be working.
+The narrator brought the generator in repair.
+The parent of the narrator had electricity.
+The narrator brought the family of the narrator to the house of the parent of the narrator.
+The group of power lines began to be down over a city, and the fourth tree began to be down over the city.
+=========================================
+[('What', 'WDT'), ('began', 'VBD'), ('to', 'TO'), ('be', 'VB'), ('down', 'RB'), ('over', 'IN'), ('a', 'DT'), ('municipality', 'NN'), ('?', '.')]
+[('begin', 'VBD'), ('be', 'VB'), ('municipality', 'NN')]
+[('begin', 'VBD'), ('municipality', 'NN')]
+begin
+['begin.n.01', 'get_down.v.07', 'begin.v.02', 'begin.v.03', 'begin.v.04', 'begin.v.05', 'begin.v.06', 'begin.v.07', 'begin.v.08', 'begin.v.09', 'begin.v.10', 'talk.v.02', 'be.v.01', 'be.v.01', 'act.v.01', 'achieve.v.01', 'attack.v.05', 'auspicate.v.02', 'break_in.v.03', 'come_on.v.05', 'embark.v.02', 'fall.v.30', 'get_cracking.v.01', 'get_to.v.02', 'jump_off.v.01', 'plunge.v.04', 'recommence.v.02', 'strike_out.v.06', 'break_out.v.02', 'bud.v.02', 'dawn.v.02', 'erupt.v.01', 'originate.v.03', 'set_in.v.01', 'inaugurate.v.03', 'jumpstart.v.02', 'recommence.v.01', 'set_off.v.06', 'start.v.06']
+{'arise.v.03': 'standup', 'restore.v.01': 'restore', 'own.v.01': 'own', 'buy.v.01': 'purchase', 'lose.v.01': 'lose', 'look.v.01': 'look', 'bring.v.01': 'bring', 'measure.v.04': 'assess', 'stay.v.01': 'stay', 'watch.v.01': 'watch', 'divide.v.01': 'split', 'fill.v.02': 'fill', 'go_back.v.01': 'goback', 'stop.v.01': 'stop', 'have.v.01': 'have'}
+municipality
+['municipality.n.01', 'municipality.n.02', 'administrative_district.n.01', 'urban_area.n.01', 'gathering.n.01', 'city.n.01', 'town.n.01', 'city.n.03', 'town.n.02']
+{'electricity.n.03': 'electricity', 'lawn_mower.n.01': 'lawn_mower', 'dwelling.n.01': 'dwelling', 'generator.n.04': 'generator', 'tree.n.01': 'tree', 'neighbor.n.01': 'neighbor', 'dog.n.01': 'dog', 'narrator.n.01': 'narrator', 'baton_rouge.n.01': 'Baton_Rouge', 'wind_instrument.n.01': 'wind_instrument', 'randomness.n.02': 'randomness', 'area.n.03': 'area', 'journalism.n.01': 'journalism', 'channel.n.07': 'channel', 'patio.n.01': 'patio', 'city.n.01': 'city', 'order.n.03': 'order', 'repair.n.02': 'repair', 'gasoline.n.01': 'gasoline', 'storm.n.02': 'storm', 'bush.n.06': 'Bush', 'louisiana.n.01': 'Louisiana', 'golfcart.n.01': 'golfcart'}
+city.n.01
+city
+question before sub:
+What began to be down over a municipality?
+{Question_Text}: What began to be down over a city ?
+answer_type:Sch
+SCORING blogs-03-16
+Comparing Gold   "the group of power lines"
+      and Resp   "A group of neighbors didn't begin to be fortunate."
+
+RECALL:    0.400
+PRECISION: 0.182
+F-measure: 0.250
+
+=========================================
+[('What', 'WP'), ('happened', 'VBD'), ('in', 'IN'), ('Louisiana', 'NNP'), ('?', '.')]
+[('happen', 'VBD'), ('Louisiana', 'NNP')]
+[('happen', 'VBD')]
+happen
+['happen.v.01', 'happen.v.02', 'happen.v.03', 'happen.v.04', 'find.v.01', 'happen.v.01', 'chance.v.01', 'happen.v.01', 'anticipate.v.06', 'arise.v.04', 'backfire.v.01', 'befall.v.01', 'break.v.28', 'break.v.53', 'chance.v.01', 'come.v.03', 'come_around.v.02', 'concur.v.02', 'develop.v.09', 'fall.v.08', 'fall.v.10', 'give.v.42', 'go_off.v.05', 'happen.v.02', 'happen.v.04', 'intervene.v.03', 'operate.v.05', 'proceed.v.04', 'recur.v.01', 'result.v.03', 'supervene.v.01', 'synchronize.v.02', 'transpire.v.04', 'turn_out.v.02', 'appear.v.03']
+{'arise.v.03': 'standup', 'restore.v.01': 'restore', 'own.v.01': 'own', 'buy.v.01': 'purchase', 'lose.v.01': 'lose', 'look.v.01': 'look', 'bring.v.01': 'bring', 'measure.v.04': 'assess', 'stay.v.01': 'stay', 'watch.v.01': 'watch', 'divide.v.01': 'split', 'fill.v.02': 'fill', 'go_back.v.01': 'goback', 'stop.v.01': 'stop', 'have.v.01': 'have'}
+question before sub:
+What happened in Louisiana?
+{Question_Text}: What happened in Louisiana ?
+answer_type:Sch
+SCORING blogs-03-17
+Comparing Gold   "storm"
+      and Resp   "Once, storm was occurring in Louisiana."
+
+RECALL:    1.000
+PRECISION: 0.125
+F-measure: 0.222
+
+=========================================
+[('Who', 'WP'), ('bought', 'VBD'), ('a', 'DT'), ('portable', 'JJ'), ('generator', 'NN'), ('?', '.')]
+[('buy', 'VBD'), ('generator', 'NN')]
+[('buy', 'VBD'), ('generator', 'NN')]
+buy
+['bargain.n.02', 'buy.v.01', 'bribe.v.01', 'buy.v.03', 'buy.v.04', 'buy.v.05', 'purchase.n.02', 'get.v.01', 'pay.v.01', 'be.v.01', 'get.v.01', 'believe.v.01', 'song.n.05', 'travel_bargain.n.01', 'buy_back.v.01', 'get.v.22', 'impulse-buy.v.01', 'pick_up.v.08', 'subscribe.v.05', 'take.v.33', 'take_out.v.07', 'take_over.v.05', 'buy_off.v.01', 'sop.v.01']
+{'arise.v.03': 'standup', 'restore.v.01': 'restore', 'own.v.01': 'own', 'buy.v.01': 'purchase', 'lose.v.01': 'lose', 'look.v.01': 'look', 'bring.v.01': 'bring', 'measure.v.04': 'assess', 'stay.v.01': 'stay', 'watch.v.01': 'watch', 'divide.v.01': 'split', 'fill.v.02': 'fill', 'go_back.v.01': 'goback', 'stop.v.01': 'stop', 'have.v.01': 'have'}
+buy.v.01
+purchase
+generator
+['generator.n.01', 'generator.n.02', 'generator.n.03', 'generator.n.04', 'apparatus.n.01', 'engine.n.01', 'maker.n.01', 'electronic_device.n.01', 'alternator.n.01', 'dynamo.n.01', 'magneto.n.01', 'turbogenerator.n.01', 'windmill.n.02', 'coiner.n.02', 'oscillator.n.01', 'pulse_generator.n.01']
+{'electricity.n.03': 'electricity', 'lawn_mower.n.01': 'lawn_mower', 'dwelling.n.01': 'dwelling', 'generator.n.04': 'generator', 'tree.n.01': 'tree', 'neighbor.n.01': 'neighbor', 'dog.n.01': 'dog', 'narrator.n.01': 'narrator', 'baton_rouge.n.01': 'Baton_Rouge', 'wind_instrument.n.01': 'wind_instrument', 'randomness.n.02': 'randomness', 'area.n.03': 'area', 'journalism.n.01': 'journalism', 'channel.n.07': 'channel', 'patio.n.01': 'patio', 'city.n.01': 'city', 'order.n.03': 'order', 'repair.n.02': 'repair', 'gasoline.n.01': 'gasoline', 'storm.n.02': 'storm', 'bush.n.06': 'Bush', 'louisiana.n.01': 'Louisiana', 'golfcart.n.01': 'golfcart'}
+generator.n.04
+generator
+question before sub:
+Who bought a portable generator?
+{Question_Text}: Who purchase a portable generator ?
+answer_type:Sch
+SCORING blogs-03-18
+Comparing Gold   "the narrator"
+      and Resp   "The narrator went back to a store named Home Depot in order to purchase a portable generator."
+
+RECALL:    1.000
+PRECISION: 0.125
+F-measure: 0.222
+
+=========================================
+[('Who', 'WP'), ('filled', 'VBD'), ('the', 'DT'), ('container', 'NN'), ('of', 'IN'), ('some', 'DT'), ('gasoline', 'NN'), ('?', '.')]
+[('fill', 'VBD'), ('container', 'NN'), ('gasoline', 'NN')]
+[('fill', 'VBD'), ('container', 'NN'), ('gasoline', 'NN')]
+fill
+['fill.n.01', 'filling.n.01', 'fill.v.01', 'fill.v.02', 'occupy.v.03', 'fill.v.04', 'meet.v.04', 'fill.v.06', 'fill_up.v.04', 'satiate.v.01', 'fill.v.09', 'enough.n.01', 'material.n.01', 'change.v.01', 'change_state.v.01', 'be.v.03', 'work.v.02', 'provide.v.02', 'hire.v.01', 'eat.v.01', 'consume.v.02', 'repair.v.01', 'cement.n.04', 'brim.v.02', 'clog.v.06', 'clutter.v.01', 'complete.v.02', 'deluge.v.01', 'electrify.v.02', 'farce.v.01', 'heap.v.03', 'impregnate.v.01', 'impregnate.v.02', 'ink.v.03', 'line.v.05', 'load.v.01', 'load.v.02', 'lubricate.v.02', 'overfill.v.01', 'pack.v.02', 'pad.v.04', 'populate.v.02', 'prime.v.03', 'replenish.v.01', 'stuff.v.06', 'surcharge.v.05', 'top_off.v.02', 'flood.v.04', 'rack_up.v.04', 'water.v.04', 'crowd.v.02', 'take_up.v.04', 'answer.v.09', 'feed_on.v.01', 'quell.v.02', 'quench.v.01', 'cloy.v.02', 'close.v.15']
+{'arise.v.03': 'standup', 'restore.v.01': 'restore', 'own.v.01': 'own', 'buy.v.01': 'purchase', 'lose.v.01': 'lose', 'look.v.01': 'look', 'bring.v.01': 'bring', 'measure.v.04': 'assess', 'stay.v.01': 'stay', 'watch.v.01': 'watch', 'divide.v.01': 'split', 'fill.v.02': 'fill', 'go_back.v.01': 'goback', 'stop.v.01': 'stop', 'have.v.01': 'have'}
+fill.v.02
+fill
+container
+['container.n.01', 'instrumentality.n.03', 'bag.n.01', 'bag.n.04', 'basket.n.01', 'bin.n.01', 'bowl.n.08', 'box.n.01', 'bread-bin.n.01', 'bunker.n.02', 'can.n.01', 'canister.n.02', 'capsule.n.01', 'cargo_container.n.01', 'case.n.05', 'case.n.20', 'cassette.n.01', 'cup.n.01', 'cylinder.n.04', 'dice_cup.n.01', 'dish.n.01', 'dispenser.n.01', 'drawer.n.01', 'dumpster.n.01', 'empty.n.01', 'envelope.n.01', 'glass.n.02', 'grab_bag.n.02', 'magnetic_bottle.n.01', 'mailer.n.04', 'manger.n.01', 'measure.n.09', 'mold.n.02', 'package.n.02', 'pan.n.03', 'pod.n.04', 'pot.n.04', 'powder_horn.n.01', 'receptacle.n.01', 'reliquary.n.01', 'saltcellar.n.01', 'savings_bank.n.02', 'scuttle.n.01', 'shaker.n.03', 'spoon.n.01', 'storage_ring.n.01', 'thimble.n.02', 'time_capsule.n.01', 'vessel.n.03', 'wastepaper_basket.n.01', 'watering_can.n.01', 'wheeled_vehicle.n.01', 'workbasket.n.01']
+{'electricity.n.03': 'electricity', 'lawn_mower.n.01': 'lawn_mower', 'dwelling.n.01': 'dwelling', 'generator.n.04': 'generator', 'tree.n.01': 'tree', 'neighbor.n.01': 'neighbor', 'dog.n.01': 'dog', 'narrator.n.01': 'narrator', 'baton_rouge.n.01': 'Baton_Rouge', 'wind_instrument.n.01': 'wind_instrument', 'randomness.n.02': 'randomness', 'area.n.03': 'area', 'journalism.n.01': 'journalism', 'channel.n.07': 'channel', 'patio.n.01': 'patio', 'city.n.01': 'city', 'order.n.03': 'order', 'repair.n.02': 'repair', 'gasoline.n.01': 'gasoline', 'storm.n.02': 'storm', 'bush.n.06': 'Bush', 'louisiana.n.01': 'Louisiana', 'golfcart.n.01': 'golfcart'}
+gasoline
+['gasoline.n.01', 'fuel.n.01', 'hydrocarbon.n.01', 'leaded_gasoline.n.01', 'napalm.n.01', 'unleaded_gasoline.n.01']
+{'electricity.n.03': 'electricity', 'lawn_mower.n.01': 'lawn_mower', 'dwelling.n.01': 'dwelling', 'generator.n.04': 'generator', 'tree.n.01': 'tree', 'neighbor.n.01': 'neighbor', 'dog.n.01': 'dog', 'narrator.n.01': 'narrator', 'baton_rouge.n.01': 'Baton_Rouge', 'wind_instrument.n.01': 'wind_instrument', 'randomness.n.02': 'randomness', 'area.n.03': 'area', 'journalism.n.01': 'journalism', 'channel.n.07': 'channel', 'patio.n.01': 'patio', 'city.n.01': 'city', 'order.n.03': 'order', 'repair.n.02': 'repair', 'gasoline.n.01': 'gasoline', 'storm.n.02': 'storm', 'bush.n.06': 'Bush', 'louisiana.n.01': 'Louisiana', 'golfcart.n.01': 'golfcart'}
+gasoline.n.01
+gasoline
+question before sub:
+Who filled the container of some gasoline?
+{Question_Text}: Who fill the container of some gasoline ?
+answer_type:Sch
+SCORING blogs-03-20
+Comparing Gold   "the narrator"
+      and Resp   "The narrator filled a group of cars and filled the container of some gasoline."
+
+RECALL:    1.000
+PRECISION: 0.167
+F-measure: 0.286
+
+=========================================
+sch
+An oven broke because the broiler of the oven activated.
+The oven scorched a group of treats and created some fire.
+The husband of a narrator who owned a house and owned the oven attempted for the husband of the narrator to retrieve the group of treats and discovered that the oven had created the fire.
+The husband of the narrator unsuccessfully tried to eliminate the fire.
+The husband of the narrator quickly shut the door of the oven in order to prevent the fire spreading.
+The narrator retrieved a fire extinguisher.
+The husband of the narrator opened the door of the oven.
+The fire ascended to the ceiling of the house.
+The oven began to be broken, and the fire extinguisher eliminated the fire.
+The fire didn't damage the group of things of the house.
+The house aired, and the husband of the narrator and the narrator cleaned the house in order for the house to be normal.
+The husband of the narrator and the narrator used some griddle and used a toaster oven.
+The narrator ordered a new second oven.
+The narrator began to be excited because she had ordered the second oven.
+=========================================
+[('What', 'WDT'), ('made', 'VBD'), ('some', 'DT'), ('fire', 'NN'), ('?', '.')]
+[('make', 'VBD'), ('fire', 'NN')]
+[('make', 'VBD'), ('fire', 'NN')]
+make
+['brand.n.02', 'shuffle.n.01', 'make.v.01', 'make.v.02', 'make.v.03', 'induce.v.02', 'cause.v.01', 'produce.v.02', 'draw.v.04', 'make.v.08', 'create.v.05', 'gain.v.08', 'do.v.08', 'form.v.02', 'reach.v.07', 'make.v.14', 'make.v.15', 'make.v.16', 'construct.v.01', 'make.v.18', 'make.v.19', 'name.v.03', 'have.v.17', 'reach.v.01', 'lay_down.v.01', 'make.v.24', 'make.v.25', 'hold.v.03', 'make.v.27', 'take.v.27', 'stool.v.04', 'make.v.30', 'make.v.31', 'make.v.32', 'make.v.33', 'make.v.34', 'make.v.35', 'make.v.36', 'make.v.37', 'make.v.38', 'cook.v.02', 'seduce.v.01', 'make.v.41', 'make.v.42', 'make.v.43', 'make.v.44', 'make.v.45', 'make.v.46', 'make.v.47', 'make.v.48', 'make.v.49', 'kind.n.01', 'reordering.n.01', 'change.v.01', 'make.v.03', 'create_by_mental_act.v.01', 'cause.v.01', 'make.v.03', 'get.v.01', 'create.v.05', 'constitute.v.01', 'achieve.v.01', 'become.v.03', 'create_from_raw_material.v.01', 'perform.v.01', 'make.v.03', 'change.v.01', 'act.v.02', 'appoint.v.02', 'score.v.01', 'make.v.03', 'perpetrate.v.01', 'assemble.v.03', 'direct.v.04', 'tidy.v.01', 'head.v.01', 'excrete.v.01', 'change.v.02', 'be.v.01', 'total.v.01', 'amount.v.01', 'constitute.v.01', 'look.v.02', 'pass.v.01', 'reach.v.01', 'create_from_raw_material.v.01', 'create_from_raw_material.v.01', 'persuade.v.02', 'guarantee.v.02', 'act.v.03', 'see.v.05', 'estimate.v.01', 'change.v.01', 'develop.v.13', 'develop.v.14', 'act.v.02', 'excrete.v.01', 'reshuffle.n.02', 'riffle.n.02', 'overdo.v.01', 'get.v.03', 'leave.v.03', 'render.v.01', 'arouse.v.01', 'assemble.v.01', 'bear.v.05', 'beat.v.18', 'beget.v.01', 'blast.v.05', 'bring.v.03', 'build.v.03', 'cause.v.01', 'chop.v.03', 'choreograph.v.01', 'clear.v.02', 'cleave.v.02', 'compose.v.02', 'construct.v.01', 'copy.v.04', 'create.v.05', 'create_by_mental_act.v.01', 'create_from_raw_material.v.01', 'create_verbally.v.01', 'cut.v.06', 'cut.v.22', 'derive.v.04', 'direct.v.03', 'distill.v.03', 'establish.v.05', 'film-make.v.01', 'film.v.02', 'form.v.01', 'froth.v.02', 'generate.v.01', 'give.v.09', 'grind.v.06', 'incorporate.v.03', 'institute.v.02', 'lay_down.v.01', 'manufacture.v.04', 'offset.v.04', 'originate.v.02', 'prepare.v.03', 'press.v.07', 'produce.v.01', 'produce.v.03', 'puncture.v.02', 'put_on.v.04', 'raise.v.07', 'raise.v.11', 're-create.v.01', 'realize.v.03', 'recreate.v.04', 'regenerate.v.07', 'reproduce.v.02', 'scrape.v.02', 'short-circuit.v.02', 'strike.v.13', 'style.v.02', 'track.v.05', 'twine.v.03', 'bring.v.11', 'compel.v.01', 'decide.v.03', 'encourage.v.03', 'lead.v.05', 'let.v.02', 'persuade.v.02', 'prompt.v.02', 'solicit.v.04', 'suborn.v.03', 'determine.v.02', 'effect.v.01', 'engender.v.01', 'facilitate.v.03', 'impel.v.01', 'initiate.v.02', 'make.v.08', 'motivate.v.01', 'occasion.v.01', 'provoke.v.02', 'bootleg.v.02', 'breed.v.03', 'churn_out.v.02', 'clap_up.v.01', 'confect.v.01', 'custom-make.v.01', 'cut.v.21', 'dummy.v.01', 'elaborate.v.02', 'extrude.v.01', 'fudge_together.v.01', 'generate.v.03', 'laminate.v.01', 'machine.v.02', 'output.v.01', 'overproduce.v.02', 'prefabricate.v.01', 'prefabricate.v.02', 'print.v.01', 'proof.v.01', 'pulse.v.02', 'put_out.v.02', 'remake.v.01', 'render.v.04', 'reproduce.v.01', 'smelt.v.01', 'turn_out.v.03', 'underproduce.v.01', 'drive.v.07', 'design.v.03', 'design.v.05', 'do.v.08', 'eke_out.v.03', 'gross.v.01', 'profit.v.02', 'rake_in.v.01', 'rake_off.v.01', 'take_home.v.01', 'yield.v.10', 'add.v.06', 'chelate.v.01', 'compile.v.03', 'compose.v.04', 'cooper.v.01', 'fashion.v.01', 'manufacture.v.01', 'pay.v.08', 'cantilever.v.02', 'channelize.v.02', 'corduroy.v.01', 'customize.v.02', 'dry-wall.v.01', 'frame.v.06', 'groin.v.01', 'lock.v.09', 'raise.v.09', 'rebuild.v.01', 'revet.v.01', 'wattle.v.01', 'rename.v.02', 'access.v.02', 'bottom_out.v.01', 'catch_up.v.01', 'culminate.v.04', 'find.v.15', 'get_through.v.03', 'ground.v.06', 'make.v.37', 'scale.v.04', 'summit.v.01', 'top.v.06', 'top_out.v.03', 'set.v.04', 'dung.v.02', 'bushwhack.v.03', 'claw.v.01', 'jostle.v.01', 'concoct.v.02', 'deglaze.v.01', 'devil.v.02', 'dress.v.06', 'flambe.v.01', 'lard.v.01', 'precook.v.01', 'preserve.v.04', 'put_on.v.03', 'scallop.v.02', 'whip_up.v.01', 'go_through_the_motions.v.01', 'stale.v.01', 'wet.v.02']
+{'order.v.02': 'order', 'open.v.02': 'open', 'damage.v.01': 'damage', 'make.v.03': 'create', 'extinguish.v.04': 'eliminate', 'scorch.v.03': 'scorch', 'discover.v.04': 'discover', 'clean.v.01': 'clean', 'try.v.01': 'try', 'recover.v.01': 'retrieve', 'cosignatory.s.01': 'air', 'prevent.v.02': 'prevent', 'ascend.v.03': 'ascend', 'diffuse.v.01': 'spread', 'use.v.01': 'use', 'trip.v.04': 'activate', 'close.v.01': 'shut'}
+make.v.03
+create
+fire
+['fire.n.01', 'fire.n.02', 'fire.n.03', 'fire.n.04', 'fire.n.05', 'ardor.n.03', 'fire.n.07', 'fire.n.08', 'fire.n.09', 'open_fire.v.01', 'fire.v.02', 'fire.v.03', 'displace.v.03', 'fire.v.05', 'fire.v.06', 'arouse.v.01', 'burn.v.01', 'fuel.v.02', 'happening.n.01', 'attack.n.01', 'combustion.n.01', 'fireplace.n.01', 'element.n.05', 'passion.n.01', 'fuel.n.01', 'trial.n.06', 'criticism.n.01', 'blast.v.07', 'bake.v.01', 'remove.v.02', 'chase_away.v.01', 'make.v.03', 'destroy.v.02', 'supply.v.01', 'backfire.n.03', 'bonfire.n.01', 'brush_fire.n.01', 'campfire.n.01', 'conflagration.n.01', 'forest_fire.n.01', 'grassfire.n.01', 'smoulder.n.01', 'smudge.n.01', 'antiaircraft_fire.n.01', 'artillery_fire.n.01', 'barrage.n.02', 'broadside.n.05', 'call_fire.n.01', 'concentrated_fire.n.01', 'counterfire.n.01', 'counterpreparation_fire.n.01', 'cover.n.07', 'crossfire.n.02', 'destruction_fire.n.01', 'direct_fire.n.01', 'distributed_fire.n.01', 'friendly_fire.n.01', 'fusillade.n.01', 'grazing_fire.n.01', 'harassing_fire.n.01', 'hostile_fire.n.01', 'indirect_fire.n.01', 'interdiction_fire.n.01', 'neutralization_fire.n.01', 'observed_fire.n.01', 'preparation_fire.n.01', 'radar_fire.n.01', 'registration_fire.n.01', 'scheduled_fire.n.01', 'searching_fire.n.01', 'supporting_fire.n.01', 'suppressive_fire.n.01', 'unobserved_fire.n.01', 'blaze.n.01', 'flare.n.02', 'ignition.n.01', 'cookfire.n.01', 'zeal.n.02', 'blast.v.07', 'fusillade.v.01', 'loose_off.v.01', 'pop.v.04', 'clean_out.v.02', 'dismiss.v.03', 'furlough.v.01', 'pension_off.v.01', 'retire.v.06', 'squeeze_out.v.01', 'anger.v.01', 'draw.v.10', 'excite.v.01', 'hurt.v.05', 'infatuate.v.01', 'inflame.v.04', 'interest.v.01', 'invite.v.01', 'overwhelm.v.01', 'prick.v.06', 'rekindle.v.02', 'shame.v.03', 'stimulate.v.03', 'strike_a_chord.v.03', 'upset.v.02', 'backfire.v.03', 'cremate.v.01', 'scorch.v.03', 'torch.v.01']
+{'oven.n.01': 'oven', 'fire_extinguisher.n.01': 'fire_extinguisher', 'house.n.01': 'house', 'griddle.n.01': 'griddle', 'narrator.n.01': 'narrator', 'fire.n.07': 'fire', 'toaster_oven.n.01': 'toaster_oven'}
+fire.n.07
+fire
+question before sub:
+What made some fire?
+{Question_Text}: What create some fire ?
+answer_type:Sch
+SCORING blogs-06-16
+Comparing Gold   "the oven"
+      and Resp   "The oven scorched a group of treats and created some fire."
+
+RECALL:    1.000
+PRECISION: 0.167
+F-measure: 0.286
+
+=========================================
+[('Who', 'WP'), ('tried', 'VBD'), ('to', 'TO'), ('extinguish', 'VB'), ('the', 'DT'), ('fire', 'NN'), ('?', '.')]
+[('try', 'VBD'), ('extinguish', 'VB'), ('fire', 'NN')]
+[('try', 'VBD'), ('extinguish', 'VB'), ('fire', 'NN')]
+try
+['attempt.n.01', 'try.v.01', 'test.v.01', 'judge.v.05', 'sample.v.01', 'hear.v.03', 'try.v.06', 'try.v.07', 'try.v.08', 'try_on.v.01', 'activity.n.01', 'act.v.01', 'evaluate.v.02', 'decide.v.01', 'consume.v.02', 'probe.v.01', 'pain.v.02', 'afflict.v.01', 'melt.v.01', 'wear.v.09', 'batting.n.01', 'best.n.01', 'bid.n.02', 'contribution.n.01', 'crack.n.09', 'essay.n.02', 'foray.n.02', 'liberation.n.02', "mug's_game.n.01", 'power_play.n.01', 'seeking.n.02', 'shot.n.15', 'shot.n.16', 'striving.n.01', 'struggle.n.01', 'takeover_attempt.n.01', 'test.n.04', 'test.n.05', 'worst.n.03', 'endeavor.v.01', 'fight.v.03', 'gamble.v.01', 'give_it_a_whirl.v.01', 'grope.v.02', 'have_a_go.v.01', 'risk.v.01', 'take_a_dare.v.02', 'control.v.05', 'field-test.v.01', 'float.v.04', 'court-martial.v.01', 'degust.v.01', 'rehear.v.01', 'rack.v.02']
+{'order.v.02': 'order', 'open.v.02': 'open', 'damage.v.01': 'damage', 'make.v.03': 'create', 'extinguish.v.04': 'eliminate', 'scorch.v.03': 'scorch', 'discover.v.04': 'discover', 'clean.v.01': 'clean', 'try.v.01': 'try', 'recover.v.01': 'retrieve', 'cosignatory.s.01': 'air', 'prevent.v.02': 'prevent', 'ascend.v.03': 'ascend', 'diffuse.v.01': 'spread', 'use.v.01': 'use', 'trip.v.04': 'activate', 'close.v.01': 'shut'}
+try.v.01
+try
+extinguish
+['snuff_out.v.01', 'snuff_out.v.02', 'stub_out.v.01', 'extinguish.v.04', 'eliminate.v.03', 'extinguish.v.04', 'end.v.02', 'destroy.v.01', 'kill.v.01', 'smother.v.05', 'stamp.v.06', 'black_out.v.01', 'douse.v.01', 'stub.v.02', 'cancel_out.v.01', 'cut.v.33', 'cut_out.v.01', 'decouple.v.03', 'decouple.v.04', 'drown.v.02', 'exclude.v.01', 'knock_out.v.01', 'obliterate.v.04', 'snuff_out.v.01']
+{'order.v.02': 'order', 'open.v.02': 'open', 'damage.v.01': 'damage', 'make.v.03': 'create', 'extinguish.v.04': 'eliminate', 'scorch.v.03': 'scorch', 'discover.v.04': 'discover', 'clean.v.01': 'clean', 'try.v.01': 'try', 'recover.v.01': 'retrieve', 'cosignatory.s.01': 'air', 'prevent.v.02': 'prevent', 'ascend.v.03': 'ascend', 'diffuse.v.01': 'spread', 'use.v.01': 'use', 'trip.v.04': 'activate', 'close.v.01': 'shut'}
+extinguish.v.04
+eliminate
+fire
+['fire.n.01', 'fire.n.02', 'fire.n.03', 'fire.n.04', 'fire.n.05', 'ardor.n.03', 'fire.n.07', 'fire.n.08', 'fire.n.09', 'open_fire.v.01', 'fire.v.02', 'fire.v.03', 'displace.v.03', 'fire.v.05', 'fire.v.06', 'arouse.v.01', 'burn.v.01', 'fuel.v.02', 'happening.n.01', 'attack.n.01', 'combustion.n.01', 'fireplace.n.01', 'element.n.05', 'passion.n.01', 'fuel.n.01', 'trial.n.06', 'criticism.n.01', 'blast.v.07', 'bake.v.01', 'remove.v.02', 'chase_away.v.01', 'make.v.03', 'destroy.v.02', 'supply.v.01', 'backfire.n.03', 'bonfire.n.01', 'brush_fire.n.01', 'campfire.n.01', 'conflagration.n.01', 'forest_fire.n.01', 'grassfire.n.01', 'smoulder.n.01', 'smudge.n.01', 'antiaircraft_fire.n.01', 'artillery_fire.n.01', 'barrage.n.02', 'broadside.n.05', 'call_fire.n.01', 'concentrated_fire.n.01', 'counterfire.n.01', 'counterpreparation_fire.n.01', 'cover.n.07', 'crossfire.n.02', 'destruction_fire.n.01', 'direct_fire.n.01', 'distributed_fire.n.01', 'friendly_fire.n.01', 'fusillade.n.01', 'grazing_fire.n.01', 'harassing_fire.n.01', 'hostile_fire.n.01', 'indirect_fire.n.01', 'interdiction_fire.n.01', 'neutralization_fire.n.01', 'observed_fire.n.01', 'preparation_fire.n.01', 'radar_fire.n.01', 'registration_fire.n.01', 'scheduled_fire.n.01', 'searching_fire.n.01', 'supporting_fire.n.01', 'suppressive_fire.n.01', 'unobserved_fire.n.01', 'blaze.n.01', 'flare.n.02', 'ignition.n.01', 'cookfire.n.01', 'zeal.n.02', 'blast.v.07', 'fusillade.v.01', 'loose_off.v.01', 'pop.v.04', 'clean_out.v.02', 'dismiss.v.03', 'furlough.v.01', 'pension_off.v.01', 'retire.v.06', 'squeeze_out.v.01', 'anger.v.01', 'draw.v.10', 'excite.v.01', 'hurt.v.05', 'infatuate.v.01', 'inflame.v.04', 'interest.v.01', 'invite.v.01', 'overwhelm.v.01', 'prick.v.06', 'rekindle.v.02', 'shame.v.03', 'stimulate.v.03', 'strike_a_chord.v.03', 'upset.v.02', 'backfire.v.03', 'cremate.v.01', 'scorch.v.03', 'torch.v.01']
+{'oven.n.01': 'oven', 'fire_extinguisher.n.01': 'fire_extinguisher', 'house.n.01': 'house', 'griddle.n.01': 'griddle', 'narrator.n.01': 'narrator', 'fire.n.07': 'fire', 'toaster_oven.n.01': 'toaster_oven'}
+fire.n.07
+fire
+question before sub:
+Who tried to extinguish the fire?
+{Question_Text}: Who try to eliminate the fire ?
+answer_type:Sch
+SCORING blogs-06-17
+Comparing Gold   "the husband of the narrator"
+      and Resp   "The husband of the narrator unsuccessfully tried to eliminate the fire."
+
+RECALL:    1.000
+PRECISION: 0.400
+F-measure: 0.571
+
+=========================================
+[('What', 'WDT'), ('broke', 'VBD'), ('because', 'IN'), ('the', 'DT'), ('broiler', 'NN'), ('of', 'IN'), ('the', 'DT'), ('oven', 'NN'), ('tripped', 'VBN'), ('?', '.')]
+[('break', 'VBD'), ('broiler', 'NN'), ('oven', 'NN'), ('trip', 'VBN')]
+[('break', 'VBD'), ('broiler', 'NN'), ('oven', 'NN'), ('trip', 'VBN')]
+break
+['interruption.n.02', 'break.n.02', 'fault.n.04', 'rupture.n.02', 'respite.n.02', 'breakage.n.03', 'pause.n.01', 'fracture.n.01', 'break.n.09', 'break.n.10', 'break.n.11', 'break.n.12', 'break.n.13', 'break.n.14', 'open_frame.n.01', 'break.n.16', 'interrupt.v.04', 'break.v.02', 'break.v.03', 'break.v.04', 'break.v.05', 'transgress.v.01', 'break.v.07', 'break.v.08', 'break.v.09', 'break.v.10', 'break_in.v.01', 'break_in.v.06', 'violate.v.01', 'better.v.01', 'unwrap.v.02', 'break.v.16', 'fail.v.04', 'break.v.18', 'break.v.19', 'break.v.20', 'dampen.v.07', 'break.v.22', 'break.v.23', 'break.v.24', 'break.v.25', 'break.v.26', 'break.v.27', 'break.v.28', 'break.v.29', 'break.v.30', 'separate.v.08', 'demote.v.01', 'bankrupt.v.01', 'break.v.34', 'break.v.35', 'collapse.v.01', 'break_dance.v.01', 'break.v.38', 'break.v.39', 'break.v.40', 'break.v.41', 'break.v.42', 'break.v.43', 'break.v.44', 'break.v.45', 'break.v.46', 'pause.v.02', 'break.v.48', 'break.v.49', 'break.v.50', 'break.v.51', 'break.v.52', 'break.v.53', 'crack.v.01', 'break.v.55', 'break.v.56', 'fracture.v.06', 'break.v.58', 'break.v.59', 'happening.n.01', 'accident.n.02', 'crack.n.01', 'separation.n.02', 'pause.n.02', 'change_of_integrity.n.01', 'time_interval.n.01', 'injury.n.01', 'separation.n.02', 'change.n.01', 'stroke.n.01', 'score.n.10', 'delay.n.02', 'dash.n.02', 'score.n.10', 'escape.n.01', 'end.v.02', 'change_integrity.v.01', 'damage.v.01', 'destroy.v.02', 'separate.v.07', 'disrespect.v.01', 'escape.v.01', 'disperse.v.04', 'express_emotion.v.01', 'end.v.02', 'trespass.v.01', 'domesticate.v.02', 'surpass.v.02', 'tell.v.02', 'become.v.01', 'change.v.02', 'separate.v.08', 'flee.v.01', 'collapse.v.01', 'deaden.v.06', 'change.v.02', 'end.v.01', 'change.v.03', 'discontinue.v.01', 'come_forth.v.02', 'happen.v.01', 'ruin.v.02', 'invalidate.v.01', 'delegate.v.02', 'impoverish.v.01', 'switch.v.03', 'appear.v.02', 'change.v.02', 'dance.v.02', 'change.v.06', 'change.v.01', 'shoot.v.08', 'separate.v.02', 'decay.v.02', 'detach.v.01', 'penetrate.v.01', 'interrupt.v.01', 'interrupt.v.01', 'diphthongize.v.01', 'destroy.v.02', 'solve.v.01', 'switch.v.03', 'happen.v.01', 'change.v.02', 'change_state.v.01', 'decrease.v.01', 'injure.v.01', 'decrease.v.01', 'weaken.v.01', 'dislocation.n.01', 'eclipse.n.01', 'punctuation.n.01', 'suspension.n.04', 'inclined_fault.n.01', 'strike-slip_fault.n.01', 'schism.n.02', 'spring_break.n.01', 'chip.n.09', 'fracture.n.03', 'rupture.n.03', 'smashing.n.01', 'blackout.n.01', 'caesura.n.01', 'dead_air.n.01', 'delay.n.01', 'halftime.n.01', 'lapse.n.02', 'letup.n.01', 'respite.n.04', 'time-out.n.01', 'comminuted_fracture.n.01', 'complete_fracture.n.01', 'compound_fracture.n.01', 'compression_fracture.n.01', 'depressed_fracture.n.01', 'displaced_fracture.n.01', 'fatigue_fracture.n.01', 'hairline_fracture.n.01', 'impacted_fracture.n.01', 'incomplete_fracture.n.01', 'simple_fracture.n.01', 'snap.n.07', 'breaking_off.n.01', 'cut-in.n.01', 'cut-in.n.02', 'heckling.n.01', 'interjection.n.02', 'fast_break.n.01', 'cut_short.v.01', 'freeze.v.05', 'hold_on.v.02', 'break_up.v.16', 'burst.v.01', 'burst.v.08', 'crush.v.08', 'ladder.v.01', 'puncture.v.05', 'smash.v.10', 'snap.v.03', 'break_down.v.06', 'break_in.v.05', 'fracture.v.03', 'shatter.v.03', 'smash.v.02', 'conflict.v.02', 'drop_the_ball.v.01', 'sin.v.01', 'trespass.v.01', 'trespass.v.03', 'bog_down.v.01', 'fracture.v.04', 'interrupt.v.01', 'crack.v.08', 'fly_in_the_face_of.v.01', 'betray.v.01', 'blackwash.v.01', 'blow.v.18', 'come_out_of_the_closet.v.01', 'confide.v.01', 'leak.v.01', 'muckrake.v.01', 'out.v.02', 'reveal.v.03', 'spill_the_beans.v.01', 'spring.v.05', 'blow_out.v.01', 'crash.v.12', 'malfunction.v.01', 'misfire.v.01', 'dampen.v.05', 'deafen.v.03', 'break.v.18', 'break_with.v.01', 'disassociate.v.01', 'disunify.v.01', 'divorce.v.02', 'give_the_axe.v.02', 'secede.v.01', 'reduce.v.03', 'sideline.v.01', 'break.v.20', 'buckle.v.02', 'flop.v.01', 'implode.v.01', 'slump.v.02', 'fray.v.01', 'leak.v.02', 'rest.v.02', 'take_five.v.01', 'take_ten.v.01', 'crack.v.06']
+{'order.v.02': 'order', 'open.v.02': 'open', 'damage.v.01': 'damage', 'make.v.03': 'create', 'extinguish.v.04': 'eliminate', 'scorch.v.03': 'scorch', 'discover.v.04': 'discover', 'clean.v.01': 'clean', 'try.v.01': 'try', 'recover.v.01': 'retrieve', 'cosignatory.s.01': 'air', 'prevent.v.02': 'prevent', 'ascend.v.03': 'ascend', 'diffuse.v.01': 'spread', 'use.v.01': 'use', 'trip.v.04': 'activate', 'close.v.01': 'shut'}
+damage.v.01
+damage
+broiler
+['broiler.n.01', 'broiler.n.02', 'oven.n.01', 'chicken.n.01']
+{'oven.n.01': 'oven', 'fire_extinguisher.n.01': 'fire_extinguisher', 'house.n.01': 'house', 'griddle.n.01': 'griddle', 'narrator.n.01': 'narrator', 'fire.n.07': 'fire', 'toaster_oven.n.01': 'toaster_oven'}
+oven.n.01
+oven
+oven
+['oven.n.01', 'kitchen_appliance.n.01', 'broiler.n.01', 'dutch_oven.n.01', 'gas_oven.n.02', 'rotisserie.n.01', 'tandoor.n.01']
+{'oven.n.01': 'oven', 'fire_extinguisher.n.01': 'fire_extinguisher', 'house.n.01': 'house', 'griddle.n.01': 'griddle', 'narrator.n.01': 'narrator', 'fire.n.07': 'fire', 'toaster_oven.n.01': 'toaster_oven'}
+oven.n.01
+oven
+trip
+['trip.n.01', 'trip.n.02', 'slip.n.07', 'trip.n.04', 'tripper.n.04', 'trip.n.06', 'trip.n.07', 'stumble.v.02', 'trip.v.02', 'travel.v.03', 'trip.v.04', 'trip.v.05', 'journey.n.01', 'hallucination.n.01', 'mishap.n.02', 'experience.n.03', 'catch.n.06', 'step.n.03', 'blunder.n.01', 'move.v.03', 'initiate.v.02', 'errand.n.01', 'flight.n.09', 'junket.n.03', 'round_trip.n.01', 'run.n.06', 'run.n.16', 'service_call.n.01', 'trek.n.02', 'spill.n.04', 'founder.v.04', 'commute.v.02', 'junketeer.v.01', 'peregrinate.v.01', 'ply.v.03', 'travel.v.02', 'travel_to.v.01']
+{'order.v.02': 'order', 'open.v.02': 'open', 'damage.v.01': 'damage', 'make.v.03': 'create', 'extinguish.v.04': 'eliminate', 'scorch.v.03': 'scorch', 'discover.v.04': 'discover', 'clean.v.01': 'clean', 'try.v.01': 'try', 'recover.v.01': 'retrieve', 'cosignatory.s.01': 'air', 'prevent.v.02': 'prevent', 'ascend.v.03': 'ascend', 'diffuse.v.01': 'spread', 'use.v.01': 'use', 'trip.v.04': 'activate', 'close.v.01': 'shut'}
+trip.v.04
+activate
+question before sub:
+What broke because the broiler of the oven tripped?
+{Question_Text}: What damage because the oven of the oven activate ?
+answer_type:Sch
+SCORING blogs-06-18
+Comparing Gold   "an oven"
+      and Resp   "An oven broke because the broiler of the oven activated."
+
+RECALL:    1.000
+PRECISION: 0.222
+F-measure: 0.364
+
+=========================================
+[('What', 'WP'), ('did', 'VBD'), ('the', 'DT'), ('husband', 'NN'), ('of', 'IN'), ('the', 'DT'), ('narrator', 'NN'), ('quickly', 'RB'), ('close', 'VB'), ('?', '.')]
+[('do', 'VBD'), ('husband', 'NN'), ('narrator', 'NN'), ('close', 'VB')]
+[('husband', 'NN'), ('narrator', 'NN'), ('close', 'VB')]
+husband
+['husband.n.01', 'conserve.v.03', 'spouse.n.01', 'save.v.02', 'benedick.n.01', 'cuckold.n.01', 'family_man.n.01', 'house_husband.n.01', 'uxoricide.n.01', 'retrench.v.01']
+{'oven.n.01': 'oven', 'fire_extinguisher.n.01': 'fire_extinguisher', 'house.n.01': 'house', 'griddle.n.01': 'griddle', 'narrator.n.01': 'narrator', 'fire.n.07': 'fire', 'toaster_oven.n.01': 'toaster_oven'}
+narrator
+['narrator.n.01', 'speaker.n.01', 'anecdotist.n.01', 'fabulist.n.01', 'griot.n.01']
+{'oven.n.01': 'oven', 'fire_extinguisher.n.01': 'fire_extinguisher', 'house.n.01': 'house', 'griddle.n.01': 'griddle', 'narrator.n.01': 'narrator', 'fire.n.07': 'fire', 'toaster_oven.n.01': 'toaster_oven'}
+narrator.n.01
+narrator
+close
+['stopping_point.n.01', 'conclusion.n.08', 'finale.n.03', 'close.v.01', 'close.v.02', 'close_up.v.01', 'close.v.04', 'conclude.v.04', 'close.v.06', 'close.v.07', 'close.v.08', 'close.v.09', 'close.v.10', 'close.v.11', 'close.v.12', 'close.v.13', 'close.v.14', 'close.v.15', 'close_up.v.03', 'close.v.17', 'close.a.01', 'close.a.02', 'near.a.01', 'close.s.04', 'close.s.05', 'close.s.06', 'close.s.07', 'airless.s.01', 'close.s.09', 'close.s.10', 'close.s.11', 'close.s.12', 'close.s.13', 'cheeseparing.s.01', 'close.s.15', 'near.r.01', 'close.r.02', 'end.n.02', 'section.n.01', 'finish.n.09', 'change_state.v.01', 'end.v.02', 'end.v.01', 'end.v.02', 'trade.v.03', 'prosecute.v.03', 'end.v.03', 'move.v.03', 'move.v.03', 'approach.v.01', 'join.v.02', 'barricade.v.01', 'fill.v.09', 'join.v.02', 'complete.v.01', 'anticlimax.n.02', 'epilogue.n.01', 'epilogue.n.02', 'finale.n.01', 'peroration.n.02', 'bung.v.02', 'draw.v.20', 'roll_up.v.05', 'seal.v.01', 'shutter.v.01', 'slam.v.01', 'slat.v.02', 'snap.v.05', 'adjourn.v.02', 'coapt.v.01', 'plug.v.01', 'seal.v.02']
+{'order.v.02': 'order', 'open.v.02': 'open', 'damage.v.01': 'damage', 'make.v.03': 'create', 'extinguish.v.04': 'eliminate', 'scorch.v.03': 'scorch', 'discover.v.04': 'discover', 'clean.v.01': 'clean', 'try.v.01': 'try', 'recover.v.01': 'retrieve', 'cosignatory.s.01': 'air', 'prevent.v.02': 'prevent', 'ascend.v.03': 'ascend', 'diffuse.v.01': 'spread', 'use.v.01': 'use', 'trip.v.04': 'activate', 'close.v.01': 'shut'}
+close.v.01
+shut
+question before sub:
+What did the husband of the narrator quickly close?
+{Question_Text}: What did the husband of the narrator quickly shut ?
+answer_type:Sch
+SCORING blogs-06-21
+Comparing Gold   "the door of the oven"
+      and Resp   "The husband of the narrator quickly shut the door of the oven in order to prevent the fire spreading."
+
+RECALL:    1.000
+PRECISION: 0.267
+F-measure: 0.421
+
+=========================================
+[('What', 'WP'), ('did', 'VBD'), ('the', 'DT'), ('narrator', 'NN'), ('recover', 'VB'), ('?', '.')]
+[('do', 'VBD'), ('narrator', 'NN'), ('recover', 'VB')]
+[('narrator', 'NN'), ('recover', 'VB')]
+narrator
+['narrator.n.01', 'speaker.n.01', 'anecdotist.n.01', 'fabulist.n.01', 'griot.n.01']
+{'oven.n.01': 'oven', 'fire_extinguisher.n.01': 'fire_extinguisher', 'house.n.01': 'house', 'griddle.n.01': 'griddle', 'narrator.n.01': 'narrator', 'fire.n.07': 'fire', 'toaster_oven.n.01': 'toaster_oven'}
+narrator.n.01
+narrator
+recover
+['recover.v.01', 'recuperate.v.04', 'recover.v.03', 'recover.v.04', 'reclaim.v.02', 'recover.v.06', 'get.v.01', 'better.v.03', 'revert.v.01', 'get.v.01', 'recycle.v.02', 'cover.v.01', 'access.v.01', 'perk_up.v.01', 'snap_back.v.01', 'rally.v.04', 'make_up.v.04']
+{'order.v.02': 'order', 'open.v.02': 'open', 'damage.v.01': 'damage', 'make.v.03': 'create', 'extinguish.v.04': 'eliminate', 'scorch.v.03': 'scorch', 'discover.v.04': 'discover', 'clean.v.01': 'clean', 'try.v.01': 'try', 'recover.v.01': 'retrieve', 'cosignatory.s.01': 'air', 'prevent.v.02': 'prevent', 'ascend.v.03': 'ascend', 'diffuse.v.01': 'spread', 'use.v.01': 'use', 'trip.v.04': 'activate', 'close.v.01': 'shut'}
+recover.v.01
+retrieve
+question before sub:
+What did the narrator recover?
+{Question_Text}: What did the narrator retrieve ?
+answer_type:Sch
+SCORING blogs-06-22
+Comparing Gold   " the group of treats"
+      and Resp   "The husband of a narrator who owned a house and owned the oven attempted for the husband of the narrator to retrieve the group of treats and discovered that the oven had created the fire."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+sch
+There once was a crow.
+The crow was sitting on a branch of a tree.
+Some cheese was in the beak of the crow.
+A fox observed the crow and tried to discover how to get the cheese.
+The fox came and stood under the tree.
+The fox looked toward the crow and said that he saw a noble bird who was above him.
+The fox said that the beauty of the bird was incomparable.
+The fox said that the hue of the plumage of the bird was exquisite.
+The fox said that -- if the sweetness of the voice of the bird is equal to the fairness of the appearance of the bird -- the bird would be undoubtedly the queen of every bird.
+The crow felt that the fox had flattered her and cawed loudly in order for she to show him that she was able to sing.
+The cheese fell.
+The fox snatched the cheese, said that the crow was able to sing and the fox said that the crow needed wits.
+=========================================
+[('Who', 'WP'), ('did', 'VBD'), ('the', 'DT'), ('fox', 'NN'), ('notice', 'NN'), ('?', '.')]
+[('do', 'VBD'), ('fox', 'NN'), ('notice', 'NN')]
+[('fox', 'NN'), ('notice', 'NN')]
+fox
+['fox.n.01', 'dodger.n.01', 'fox.n.03', 'fox.n.04', 'fox.n.05', 'fox.n.06', 'fox.n.07', 'flim-flam.v.01', 'confuse.v.02', 'fox.v.03', 'canine.n.02', 'deceiver.n.01', 'fur.n.01', 'algonquian.n.01', 'algonquian.n.02', 'deceive.v.01', 'be.v.01', 'spot.v.05', 'arctic_fox.n.01', 'grey_fox.n.01', 'kit_fox.n.01', 'kit_fox.n.02', 'red_fox.n.02', 'red_fox.n.03', 'reynard.n.01', 'vixen.n.02', 'snooker.v.01', 'demoralize.v.03', 'disorient.v.01', 'perplex.v.01']
+{'bird.n.01': 'bird', 'tree.n.01': 'tree', 'crow.n.01': 'crow', 'wits.n.01': 'wits', 'cheese.n.01': 'cheese', 'fox.n.01': 'fox'}
+fox.n.01
+fox
+notice
+['notice.n.01', 'notice.n.02', 'notification.n.03', 'notice.n.04', 'poster.n.01', 'notice.n.06', 'notice.n.07', 'detect.v.01', 'notice.v.02', 'comment.v.01', 'notice.v.04', 'announcement.n.02', 'attention.n.01', 'request.n.02', 'telling.n.02', 'sign.n.02', 'attention.n.01', 'review.n.02', 'spy.v.03', 'note.v.01', 'react.v.01', 'caveat.n.02', 'obituary.n.01', 'mind.n.05', 'remark.n.02', 'dismissal.n.02', 'flash_card.n.01', 'show_bill.n.01', 'find_out.v.04', 'instantiate.v.02', 'see.v.19', 'sense.v.02', 'trace.v.05', 'take_notice.v.01', 'kibitz.v.01', 'knock.v.06', 'wisecrack.v.01', 'mention.v.03']
+{'bird.n.01': 'bird', 'tree.n.01': 'tree', 'crow.n.01': 'crow', 'wits.n.01': 'wits', 'cheese.n.01': 'cheese', 'fox.n.01': 'fox'}
+question before sub:
+Who did the fox notice?
+{Question_Text}: Who did the fox notice ?
+answer_type:Sch
+SCORING fables-01-14
+Comparing Gold   "the crow"
+      and Resp   "The fox came and stood under the tree."
+
+RECALL:    0.500
+PRECISION: 0.125
+F-measure: 0.200
+
+=========================================
+[('Who', 'WP'), ('observed', 'VBD'), ('the', 'DT'), ('corvine', 'NN'), ('bird', 'NN'), ('?', '.')]
+[('observe', 'VBD'), ('corvine', 'NN'), ('bird', 'NN')]
+[('observe', 'VBD'), ('corvine', 'NN'), ('bird', 'NN')]
+observe
+['detect.v.01', 'note.v.01', 'note.v.03', 'observe.v.04', 'respect.v.02', 'observe.v.06', 'watch.v.02', 'observe.v.08', 'observe.v.09', 'spy.v.03', 'state.v.01', 'watch.v.01', 'accept.v.01', 'check.v.01', 'find_out.v.04', 'instantiate.v.02', 'see.v.19', 'sense.v.02', 'trace.v.05', 'comment.v.01', 'bird.v.01', 'monitor.v.01', 'monitor.v.02', 'scout.v.01', 'track.v.02', 'lionize.v.01', 'tolerate.v.02', 'commemorate.v.01', 'mourn.v.02', 'solemnize.v.01', 'guard.v.01', 'invigilate.v.01', 'keep_tabs_on.v.01', 'make_good.v.01']
+{'sing.v.02': 'sing', 'fall.v.07': 'fall', 'stand.v.01': 'stand', 'snatch.v.01': 'snatch', 'flatter.v.01': 'flatter', 'look.v.01': 'look', 'sit.v.01': 'sit', 'discover.v.04': 'discover', 'caw.v.01': 'caw', 'try.v.01': 'try', 'get.v.01': 'get', 'feel.v.01': 'feel', 'prove.v.02': 'show'}
+corvine
+['corvine.a.01']
+{'bird.n.01': 'bird', 'tree.n.01': 'tree', 'crow.n.01': 'crow', 'wits.n.01': 'wits', 'cheese.n.01': 'cheese', 'fox.n.01': 'fox'}
+bird
+['bird.n.01', 'bird.n.02', 'dame.n.01', 'boo.n.01', 'shuttlecock.n.01', 'bird.v.01', 'vertebrate.n.01', 'meat.n.01', 'girl.n.01', 'cry.n.01', 'badminton_equipment.n.01', 'observe.v.04', 'apodiform_bird.n.01', 'aquatic_bird.n.01', 'archaeopteryx.n.01', 'archaeornis.n.01', 'bird_of_passage.n.02', 'bird_of_prey.n.01', 'caprimulgiform_bird.n.01', 'carinate.n.01', 'cock.n.05', 'coraciiform_bird.n.01', 'cuculiform_bird.n.01', 'dickeybird.n.01', 'gallinaceous_bird.n.01', 'hen.n.02', 'ibero-mesornis.n.01', 'nester.n.02', 'night_bird.n.01', 'nonpasserine_bird.n.01', 'parrot.n.01', 'passerine.n.01', 'piciform_bird.n.01', 'protoavis.n.01', 'ratite.n.01', 'sinornis.n.01', 'trogon.n.01', 'twitterer.n.01', 'poultry.n.02', 'wildfowl.n.01']
+{'bird.n.01': 'bird', 'tree.n.01': 'tree', 'crow.n.01': 'crow', 'wits.n.01': 'wits', 'cheese.n.01': 'cheese', 'fox.n.01': 'fox'}
+bird.n.01
+bird
+question before sub:
+Who observed the corvine bird?
+{Question_Text}: Who observed the corvine bird ?
+answer_type:Sch
+SCORING fables-01-15
+Comparing Gold   "a fox"
+      and Resp   "The fox looked toward the crow and said that he saw a noble bird who was above him."
+
+RECALL:    1.000
+PRECISION: 0.111
+F-measure: 0.200
+
+=========================================
+[('Who', 'WP'), ('needed', 'VBD'), ('intelligence', 'NN'), ('?', '.')]
+[('need', 'VBD'), ('intelligence', 'NN')]
+[('need', 'VBD'), ('intelligence', 'NN')]
+need
+['need.n.01', 'need.n.02', 'motivation.n.01', 'indigence.n.01', 'necessitate.v.01', 'want.v.02', 'need.v.03', 'condition.n.01', 'necessity.n.02', 'psychological_feature.n.01', 'poverty.n.01', 'be.v.01', 'lack.n.01', 'necessity.n.01', 'ethical_motive.n.01', 'irrational_motive.n.01', 'life.n.13', 'psychic_energy.n.01', 'rational_motive.n.01', 'urge.n.01', 'beggary.n.02', 'claim.v.05', 'compel.v.02', 'cost.v.02', 'cry_out_for.v.01', 'draw.v.22', 'govern.v.04', 'cry.v.05']
+{'sing.v.02': 'sing', 'fall.v.07': 'fall', 'stand.v.01': 'stand', 'snatch.v.01': 'snatch', 'flatter.v.01': 'flatter', 'look.v.01': 'look', 'sit.v.01': 'sit', 'discover.v.04': 'discover', 'caw.v.01': 'caw', 'try.v.01': 'try', 'get.v.01': 'get', 'feel.v.01': 'feel', 'prove.v.02': 'show'}
+intelligence
+['intelligence.n.01', 'intelligence.n.02', 'intelligence.n.03', 'news.n.01', 'intelligence.n.05', 'ability.n.02', 'administrative_unit.n.01', 'information.n.01', 'information.n.01', 'information_gathering.n.01', 'acuteness.n.02', 'brain.n.02', 'breadth.n.01', 'brightness.n.02', 'brilliance.n.03', 'mental_quickness.n.01', 'mind.n.07', 'nimbleness.n.01', 'nonverbal_intelligence.n.01', 'precociousness.n.01', 'shrewdness.n.01', 'verbal_intelligence.n.01', 'wits.n.01', 'intelligence_community.n.01', 'international_intelligence_agency.n.01', 'military_intelligence.n.01', 'united_states_intelligence_agency.n.01', 'military_intelligence.n.02', 'good_word.n.02', 'latest.n.01', 'update.n.01', 'clandestine_operation.n.01', 'counterintelligence.n.01', 'current_intelligence.n.01', 'overt_operation.n.01', 'reconnaissance.n.01', 'signals_intelligence.n.01', 'spying.n.02', 'strategic_intelligence.n.01', 'tactical_intelligence.n.01']
+{'bird.n.01': 'bird', 'tree.n.01': 'tree', 'crow.n.01': 'crow', 'wits.n.01': 'wits', 'cheese.n.01': 'cheese', 'fox.n.01': 'fox'}
+wits.n.01
+wits
+question before sub:
+Who needed intelligence?
+{Question_Text}: Who needed wits ?
+answer_type:Sch
+SCORING fables-01-16
+Comparing Gold   "the crow"
+      and Resp   "The fox snatched the cheese, said that the crow was able to sing and the fox said that the crow needed wits."
+
+RECALL:    1.000
+PRECISION: 0.125
+F-measure: 0.222
+
+=========================================
+[('Who', 'WP'), ('was', 'VBD'), ('perched', 'VBN'), ('on', 'IN'), ('a', 'DT'), ('branch', 'NN'), ('?', '.')]
+[('be', 'VBD'), ('perch', 'VBN'), ('branch', 'NN')]
+[('perch', 'VBN'), ('branch', 'NN')]
+perch
+['perch.n.01', 'perch.n.02', 'perch.n.03', 'perch.n.04', 'perch.n.05', 'perch.n.06', 'perch.n.07', 'perch.v.01', 'alight.v.01', 'perch.v.03', 'support.n.10', 'linear_unit.n.01', 'area_unit.n.01', 'seat.n.01', 'freshwater_fish.n.01', 'percoid_fish.n.01', 'percoid_fish.n.01', 'sit.v.01', 'land.v.01', 'put.v.01', 'roost.n.02', 'european_perch.n.01', 'pike-perch.n.01', 'snail_darter.n.01', 'yellow_perch.n.01']
+{'sing.v.02': 'sing', 'fall.v.07': 'fall', 'stand.v.01': 'stand', 'snatch.v.01': 'snatch', 'flatter.v.01': 'flatter', 'look.v.01': 'look', 'sit.v.01': 'sit', 'discover.v.04': 'discover', 'caw.v.01': 'caw', 'try.v.01': 'try', 'get.v.01': 'get', 'feel.v.01': 'feel', 'prove.v.02': 'show'}
+sit.v.01
+sit
+branch
+['branch.n.01', 'branch.n.02', 'branch.n.03', 'outgrowth.n.01', 'branch.n.05', 'arm.n.02', 'ramify.v.02', 'branch.v.02', 'division.n.04', 'stalk.n.02', 'subfigure.n.01', 'consequence.n.01', 'stream.n.01', 'projection.n.04', 'grow.v.02', 'diverge.v.01', 'executive_branch.n.01', 'judicial_branch.n.01', 'legislative_branch.n.01', 'post_office.n.01', 'branchlet.n.01', 'deadwood.n.01', 'limb.n.02', 'bifurcation.n.01', 'brachium.n.01', 'fork.n.03', 'billabong.n.02', 'distributary.n.01', 'feeder.n.03', 'arborize.v.01', 'bifurcate.v.02', 'trifurcate.v.01', 'twig.v.01']
+{'bird.n.01': 'bird', 'tree.n.01': 'tree', 'crow.n.01': 'crow', 'wits.n.01': 'wits', 'cheese.n.01': 'cheese', 'fox.n.01': 'fox'}
+question before sub:
+Who was perched on a branch?
+{Question_Text}: Who was sit on a branch ?
+answer_type:Sch
+SCORING fables-01-17
+Comparing Gold   "the crow"
+      and Resp   "The crow was sitting on a branch of a tree."
+
+RECALL:    1.000
+PRECISION: 0.200
+F-measure: 0.333
+
+=========================================
+[('Who', 'WP'), ('felt', 'VBD'), ('buttered', 'VBN'), ('up', 'RP'), ('?', '.')]
+[('feel', 'VBD'), ('butter', 'VBN')]
+[('feel', 'VBD'), ('butter', 'VBN')]
+feel
+['feel.n.01', 'spirit.n.02', 'tactile_property.n.01', 'feel.n.04', 'feel.v.01', 'find.v.05', 'feel.v.03', 'feel.v.04', 'feel.v.05', 'feel.v.06', 'feel.v.07', 'feel.v.08', 'feel.v.09', 'palpate.v.01', 'feel.v.11', 'feel.v.12', 'feel.v.13', 'awareness.n.01', 'atmosphere.n.01', 'property.n.02', 'foreplay.n.01', 'reason.v.01', 'perceive.v.01', 'be.v.01', 'think.v.01', 'experience.v.01', 'look.v.02', 'search.v.01', 'touch.v.01', 'find.v.03', 'look.v.02', 'touch.v.01', 'hollywood.n.02', 'zeitgeist.n.01', 'texture.n.01', 'touch.n.12', 'anger.v.02', 'burn.v.06', 'chafe.v.02', 'cool_off.v.03', 'die.v.05', 'fly_high.v.01', 'fume.v.01', 'glow.v.04', 'glow.v.05', 'harbor.v.01', 'incline.v.05', 'pride.v.01', 'recapture.v.01', 'rejoice.v.01', 'repent.v.02', 'sadden.v.02', 'smolder.v.02', 'suffer.v.03', 'sympathize.v.01', 'take_pride.v.01', 'feel_like_a_million.v.01', 'suffocate.v.06', 'crawl.v.02', 'grope_for.v.01']
+{'sing.v.02': 'sing', 'fall.v.07': 'fall', 'stand.v.01': 'stand', 'snatch.v.01': 'snatch', 'flatter.v.01': 'flatter', 'look.v.01': 'look', 'sit.v.01': 'sit', 'discover.v.04': 'discover', 'caw.v.01': 'caw', 'try.v.01': 'try', 'get.v.01': 'get', 'feel.v.01': 'feel', 'prove.v.02': 'show'}
+feel.v.01
+feel
+butter
+['butter.n.01', 'butter.n.02', 'butter.v.01', 'dairy_product.n.01', 'food.n.02', 'combatant.n.01', 'cover.v.01', 'brown_butter.n.01', 'clarified_butter.n.01', 'meuniere_butter.n.01', 'stick.n.04', 'yak_butter.n.01']
+{'sing.v.02': 'sing', 'fall.v.07': 'fall', 'stand.v.01': 'stand', 'snatch.v.01': 'snatch', 'flatter.v.01': 'flatter', 'look.v.01': 'look', 'sit.v.01': 'sit', 'discover.v.04': 'discover', 'caw.v.01': 'caw', 'try.v.01': 'try', 'get.v.01': 'get', 'feel.v.01': 'feel', 'prove.v.02': 'show'}
+question before sub:
+Who felt buttered up?
+{Question_Text}: Who feel buttered up ?
+answer_type:Sch
+SCORING fables-01-18
+Comparing Gold   "the crow"
+      and Resp   "The crow felt that the fox had flattered her and cawed loudly in order for she to show him that she was able to sing."
+
+RECALL:    1.000
+PRECISION: 0.091
+F-measure: 0.167
+
+=========================================
+sch
+There once was a fat bull.
+The bull was grazing in a meadow.
+A lion watched the bull and salivated because the lion wanted to eat the bull.
+The lion didn't attack the bull because the lion feared sharp every horn of the bull.
+The lion began to be hungry and decided to attempt to kill the bull.
+The lion planned to trick the bull because the lion wasn't able to fight the bull.
+The lion walked toward the bull and began to feign that the lion was friendly.
+The lion said to the bull that the lion admired the body of the bull, admired the head of the bull, he admired every shoulder of the bull and admired every thigh of the bull.
+The lion advised the bull to remove every horn of the bull because every horn of the bull was ugly.
+The lion succeeded in persuading the bull to remove every horn of the bull.
+The lion ate the bull, and the bull began to be defenseless.
+=========================================
+[('Who', 'WP'), ('did', 'VBD'), ('the', 'DT'), ('big', 'JJ'), ('cat', 'NN'), ('witness', 'NN'), ('?', '.')]
+[('do', 'VBD'), ('cat', 'NN'), ('witness', 'NN')]
+[('cat', 'NN'), ('witness', 'NN')]
+cat
+['cat.n.01', 'guy.n.01', 'cat.n.03', 'kat.n.01', "cat-o'-nine-tails.n.01", 'caterpillar.n.02', 'big_cat.n.01', 'computerized_tomography.n.01', 'cat.v.01', 'vomit.v.01', 'feline.n.01', 'man.n.01', 'gossip.n.03', 'woman.n.01', 'stimulant.n.02', 'whip.n.01', 'tracked_vehicle.n.01', 'feline.n.01', 'x-raying.n.01', 'flog.v.01', 'excrete.v.01', 'domestic_cat.n.01', 'wildcat.n.03', 'sod.n.04', 'cheetah.n.01', 'jaguar.n.01', 'leopard.n.02', 'liger.n.01', 'lion.n.01', 'saber-toothed_tiger.n.01', 'snow_leopard.n.01', 'tiger.n.02', 'tiglon.n.01']
+{'hayfield.n.01': 'hayfield', 'lion.n.01': 'lion', 'bull.n.01': 'bull'}
+lion.n.01
+lion
+witness
+['witness.n.01', 'spectator.n.01', 'witness.n.03', 'witness.n.04', 'witness.n.05', 'witness.v.01', 'witness.v.02', 'perceiver.n.01', 'speaker.n.01', 'perceiver.n.01', 'testimony.n.01', 'signer.n.02', 'person.n.01', 'watch.v.01', 'experience.v.01', 'attester.n.01', 'testifier.n.01', 'browser.n.01', 'bystander.n.01', 'cheerer.n.01', 'eyewitness.n.01', 'gawker.n.01', 'moviegoer.n.01', 'ogler.n.01', 'onlooker.n.01', 'playgoer.n.01', 'rubberneck.n.02', 'spy.n.02', 'starer.n.01', 'voyeur.n.01', 'shahadah.n.01', 'adverse_witness.n.01', 'character_witness.n.01', 'expert_witness.n.01', 'lay_witness.n.01', 'material_witness.n.01', 'eyewitness.v.01', 'catch.v.28']
+{'hayfield.n.01': 'hayfield', 'lion.n.01': 'lion', 'bull.n.01': 'bull'}
+question before sub:
+Who did the big cat witness?
+{Question_Text}: Who did the big lion witness ?
+answer_type:Sch
+SCORING fables-02-19
+Comparing Gold   "the bull"
+      and Resp   "The lion didn't attack the bull because the lion feared sharp every horn of the bull."
+
+RECALL:    1.000
+PRECISION: 0.154
+F-measure: 0.267
+
+=========================================
+[('What', 'WP'), ('did', 'VBD'), ('the', 'DT'), ('lion', 'NN'), ('gobble', 'NN'), ('?', '.')]
+[('do', 'VBD'), ('lion', 'NN'), ('gobble', 'NN')]
+[('lion', 'NN'), ('gobble', 'NN')]
+lion
+['lion.n.01', 'lion.n.02', 'leo.n.01', 'leo.n.03', 'big_cat.n.01', 'celebrity.n.01', 'person.n.01', 'lion_cub.n.01', 'lioness.n.01', 'lionet.n.01']
+{'hayfield.n.01': 'hayfield', 'lion.n.01': 'lion', 'bull.n.01': 'bull'}
+lion.n.01
+lion
+gobble
+['gobble.n.01', 'gobble.v.01', 'gobble.v.02', 'cry.n.05', 'eat.v.01', 'utter.v.02']
+{'hayfield.n.01': 'hayfield', 'lion.n.01': 'lion', 'bull.n.01': 'bull'}
+question before sub:
+What did the lion gobble?
+{Question_Text}: What did the lion gobble ?
+answer_type:Sch
+SCORING fables-02-21
+Comparing Gold   "the bull"
+      and Resp   "The lion didn't attack the bull because the lion feared sharp every horn of the bull."
+
+RECALL:    1.000
+PRECISION: 0.154
+F-measure: 0.267
+
+=========================================
+[('What', 'WP'), ('did', 'VBD'), ('the', 'DT'), ('lion', 'NN'), ('consume', 'VB'), ('?', '.')]
+[('do', 'VBD'), ('lion', 'NN'), ('consume', 'VB')]
+[('lion', 'NN'), ('consume', 'VB')]
+lion
+['lion.n.01', 'lion.n.02', 'leo.n.01', 'leo.n.03', 'big_cat.n.01', 'celebrity.n.01', 'person.n.01', 'lion_cub.n.01', 'lioness.n.01', 'lionet.n.01']
+{'hayfield.n.01': 'hayfield', 'lion.n.01': 'lion', 'bull.n.01': 'bull'}
+lion.n.01
+lion
+consume
+['devour.v.03', 'consume.v.02', 'consume.v.03', 'consume.v.04', 'consume.v.05', 'consume.v.06', 'eat.v.01', 'spend.v.02', 'destroy.v.02', 'spend.v.02', 'absorb.v.09', 'cannibalize.v.01', 'drink.v.01', 'drink.v.02', 'drug.v.02', 'eat.v.01', 'eat.v.02', 'feed.v.06', 'hit.v.15', 'partake.v.03', 'sample.v.01', 'satiate.v.01', 'smoke.v.01', 'sup.v.01', 'swallow.v.01', 'take_in.v.14', 'use.v.02', 'fritter.v.01', 'lavish.v.01', 'luxuriate.v.01', 'overspend.v.02', 'splurge.v.01', 'burn_off.v.01', 'drain.v.02', 'indulge.v.03', 'run_down.v.06', 'run_out.v.06', 'spend.v.03']
+{'attack.v.01': 'attack', 'salivate.v.01': 'salivate', 'remove.v.01': 'remove', 'state.v.01': 'say', 'rede.v.02': 'advise', 'succeed.v.01': 'succeed', 'admire.v.01': 'admire', 'kill.v.01': 'kill', 'decide.v.01': 'decide', 'graze.v.02': 'graze', 'flim-flam.v.01': 'trick', 'watch.v.01': 'watch', 'carry.v.23': 'persuade', 'fear.v.01': 'fear', 'walk.v.01': 'walk', 'eat.v.01': 'eat', 'plan.v.02': 'plan'}
+eat.v.01
+eat
+question before sub:
+What did the lion consume?
+{Question_Text}: What did the lion eat ?
+answer_type:Sch
+SCORING fables-02-22
+Comparing Gold   "the bull"
+      and Resp   "The lion ate the bull, and the bull began to be defenseless."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+[('Who', 'WP'), ('tried', 'VBD'), ('to', 'TO'), ('kill', 'VB'), ('the', 'DT'), ('bull', 'NN'), ('?', '.')]
+[('try', 'VBD'), ('kill', 'VB'), ('bull', 'NN')]
+[('try', 'VBD'), ('kill', 'VB'), ('bull', 'NN')]
+try
+['attempt.n.01', 'try.v.01', 'test.v.01', 'judge.v.05', 'sample.v.01', 'hear.v.03', 'try.v.06', 'try.v.07', 'try.v.08', 'try_on.v.01', 'activity.n.01', 'act.v.01', 'evaluate.v.02', 'decide.v.01', 'consume.v.02', 'probe.v.01', 'pain.v.02', 'afflict.v.01', 'melt.v.01', 'wear.v.09', 'batting.n.01', 'best.n.01', 'bid.n.02', 'contribution.n.01', 'crack.n.09', 'essay.n.02', 'foray.n.02', 'liberation.n.02', "mug's_game.n.01", 'power_play.n.01', 'seeking.n.02', 'shot.n.15', 'shot.n.16', 'striving.n.01', 'struggle.n.01', 'takeover_attempt.n.01', 'test.n.04', 'test.n.05', 'worst.n.03', 'endeavor.v.01', 'fight.v.03', 'gamble.v.01', 'give_it_a_whirl.v.01', 'grope.v.02', 'have_a_go.v.01', 'risk.v.01', 'take_a_dare.v.02', 'control.v.05', 'field-test.v.01', 'float.v.04', 'court-martial.v.01', 'degust.v.01', 'rehear.v.01', 'rack.v.02']
+{'attack.v.01': 'attack', 'salivate.v.01': 'salivate', 'remove.v.01': 'remove', 'state.v.01': 'say', 'rede.v.02': 'advise', 'succeed.v.01': 'succeed', 'admire.v.01': 'admire', 'kill.v.01': 'kill', 'decide.v.01': 'decide', 'graze.v.02': 'graze', 'flim-flam.v.01': 'trick', 'watch.v.01': 'watch', 'carry.v.23': 'persuade', 'fear.v.01': 'fear', 'walk.v.01': 'walk', 'eat.v.01': 'eat', 'plan.v.02': 'plan'}
+decide.v.01
+decide
+kill
+['killing.n.02', 'kill.n.02', 'kill.v.01', 'kill.v.02', 'stamp_out.v.01', 'kill.v.04', 'kill.v.05', 'kill.v.06', 'kill.v.07', 'kill.v.08', 'kill.v.09', 'kill.v.10', 'toss_off.v.02', 'kill.v.12', 'kill.v.13', 'kill.v.14', 'kill.v.15', 'termination.n.05', 'destruction.n.01', 'veto.v.01', 'end.v.02', 'be.v.01', 'hurt.v.06', 'overwhelm.v.01', 'hit.v.01', 'hit.v.01', 'drink.v.01', 'take_away.v.03', 'exhaust.v.01', 'switch_off.v.01', 'destroy.v.01', 'death.n.08', 'deathblow.n.01', 'decapitation.n.02', 'dispatch.n.04', 'electrocution.n.02', 'euthanasia.n.01', 'fell.n.03', 'genocide.n.01', 'homicide.n.01', 'poisoning.n.02', 'sacrifice.n.04', 'slaughter.n.01', 'suffocation.n.01', 'suicide.n.01', 'assassinate.v.01', 'brain.v.02', 'butcher.v.01', 'commit_suicide.v.01', 'decapitate.v.01', 'decimate.v.01', 'destroy.v.04', 'dismember.v.01', 'dispatch.v.05', 'draw.v.23', 'drown.v.04', 'electrocute.v.02', 'eliminate.v.03', 'erase.v.01', 'execute.v.01', 'exterminate.v.01', 'impale.v.02', 'lynch.v.01', 'martyr.v.01', 'massacre.v.01', 'murder.v.01', 'neutralize.v.04', 'overlie.v.02', 'poison.v.02', 'poison.v.04', 'put_away.v.05', 'saber.v.02', 'sacrifice.v.02', 'shed_blood.v.01', 'shoot.v.02', 'smother.v.02', 'stone.v.01', 'strangle.v.01', 'take_off.v.08', 'tomahawk.v.02', 'zap.v.02', 'strike_down.v.02', 'electrocute.v.01']
+{'attack.v.01': 'attack', 'salivate.v.01': 'salivate', 'remove.v.01': 'remove', 'state.v.01': 'say', 'rede.v.02': 'advise', 'succeed.v.01': 'succeed', 'admire.v.01': 'admire', 'kill.v.01': 'kill', 'decide.v.01': 'decide', 'graze.v.02': 'graze', 'flim-flam.v.01': 'trick', 'watch.v.01': 'watch', 'carry.v.23': 'persuade', 'fear.v.01': 'fear', 'walk.v.01': 'walk', 'eat.v.01': 'eat', 'plan.v.02': 'plan'}
+kill.v.01
+kill
+bull
+['bull.n.01', 'bull.n.02', 'bullshit.n.01', 'bull.n.04', 'bull.n.05', 'bull.n.06', 'taurus.n.02', 'taurus.n.04', "bull's_eye.n.02", 'bull.n.10', 'bull.n.11', 'bull.v.01', 'bull.v.02', "talk_through_one's_hat.v.01", 'bull.v.04', 'cattle.n.01', 'man.n.01', 'bunk.n.04', 'blunder.n.01', 'policeman.n.01', 'investor.n.01', 'person.n.01', 'center.n.04', 'decree.n.01', 'placental.n.01', 'push.v.02', 'speculate.v.04', 'feign.v.01', 'rise.v.02', 'bullock.n.01']
+{'hayfield.n.01': 'hayfield', 'lion.n.01': 'lion', 'bull.n.01': 'bull'}
+bull.n.01
+bull
+question before sub:
+Who tried to kill the bull?
+{Question_Text}: Who decide to kill the bull ?
+answer_type:Sch
+SCORING fables-02-23
+Comparing Gold   "the lion"
+      and Resp   "The lion began to be hungry and decided to attempt to kill the bull."
+
+RECALL:    1.000
+PRECISION: 0.167
+F-measure: 0.286
+
+=========================================
+sch
+A summit meeting named G20 summit started on eventful today.
+G20 summit happened annually.
+A world and many leader came and talked about it running a government.
+A people protested because it disagreed about a view.
+The people protested peacefully on a street.
+The people rebelled and created riot.
+The people burned a police car and threw a thing at a police.
+The police alleviated the people of riot.
+The police fired a tear gas at the people and fired a bullet at the people, and the people smashed a window.
+=========================================
+[('Who', 'WP'), ('blasted', 'VBN'), ('tear', 'VB'), ('gas', 'NN'), ('?', '.')]
+[('blast', 'VBN'), ('tear', 'VB'), ('gas', 'NN')]
+[('blast', 'VBN'), ('tear', 'VB'), ('gas', 'NN')]
+blast
+['blast.n.01', 'bang.n.02', 'gust.n.01', 'blast.n.04', 'good_time.n.01', 'fire.n.09', 'blast.v.01', 'smash.v.01', 'blast.v.03', 'blast.v.04', 'blast.v.05', 'blast.v.06', 'blast.v.07', 'savage.v.02', 'blast.v.09', 'blast.v.10', 'fly.n.04', 'noise.n.01', 'wind.n.01', 'explosion.n.01', 'experience.n.03', 'criticism.n.01', 'make_noise.v.01', 'hit.v.03', 'bombard.v.02', 'blow.v.13', 'make.v.03', 'cut.v.06', 'fire.v.02', 'knock.v.06', 'smash.v.02', 'shrivel.v.01', 'water_hammer.n.01', 'bluster.n.03', 'puff.n.01', 'sandblast.n.01', 'bomb_blast.n.01', 'crump.v.02', 'blaze_away.v.02', 'gun.v.01', 'open_fire.v.01', 'overshoot.v.01', 'pump.v.02', 'sharpshoot.v.01']
+{'attack.v.01': 'attack', 'smash.v.01': 'smash', 'rising.a.01': 'meet', 'pelt.v.01': 'pelt', 'burn.v.02': 'burn', 'wear.v.01': 'wear', 'protest.v.01': 'protest'}
+smash.v.01
+smash
+tear
+['tear.n.01', 'rip.n.02', 'bust.n.04', 'tear.n.04', 'tear.v.01', 'tear.v.02', 'tear.v.03', 'pluck.v.05', 'tear.v.05', 'drop.n.02', 'opening.n.01', 'revel.n.01', 'separation.n.09', 'separate.v.02', 'separate.v.02', 'rush.v.01', 'strip.v.03', 'cry.v.02', 'piss-up.n.01', 'laceration.n.02', 'rent.n.04', 'lacerate.v.01', 'rend.v.01', 'shred.v.01', 'cleave.v.01', 'rip.v.02']
+{'attack.v.01': 'attack', 'smash.v.01': 'smash', 'rising.a.01': 'meet', 'pelt.v.01': 'pelt', 'burn.v.02': 'burn', 'wear.v.01': 'wear', 'protest.v.01': 'protest'}
+gas
+['gas.n.01', 'gas.n.02', 'gasoline.n.01', 'flatulence.n.01', 'accelerator.n.01', 'natural_gas.n.01', 'gas.v.01', 'boast.v.01', 'state_of_matter.n.01', 'fluid.n.02', 'fuel.n.01', 'hydrocarbon.n.01', 'physical_condition.n.01', 'pedal.n.02', 'fossil_fuel.n.01', 'attack.v.01', 'overstate.v.01', 'afterdamp.n.01', 'air.n.01', 'arsine.n.01', 'atmosphere.n.05', 'blow_gas.n.01', 'butane.n.01', 'butylene.n.01', 'chlorine.n.01', 'compressed_gas.n.01', 'cyanogen.n.01', 'ethylene.n.01', 'exhaust.n.01', 'firedamp.n.01', 'fluorine.n.01', 'formaldehyde.n.01', 'greenhouse_gas.n.01', 'hydrogen.n.01', 'ideal_gas.n.01', 'inhalant.n.01', 'liquefied_petroleum_gas.n.01', 'mephitis.n.01', 'methane.n.01', 'nitric_oxide.n.01', 'nitrogen.n.01', 'nitrogen_dioxide.n.01', 'noble_gas.n.01', 'oxygen.n.01', 'ozone.n.01', 'phosgene.n.01', 'phosphine.n.01', 'poison_gas.n.01', 'producer_gas.n.01', 'propane.n.01', 'propylene.n.01', 'sewer_gas.n.01', 'sublimate.n.01', 'sulfur_dioxide.n.01', 'tear_gas.n.01', 'water_gas.n.01', 'leaded_gasoline.n.01', 'napalm.n.01', 'unleaded_gasoline.n.01', 'teargas.v.01', 'gloat.v.01', 'puff.v.06']
+{'armor.n.01': 'armor', 'thing.n.04': 'thing', 'narrator.n.01': 'narrator', 'workplace.n.01': 'workplace', 'tear_gas.n.01': 'tear_gas', 'police.n.01': 'police', 'company.n.03': 'company', 'cruiser.n.01': 'cruiser', 'leadership.n.02': 'leadership', 'scene.n.08': 'scene', 'rioting.n.01': 'rioting', 'club.n.02': 'club', 'today.n.01': 'today', 'prosperity.n.01': 'prosperity', 'government.n.01': 'government', 'window.n.01': 'window', 'street.n.05': 'street', 'annual.n.02': 'annual', 'leader.n.01': 'leader', 'people.n.03': 'people', 'bullet.n.01': 'bullet'}
+tear_gas.n.01
+tear_gas
+question before sub:
+Who blasted tear gas?
+{Question_Text}: Who smash tear tear_gas ?
+answer_type:Sch
+SCORING blogs-01-19
+Comparing Gold   "the police"
+      and Resp   "The police fired a tear gas at the people and fired a bullet at the people, and the people smashed a window."
+
+RECALL:    1.000
+PRECISION: 0.143
+F-measure: 0.250
+
+=========================================
+[('Who', 'WP'), ('created', 'VBD'), ('disorder', 'NN'), ('?', '.')]
+[('create', 'VBD'), ('disorder', 'NN')]
+[('create', 'VBD'), ('disorder', 'NN')]
+create
+['make.v.03', 'create.v.02', 'create.v.03', 'create.v.04', 'create.v.05', 'produce.v.02', 'act.v.01', 'appoint.v.02', 'make.v.03', 'arouse.v.01', 'assemble.v.01', 'bear.v.05', 'beat.v.18', 'beget.v.01', 'blast.v.05', 'bring.v.03', 'build.v.03', 'cause.v.01', 'chop.v.03', 'choreograph.v.01', 'clear.v.02', 'cleave.v.02', 'compose.v.02', 'construct.v.01', 'copy.v.04', 'create.v.05', 'create_by_mental_act.v.01', 'create_from_raw_material.v.01', 'create_verbally.v.01', 'cut.v.06', 'cut.v.22', 'derive.v.04', 'direct.v.03', 'distill.v.03', 'establish.v.05', 'film-make.v.01', 'film.v.02', 'form.v.01', 'froth.v.02', 'generate.v.01', 'give.v.09', 'grind.v.06', 'incorporate.v.03', 'institute.v.02', 'lay_down.v.01', 'manufacture.v.04', 'offset.v.04', 'originate.v.02', 'prepare.v.03', 'press.v.07', 'produce.v.01', 'produce.v.03', 'puncture.v.02', 'put_on.v.04', 'raise.v.07', 'raise.v.11', 're-create.v.01', 'realize.v.03', 'recreate.v.04', 'regenerate.v.07', 'reproduce.v.02', 'scrape.v.02', 'short-circuit.v.02', 'strike.v.13', 'style.v.02', 'track.v.05', 'twine.v.03', 'carve_out.v.01', 'develop.v.01', 'reinvent.v.01', 'build.v.07', 'draw.v.19', 'paint.v.01', 'design.v.03', 'design.v.05', 'do.v.08', 'bootleg.v.02', 'breed.v.03', 'churn_out.v.02', 'clap_up.v.01', 'confect.v.01', 'custom-make.v.01', 'cut.v.21', 'dummy.v.01', 'elaborate.v.02', 'extrude.v.01', 'fudge_together.v.01', 'generate.v.03', 'laminate.v.01', 'machine.v.02', 'output.v.01', 'overproduce.v.02', 'prefabricate.v.01', 'prefabricate.v.02', 'print.v.01', 'proof.v.01', 'pulse.v.02', 'put_out.v.02', 'remake.v.01', 'render.v.04', 'reproduce.v.01', 'smelt.v.01', 'turn_out.v.03', 'underproduce.v.01']
+{'attack.v.01': 'attack', 'smash.v.01': 'smash', 'rising.a.01': 'meet', 'pelt.v.01': 'pelt', 'burn.v.02': 'burn', 'wear.v.01': 'wear', 'protest.v.01': 'protest'}
+disorder
+['disorder.n.01', 'disorderliness.n.01', 'disorder.n.03', 'perturb.v.01', 'disorder.v.02', 'physical_condition.n.01', 'condition.n.01', 'state.n.02', 'disturb.v.01', 'change.v.01', 'abocclusion.n.01', 'abruptio_placentae.n.01', 'achlorhydria.n.01', 'acholia.n.01', 'achylia.n.01', 'acute_brain_disorder.n.01', 'ailment.n.01', 'bladder_disorder.n.01', 'cardiovascular_disease.n.01', 'celiac_disease.n.01', 'cheilosis.n.01', 'choking.n.01', 'colpoxerosis.n.01', 'degenerative_disorder.n.01', 'dysaphia.n.01', 'dysosmia.n.01', 'dysphagia.n.01', 'dysuria.n.01', 'eating_disorder.n.01', 'failure.n.07', 'fantods.n.01', 'functional_disorder.n.01', 'glandular_disease.n.01', 'hematocolpometra.n.01', 'hematocolpos.n.01', 'hydrocele.n.01', 'hyperactivity.n.01', 'idiopathic_disease.n.01', 'immunological_disorder.n.01', 'impaction.n.02', 'impaction.n.03', 'learning_disorder.n.01', 'malocclusion.n.01', 'mental_disorder.n.01', 'metabolic_disorder.n.01', 'nervous_disorder.n.01', 'organic_disorder.n.01', 'sleep_disorder.n.01', 'speech_disorder.n.01', 'sprue.n.01', 'strangulation.n.02', 'clutter.n.01', 'disorganization.n.01', 'mess.n.01', 'shambles.n.01', 'untidiness.n.01', 'anarchy.n.01', 'confusion.n.01', 'discord.n.01', 'disturbance.n.03', 'instability.n.01', 'rioting.n.01', 'rowdiness.n.01', 'turbulence.n.03', 'worry.v.03', 'disarrange.v.02', 'mess.v.02', 'perturb.v.04', 'scramble.v.03']
+{'armor.n.01': 'armor', 'thing.n.04': 'thing', 'narrator.n.01': 'narrator', 'workplace.n.01': 'workplace', 'tear_gas.n.01': 'tear_gas', 'police.n.01': 'police', 'company.n.03': 'company', 'cruiser.n.01': 'cruiser', 'leadership.n.02': 'leadership', 'scene.n.08': 'scene', 'rioting.n.01': 'rioting', 'club.n.02': 'club', 'today.n.01': 'today', 'prosperity.n.01': 'prosperity', 'government.n.01': 'government', 'window.n.01': 'window', 'street.n.05': 'street', 'annual.n.02': 'annual', 'leader.n.01': 'leader', 'people.n.03': 'people', 'bullet.n.01': 'bullet'}
+rioting.n.01
+rioting
+question before sub:
+Who created disorder?
+{Question_Text}: Who created rioting ?
+answer_type:Sch
+SCORING blogs-01-20
+Comparing Gold   "the people"
+      and Resp   "The people rebelled and created riot."
+
+RECALL:    1.000
+PRECISION: 0.286
+F-measure: 0.444
+
+=========================================
+[('Who', 'WP'), ('fired', 'VBD'), ('a', 'DT'), ('chemical', 'NN'), ('weapon', 'NN'), ('?', '.')]
+[('fire', 'VBD'), ('chemical', 'NN'), ('weapon', 'NN')]
+[('fire', 'VBD'), ('chemical', 'NN'), ('weapon', 'NN')]
+fire
+['fire.n.01', 'fire.n.02', 'fire.n.03', 'fire.n.04', 'fire.n.05', 'ardor.n.03', 'fire.n.07', 'fire.n.08', 'fire.n.09', 'open_fire.v.01', 'fire.v.02', 'fire.v.03', 'displace.v.03', 'fire.v.05', 'fire.v.06', 'arouse.v.01', 'burn.v.01', 'fuel.v.02', 'happening.n.01', 'attack.n.01', 'combustion.n.01', 'fireplace.n.01', 'element.n.05', 'passion.n.01', 'fuel.n.01', 'trial.n.06', 'criticism.n.01', 'blast.v.07', 'bake.v.01', 'remove.v.02', 'chase_away.v.01', 'make.v.03', 'destroy.v.02', 'supply.v.01', 'backfire.n.03', 'bonfire.n.01', 'brush_fire.n.01', 'campfire.n.01', 'conflagration.n.01', 'forest_fire.n.01', 'grassfire.n.01', 'smoulder.n.01', 'smudge.n.01', 'antiaircraft_fire.n.01', 'artillery_fire.n.01', 'barrage.n.02', 'broadside.n.05', 'call_fire.n.01', 'concentrated_fire.n.01', 'counterfire.n.01', 'counterpreparation_fire.n.01', 'cover.n.07', 'crossfire.n.02', 'destruction_fire.n.01', 'direct_fire.n.01', 'distributed_fire.n.01', 'friendly_fire.n.01', 'fusillade.n.01', 'grazing_fire.n.01', 'harassing_fire.n.01', 'hostile_fire.n.01', 'indirect_fire.n.01', 'interdiction_fire.n.01', 'neutralization_fire.n.01', 'observed_fire.n.01', 'preparation_fire.n.01', 'radar_fire.n.01', 'registration_fire.n.01', 'scheduled_fire.n.01', 'searching_fire.n.01', 'supporting_fire.n.01', 'suppressive_fire.n.01', 'unobserved_fire.n.01', 'blaze.n.01', 'flare.n.02', 'ignition.n.01', 'cookfire.n.01', 'zeal.n.02', 'blast.v.07', 'fusillade.v.01', 'loose_off.v.01', 'pop.v.04', 'clean_out.v.02', 'dismiss.v.03', 'furlough.v.01', 'pension_off.v.01', 'retire.v.06', 'squeeze_out.v.01', 'anger.v.01', 'draw.v.10', 'excite.v.01', 'hurt.v.05', 'infatuate.v.01', 'inflame.v.04', 'interest.v.01', 'invite.v.01', 'overwhelm.v.01', 'prick.v.06', 'rekindle.v.02', 'shame.v.03', 'stimulate.v.03', 'strike_a_chord.v.03', 'upset.v.02', 'backfire.v.03', 'cremate.v.01', 'scorch.v.03', 'torch.v.01']
+{'attack.v.01': 'attack', 'smash.v.01': 'smash', 'rising.a.01': 'meet', 'pelt.v.01': 'pelt', 'burn.v.02': 'burn', 'wear.v.01': 'wear', 'protest.v.01': 'protest'}
+chemical
+['chemical.n.01', 'chemical.a.01', 'chemical.a.02', 'material.n.01', 'alar.n.01', 'bactericide.n.01', 'carbon_tetrahalide.n.01', 'carrier.n.04', 'compound.n.02', 'congener.n.01', 'explosive.n.01', 'fertilizer.n.01', 'flux.n.03', 'fraction.n.01', 'fumigant.n.01', 'herbicide.n.01', 'intermediate.n.01', 'larvicide.n.01', 'pesticide.n.01', 'phytochemical.n.01', 'product.n.04', 'reactant.n.01', 'restrainer.n.01', 'softener.n.01', 'soil_conditioner.n.01', 'stabilizer.n.01']
+{'armor.n.01': 'armor', 'thing.n.04': 'thing', 'narrator.n.01': 'narrator', 'workplace.n.01': 'workplace', 'tear_gas.n.01': 'tear_gas', 'police.n.01': 'police', 'company.n.03': 'company', 'cruiser.n.01': 'cruiser', 'leadership.n.02': 'leadership', 'scene.n.08': 'scene', 'rioting.n.01': 'rioting', 'club.n.02': 'club', 'today.n.01': 'today', 'prosperity.n.01': 'prosperity', 'government.n.01': 'government', 'window.n.01': 'window', 'street.n.05': 'street', 'annual.n.02': 'annual', 'leader.n.01': 'leader', 'people.n.03': 'people', 'bullet.n.01': 'bullet'}
+weapon
+['weapon.n.01', 'weapon.n.02', 'instrument.n.01', 'persuasion.n.01', 'bow.n.04', 'bow_and_arrow.n.01', 'brass_knucks.n.01', 'fire_ship.n.01', 'flamethrower.n.01', 'greek_fire.n.01', 'gun.n.01', 'knife.n.02', 'light_arm.n.01', 'missile.n.01', 'pike.n.04', 'projectile.n.01', 'slasher.n.02', 'sling.n.04', 'spear.n.01', 'stun_gun.n.01', 'sword.n.01', 'tomahawk.n.01', 'weapon_of_mass_destruction.n.01']
+{'armor.n.01': 'armor', 'thing.n.04': 'thing', 'narrator.n.01': 'narrator', 'workplace.n.01': 'workplace', 'tear_gas.n.01': 'tear_gas', 'police.n.01': 'police', 'company.n.03': 'company', 'cruiser.n.01': 'cruiser', 'leadership.n.02': 'leadership', 'scene.n.08': 'scene', 'rioting.n.01': 'rioting', 'club.n.02': 'club', 'today.n.01': 'today', 'prosperity.n.01': 'prosperity', 'government.n.01': 'government', 'window.n.01': 'window', 'street.n.05': 'street', 'annual.n.02': 'annual', 'leader.n.01': 'leader', 'people.n.03': 'people', 'bullet.n.01': 'bullet'}
+question before sub:
+Who fired a chemical weapon?
+{Question_Text}: Who fired a chemical weapon ?
+answer_type:Sch
+SCORING blogs-01-21
+Comparing Gold   "the police"
+      and Resp   "A summit meeting named G20 summit started on eventful today."
+
+RECALL:    0.000
+PRECISION: 0.000
+F-measure: 0.000
+
+=========================================
+[('Who', 'WP'), ('revolted', 'VBN'), ('?', '.')]
+[('revolt', 'VBN')]
+[('revolt', 'VBN')]
+revolt
+['rebellion.n.02', 'revolt.v.01', 'disgust.v.01', 'disgust.v.02', 'conflict.n.01', 'rebel.v.01', 'stimulate.v.06', 'repel.v.02', 'insurgency.n.01', 'intifada.n.01', 'mutiny.n.01', 'sicken.v.03', 'shock.v.02']
+{'attack.v.01': 'attack', 'smash.v.01': 'smash', 'rising.a.01': 'meet', 'pelt.v.01': 'pelt', 'burn.v.02': 'burn', 'wear.v.01': 'wear', 'protest.v.01': 'protest'}
+question before sub:
+Who revolted?
+{Question_Text}: Who revolted ?
+answer_type:Sch
+SCORING blogs-01-22
+Comparing Gold   "the people"
+      and Resp   "A summit meeting named G20 summit started on eventful today."
+
+RECALL:    0.000
+PRECISION: 0.000
+F-measure: 0.000
+
+=========================================
+[('What', 'WDT'), ('combusted', 'VBN'), ('?', '.')]
+[('combust', 'VBN')]
+[('combust', 'VBN')]
+combust
+['burn.v.05', 'erupt.v.03', "flip_one's_lid.v.01", 'combust.v.04', 'burn.v.03', 'change_state.v.01', 'rage.v.03', 'anger.v.01', 'change_state.v.01', 'char.v.01', 'deflagrate.v.01', 'ignite.v.01', 'set_ablaze.v.01', 'blow_out.v.03', 'catch.v.20', 'light_up.v.01', 'blaze.v.03', 'burn_down.v.01', 'deflagrate.v.02', 'flame.v.02', 'flare.v.01', 'scorch.v.02', 'smolder.v.01']
+{'attack.v.01': 'attack', 'smash.v.01': 'smash', 'rising.a.01': 'meet', 'pelt.v.01': 'pelt', 'burn.v.02': 'burn', 'wear.v.01': 'wear', 'protest.v.01': 'protest'}
+question before sub:
+What combusted?
+{Question_Text}: What combusted ?
+answer_type:Sch
+SCORING blogs-01-23
+Comparing Gold   "a police car"
+      and Resp   "A summit meeting named G20 summit started on eventful today."
+
+RECALL:    0.333
+PRECISION: 0.100
+F-measure: 0.154
+
+=========================================
+[('Who', 'WP'), ('was', 'VBD'), ('a', 'DT'), ('slug', 'NN'), ('fired', 'VBD'), ('at', 'IN'), ('?', '.')]
+[('be', 'VBD'), ('slug', 'NN'), ('fire', 'VBD')]
+[('slug', 'NN'), ('fire', 'VBD')]
+slug
+['bullet.n.01', 'slug.n.02', 'slug.n.03', 'sluggard.n.01', 'slug.n.05', 'type_slug.n.01', 'slug.n.07', 'punch.n.01', 'slug.v.01', 'idle.v.02', 'projectile.n.01', 'mass_unit.n.01', 'coin.n.01', 'idler.n.01', 'alcohol.n.01', 'type_metal.n.01', 'gastropod.n.01', 'blow.n.01', 'hit.v.03', 'dumdum.n.01', 'full_metal_jacket.n.01', 'rifle_ball.n.01', 'rubber_bullet.n.01', 'counterpunch.n.01', 'haymaker.n.02', 'hook.n.07', 'jab.n.02', 'rabbit_punch.n.01', 'sucker_punch.n.01', 'bum.v.02', 'daydream.v.02', 'lie_about.v.01', 'moon.v.02', 'ride_the_bench.v.01']
+{'armor.n.01': 'armor', 'thing.n.04': 'thing', 'narrator.n.01': 'narrator', 'workplace.n.01': 'workplace', 'tear_gas.n.01': 'tear_gas', 'police.n.01': 'police', 'company.n.03': 'company', 'cruiser.n.01': 'cruiser', 'leadership.n.02': 'leadership', 'scene.n.08': 'scene', 'rioting.n.01': 'rioting', 'club.n.02': 'club', 'today.n.01': 'today', 'prosperity.n.01': 'prosperity', 'government.n.01': 'government', 'window.n.01': 'window', 'street.n.05': 'street', 'annual.n.02': 'annual', 'leader.n.01': 'leader', 'people.n.03': 'people', 'bullet.n.01': 'bullet'}
+bullet.n.01
+bullet
+fire
+['fire.n.01', 'fire.n.02', 'fire.n.03', 'fire.n.04', 'fire.n.05', 'ardor.n.03', 'fire.n.07', 'fire.n.08', 'fire.n.09', 'open_fire.v.01', 'fire.v.02', 'fire.v.03', 'displace.v.03', 'fire.v.05', 'fire.v.06', 'arouse.v.01', 'burn.v.01', 'fuel.v.02', 'happening.n.01', 'attack.n.01', 'combustion.n.01', 'fireplace.n.01', 'element.n.05', 'passion.n.01', 'fuel.n.01', 'trial.n.06', 'criticism.n.01', 'blast.v.07', 'bake.v.01', 'remove.v.02', 'chase_away.v.01', 'make.v.03', 'destroy.v.02', 'supply.v.01', 'backfire.n.03', 'bonfire.n.01', 'brush_fire.n.01', 'campfire.n.01', 'conflagration.n.01', 'forest_fire.n.01', 'grassfire.n.01', 'smoulder.n.01', 'smudge.n.01', 'antiaircraft_fire.n.01', 'artillery_fire.n.01', 'barrage.n.02', 'broadside.n.05', 'call_fire.n.01', 'concentrated_fire.n.01', 'counterfire.n.01', 'counterpreparation_fire.n.01', 'cover.n.07', 'crossfire.n.02', 'destruction_fire.n.01', 'direct_fire.n.01', 'distributed_fire.n.01', 'friendly_fire.n.01', 'fusillade.n.01', 'grazing_fire.n.01', 'harassing_fire.n.01', 'hostile_fire.n.01', 'indirect_fire.n.01', 'interdiction_fire.n.01', 'neutralization_fire.n.01', 'observed_fire.n.01', 'preparation_fire.n.01', 'radar_fire.n.01', 'registration_fire.n.01', 'scheduled_fire.n.01', 'searching_fire.n.01', 'supporting_fire.n.01', 'suppressive_fire.n.01', 'unobserved_fire.n.01', 'blaze.n.01', 'flare.n.02', 'ignition.n.01', 'cookfire.n.01', 'zeal.n.02', 'blast.v.07', 'fusillade.v.01', 'loose_off.v.01', 'pop.v.04', 'clean_out.v.02', 'dismiss.v.03', 'furlough.v.01', 'pension_off.v.01', 'retire.v.06', 'squeeze_out.v.01', 'anger.v.01', 'draw.v.10', 'excite.v.01', 'hurt.v.05', 'infatuate.v.01', 'inflame.v.04', 'interest.v.01', 'invite.v.01', 'overwhelm.v.01', 'prick.v.06', 'rekindle.v.02', 'shame.v.03', 'stimulate.v.03', 'strike_a_chord.v.03', 'upset.v.02', 'backfire.v.03', 'cremate.v.01', 'scorch.v.03', 'torch.v.01']
+{'attack.v.01': 'attack', 'smash.v.01': 'smash', 'rising.a.01': 'meet', 'pelt.v.01': 'pelt', 'burn.v.02': 'burn', 'wear.v.01': 'wear', 'protest.v.01': 'protest'}
+question before sub:
+Who was a slug fired at?
+{Question_Text}: Who was a bullet fired at ?
+answer_type:Sch
+SCORING blogs-01-24
+Comparing Gold   "the people"
+      and Resp   "The police fired a tear gas at the people and fired a bullet at the people, and the people smashed a window."
+
+RECALL:    1.000
+PRECISION: 0.143
+F-measure: 0.250
+
+=========================================
+sch
+A clever fox invited a stork to dine.
+The fox only served some soup in a flat and large dish.
+The fox lapped the soup with relish.
+The stork attempted to drink some savory broth and failed.
+The fox believed that distress was amusing.
+The stork shortly invited the fox to dine.
+The stork presented the fox with a pitcher.
+The stork easily fitted the long bill of the stork into the long and narrow neck of the pitcher.
+The stork enjoied some dinner.
+The fox began to be hungry and began to be helpless because he wasn't able to reach some food that was in the pitcher.
+=========================================
+[('Who', 'WP'), ('tried', 'VBD'), ('to', 'TO'), ('drink', 'VB'), ('some', 'DT'), ('savory', 'JJ'), ('broth', 'NN'), ('and', 'CC'), ('failed', 'VBN'), ('?', '.')]
+[('try', 'VBD'), ('drink', 'VB'), ('broth', 'NN'), ('fail', 'VBN')]
+[('try', 'VBD'), ('drink', 'VB'), ('broth', 'NN'), ('fail', 'VBN')]
+try
+['attempt.n.01', 'try.v.01', 'test.v.01', 'judge.v.05', 'sample.v.01', 'hear.v.03', 'try.v.06', 'try.v.07', 'try.v.08', 'try_on.v.01', 'activity.n.01', 'act.v.01', 'evaluate.v.02', 'decide.v.01', 'consume.v.02', 'probe.v.01', 'pain.v.02', 'afflict.v.01', 'melt.v.01', 'wear.v.09', 'batting.n.01', 'best.n.01', 'bid.n.02', 'contribution.n.01', 'crack.n.09', 'essay.n.02', 'foray.n.02', 'liberation.n.02', "mug's_game.n.01", 'power_play.n.01', 'seeking.n.02', 'shot.n.15', 'shot.n.16', 'striving.n.01', 'struggle.n.01', 'takeover_attempt.n.01', 'test.n.04', 'test.n.05', 'worst.n.03', 'endeavor.v.01', 'fight.v.03', 'gamble.v.01', 'give_it_a_whirl.v.01', 'grope.v.02', 'have_a_go.v.01', 'risk.v.01', 'take_a_dare.v.02', 'control.v.05', 'field-test.v.01', 'float.v.04', 'court-martial.v.01', 'degust.v.01', 'rehear.v.01', 'rack.v.02']
+{'reach.v.02': 'reach', 'drink.v.01': 'drink', 'enjoy.v.01': 'enjoy', 'show.v.01': 'present', 'dine.v.02': 'dine', 'lap.v.01': 'lap', 'put.v.01': 'put', 'serve.v.02': 'serve', 'invite.v.01': 'invite', 'fail.v.03': 'fail', 'believe.v.01': 'believe', 'meet.v.05': 'fit'}
+drink
+['drink.n.01', 'drink.n.02', 'beverage.n.01', 'drink.n.04', 'swallow.n.02', 'drink.v.01', 'drink.v.02', 'toast.v.02', 'drink_in.v.01', 'drink.v.05', 'helping.n.01', 'intemperance.n.02', 'food.n.01', 'liquid.n.01', 'body_of_water.n.01', 'consumption.n.01', 'consume.v.02', 'consume.v.02', 'honor.v.01', 'steep.v.01', 'use.v.02', 'chaser.n.02', 'draft.n.04', 'eye_opener.n.01', 'frappe.n.01', 'hair_of_the_dog.n.01', 'ice-cream_soda.n.01', 'libation.n.01', 'milkshake.n.01', 'nightcap.n.01', 'pledge.n.03', 'posset.n.01', 'sangaree.n.01', 'shandygaff.n.01', 'stirrup_cup.n.01', 'sundowner.n.02', 'syllabub.n.01', 'whiskey_neat.n.01', 'whiskey_on_the_rocks.n.01', 'drinking_bout.n.01', 'alcohol.n.01', 'cider.n.01', 'cocoa.n.01', 'coffee.n.01', 'cooler.n.02', 'drinking_water.n.01', 'fizz.n.01', 'fruit_drink.n.01', 'fruit_juice.n.01', 'ginger_beer.n.01', 'hydromel.n.01', 'mate.n.09', 'milk.n.01', 'mixer.n.02', 'near_beer.n.01', 'oenomel.n.01', 'potion.n.01', 'refresher.n.02', 'smoothie.n.02', 'soft_drink.n.01', 'tea-like_drink.n.01', 'tea.n.01', 'wish-wash.n.01', 'aerophagia.n.01', 'gulp.n.01', 'sip.n.01', 'drain_the_cup.v.01', 'guggle.v.03', 'gulp.v.01', 'guzzle.v.01', 'lap.v.04', 'sip.v.01', 'suck.v.01', 'swill.v.02', 'toss_off.v.02', 'carry.v.33', 'claret.v.01', 'port.v.07', 'pub-crawl.v.01', 'souse.v.03', 'tank.v.02', 'tipple.v.01', 'wine.v.01', 'give.v.34']
+{'reach.v.02': 'reach', 'drink.v.01': 'drink', 'enjoy.v.01': 'enjoy', 'show.v.01': 'present', 'dine.v.02': 'dine', 'lap.v.01': 'lap', 'put.v.01': 'put', 'serve.v.02': 'serve', 'invite.v.01': 'invite', 'fail.v.03': 'fail', 'believe.v.01': 'believe', 'meet.v.05': 'fit'}
+drink.v.01
+drink
+broth
+['broth.n.01', 'broth.n.02', 'soup.n.01', 'soup.n.01', 'beef_broth.n.01', 'chicken_broth.n.01', 'liquor.n.03', 'stock_cube.n.01', 'barley_water.n.01', 'bouillon.n.01']
+{'pitcher.n.02': 'pitcher', 'dinner.n.01': 'dinner', 'gusto.n.01': 'gusto', 'soup.n.01': 'soup', 'stork.n.01': 'stork', 'fare.n.04': 'fare', 'dish.n.01': 'dish', 'distress.n.02': 'distress', 'broth.n.01': 'broth', 'food.n.01': 'food', 'table.n.02': 'table', 'fox.n.01': 'fox'}
+soup.n.01
+soup
+fail
+['fail.v.01', 'fail.v.02', 'fail.v.03', 'fail.v.04', 'fail.v.05', 'fail.v.06', 'fail.v.07', 'fail.v.08', 'fail.v.09', 'fail.v.10', 'fail.v.11', 'disappoint.v.01', 'change.v.02', 'evaluate.v.02', 'worsen.v.01', 'choke.v.06', 'default.v.01', 'lose_track.v.01', 'miss.v.03', 'muff.v.01', 'strike_out.v.02', 'botch.v.01', 'fall.v.06', 'fall_through.v.01', 'miss.v.05', 'overreach.v.01', 'shipwreck.v.02', 'strike_out.v.03', 'take_it_on_the_chin.v.01', 'blow_out.v.01', 'crash.v.12', 'malfunction.v.01', 'misfire.v.01']
+{'reach.v.02': 'reach', 'drink.v.01': 'drink', 'enjoy.v.01': 'enjoy', 'show.v.01': 'present', 'dine.v.02': 'dine', 'lap.v.01': 'lap', 'put.v.01': 'put', 'serve.v.02': 'serve', 'invite.v.01': 'invite', 'fail.v.03': 'fail', 'believe.v.01': 'believe', 'meet.v.05': 'fit'}
+fail.v.03
+fail
+question before sub:
+Who tried to drink some savory broth and failed?
+{Question_Text}: Who tried to drink some savory soup and fail ?
+answer_type:Sch
+SCORING fables-04-14
+Comparing Gold   "the stork"
+      and Resp   "The stork attempted to drink some savory broth and failed."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+[('Who', 'WP'), ('tried', 'VBD'), ('to', 'TO'), ('drink', 'VB'), ('some', 'DT'), ('savory', 'JJ'), ('stock', 'NN'), ('?', '.')]
+[('try', 'VBD'), ('drink', 'VB'), ('stock', 'NN')]
+[('try', 'VBD'), ('drink', 'VB'), ('stock', 'NN')]
+try
+['attempt.n.01', 'try.v.01', 'test.v.01', 'judge.v.05', 'sample.v.01', 'hear.v.03', 'try.v.06', 'try.v.07', 'try.v.08', 'try_on.v.01', 'activity.n.01', 'act.v.01', 'evaluate.v.02', 'decide.v.01', 'consume.v.02', 'probe.v.01', 'pain.v.02', 'afflict.v.01', 'melt.v.01', 'wear.v.09', 'batting.n.01', 'best.n.01', 'bid.n.02', 'contribution.n.01', 'crack.n.09', 'essay.n.02', 'foray.n.02', 'liberation.n.02', "mug's_game.n.01", 'power_play.n.01', 'seeking.n.02', 'shot.n.15', 'shot.n.16', 'striving.n.01', 'struggle.n.01', 'takeover_attempt.n.01', 'test.n.04', 'test.n.05', 'worst.n.03', 'endeavor.v.01', 'fight.v.03', 'gamble.v.01', 'give_it_a_whirl.v.01', 'grope.v.02', 'have_a_go.v.01', 'risk.v.01', 'take_a_dare.v.02', 'control.v.05', 'field-test.v.01', 'float.v.04', 'court-martial.v.01', 'degust.v.01', 'rehear.v.01', 'rack.v.02']
+{'reach.v.02': 'reach', 'drink.v.01': 'drink', 'enjoy.v.01': 'enjoy', 'show.v.01': 'present', 'dine.v.02': 'dine', 'lap.v.01': 'lap', 'put.v.01': 'put', 'serve.v.02': 'serve', 'invite.v.01': 'invite', 'fail.v.03': 'fail', 'believe.v.01': 'believe', 'meet.v.05': 'fit'}
+drink
+['drink.n.01', 'drink.n.02', 'beverage.n.01', 'drink.n.04', 'swallow.n.02', 'drink.v.01', 'drink.v.02', 'toast.v.02', 'drink_in.v.01', 'drink.v.05', 'helping.n.01', 'intemperance.n.02', 'food.n.01', 'liquid.n.01', 'body_of_water.n.01', 'consumption.n.01', 'consume.v.02', 'consume.v.02', 'honor.v.01', 'steep.v.01', 'use.v.02', 'chaser.n.02', 'draft.n.04', 'eye_opener.n.01', 'frappe.n.01', 'hair_of_the_dog.n.01', 'ice-cream_soda.n.01', 'libation.n.01', 'milkshake.n.01', 'nightcap.n.01', 'pledge.n.03', 'posset.n.01', 'sangaree.n.01', 'shandygaff.n.01', 'stirrup_cup.n.01', 'sundowner.n.02', 'syllabub.n.01', 'whiskey_neat.n.01', 'whiskey_on_the_rocks.n.01', 'drinking_bout.n.01', 'alcohol.n.01', 'cider.n.01', 'cocoa.n.01', 'coffee.n.01', 'cooler.n.02', 'drinking_water.n.01', 'fizz.n.01', 'fruit_drink.n.01', 'fruit_juice.n.01', 'ginger_beer.n.01', 'hydromel.n.01', 'mate.n.09', 'milk.n.01', 'mixer.n.02', 'near_beer.n.01', 'oenomel.n.01', 'potion.n.01', 'refresher.n.02', 'smoothie.n.02', 'soft_drink.n.01', 'tea-like_drink.n.01', 'tea.n.01', 'wish-wash.n.01', 'aerophagia.n.01', 'gulp.n.01', 'sip.n.01', 'drain_the_cup.v.01', 'guggle.v.03', 'gulp.v.01', 'guzzle.v.01', 'lap.v.04', 'sip.v.01', 'suck.v.01', 'swill.v.02', 'toss_off.v.02', 'carry.v.33', 'claret.v.01', 'port.v.07', 'pub-crawl.v.01', 'souse.v.03', 'tank.v.02', 'tipple.v.01', 'wine.v.01', 'give.v.34']
+{'reach.v.02': 'reach', 'drink.v.01': 'drink', 'enjoy.v.01': 'enjoy', 'show.v.01': 'present', 'dine.v.02': 'dine', 'lap.v.01': 'lap', 'put.v.01': 'put', 'serve.v.02': 'serve', 'invite.v.01': 'invite', 'fail.v.03': 'fail', 'believe.v.01': 'believe', 'meet.v.05': 'fit'}
+drink.v.01
+drink
+stock
+['stock.n.01', 'stock.n.02', 'stock.n.03', 'stock_certificate.n.01', 'store.n.02', 'lineage.n.01', 'breed.n.01', 'broth.n.01', 'stock.n.09', 'stock.n.10', 'stock.n.11', 'stock.n.12', 'malcolm_stock.n.01', 'stock.n.14', 'stock.n.15', 'neckcloth.n.01', 'livestock.n.01', 'stock.v.01', 'stock.v.02', 'stock.v.03', 'stock.v.04', 'stock.v.05', 'stock.v.06', 'sprout.v.02', 'banal.s.01', 'stock.s.02', 'standard.s.05', 'capital.n.01', 'merchandise.n.01', 'handle.n.01', 'support.n.10', 'security.n.04', 'accumulation.n.04', 'genealogy.n.01', 'animal_group.n.01', 'variety.n.03', 'soup.n.01', 'repute.n.01', 'stalk.n.02', 'plant_part.n.01', 'flower.n.01', 'flower.n.01', 'lumber.n.01', 'handle.n.01', 'cravat.n.01', 'placental.n.01', 'have.v.01', 'equip.v.01', 'supply.v.01', 'supply.v.01', 'supply.v.01', 'supply.v.01', 'grow.v.08', 'authorized_shares.n.01', 'common_stock.n.01', 'common_stock_equivalent.n.01', 'control_stock.n.01', 'float.n.02', 'growth_stock.n.01', 'hot_stock.n.01', 'no-par-value_stock.n.01', 'preferred_stock.n.01', 'quarter_stock.n.01', 'treasury_stock.n.01', 'voting_stock.n.01', 'watered_stock.n.01', 'pistol_grip.n.01', 'share.n.02', 'hoard.n.01', 'infrastructure.n.02', 'issue.n.05', 'provision.n.04', 'seed_stock.n.01', 'family.n.04', 'side.n.08', 'bloodstock.n.01', 'pedigree.n.02', 'beef_broth.n.01', 'chicken_broth.n.01', 'liquor.n.03', 'stock_cube.n.01', 'rootstock.n.02', 'brompton_stock.n.01', 'brace.n.08', 'butt.n.01', 'overstock.v.01', 'understock.v.01', 'plant.v.04', 'restock.v.01']
+{'pitcher.n.02': 'pitcher', 'dinner.n.01': 'dinner', 'gusto.n.01': 'gusto', 'soup.n.01': 'soup', 'stork.n.01': 'stork', 'fare.n.04': 'fare', 'dish.n.01': 'dish', 'distress.n.02': 'distress', 'broth.n.01': 'broth', 'food.n.01': 'food', 'table.n.02': 'table', 'fox.n.01': 'fox'}
+soup.n.01
+soup
+question before sub:
+Who tried to drink some savory stock?
+{Question_Text}: Who tried to drink some savory soup ?
+answer_type:Sch
+SCORING fables-04-15
+Comparing Gold   "the stork"
+      and Resp   "The stork attempted to drink some savory broth and failed."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+[('What', 'WP'), ('did', 'VBD'), ('the', 'DT'), ('canine', 'JJ'), ('serve', 'VB'), ('?', '.')]
+[('do', 'VBD'), ('serve', 'VB')]
+[('serve', 'VB')]
+serve
+['serve.n.01', 'serve.v.01', 'serve.v.02', 'serve.v.03', 'service.v.01', 'serve.v.05', 'serve.v.06', 'serve.v.07', 'serve.v.08', 'serve.v.09', 'serve.v.10', 'serve.v.11', 'suffice.v.01', 'serve.v.13', 'serve.v.14', 'serve.v.15', 'tennis_stroke.n.01', 'suffice.v.01', 'work.v.02', 'effect.v.01', 'function.v.01', 'provide.v.02', 'provide.v.02', 'work.v.01', 'foster.v.03', 'spend.v.01', 'help.v.01', 'deliver.v.02', 'satisfy.v.01', 'work.v.02', 'copulate.v.01', 'move.v.15', 'ace.n.06', 'fault.n.07', 'let.n.02', 'act_as.v.01', 'prelude.v.01', 'act.v.04', 'caddie.v.01', 'officiate.v.02', 'represent.v.04', 'rotate.v.03', 'sit.v.10', 'staff.v.02', 'help.v.03', 'plank.v.03', 'admit.v.08', 'fag.v.01', 'valet.v.01', 'subpoena.v.01', 'wash.v.01', 'go_a_long_way.v.01', 'go_around.v.01', 'qualify.v.01', 'serve.v.01', 'tide_over.v.01', 'stand.v.12', 'ace.v.04']
+{'reach.v.02': 'reach', 'drink.v.01': 'drink', 'enjoy.v.01': 'enjoy', 'show.v.01': 'present', 'dine.v.02': 'dine', 'lap.v.01': 'lap', 'put.v.01': 'put', 'serve.v.02': 'serve', 'invite.v.01': 'invite', 'fail.v.03': 'fail', 'believe.v.01': 'believe', 'meet.v.05': 'fit'}
+serve.v.02
+serve
+question before sub:
+What did the canine serve?
+{Question_Text}: What did the canine serve ?
+answer_type:Sch
+SCORING fables-04-16
+Comparing Gold   "some soup in a flat and large dish"
+      and Resp   "The fox only served some soup in a flat and large dish."
+
+RECALL:    1.000
+PRECISION: 0.615
+F-measure: 0.762
+
+=========================================
+[('Who', 'WP'), ('attempted', 'VBD'), ('to', 'TO'), ('drink', 'VB'), ('some', 'DT'), ('savory', 'JJ'), ('soup', 'NN'), ('?', '.')]
+[('attempt', 'VBD'), ('drink', 'VB'), ('soup', 'NN')]
+[('attempt', 'VBD'), ('drink', 'VB'), ('soup', 'NN')]
+attempt
+['attempt.n.01', 'attack.n.05', 'try.v.01', 'undertake.v.01', 'activity.n.01', 'crime.n.01', 'act.v.01', 'initiate.v.02', 'batting.n.01', 'best.n.01', 'bid.n.02', 'contribution.n.01', 'crack.n.09', 'essay.n.02', 'foray.n.02', 'liberation.n.02', "mug's_game.n.01", 'power_play.n.01', 'seeking.n.02', 'shot.n.15', 'shot.n.16', 'striving.n.01', 'struggle.n.01', 'takeover_attempt.n.01', 'test.n.04', 'test.n.05', 'worst.n.03', 'assault.n.02', 'endeavor.v.01', 'fight.v.03', 'gamble.v.01', 'give_it_a_whirl.v.01', 'grope.v.02', 'have_a_go.v.01', 'risk.v.01', 'take_a_dare.v.02']
+{'reach.v.02': 'reach', 'drink.v.01': 'drink', 'enjoy.v.01': 'enjoy', 'show.v.01': 'present', 'dine.v.02': 'dine', 'lap.v.01': 'lap', 'put.v.01': 'put', 'serve.v.02': 'serve', 'invite.v.01': 'invite', 'fail.v.03': 'fail', 'believe.v.01': 'believe', 'meet.v.05': 'fit'}
+drink
+['drink.n.01', 'drink.n.02', 'beverage.n.01', 'drink.n.04', 'swallow.n.02', 'drink.v.01', 'drink.v.02', 'toast.v.02', 'drink_in.v.01', 'drink.v.05', 'helping.n.01', 'intemperance.n.02', 'food.n.01', 'liquid.n.01', 'body_of_water.n.01', 'consumption.n.01', 'consume.v.02', 'consume.v.02', 'honor.v.01', 'steep.v.01', 'use.v.02', 'chaser.n.02', 'draft.n.04', 'eye_opener.n.01', 'frappe.n.01', 'hair_of_the_dog.n.01', 'ice-cream_soda.n.01', 'libation.n.01', 'milkshake.n.01', 'nightcap.n.01', 'pledge.n.03', 'posset.n.01', 'sangaree.n.01', 'shandygaff.n.01', 'stirrup_cup.n.01', 'sundowner.n.02', 'syllabub.n.01', 'whiskey_neat.n.01', 'whiskey_on_the_rocks.n.01', 'drinking_bout.n.01', 'alcohol.n.01', 'cider.n.01', 'cocoa.n.01', 'coffee.n.01', 'cooler.n.02', 'drinking_water.n.01', 'fizz.n.01', 'fruit_drink.n.01', 'fruit_juice.n.01', 'ginger_beer.n.01', 'hydromel.n.01', 'mate.n.09', 'milk.n.01', 'mixer.n.02', 'near_beer.n.01', 'oenomel.n.01', 'potion.n.01', 'refresher.n.02', 'smoothie.n.02', 'soft_drink.n.01', 'tea-like_drink.n.01', 'tea.n.01', 'wish-wash.n.01', 'aerophagia.n.01', 'gulp.n.01', 'sip.n.01', 'drain_the_cup.v.01', 'guggle.v.03', 'gulp.v.01', 'guzzle.v.01', 'lap.v.04', 'sip.v.01', 'suck.v.01', 'swill.v.02', 'toss_off.v.02', 'carry.v.33', 'claret.v.01', 'port.v.07', 'pub-crawl.v.01', 'souse.v.03', 'tank.v.02', 'tipple.v.01', 'wine.v.01', 'give.v.34']
+{'reach.v.02': 'reach', 'drink.v.01': 'drink', 'enjoy.v.01': 'enjoy', 'show.v.01': 'present', 'dine.v.02': 'dine', 'lap.v.01': 'lap', 'put.v.01': 'put', 'serve.v.02': 'serve', 'invite.v.01': 'invite', 'fail.v.03': 'fail', 'believe.v.01': 'believe', 'meet.v.05': 'fit'}
+drink.v.01
+drink
+soup
+['soup.n.01', 'soup.n.02', 'soup.n.03', 'soup.v.01', 'dish.n.02', 'composition.n.03', 'situation.n.02', 'dope.v.03', 'alphabet_soup.n.02', 'bisque.n.01', 'borsch.n.01', 'broth.n.01', 'broth.n.02', 'chicken_soup.n.01', 'chowder.n.01', 'cock-a-leekie.n.01', 'consomme.n.01', 'eggdrop_soup.n.01', 'gazpacho.n.01', 'green_pea_soup.n.01', 'gumbo.n.04', 'julienne.n.02', 'lentil_soup.n.01', 'marmite.n.01', 'mock_turtle_soup.n.01', 'mulligatawny.n.01', 'oxtail_soup.n.01', 'pea_soup.n.01', 'pepper_pot.n.01', 'petite_marmite.n.01', 'potage.n.01', 'scotch_broth.n.01', 'soup_du_jour.n.01', 'split-pea_soup.n.01', 'turtle_soup.n.01', 'vichyssoise.n.01', 'won_ton.n.02']
+{'pitcher.n.02': 'pitcher', 'dinner.n.01': 'dinner', 'gusto.n.01': 'gusto', 'soup.n.01': 'soup', 'stork.n.01': 'stork', 'fare.n.04': 'fare', 'dish.n.01': 'dish', 'distress.n.02': 'distress', 'broth.n.01': 'broth', 'food.n.01': 'food', 'table.n.02': 'table', 'fox.n.01': 'fox'}
+soup.n.01
+soup
+question before sub:
+Who attempted to drink some savory soup?
+{Question_Text}: Who attempted to drink some savory soup ?
+answer_type:Sch
+SCORING fables-04-17
+Comparing Gold   "the stork"
+      and Resp   "The stork attempted to drink some savory broth and failed."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+sch
+There once was a group of students and a narrator.
+The narrator was a teacher, owned some white slip and owned a desk.
+The narrator was teaching the group of students language.
+The narrator checked the group of students for presence and stood at the front of a classroom.
+The slip fell because the not-functional elastic of the slip was dysfunctional.
+The group of students saw that the slip had fallen because the elastic of the slip was dysfunctional.
+The narrator noticed that the ankle of the narrator was observed.
+The narrator nervously looked toward the ankle of the narrator and observed that the slip had fallen because the elastic of the slip was dysfunctional.
+The narrator glanced around the group of students.
+The narrator carefully stepped over the slip.
+The narrator feigned bewilderment.
+The narrator lifted the slip and inserted it into a bottom drawer of the desk.
+The narrator resumed teaching, and the group of students didn't react.
+The narrator later feared for the group of students to tell a parent of the group of students that the group of students had seen that the slip had fallen because the elastic of the slip was dysfunctional.
+=========================================
+[('Who', 'WP'), ('detected', 'VBD'), ('that', 'IN'), ('the', 'DT'), ('ankle', 'NN'), ('of', 'IN'), ('the', 'DT'), ('narrator', 'NN'), ('was', 'VBD'), ('observed', 'VBN'), ('?', '.')]
+[('detect', 'VBD'), ('ankle', 'NN'), ('narrator', 'NN'), ('be', 'VBD'), ('observe', 'VBN')]
+[('detect', 'VBD'), ('ankle', 'NN'), ('narrator', 'NN'), ('observe', 'VBN')]
+detect
+['detect.v.01', 'spy.v.03', 'find_out.v.04', 'instantiate.v.02', 'see.v.19', 'sense.v.02', 'trace.v.05']
+{'insert.v.01': 'insert', 'detect.v.01': 'notice', 'look.v.01': 'look', 'tell.v.05': 'tell', 'teach.v.01': 'teach', 'react.v.01': 'react', 'continue.v.02': 'continue', 'step.v.01': 'step', 'feign.v.01': 'feign', 'see.v.10': 'check', 'raise.v.02': 'lift', 'glance.v.01': 'glance', 'resume.v.01': 'resume'}
+detect.v.01
+notice
+ankle
+['ankle.n.01', 'gliding_joint.n.01']
+{'classroom.n.01': 'classroom', 'teacher.n.01': 'teacher', 'bewilderment.n.01': 'bewilderment', 'chemise.n.01': 'chemise', 'bearing.n.03': 'bearing', 'narrator.n.01': 'narrator', 'language.n.05': 'language', 'desk.n.01': 'desk'}
+narrator
+['narrator.n.01', 'speaker.n.01', 'anecdotist.n.01', 'fabulist.n.01', 'griot.n.01']
+{'classroom.n.01': 'classroom', 'teacher.n.01': 'teacher', 'bewilderment.n.01': 'bewilderment', 'chemise.n.01': 'chemise', 'bearing.n.03': 'bearing', 'narrator.n.01': 'narrator', 'language.n.05': 'language', 'desk.n.01': 'desk'}
+narrator.n.01
+narrator
+observe
+['detect.v.01', 'note.v.01', 'note.v.03', 'observe.v.04', 'respect.v.02', 'observe.v.06', 'watch.v.02', 'observe.v.08', 'observe.v.09', 'spy.v.03', 'state.v.01', 'watch.v.01', 'accept.v.01', 'check.v.01', 'find_out.v.04', 'instantiate.v.02', 'see.v.19', 'sense.v.02', 'trace.v.05', 'comment.v.01', 'bird.v.01', 'monitor.v.01', 'monitor.v.02', 'scout.v.01', 'track.v.02', 'lionize.v.01', 'tolerate.v.02', 'commemorate.v.01', 'mourn.v.02', 'solemnize.v.01', 'guard.v.01', 'invigilate.v.01', 'keep_tabs_on.v.01', 'make_good.v.01']
+{'insert.v.01': 'insert', 'detect.v.01': 'notice', 'look.v.01': 'look', 'tell.v.05': 'tell', 'teach.v.01': 'teach', 'react.v.01': 'react', 'continue.v.02': 'continue', 'step.v.01': 'step', 'feign.v.01': 'feign', 'see.v.10': 'check', 'raise.v.02': 'lift', 'glance.v.01': 'glance', 'resume.v.01': 'resume'}
+detect.v.01
+notice
+question before sub:
+Who detected that the ankle of the narrator was observed?
+{Question_Text}: Who notice that the ankle of the narrator was notice ?
+answer_type:Sch
+SCORING blogs-05-16
+Comparing Gold   "the narrator"
+      and Resp   "The narrator noticed that the ankle of the narrator was observed."
+
+RECALL:    1.000
+PRECISION: 0.222
+F-measure: 0.364
+
+=========================================
+[('What', 'WP'), ('did', 'VBD'), ('the', 'DT'), ('narrator', 'NN'), ('raise', 'VB'), ('?', '.')]
+[('do', 'VBD'), ('narrator', 'NN'), ('raise', 'VB')]
+[('narrator', 'NN'), ('raise', 'VB')]
+narrator
+['narrator.n.01', 'speaker.n.01', 'anecdotist.n.01', 'fabulist.n.01', 'griot.n.01']
+{'classroom.n.01': 'classroom', 'teacher.n.01': 'teacher', 'bewilderment.n.01': 'bewilderment', 'chemise.n.01': 'chemise', 'bearing.n.03': 'bearing', 'narrator.n.01': 'narrator', 'language.n.05': 'language', 'desk.n.01': 'desk'}
+narrator.n.01
+narrator
+raise
+['raise.n.01', 'ascent.n.01', 'raise.n.03', 'lift.n.12', 'raise.v.01', 'raise.v.02', 'raise.v.03', 'raise.v.04', 'grow.v.07', 'rear.v.02', 'raise.v.07', 'lift.v.03', 'raise.v.09', 'arouse.v.01', 'raise.v.11', 'lift.v.10', 'enhance.v.01', 'promote.v.02', 'raise.v.15', 'raise.v.16', 'raise.v.17', 'recruit.v.03', 'raise.v.19', 'raise.v.20', 'raise.v.21', 'raise.v.22', 'raise.v.23', 'raise.v.24', 'raise.v.25', 'lift.v.20', 'resurrect.v.01', 'increase.n.04', 'slope.n.01', 'gamble.n.02', 'propulsion.n.02', 'increase.v.02', 'move.v.02', 'express.v.02', 'collect.v.02', 'cultivate.v.01', 'make.v.03', 'move.v.02', 'construct.v.01', 'make.v.03', 'make.v.03', 'change.v.01', 'intensify.v.02', 'delegate.v.02', 'raise.v.02', 'bid.v.04', 'bet.v.02', 'enlist.v.03', 'mention.v.01', 'pronounce.v.01', 'incite.v.02', 'reach.v.04', 'multiply.v.01', 'bring_out.v.04', 'better.v.02', 'end.v.02', 'resuscitate.v.01', 'uphill.n.01', 'doubling.n.02', 'bump_up.v.01', 'chin.v.01', 'get_up.v.04', 'heighten.v.04', 'hike.v.01', 'hoist.v.01', 'hoist.v.02', 'hoist.v.03', 'jack.v.01', 'kick_up.v.01', 'levitate.v.01', 'pick_up.v.01', 'pinnacle.v.02', 'pump.v.07', 'raise.v.15', 'rear.v.04', 'shoulder.v.01', 'skid.v.02', 'trice.v.01', 'underlay.v.01', 'call_up.v.01', 'fund-raise.v.01', 'carry.v.31', 'keep.v.16', 'overproduce.v.01', 'cradle.v.02', 'fledge.v.01', 'foster.v.02', 'bless.v.01', 'curse.v.03', 'anger.v.01', 'draw.v.10', 'excite.v.01', 'hurt.v.05', 'infatuate.v.01', 'inflame.v.04', 'interest.v.01', 'invite.v.01', 'overwhelm.v.01', 'prick.v.06', 'rekindle.v.02', 'shame.v.03', 'stimulate.v.03', 'strike_a_chord.v.03', 'upset.v.02', 'dignify.v.02', 'exalt.v.04', 'potentiate.v.01', 'brevet.v.01', 'bring_up.v.03', 'ennoble.v.02', 'prefer.v.03', 'spot_promote.v.01', 'tenure.v.01']
+{'insert.v.01': 'insert', 'detect.v.01': 'notice', 'look.v.01': 'look', 'tell.v.05': 'tell', 'teach.v.01': 'teach', 'react.v.01': 'react', 'continue.v.02': 'continue', 'step.v.01': 'step', 'feign.v.01': 'feign', 'see.v.10': 'check', 'raise.v.02': 'lift', 'glance.v.01': 'glance', 'resume.v.01': 'resume'}
+raise.v.02
+lift
+question before sub:
+What did the narrator raise?
+{Question_Text}: What did the narrator lift ?
+answer_type:Sch
+SCORING blogs-05-17
+Comparing Gold   "the slip"
+      and Resp   "The narrator lifted the slip and inserted it into a bottom drawer of the desk."
+
+RECALL:    1.000
+PRECISION: 0.143
+F-measure: 0.250
+
+=========================================
+[('What', 'WP'), ('did', 'VBD'), ('the', 'DT'), ('narrator', 'NN'), ('see', 'VB'), ('the', 'DT'), ('group', 'NN'), ('of', 'IN'), ('students', 'NNS'), ('for', 'IN'), ('?', '.')]
+[('do', 'VBD'), ('narrator', 'NN'), ('see', 'VB'), ('group', 'NN'), ('student', 'NNS')]
+[('narrator', 'NN'), ('see', 'VB'), ('group', 'NN'), ('student', 'NNS')]
+narrator
+['narrator.n.01', 'speaker.n.01', 'anecdotist.n.01', 'fabulist.n.01', 'griot.n.01']
+{'classroom.n.01': 'classroom', 'teacher.n.01': 'teacher', 'bewilderment.n.01': 'bewilderment', 'chemise.n.01': 'chemise', 'bearing.n.03': 'bearing', 'narrator.n.01': 'narrator', 'language.n.05': 'language', 'desk.n.01': 'desk'}
+narrator.n.01
+narrator
+see
+['see.n.01', 'see.v.01', 'understand.v.02', 'witness.v.02', 'visualize.v.01', 'see.v.05', 'learn.v.02', 'watch.v.03', 'meet.v.01', 'determine.v.08', 'see.v.10', 'see.v.11', 'see.v.12', 'visit.v.01', 'attend.v.02', 'see.v.15', 'go_steady.v.01', 'see.v.17', 'see.v.18', 'see.v.19', 'examine.v.02', 'experience.v.01', 'see.v.22', 'see.v.23', 'interpret.v.01', 'seat.n.05', 'perceive.v.01', 'experience.v.01', 'imagine.v.01', 'think.v.01', 'watch.v.01', 'verify.v.01', 'visit.v.03', 'visit.v.03', 'tour.v.01', 'care.v.02', 'receive.v.05', 'consort.v.01', 'see.v.01', 'consider.v.05', 'detect.v.01', 'undergo.v.01', 'accompany.v.02', 'bet.v.02', 'understand.v.01', 'behold.v.01', 'catch_sight.v.01', 'glimpse.v.01', 'see.v.17', 'appreciate.v.02', 'perceive.v.02', 'catch.v.28', 'abstract.v.01', 'call.v.27', 'capitalize.v.05', 'consider.v.09', 'deem.v.01', 'disrespect.v.02', 'expect.v.04', 'favor.v.02', 'idealize.v.01', 'identify.v.03', 'include.v.02', 'like.v.04', 'make.v.43', 'prize.v.01', 'receive.v.13', 'reconsider.v.01', 'reconsider.v.02', 'reify.v.01', 'relativize.v.01', 'respect.v.01', 'ascertain.v.04', 'discover.v.04', 'get_the_goods.v.01', 'trip_up.v.01', 'wise_up.v.01', 'preview.v.01', 'spectate.v.01', 'visualize.v.02', 'intersect.v.01', 'test.v.06', 'card.v.02', 'cinch.v.02', 'control.v.06', 'cover.v.13', 'cross-check.v.01', 'double-check.v.01', 'proofread.v.01', 'spot-check.v.01', 'take_in.v.04', 'minister.v.01', 'tend.v.02', 'auscultate.v.01', 'autopsy.v.01', 'candle.v.01', 'check.v.02', 'inspect.v.01', 'peruse.v.01', 'scan.v.01', 'scan.v.02', 'search.v.02', 'search.v.04', 'size_up.v.01', 'survey.v.02', 'x-ray.v.01', 'come.v.20', 'enjoy.v.04', 'feel.v.06', 'know.v.05', 'suffer.v.01', 'suffer.v.10', 'witness.v.02', 'allegorize.v.01', 'educe.v.01', 'literalize.v.01', 'misconstrue.v.01', 'mythicize.v.01', 'read.v.01', 'read.v.04', 'read_between_the_lines.v.01', 'reinterpret.v.02', 'spiritualize.v.01', 'take.v.06']
+{'insert.v.01': 'insert', 'detect.v.01': 'notice', 'look.v.01': 'look', 'tell.v.05': 'tell', 'teach.v.01': 'teach', 'react.v.01': 'react', 'continue.v.02': 'continue', 'step.v.01': 'step', 'feign.v.01': 'feign', 'see.v.10': 'check', 'raise.v.02': 'lift', 'glance.v.01': 'glance', 'resume.v.01': 'resume'}
+detect.v.01
+notice
+group
+['group.n.01', 'group.n.02', 'group.n.03', 'group.v.01', 'group.v.02', 'abstraction.n.06', 'unit.n.05', 'set.n.02', 'classify.v.01', 'meet.v.07', 'actinoid.n.01', 'arrangement.n.02', 'association.n.08', 'biological_group.n.01', 'circuit.n.05', 'citizenry.n.01', 'collection.n.01', 'community.n.06', 'edition.n.02', 'electron_shell.n.01', 'ethnic_group.n.01', 'halogen.n.01', 'kingdom.n.06', 'multitude.n.03', 'people.n.01', 'population.n.02', 'race.n.03', 'rare_earth.n.01', 'sainthood.n.01', 'series.n.06', 'social_group.n.01', 'straggle.n.01', 'subgroup.n.01', 'swarm.n.02', 'system.n.02', 'varna.n.02', 'world.n.08', 'acyl.n.01', 'alcohol_group.n.01', 'aldehyde_group.n.01', 'alkyl.n.01', 'allyl.n.01', 'amino.n.01', 'amyl.n.01', 'azido_group.n.01', 'azo_group.n.01', 'benzoyl_group.n.01', 'benzyl.n.01', 'butyl.n.01', 'cacodyl.n.02', 'carbonyl_group.n.01', 'carboxyl.n.01', 'chromophore.n.01', 'cyano_group.n.01', 'glyceryl.n.01', 'hydrazo_group.n.01', 'hydroxyl.n.01', 'ketone_group.n.01', 'methylene_group.n.01', 'nitrite.n.01', 'nitro_group.n.01', 'propyl.n.01', 'uranyl.n.01', 'vinyl.n.01', 'abelian_group.n.01', 'subgroup.n.02', 'batch.v.01', 'bracket.v.03', 'collocate.v.02', 'regroup.v.02', 'brigade.v.01', 'embed.v.02', 'gang.v.01', 'pool.v.02', 'team.v.01']
+{'classroom.n.01': 'classroom', 'teacher.n.01': 'teacher', 'bewilderment.n.01': 'bewilderment', 'chemise.n.01': 'chemise', 'bearing.n.03': 'bearing', 'narrator.n.01': 'narrator', 'language.n.05': 'language', 'desk.n.01': 'desk'}
+student
+['student.n.01', 'scholar.n.01', 'enrollee.n.01', 'intellectual.n.01', 'art_student.n.01', 'auditor.n.02', 'catechumen.n.01', 'collegian.n.01', 'crammer.n.01', 'etonian.n.01', 'ivy_leaguer.n.01', 'law_student.n.01', 'major.n.03', 'medical_student.n.01', 'nonreader.n.01', 'overachiever.n.01', 'passer.n.03', 'scholar.n.03', 'seminarian.n.01', 'sixth-former.n.01', 'skipper.n.01', 'underachiever.n.01', 'withdrawer.n.05', 'wykehamist.n.01', 'academician.n.02', 'alumnus.n.01', 'arabist.n.01', 'bibliographer.n.01', 'bibliophile.n.01', 'cabalist.n.03', 'doctor.n.04', 'goliard.n.01', 'historian.n.01', 'humanist.n.01', 'initiate.n.02', 'islamist.n.01', 'licentiate.n.01', 'masorete.n.01', 'master.n.08', 'mujtihad.n.01', 'musicologist.n.01', 'pedant.n.01', 'philomath.n.01', 'philosopher.n.01', 'postdoc.n.02', 'reader.n.01', 'renaissance_man.n.01', 'renaissance_man.n.02', 'salutatorian.n.01', 'scholiast.n.01', 'schoolman.n.01', 'shakespearian.n.01', 'sinologist.n.01', 'theologian.n.01', 'valedictorian.n.01', 'vedist.n.01']
+{'classroom.n.01': 'classroom', 'teacher.n.01': 'teacher', 'bewilderment.n.01': 'bewilderment', 'chemise.n.01': 'chemise', 'bearing.n.03': 'bearing', 'narrator.n.01': 'narrator', 'language.n.05': 'language', 'desk.n.01': 'desk'}
+question before sub:
+What did the narrator see the group of students for?
+{Question_Text}: What did the narrator notice the group of students for ?
+answer_type:Sch
+SCORING blogs-05-20
+Comparing Gold   "presence"
+      and Resp   "The narrator was teaching the group of students language."
+
+RECALL:    0.000
+PRECISION: 0.000
+F-measure: 0.000
+
+=========================================
+sch
+There once was a fox and a fowl.
+The fox was nightly prowling a yard.
+He was stealing the fowl.
+An agriculturist began to be annoyed by the fox.
+The agriculturist set a trap and caught the fox.
+The agriculturist tied some fiber onto the tail of the fox and in order to retaliate.
+The agriculturist kindled the fiber and freed the fox.
+The agriculturist began to be unlucky because the fox ran into a field.
+Some corn began to be ripe in the field and began to be ready to a harvest.
+The corn ignited and burned completely.
+The agriculturist lost a crop.
+=========================================
+[('Who', 'WP'), ('was', 'VBD'), ('stealing', 'VBG'), ('the', 'DT'), ('chicken', 'NN'), ('?', '.')]
+[('be', 'VBD'), ('steal', 'VBG'), ('chicken', 'NN')]
+[('steal', 'VBG'), ('chicken', 'NN')]
+steal
+['bargain.n.02', 'steal.n.02', 'steal.v.01', 'steal.v.02', 'steal.v.03', 'purchase.n.02', 'baseball.n.01', 'take.v.21', 'move.v.03', 'gain.v.05', 'song.n.05', 'travel_bargain.n.01', 'burglarize.v.01', 'embezzle.v.01', 'hook.v.05', 'hustle.v.03', 'loot.v.01', 'pilfer.v.01', 'pirate.v.01', 'plagiarize.v.01', 'pocket.v.02', 'rob.v.01', 'rustle.v.02', 'shoplift.v.01', 'walk_off.v.01']
+{'kindle.v.02': 'kindle', 'tie.v.01': 'tie', 'prowl.v.01': 'prowl', 'revenge.v.01': 'retaliate', 'lose.v.01': 'lose', 'steal.v.01': 'steal', 'ignite.v.01': 'ignite', 'burn.v.03': 'burn', 'impart.v.03': 'carry', 'set.v.13': 'set', 'catch.v.01': 'catch'}
+steal.v.01
+steal
+chicken
+['chicken.n.01', 'chicken.n.02', 'wimp.n.01', 'chicken.n.04', 'chicken.s.01', 'poultry.n.02', 'domestic_fowl.n.01', 'weakling.n.01', 'contest.n.01', 'broiler.n.02', 'capon.n.01', 'fryer.n.01', 'hen.n.03', 'roaster.n.03', 'spatchcock.n.01', 'capon.n.02', 'chick.n.01', 'cock.n.04', 'dominique.n.01', 'hen.n.01', 'orpington.n.01', 'rhode_island_red.n.01', 'spring_chicken.n.02']
+{'crop.n.02': 'crop', 'agriculturist.n.01': 'agriculturist', 'fiber.n.05': 'fiber', 'corn.n.03': 'corn', 'domestic_fowl.n.01': 'domestic_fowl', 'harvest.n.03': 'harvest', 'trap.n.01': 'trap', 'yard.n.03': 'yard', 'field.n.14': 'field', 'fox.n.01': 'fox'}
+domestic_fowl.n.01
+domestic_fowl
+question before sub:
+Who was stealing the chicken?
+{Question_Text}: Who was steal the domestic_fowl ?
+answer_type:Sch
+SCORING fables-05-14
+Comparing Gold   "the fox"
+      and Resp   "He was stealing the fowl."
+
+RECALL:    0.500
+PRECISION: 0.167
+F-measure: 0.250
+
+=========================================
+[('What', 'WP'), ('did', 'VBD'), ('the', 'DT'), ('agriculturist', 'NN'), ('ignite', 'VB'), ('?', '.')]
+[('do', 'VBD'), ('agriculturist', 'NN'), ('ignite', 'VB')]
+[('agriculturist', 'NN'), ('ignite', 'VB')]
+agriculturist
+['agriculturist.n.01', 'farmer.n.01', 'fruit_grower.n.01', 'viticulturist.n.01']
+{'crop.n.02': 'crop', 'agriculturist.n.01': 'agriculturist', 'fiber.n.05': 'fiber', 'corn.n.03': 'corn', 'domestic_fowl.n.01': 'domestic_fowl', 'harvest.n.03': 'harvest', 'trap.n.01': 'trap', 'yard.n.03': 'yard', 'field.n.14': 'field', 'fox.n.01': 'fox'}
+agriculturist.n.01
+agriculturist
+ignite
+['ignite.v.01', 'erupt.v.03', 'inflame.v.04', 'burn.v.05', 'change_state.v.01', 'arouse.v.01', 'flare_up.v.01', 'kindle.v.02', 'light_up.v.04', 'light_up.v.05', 'reignite.v.01', 'blow_out.v.03', 'catch.v.20', 'light_up.v.01', 'ferment.v.02']
+{'kindle.v.02': 'kindle', 'tie.v.01': 'tie', 'prowl.v.01': 'prowl', 'revenge.v.01': 'retaliate', 'lose.v.01': 'lose', 'steal.v.01': 'steal', 'ignite.v.01': 'ignite', 'burn.v.03': 'burn', 'impart.v.03': 'carry', 'set.v.13': 'set', 'catch.v.01': 'catch'}
+kindle.v.02
+kindle
+question before sub:
+What did the agriculturist ignite?
+{Question_Text}: What did the agriculturist kindle ?
+answer_type:Sch
+SCORING fables-05-15
+Comparing Gold   "the fiber"
+      and Resp   "The agriculturist kindled the fiber and freed the fox."
+
+RECALL:    1.000
+PRECISION: 0.250
+F-measure: 0.400
+
+=========================================
+[('Who', 'WP'), ('did', 'VBD'), ('the', 'DT'), ('agriculturist', 'NN'), ('unloosen', 'NN'), ('?', '.')]
+[('do', 'VBD'), ('agriculturist', 'NN'), ('unloosen', 'NN')]
+[('agriculturist', 'NN'), ('unloosen', 'NN')]
+agriculturist
+['agriculturist.n.01', 'farmer.n.01', 'fruit_grower.n.01', 'viticulturist.n.01']
+{'crop.n.02': 'crop', 'agriculturist.n.01': 'agriculturist', 'fiber.n.05': 'fiber', 'corn.n.03': 'corn', 'domestic_fowl.n.01': 'domestic_fowl', 'harvest.n.03': 'harvest', 'trap.n.01': 'trap', 'yard.n.03': 'yard', 'field.n.14': 'field', 'fox.n.01': 'fox'}
+agriculturist.n.01
+agriculturist
+unloosen
+['free.v.01', 'unloose.v.02', 'untie.v.01', 'bail.v.01', 'bail_out.v.01', 'parole.v.01', 'run.v.31', 'unchain.v.02', 'unspell.v.01']
+{'crop.n.02': 'crop', 'agriculturist.n.01': 'agriculturist', 'fiber.n.05': 'fiber', 'corn.n.03': 'corn', 'domestic_fowl.n.01': 'domestic_fowl', 'harvest.n.03': 'harvest', 'trap.n.01': 'trap', 'yard.n.03': 'yard', 'field.n.14': 'field', 'fox.n.01': 'fox'}
+question before sub:
+Who did the agriculturist unloosen?
+{Question_Text}: Who did the agriculturist unloosen ?
+answer_type:Sch
+SCORING fables-05-16
+Comparing Gold   "the fox"
+      and Resp   "The agriculturist set a trap and caught the fox."
+
+RECALL:    1.000
+PRECISION: 0.222
+F-measure: 0.364
+
+=========================================
+sch
+A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man.
+The narrator stayed with the young man and didn't aid him because the young man had broken the neck of the young man.
+The young man died on the spot of the yard of the narrator.
+The narrator later went back to the spot of the yard of the narrator and decided to talk to the young man because it wanted the young man to know the narrator regretting that it had not aided him.
+The narrator saw some bright flash in a group of trees that was above the narrator.
+The narrator thought for the brother of the narrator to use the flashlight of the brother of the narrator.
+The narrator entered the house of the narrator and heard that the asleep family of the narrator was asleep.
+The narrator began to wonder that the flash was an orb
+=========================================
+[('What', 'WP'), ('did', 'VBD'), ('the', 'DT'), ('narrator', 'NN'), ('go', 'VB'), ('into', 'IN'), ('?', '.')]
+[('do', 'VBD'), ('narrator', 'NN'), ('go', 'VB')]
+[('narrator', 'NN'), ('go', 'VB')]
+narrator
+['narrator.n.01', 'speaker.n.01', 'anecdotist.n.01', 'fabulist.n.01', 'griot.n.01']
+{'eyeball.n.01': 'eyeball', 'flash.n.10': 'flash', 'narrator.n.01': 'narrator', 'young_buck.n.01': 'young_buck', 'man.n.01': 'man'}
+narrator.n.01
+narrator
+go
+['go.n.01', 'adam.n.03', 'crack.n.09', 'go.n.04', 'travel.v.01', 'go.v.02', 'go.v.03', 'become.v.01', 'go.v.05', 'run.v.05', 'run.v.03', 'proceed.v.04', 'go.v.09', 'go.v.10', 'sound.v.02', 'function.v.01', 'run_low.v.01', 'move.v.13', 'survive.v.01', 'go.v.16', 'die.v.01', 'belong.v.03', 'go.v.19', 'start.v.09', 'move.v.15', 'go.v.22', 'go.v.23', 'blend.v.02', 'go.v.25', 'fit.v.02', 'rifle.v.02', 'go.v.28', 'plump.v.04', 'fail.v.04', 'go.a.01', 'shift.n.03', 'methylenedioxymethamphetamine.n.01', 'attempt.n.01', 'board_game.n.01', 'act.v.01', 'exit.v.01', 'change_state.v.01', 'be.v.01', 'be.v.03', 'happen.v.01', 'disappear.v.01', 'be.v.01', 'cause_to_be_perceived.v.01', 'end.v.01', 'change.v.02', 'change_state.v.01', 'be.v.03', 'compare.v.02', 'harmonize.v.01', 'be.v.03', 'fit.v.07', 'search.v.04', 'choose.v.01', 'change.v.02', 'accompany.v.02', 'advance.v.01', 'angle.v.01', 'ascend.v.01', 'automobile.v.01', 'back.v.02', 'bang.v.04', 'beetle.v.02', 'betake_oneself.v.01', 'billow.v.02', 'bounce.v.03', 'breeze.v.02', 'caravan.v.01', 'career.v.01', 'carry.v.36', 'circle.v.01', 'circle.v.02', 'circuit.v.01', 'circulate.v.07', 'come.v.01', 'come.v.11', 'crawl.v.01', 'cruise.v.02', 'derail.v.02', 'descend.v.01', 'do.v.13', 'drag.v.04', 'draw.v.12', 'drive.v.02', 'drive.v.14', 'ease.v.01', 'fall.v.01', 'fall.v.15', 'ferry.v.03', 'float.v.01', 'float.v.02', 'float.v.05', 'flock.v.01', 'fly.v.01', 'fly.v.06', 'follow.v.01', 'follow.v.04', 'forge.v.05', 'get_around.v.04', 'ghost.v.01', 'glide.v.01', 'go_around.v.02', 'hiss.v.02', 'hurtle.v.01', 'island_hop.v.01', 'lance.v.01', 'lurch.v.03', 'outflank.v.01', 'pace.v.02', 'pan.v.01', 'pass.v.01', 'pass_over.v.04', 'play.v.09', 'plow.v.03', 'prance.v.02', 'precede.v.04', 'precess.v.01', 'proceed.v.02', 'propagate.v.02', 'pursue.v.02', 'push.v.09', 'raft.v.02', 'repair.v.03', 'retreat.v.02', 'retrograde.v.02', 'return.v.01', 'ride.v.01', 'ride.v.04', 'ride.v.10', 'rise.v.01', 'roll.v.12', 'round.v.01', 'run.v.11', 'run.v.34', 'rush.v.01', 'scramble.v.01', 'seek.v.04', 'shuttle.v.01', 'sift.v.01', 'ski.v.01', 'slice_into.v.01', 'slither.v.01', 'snowshoe.v.01', 'speed.v.04', 'steamer.v.01', 'step.v.01', 'step.v.02', 'step.v.06', 'stray.v.02', 'swap.v.02', 'swash.v.01', 'swim.v.01', 'swim.v.05', 'swing.v.03', 'taxi.v.01', 'trail.v.03', 'tram.v.01', 'transfer.v.06', 'travel.v.04', 'travel.v.05', 'travel.v.06', 'travel_by.v.01', 'travel_purposefully.v.01', 'travel_rapidly.v.01', 'trundle.v.01', 'turn.v.06', 'walk.v.01', 'walk.v.10', 'weave.v.04', 'wend.v.01', 'wheel.v.03', 'whine.v.01', 'whish.v.02', 'whisk.v.02', 'whistle.v.02', 'withdraw.v.01', 'zigzag.v.01', 'zoom.v.02', 'steamroller.v.02', 'venture.v.01', 'work.v.09', 'shove_off.v.01', 'break.v.16', 'run.v.14', 'settle.v.08', 'sober_up.v.01', 'sober_up.v.02', 'take.v.29', 'take_effect.v.01', 'work.v.27', 'come.v.09', 'go_far.v.02', 'radiate.v.03', 'do.v.04', 'drag.v.11', 'bang.v.02', 'bleep.v.01', 'blow.v.05', 'blow.v.10', 'boom.v.01', 'boom.v.04', 'buzz.v.01', 'chatter.v.01', 'chime.v.01', 'chug.v.01', 'clang.v.01', 'clangor.v.01', 'clank.v.01', 'click.v.02', 'clop.v.01', 'crack.v.02', 'crash.v.07', 'drone.v.01', 'drum.v.01', 'glug.v.01', 'guggle.v.02', 'gurgle.v.02', 'honk.v.01', 'hum.v.03', 'lap.v.03', 'make_noise.v.01', 'patter.v.02', 'ping.v.03', 'pink.v.02', 'pop.v.03', 'rattle.v.01', 'resonate.v.01', 'resound.v.01', 'ring.v.01', 'ripple.v.02', 'roll.v.05', 'rumble.v.01', 'rustle.v.01', 'skirl.v.01', 'snap.v.06', 'snarl.v.02', 'splash.v.05', 'splat.v.01', 'squelch.v.02', 'tap.v.07', 'thud.v.01', 'tick.v.02', 'ting.v.02', 'tinkle.v.01', 'trump.v.01', 'twang.v.02', 'tweet.v.01', 'whish.v.01', 'whistle.v.01', 'whistle.v.05', 'whizz.v.01', 'cut.v.24', 'double.v.04', 'roll.v.07', 'run.v.13', 'service.v.01', 'live_out.v.01', 'perennate.v.01', 'stand_up.v.06', 'abort.v.02', 'buy_it.v.01', 'drown.v.03', 'fall.v.07', 'predecease.v.01', 'starve.v.02', 'succumb.v.02', 'suffocate.v.05', 'get_off_the_ground.v.01', 'go_on.v.05', 'bluff.v.01', 'castle.v.01', 'check.v.17', 'draw.v.14', 'manoeuver.v.03', 'open.v.09', 'serve.v.15', 'stalemate.v.01', 'trump.v.03', 'joint.v.01', 'tessellate.v.01', 'blow_out.v.01', 'crash.v.12', 'malfunction.v.01', 'misfire.v.01']
+{'die.v.01': 'die', 'wonder.v.02': 'wonder', 'break.v.05': 'break', 'know.v.01': 'know', 'enter.v.01': 'enter', 'stay.v.02': 'stay', 'decide.v.01': 'decide', 'hear.v.01': 'hear', 'crash.v.02': 'crash', 'repent.v.02': 'regret', 'sleep.v.01': 'sleep', 'use.v.01': 'use', 'talk.v.02': 'talk', 'go_back.v.01': 'goback', 'believe.v.01': 'believe', 'desire.v.01': 'want'}
+die.v.01
+die
+question before sub:
+What did the narrator go into?
+{Question_Text}: What did the narrator die into ?
+answer_type:Sch
+SCORING blogs-02-17
+Comparing Gold   "the house of the narrator"
+      and Resp   "The young man died on the spot of the yard of the narrator."
+
+RECALL:    0.750
+PRECISION: 0.300
+F-measure: 0.429
+
+=========================================
+[('Who', 'WP'), ('was', 'VBD'), ('catching', 'VBG'), ('some', 'DT'), ('Z\x92s', 'NNP'), ('?', '.')]
+[('be', 'VBD'), ('catch', 'VBG'), ('Z\x92s', 'NNP')]
+[('catch', 'VBG')]
+catch
+['catch.n.01', 'catch.n.02', 'catch.n.03', 'catch.n.04', 'catch.n.05', 'catch.n.06', 'catch.n.07', 'catch.n.08', 'catch.n.09', 'apprehension.n.04', 'catch.v.01', 'catch.v.02', 'get.v.19', 'catch.v.04', 'get.v.11', 'hitch.v.01', 'catch.v.07', 'capture.v.06', 'catch.v.09', 'catch.v.10', 'overtake.v.01', 'catch.v.12', 'catch.v.13', 'catch.v.14', 'watch.v.03', 'catch.v.16', 'trip_up.v.01', 'catch.v.18', 'catch.v.19', 'catch.v.20', 'catch.v.21', 'catch.v.22', 'capture.v.02', 'catch.v.24', 'catch.v.25', 'catch.v.26', 'catch.v.27', 'catch.v.28', 'catch.v.29', 'drawback.n.01', 'indefinite_quantity.n.01', 'adult.n.01', 'object.n.01', 'manner_of_speaking.n.01', 'restraint.n.06', 'fastener.n.02', 'game.n.03', 'touch.n.05', 'capture.n.01', 'surprise.v.01', 'perceive.v.01', 'hit.v.03', 'seize.v.01', 'seize.v.01', 'attach.v.01', 'attract.v.01', 'get.v.01', 'board.v.01', 'get.v.01', 'change.v.02', 'control.v.02', 'hear.v.01', 'watch.v.01', 'learn.v.02', 'understand.v.01', 'contract.v.04', 'erupt.v.03', 'hear.v.01', 'hurt.v.06', 'attract.v.02', 'reproduce.v.03', 'roll_up.v.02', 'spread.v.02', 'play.v.01', 'witness.v.02', 'delay.v.01', 'bench_hook.n.01', 'doorstop.n.01', 'pawl.n.01', 'tripper.n.04', 'hasp.n.01', 'hood_latch.n.01', 'hook.n.01', 'latch.n.02', 'fair_catch.n.01', 'interception.n.02', 'mesh.n.05', 'rebound.n.03', 'reception.n.05', 'shoestring_catch.n.01', 'fish.v.02', 'harpoon.v.01', 'hook.v.08', 'intercept.v.01', 'net.v.04', 'lasso.v.01', 'recapture.v.04', 'snag.v.01', 'bag.v.01', 'batfowl.v.01', 'frog.v.01', 'hunt.v.01', 'rat.v.05', 'trap.v.02', 'get.v.27', 'preview.v.01', 'spectate.v.01', 'visualize.v.02', 'catch_cold.v.01', 'hold.v.22', 'work.v.19']
+{'die.v.01': 'die', 'wonder.v.02': 'wonder', 'break.v.05': 'break', 'know.v.01': 'know', 'enter.v.01': 'enter', 'stay.v.02': 'stay', 'decide.v.01': 'decide', 'hear.v.01': 'hear', 'crash.v.02': 'crash', 'repent.v.02': 'regret', 'sleep.v.01': 'sleep', 'use.v.01': 'use', 'talk.v.02': 'talk', 'go_back.v.01': 'goback', 'believe.v.01': 'believe', 'desire.v.01': 'want'}
+hear.v.01
+hear
+question before sub:
+Who was catching some Zs?
+{Question_Text}: Who was hear some Zs ?
+answer_type:Sch
+SCORING blogs-02-18
+Comparing Gold   "the family of the narrator"
+      and Resp   "A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man."
+
+RECALL:    0.750
+PRECISION: 0.176
+F-measure: 0.286
+
+=========================================
+[('Who', 'WP'), ('walked', 'VBD'), ('in', 'IN'), ('the', 'DT'), ('house', 'NN'), ('of', 'IN'), ('the', 'DT'), ('narrator', 'NN'), ('?', '.')]
+[('walk', 'VBD'), ('house', 'NN'), ('narrator', 'NN')]
+[('walk', 'VBD'), ('house', 'NN'), ('narrator', 'NN')]
+walk
+['walk.n.01', 'base_on_balls.n.01', 'walk.n.03', 'walk.n.04', 'walk.n.05', 'walk.n.06', 'walk_of_life.n.01', 'walk.v.01', 'walk.v.02', 'walk.v.03', 'walk.v.04', 'walk.v.05', 'walk.v.06', 'walk.v.07', 'walk.v.08', 'walk.v.09', 'walk.v.10', 'locomotion.n.02', 'accomplishment.n.01', 'carriage.n.03', 'travel.n.01', 'path.n.02', 'gait.n.02', 'career.n.01', 'travel.v.01', 'accompany.v.02', 'score.v.01', 'traverse.v.01', 'play.v.01', 'behave.v.03', 'consociate.v.01', 'pace.v.02', 'compel.v.01', 'travel.v.01', 'ambulation.n.01', 'gait.n.03', 'march.n.02', 'plodding.n.02', 'prowl.n.01', 'shamble.n.01', 'sleepwalking.n.01', 'wading.n.01', 'amble.n.01', 'constitutional.n.01', 'foot.n.07', 'hike.n.01', 'last_mile.n.01', 'moonwalk.n.02', 'perambulation.n.01', 'turn.n.12', 'walk-through.n.04', 'walkabout.n.03', 'ambulatory.n.01', 'boardwalk.n.01', 'catwalk.n.02', 'flagging.n.02', 'promenade.n.02', 'sidewalk.n.01', 'skywalk.n.01', 'amble.v.01', 'ambulate.v.01', 'clump.v.03', 'flounce.v.01', 'foot.v.02', 'hike.v.02', 'limp.v.01', 'lollop.v.01', 'lumber.v.01', 'march.v.01', 'march.v.03', 'mince.v.02', 'pace.v.01', 'perambulate.v.02', 'promenade.v.02', 'prowl.v.01', 'shuffle.v.01', 'skulk.v.03', 'sleepwalk.v.01', 'slink.v.01', 'slog.v.02', 'slouch.v.02', 'sneak.v.01', 'spacewalk.v.01', 'stagger.v.01', 'stagger.v.02', 'stalk.v.01', 'step.v.07', 'stomp.v.01', 'stride.v.01', 'stroll.v.01', 'stumble.v.01', 'tap.v.08', 'tiptoe.v.01', 'tittup.v.01', 'toddle.v.01', 'toe.v.01', 'traipse.v.01', 'tramp_down.v.01', 'tread.v.02', 'wade.v.01', 'march.v.02', 'trot.v.03', 'march.v.06', 'parade.v.01', 'constitutionalize.v.02']
+{'die.v.01': 'die', 'wonder.v.02': 'wonder', 'break.v.05': 'break', 'know.v.01': 'know', 'enter.v.01': 'enter', 'stay.v.02': 'stay', 'decide.v.01': 'decide', 'hear.v.01': 'hear', 'crash.v.02': 'crash', 'repent.v.02': 'regret', 'sleep.v.01': 'sleep', 'use.v.01': 'use', 'talk.v.02': 'talk', 'go_back.v.01': 'goback', 'believe.v.01': 'believe', 'desire.v.01': 'want'}
+house
+['house.n.01', 'firm.n.01', 'house.n.03', 'house.n.04', 'house.n.05', 'house.n.06', 'house.n.07', 'sign_of_the_zodiac.n.01', 'house.n.09', 'family.n.01', 'theater.n.01', 'house.n.12', 'house.v.01', 'house.v.02', 'building.n.01', 'dwelling.n.01', 'business.n.01', 'community.n.01', 'audience.n.01', 'legislature.n.01', 'family.n.04', 'play.n.08', 'region.n.01', 'management.n.02', 'unit.n.03', 'building.n.01', 'building.n.01', 'accommodate.v.04', 'shelter.v.01', 'beach_house.n.01', 'boarding_house.n.01', 'bungalow.n.01', 'cabin.n.02', 'chalet.n.01', 'chapterhouse.n.02', 'country_house.n.01', 'detached_house.n.01', 'dollhouse.n.01', 'duplex_house.n.01', 'farmhouse.n.01', 'gatehouse.n.01', 'guesthouse.n.01', 'hacienda.n.02', 'lodge.n.04', 'lodging_house.n.01', 'maisonette.n.02', 'mansion.n.02', 'ranch_house.n.01', 'residence.n.02', 'row_house.n.01', 'safe_house.n.01', 'saltbox.n.01', 'sod_house.n.01', 'solar_house.n.01', 'tract_house.n.01', 'villa.n.02', 'accounting_firm.n.01', 'auction_house.n.01', 'consulting_firm.n.01', 'corporation.n.01', 'dealer.n.02', 'law_firm.n.01', 'publisher.n.01', 'dail_eireann.n.01', 'house_of_burgesses.n.01', 'house_of_commons.n.01', 'house_of_lords.n.01', 'seanad_eireann.n.01', 'united_states_house_of_representatives.n.01', 'medici.n.01', 'royalty.n.02', 'broken_home.n.01', 'extended_family.n.01', 'foster_family.n.01', 'foster_home.n.01', 'menage_a_trois.n.01', 'nuclear_family.n.01', 'arena_theater.n.01', 'cinema.n.02', 'dinner_theater.n.01', 'home_theater.n.01', 'little_theater.n.01', 'music_hall.n.01', 'opera.n.03', 'bathhouse.n.02', 'courthouse.n.02', 'field_house.n.01', 'icehouse.n.01', 'meat_house.n.02', 'oast_house.n.01', 'pump_house.n.01', 'smokehouse.n.01', 'stash_house.n.01', 'chamber.v.01', 'home.v.01', 'lodge.v.04', 'rehouse.v.01', 'take_in.v.01']
+{'eyeball.n.01': 'eyeball', 'flash.n.10': 'flash', 'narrator.n.01': 'narrator', 'young_buck.n.01': 'young_buck', 'man.n.01': 'man'}
+narrator
+['narrator.n.01', 'speaker.n.01', 'anecdotist.n.01', 'fabulist.n.01', 'griot.n.01']
+{'eyeball.n.01': 'eyeball', 'flash.n.10': 'flash', 'narrator.n.01': 'narrator', 'young_buck.n.01': 'young_buck', 'man.n.01': 'man'}
+narrator.n.01
+narrator
+question before sub:
+Who walked in the house of the narrator?
+{Question_Text}: Who walked in the house of the narrator ?
+answer_type:Sch
+SCORING blogs-02-19
+Comparing Gold   "the narrator"
+      and Resp   "The narrator entered the house of the narrator and heard that the asleep family of the narrator was asleep."
+
+RECALL:    1.000
+PRECISION: 0.167
+F-measure: 0.286
+
+=========================================
+[('What', 'WP'), ('did', 'VBD'), ('the', 'DT'), ('narrator', 'NN'), ('perceive', 'VB'), ('?', '.')]
+[('do', 'VBD'), ('narrator', 'NN'), ('perceive', 'VB')]
+[('narrator', 'NN'), ('perceive', 'VB')]
+narrator
+['narrator.n.01', 'speaker.n.01', 'anecdotist.n.01', 'fabulist.n.01', 'griot.n.01']
+{'eyeball.n.01': 'eyeball', 'flash.n.10': 'flash', 'narrator.n.01': 'narrator', 'young_buck.n.01': 'young_buck', 'man.n.01': 'man'}
+narrator.n.01
+narrator
+perceive
+['perceive.v.01', 'perceive.v.02', 'understand.v.02', 'apperceive.v.01', 'catch.v.02', 'divine.v.01', 'dream.v.02', 'feel.v.03', 'find.v.13', 'hallucinate.v.01', 'hear.v.01', 'hurt.v.06', 'listen.v.01', 'misperceive.v.01', 'pick_up.v.09', 'see.v.01', 'see_through.v.02', 'smell.v.01', 'spy.v.03', 'taste.v.02', 'touch.v.02', 'smell.v.05']
+{'die.v.01': 'die', 'wonder.v.02': 'wonder', 'break.v.05': 'break', 'know.v.01': 'know', 'enter.v.01': 'enter', 'stay.v.02': 'stay', 'decide.v.01': 'decide', 'hear.v.01': 'hear', 'crash.v.02': 'crash', 'repent.v.02': 'regret', 'sleep.v.01': 'sleep', 'use.v.01': 'use', 'talk.v.02': 'talk', 'go_back.v.01': 'goback', 'believe.v.01': 'believe', 'desire.v.01': 'want'}
+hear.v.01
+hear
+question before sub:
+What did the narrator perceive?
+{Question_Text}: What did the narrator hear ?
+answer_type:Sch
+SCORING blogs-02-20
+Comparing Gold   "some bright flash"
+      and Resp   "The narrator stayed with the young man and didn't aid him because the young man had broken the neck of the young man."
+
+RECALL:    0.000
+PRECISION: 0.000
+F-measure: 0.000
+
+=========================================
+sch
+An eagle swooped toward a serpent and seized it in order for he to devour it.
+The eagle fought with the serpent, and the serpent coiled around him.
+A countryman who owned a drinking vessel tried to help the eagle to escape.
+The eagle escaped, and the countryman freed the eagle from the serpent.
+The serpent spat some poison in the drinking vessel.
+The countryman decided to sip from the drinking vessel.
+The eagle spilled the drinking vessel.
+=========================================
+[('Who', 'WP'), ('swooped', 'VBD'), ('towards', 'IN'), ('a', 'DT'), ('snake', 'NN'), ('?', '.')]
+[('swoop', 'VBD'), ('snake', 'NN')]
+[('swoop', 'VBD'), ('snake', 'NN')]
+swoop
+['swoop.n.01', 'swoop.n.02', 'swoop.n.03', 'pounce.v.01', 'swoop.v.02', 'swoop.v.03', 'glissando.n.01', 'foray.n.01', 'descent.n.03', 'descend.v.01', 'move.v.03', 'snatch.v.01', 'stoop.v.03']
+{'escape.v.01': 'escape', 'pounce.v.01': 'swoop', 'decide.v.01': 'decide', 'sip.v.01': 'sip', 'gyrate.v.01': 'coil', 'spill.v.01': 'spill', 'help.v.01': 'help', 'seize.v.01': 'seize', 'try.v.01': 'try', 'devour.v.02': 'devour', 'spit.v.01': 'spit', 'free.v.01': 'free', 'contend.v.06': 'fight'}
+pounce.v.01
+swoop
+snake
+['snake.n.01', 'snake.n.02', 'snake.n.03', 'hydra.n.02', 'snake.n.05', 'snake.v.01', 'snake.v.02', 'snake.v.03', 'diapsid.n.01', 'bad_person.n.01', 'object.n.01', 'glide.v.01', 'wind.v.02', 'weave.v.04', 'blind_snake.n.01', 'colubrid_snake.n.01', 'constrictor.n.01', 'elapid.n.01', 'sea_snake.n.01', 'viper.n.01', 'closet_auger.n.01', "plumber's_snake.n.01", 'trap-and-drain_auger.n.01']
+{'snake.n.01': 'snake', 'eagle.n.01': 'eagle', 'drinking_vessel.n.01': 'drinking_vessel', 'countryman.n.02': 'countryman', 'poison.n.01': 'poison'}
+snake.n.01
+snake
+question before sub:
+Who swooped towards a snake?
+{Question_Text}: Who swoop towards a snake ?
+answer_type:Sch
+SCORING fables-03-22
+Comparing Gold   "an eagle"
+      and Resp   "An eagle swooped toward a serpent and seized it in order for he to devour it."
+
+RECALL:    1.000
+PRECISION: 0.125
+F-measure: 0.222
+
+=========================================
+[('Who', 'WP'), ('spiraled', 'VBD'), ('around', 'IN'), ('the', 'DT'), ('eagle', 'NN'), ('?', '.')]
+[('spiral', 'VBD'), ('eagle', 'NN')]
+[('spiral', 'VBD'), ('eagle', 'NN')]
+spiral
+['spiral.n.01', 'helix.n.01', 'spiral.n.03', 'spiral.n.04', 'coil.n.01', 'spiral.n.06', 'gyrate.v.01', 'spiral.v.02', 'corkscrew.v.01', 'coiling.s.01', 'curve.n.01', 'curve.n.01', 'economic_process.n.01', 'decoration.n.01', 'structure.n.01', 'rotation.n.01', 'turn.v.01', 'wind.v.02', 'turn.v.01', 'double_helix.n.01', 'deflationary_spiral.n.01', 'inflationary_spiral.n.01', 'hank.n.01']
+{'escape.v.01': 'escape', 'pounce.v.01': 'swoop', 'decide.v.01': 'decide', 'sip.v.01': 'sip', 'gyrate.v.01': 'coil', 'spill.v.01': 'spill', 'help.v.01': 'help', 'seize.v.01': 'seize', 'try.v.01': 'try', 'devour.v.02': 'devour', 'spit.v.01': 'spit', 'free.v.01': 'free', 'contend.v.06': 'fight'}
+gyrate.v.01
+coil
+eagle
+['eagle.n.01', 'eagle.n.02', 'eagle.n.03', 'eagle.n.04', 'eagle.v.01', 'eagle.v.02', 'bird_of_prey.n.01', 'score.n.03', 'coin.n.01', 'emblem.n.02', 'shoot.v.08', 'score.v.01', 'bald_eagle.n.01', 'eaglet.n.01', 'golden_eagle.n.01', 'harpy.n.04', 'sea_eagle.n.02', 'tawny_eagle.n.01']
+{'snake.n.01': 'snake', 'eagle.n.01': 'eagle', 'drinking_vessel.n.01': 'drinking_vessel', 'countryman.n.02': 'countryman', 'poison.n.01': 'poison'}
+eagle.n.01
+eagle
+question before sub:
+Who spiraled around the eagle?
+{Question_Text}: Who coil around the eagle ?
+answer_type:Sch
+SCORING fables-03-23
+Comparing Gold   "an eagle"
+      and Resp   "The eagle fought with the serpent, and the serpent coiled around him."
+
+RECALL:    0.500
+PRECISION: 0.091
+F-measure: 0.154
+
+=========================================
+[('What', 'WP'), ('did', 'VBD'), ('the', 'DT'), ('bird', 'NN'), ('of', 'IN'), ('prey', 'NN'), ('descend', 'NN'), ('toward', 'IN'), ('?', '.')]
+[('do', 'VBD'), ('bird', 'NN'), ('prey', 'NN'), ('descend', 'NN')]
+[('bird', 'NN'), ('prey', 'NN'), ('descend', 'NN')]
+bird
+['bird.n.01', 'bird.n.02', 'dame.n.01', 'boo.n.01', 'shuttlecock.n.01', 'bird.v.01', 'vertebrate.n.01', 'meat.n.01', 'girl.n.01', 'cry.n.01', 'badminton_equipment.n.01', 'observe.v.04', 'apodiform_bird.n.01', 'aquatic_bird.n.01', 'archaeopteryx.n.01', 'archaeornis.n.01', 'bird_of_passage.n.02', 'bird_of_prey.n.01', 'caprimulgiform_bird.n.01', 'carinate.n.01', 'cock.n.05', 'coraciiform_bird.n.01', 'cuculiform_bird.n.01', 'dickeybird.n.01', 'gallinaceous_bird.n.01', 'hen.n.02', 'ibero-mesornis.n.01', 'nester.n.02', 'night_bird.n.01', 'nonpasserine_bird.n.01', 'parrot.n.01', 'passerine.n.01', 'piciform_bird.n.01', 'protoavis.n.01', 'ratite.n.01', 'sinornis.n.01', 'trogon.n.01', 'twitterer.n.01', 'poultry.n.02', 'wildfowl.n.01']
+{'snake.n.01': 'snake', 'eagle.n.01': 'eagle', 'drinking_vessel.n.01': 'drinking_vessel', 'countryman.n.02': 'countryman', 'poison.n.01': 'poison'}
+prey
+['prey.n.01', 'prey.n.02', 'prey.v.01', 'raven.v.02', 'victim.n.01', 'animal.n.01', 'exploit.v.01', 'forage.v.02']
+{'snake.n.01': 'snake', 'eagle.n.01': 'eagle', 'drinking_vessel.n.01': 'drinking_vessel', 'countryman.n.02': 'countryman', 'poison.n.01': 'poison'}
+descend
+['descend.v.01', 'derive.v.05', 'condescend.v.02', 'fall.v.32', 'travel.v.01', 'act.v.01', 'come.v.03', 'alight.v.02', 'avalanche.v.01', 'cascade.v.01', 'crash.v.01', 'decline.v.06', 'dive.v.01', 'drip.v.01', 'drop.v.02', 'flop.v.02', 'pitch.v.03', 'plop.v.02', 'pounce.v.01', 'precipitate.v.04', 'prolapse.v.01', 'rappel.v.01', 'set.v.10', 'sink.v.04', 'sink.v.05', 'tumble.v.01', 'unhorse.v.01']
+{'snake.n.01': 'snake', 'eagle.n.01': 'eagle', 'drinking_vessel.n.01': 'drinking_vessel', 'countryman.n.02': 'countryman', 'poison.n.01': 'poison'}
+question before sub:
+What did the bird of prey descend toward?
+{Question_Text}: What did the bird of prey descend toward ?
+answer_type:Sch
+SCORING fables-03-24
+Comparing Gold   "a serpent"
+      and Resp   "An eagle swooped toward a serpent and seized it in order for he to devour it."
+
+RECALL:    1.000
+PRECISION: 0.125
+F-measure: 0.222
+
+=========================================
+[('Who', 'WP'), ('skirmished', 'VBD'), ('with', 'IN'), ('the', 'DT'), ('serpent', 'NN'), ('?', '.')]
+[('skirmish', 'VBD'), ('serpent', 'NN')]
+[('skirmish', 'VBD'), ('serpent', 'NN')]
+skirmish
+['brush.n.06', 'skirmish.v.01', 'fight.n.02', 'contend.v.06', 'contretemps.n.01']
+{'escape.v.01': 'escape', 'pounce.v.01': 'swoop', 'decide.v.01': 'decide', 'sip.v.01': 'sip', 'gyrate.v.01': 'coil', 'spill.v.01': 'spill', 'help.v.01': 'help', 'seize.v.01': 'seize', 'try.v.01': 'try', 'devour.v.02': 'devour', 'spit.v.01': 'spit', 'free.v.01': 'free', 'contend.v.06': 'fight'}
+contend.v.06
+fight
+serpent
+['snake.n.01', 'serpent.n.02', 'serpent.n.03', 'diapsid.n.01', 'firework.n.01', 'cornet.n.01', 'blind_snake.n.01', 'colubrid_snake.n.01', 'constrictor.n.01', 'elapid.n.01', 'sea_snake.n.01', 'viper.n.01']
+{'snake.n.01': 'snake', 'eagle.n.01': 'eagle', 'drinking_vessel.n.01': 'drinking_vessel', 'countryman.n.02': 'countryman', 'poison.n.01': 'poison'}
+snake.n.01
+snake
+question before sub:
+Who skirmished with the serpent?
+{Question_Text}: Who fight with the snake ?
+answer_type:Sch
+SCORING fables-03-25
+Comparing Gold   "the eagle"
+      and Resp   "The eagle fought with the serpent, and the serpent coiled around him."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+[('Who', 'WP'), ('tried', 'VBD'), ('to', 'TO'), ('support', 'VB'), ('the', 'DT'), ('eagle', 'NN'), ('?', '.')]
+[('try', 'VBD'), ('support', 'VB'), ('eagle', 'NN')]
+[('try', 'VBD'), ('support', 'VB'), ('eagle', 'NN')]
+try
+['attempt.n.01', 'try.v.01', 'test.v.01', 'judge.v.05', 'sample.v.01', 'hear.v.03', 'try.v.06', 'try.v.07', 'try.v.08', 'try_on.v.01', 'activity.n.01', 'act.v.01', 'evaluate.v.02', 'decide.v.01', 'consume.v.02', 'probe.v.01', 'pain.v.02', 'afflict.v.01', 'melt.v.01', 'wear.v.09', 'batting.n.01', 'best.n.01', 'bid.n.02', 'contribution.n.01', 'crack.n.09', 'essay.n.02', 'foray.n.02', 'liberation.n.02', "mug's_game.n.01", 'power_play.n.01', 'seeking.n.02', 'shot.n.15', 'shot.n.16', 'striving.n.01', 'struggle.n.01', 'takeover_attempt.n.01', 'test.n.04', 'test.n.05', 'worst.n.03', 'endeavor.v.01', 'fight.v.03', 'gamble.v.01', 'give_it_a_whirl.v.01', 'grope.v.02', 'have_a_go.v.01', 'risk.v.01', 'take_a_dare.v.02', 'control.v.05', 'field-test.v.01', 'float.v.04', 'court-martial.v.01', 'degust.v.01', 'rehear.v.01', 'rack.v.02']
+{'escape.v.01': 'escape', 'pounce.v.01': 'swoop', 'decide.v.01': 'decide', 'sip.v.01': 'sip', 'gyrate.v.01': 'coil', 'spill.v.01': 'spill', 'help.v.01': 'help', 'seize.v.01': 'seize', 'try.v.01': 'try', 'devour.v.02': 'devour', 'spit.v.01': 'spit', 'free.v.01': 'free', 'contend.v.06': 'fight'}
+decide.v.01
+decide
+support
+['support.n.01', 'support.n.02', 'support.n.03', 'support.n.04', 'documentation.n.03', 'support.n.06', 'support.n.07', 'support.n.08', 'accompaniment.n.02', 'support.n.10', 'support.n.11', 'support.v.01', 'support.v.02', 'back.v.01', 'hold.v.10', 'confirm.v.01', 'subscribe.v.03', 'corroborate.v.03', 'defend.v.01', 'support.v.09', 'patronize.v.04', 'digest.v.03', 'activity.n.01', 'aid.n.02', 'influence.n.03', 'operation.n.05', 'validation.n.01', 'resource.n.01', 'supporting_structure.n.01', 'activity.n.01', 'part.n.11', 'device.n.01', 'resource.n.01', 'give.v.03', 'approve.v.01', 'agree.v.01', 'match.v.01', 'argue.v.01', 'act.v.03', 'foster.v.03', 'permit.v.01', 'logistic_support.n.01', 'sustenance.n.03', 'advocacy.n.01', 'attachment.n.05', 'blessing.n.01', 'endorsement.n.05', 'reassurance.n.01', 'sponsorship.n.01', 'anchor.n.02', 'lifeline.n.02', 'close_support.n.01', 'comforts.n.01', 'maintenance.n.02', 'meal_ticket.n.01', 'subsistence.n.01', 'abutment.n.02', 'architrave.n.02', 'basement.n.02', 'buttress.n.01', 'foundation.n.03', 'pedestal.n.03', 'prop.n.01', 'shoring.n.02', 'suspension.n.06', 'descant.n.01', 'vamp.n.02', 'andiron.n.01', 'arch_support.n.01', 'back.n.08', 'backboard.n.02', 'baluster.n.01', 'bar.n.13', 'base.n.08', 'bearing.n.06', 'bearing_wall.n.01', 'bedpost.n.01', 'bookend.n.01', 'brace.n.01', 'bracket.n.04', 'bridge.n.06', 'foot.n.11', 'foothold.n.02', 'handrest.n.01', 'hanger.n.02', 'harness.n.01', 'harp.n.02', 'headstock.n.01', 'leg.n.03', 'perch.n.01', 'pier.n.02', 'pier.n.03', 'pillow_block.n.01', 'rack.n.05', 'rest.n.06', 'rib.n.01', 'rocker.n.07', 'seat.n.04', 'shelf.n.01', 'spoke.n.01', 'step.n.04', 'stirrup.n.01', 'stock.n.03', 'structural_member.n.01', 'tailstock.n.01', 'tee.n.02', 'undercarriage.n.01', 'yoke.n.05', 'help.v.01', 'patronize.v.02', 'promote.v.01', 'second.v.01', 'sponsor.v.02', 'undergird.v.01', 'fund.v.06', 'provide.v.06', 'see_through.v.01', 'sponsor.v.01', 'subsidize.v.01', 'champion.v.01', 'guarantee.v.04', 'block.v.11', 'brace.v.03', 'bracket.v.01', 'buoy.v.02', 'carry.v.05', 'chock.v.02', 'pole.v.02', 'prop_up.v.01', 'scaffold.v.01', 'truss.v.03', 'underpin.v.01', 'back.v.09', 'document.v.02', 'prove.v.02', 'validate.v.02', 'verify.v.01', 'vouch.v.04', 'apologize.v.02', 'stand_up.v.05', 'uphold.v.02', 'accept.v.07', 'bear_up.v.01', 'pay.v.09', 'sit_out.v.02', 'stand_for.v.04', 'take_a_joke.v.01', 'take_lying_down.v.01']
+{'escape.v.01': 'escape', 'pounce.v.01': 'swoop', 'decide.v.01': 'decide', 'sip.v.01': 'sip', 'gyrate.v.01': 'coil', 'spill.v.01': 'spill', 'help.v.01': 'help', 'seize.v.01': 'seize', 'try.v.01': 'try', 'devour.v.02': 'devour', 'spit.v.01': 'spit', 'free.v.01': 'free', 'contend.v.06': 'fight'}
+help.v.01
+help
+eagle
+['eagle.n.01', 'eagle.n.02', 'eagle.n.03', 'eagle.n.04', 'eagle.v.01', 'eagle.v.02', 'bird_of_prey.n.01', 'score.n.03', 'coin.n.01', 'emblem.n.02', 'shoot.v.08', 'score.v.01', 'bald_eagle.n.01', 'eaglet.n.01', 'golden_eagle.n.01', 'harpy.n.04', 'sea_eagle.n.02', 'tawny_eagle.n.01']
+{'snake.n.01': 'snake', 'eagle.n.01': 'eagle', 'drinking_vessel.n.01': 'drinking_vessel', 'countryman.n.02': 'countryman', 'poison.n.01': 'poison'}
+eagle.n.01
+eagle
+question before sub:
+Who tried to support the eagle?
+{Question_Text}: Who decide to help the eagle ?
+answer_type:Sch
+SCORING fables-03-26
+Comparing Gold   "the countryman"
+      and Resp   "A countryman who owned a drinking vessel tried to help the eagle to escape."
+
+RECALL:    1.000
+PRECISION: 0.154
+F-measure: 0.267
+
+=========================================
+text
+Maxine was a happy frog that lived in a beautiful pond by the river.
+She loved to play in the water and take a bath every day.
+But her friends, Martin, Edgar, and Cindy didn't like to take baths.
+So one day when she was swimming alone, she met a new friend named Thomas.
+Thomas loved to take lots of baths, so he became friends with Maxine.
+But Martin, Edgar, and Cindy didn't like Thomas.
+So one day when Maxine and Thomas were swimming, Cindy did something mean.
+She threw rocks at Maxine and Thomas.
+Maxine's dad saw what happened and he was very mad.
+He went over and yelled at Cindy for what she did.
+After that Cindy didn't throw any rocks, and Maxine and Thomas could swim together and take lots of baths.
+They were very happy since they could play in the water as much as they wanted without other frogs being mean to them.
+=========================================
+{Question_Text}: What did Cindy throw?
+answer_type:Story
+SCORING mc500.train.25.2
+Comparing Gold   "rocks"
+      and Resp   "After that Cindy didn't throw any rocks, and Maxine and Thomas could swim together and take lots of baths."
+
+RECALL:    1.000
+PRECISION: 0.050
+F-measure: 0.095
+
+=========================================
+{Question_Text}: Who did Maxine meet?
+answer_type:Story
+SCORING mc500.train.25.3
+Comparing Gold   "a new friend"
+      and Resp   "Maxine was a happy frog that lived in a beautiful pond by the river."
+
+RECALL:    0.333
+PRECISION: 0.071
+F-measure: 0.118
+
+=========================================
+text
+Alyssa got to the beach after a long trip.
+She's from Charlotte.
+She traveled from Atlanta.
+She's now in Miami.
+She went to Miami to visit some friends.
+But she wanted some time to herself at the beach, so she went there first.
+After going swimming and laying out, she went to her friend Ellen's house.
+Ellen greeted Alyssa and they both had some lemonade to drink.
+Alyssa called her friends Kristin and Rachel to meet at Ellen's house.
+The girls traded stories and caught up on their lives.
+It was a happy time for everyone.
+The girls went to a restaurant for dinner.
+The restaurant had a special on catfish.
+Alyssa enjoyed the restaurant's special.
+Ellen ordered a salad.
+Kristin had soup.
+Rachel had a steak.
+After eating, the ladies went back to Ellen's house to have fun.
+They had lots of fun.
+They stayed the night because they were tired.
+Alyssa was happy to spend time with her friends again.
+=========================================
+{Question_Text}: What city is Alyssa in?
+answer_type:Story
+SCORING mc500.train.0.19
+Comparing Gold   "miami"
+      and Resp   "Alyssa got to the beach after a long trip."
+
+RECALL:    0.000
+PRECISION: 0.000
+F-measure: 0.000
+
+=========================================
+text
+It was Saturday afternoon and Andrew was bored.
+He had been watching TV all day.
+He told his dad, "There's nothing to do!"
+Andrew's dad said, "I think the newspaper is here.
+Maybe we can find an idea in the newspaper."
+Andrew looked outside the window and saw the newspaper by the door.
+On the front was a picture of an elephant.
+He picked up the newspaper and brought it to his dad.
+Andrew and his dad read the story.
+The circus was in town!
+Andrew had never been to the circus.
+He asked his dad, "Can we go?"
+"Yes, we can,' Andrew's dad said, 'but first you need to feed your goldfish."
+Andrew fed his goldfish some goldfish food.
+He promised to bring it some peanuts from the circus for later.
+Andrew and his dad went to the circus.
+The people and animals at the circus did lots of tricks.
+The elephant even went down a slide!
+Andrew and his dad ate lots of peanuts.
+There weren't any peanuts left to bring home to the goldfish.
+Andrew and his dad had a lot of fun at the circus.
+=========================================
+{Question_Text}: What was on the front page of the newspaper?
+answer_type:Story
+SCORING mc500.train.23.23
+Comparing Gold   "a picture of an elephant"
+      and Resp   "On the front was a picture of an elephant."
+
+RECALL:    1.000
+PRECISION: 0.500
+F-measure: 0.667
+
+=========================================
+text
+Kelly woke up one morning and went outside to her back yard.
+She was in a hurry because it was Mother's Day and she had to collect flowers before her mom woke up to give to her as a present.
+She was going to give her mom the biggest, most beautiful bunch of flowers her mother had ever seen.
+She knew where the best flowers were in her yard.
+She got a lot of different sized flowers.
+The red ones were big, the orange ones were small, and the green ones were in the middle.
+After Kelly collected all of the flowers, she went inside and tied them together with string.
+After that, she had to hide the flowers in a secret spot.
+She hoped her baby sister Morgan, who was still in diapers, wouldn't find the flowers and eat them.
+Kelly was worried, so she hid them in a new spot that was up higher.
+Finally, her mother woke up at 8:30 AM, and Kelly was excited!
+Kelly gave her mother the flowers.
+Her mother's favorite was the red one.
+=========================================
+{Question_Text}: What did she tie together with a string?
+answer_type:Story
+SCORING mc500.train.18.22
+Comparing Gold   "the flowers"
+      and Resp   "After Kelly collected all of the flowers, she went inside and tied them together with string."
+
+RECALL:    1.000
+PRECISION: 0.111
+F-measure: 0.200
+
+
+
+Finished processing 326 questions
+*************************************************************************
+
+FINAL RESULTS
+
+
+AVERAGE RECAL =     0.8285
+AVERAGE PRECISION = 0.1769
+AVERAGE F-MEASURE = 0.2803
+
+*************************************************************************
+
+
+Process finished with exit code 0

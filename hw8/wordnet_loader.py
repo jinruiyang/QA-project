@@ -46,6 +46,34 @@ def reshape_wordnet_dict(wordnet_dict, type):
     return reshape_dict
 
 
+def reshape_wordnet_dict_2(wordnet_dict, type):
+    reshape_dict = {}
+    for synset_id, inner_dict in wordnet_dict.items():
+        if type == 'v':
+            word = inner_dict['story_verb']
+        if type == 'n':
+            word = inner_dict['story_noun']
+        story_id_raw = inner_dict[
+            'stories']  # could have more than one story_id here
+        l_story_id_str = story_id_raw.strip('{}').split(', ')
+        for story_id_str in l_story_id_str:
+            story_id = story_id_str.strip("\'").split('.')[0]
+            if reshape_dict.get(story_id):
+                story_dict = reshape_dict[story_id]
+                story_dict[word] = synset_id  # difference here
+            else:
+                story_dict = {word: synset_id}  # difference here
+                reshape_dict[story_id] = story_dict
+    return reshape_dict
+
+
+def load_reshape_wordnet_dict_2(type='v'):
+    if type == 'v':
+        return reshape_wordnet_dict_2(load_verb_ids(), type)
+    if type == 'n':
+        return reshape_wordnet_dict_2(load_noun_ids(), type)
+
+
 def load_reshape_wordnet_dict(type='v'):
     if type == 'v':
         return reshape_wordnet_dict(load_verb_ids(), type)
@@ -62,7 +90,12 @@ if __name__ == "__main__":
     verb_ids = load_verb_ids()
     print(noun_ids)
     print(verb_ids)
-    reshape_noun_ids = reshape_wordnet_dict(noun_ids, 'n')
-    reshape_verb_ids = reshape_wordnet_dict(verb_ids, 'v')
-    print(reshape_noun_ids)
-    print(reshape_verb_ids)
+    # reshape_noun_ids = reshape_wordnet_dict(noun_ids, 'n')
+    # reshape_verb_ids = reshape_wordnet_dict(verb_ids, 'v')
+    # print(reshape_noun_ids)
+    # print(reshape_verb_ids)
+    # print(load_reshape_wordnet_dict('v')['fables-02'])
+    # v_dict = {'attack.v.01': {'synset_offset': '1119169', 'story_verb': 'attack', 'stories': "{'fables-06.vgl', 'blogs-01.vgl', 'fables-02.vgl'}"}}
+    # print(reshape_wordnet_dict(v_dict, 'v'))
+    print(load_reshape_wordnet_dict_2('v'))
+    print(load_reshape_wordnet_dict_2('n'))

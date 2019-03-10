@@ -140,8 +140,13 @@ def get_synsets(word):
 	return synsets
 
 
+def sub_word_qdep(question, word_index, word_synonym):
+	qgraph = question['dep']
+	qgraph.nodes[word_index + 1]['word'] = word_synonym
+
+
 # special past tense can find original form, but doesn't work the other way around
-def find_synonym_n_replace(key_word_tag, vb_n_synset_dicts, question_words, lemma_word_dict):
+def find_synonym_n_replace(question, key_word_tag, vb_n_synset_dicts, question_words, lemma_word_dict):
 	for word, tag in key_word_tag:
 		if 'NN' in tag or 'VB' in tag:
 			word_synsets_set = set(get_synsets(word))
@@ -153,6 +158,7 @@ def find_synonym_n_replace(key_word_tag, vb_n_synset_dicts, question_words, lemm
 				if synset_id in word_synsets_set:
 					word_synonym = synset_word_dict[synset_id]
 					word_index = question_words.index(lemma_word_dict[word])
+					sub_word_qdep(question, word_index, word_synonym)
 					question_words[word_index] = word_synonym
 					break
 
@@ -180,7 +186,7 @@ def replace_synonym(question, reshape_verb_dict, reshape_noun_dict):
 	lemmatized_word_tag, lemma_word_dict = lemmatize_v_n(question_word_tag)
 	key_word_tag = [(word, tag) for word, tag in lemmatized_word_tag
 					if re.search('^[a-z]+$', word) and word not in stopwords]
-	find_synonym_n_replace(key_word_tag, (verb_synset_word_dict, noun_synset_word_dict), question_words, lemma_word_dict)
+	find_synonym_n_replace(question, key_word_tag, (verb_synset_word_dict, noun_synset_word_dict), question_words, lemma_word_dict)
 	new_question_text = ' '.join(question_words)
 	return new_question_text
 
@@ -396,7 +402,7 @@ def run_qa(evaluate=False):
 
 def run_qa_with_score(evaluate=False):
 	QA = QAEngine(evaluate=evaluate)
-	QA.run_score()
+	QA.run_score('Hard')
 	# QA.run_score(set(['what']))
 
 def main():

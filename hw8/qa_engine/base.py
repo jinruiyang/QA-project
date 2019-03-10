@@ -199,6 +199,7 @@ class QABase(object):
         all_scores = {"p": [], "r": [], "f": []}
         gold = pd.read_csv(DATA_DIR + ANSWER_FILE, index_col="qid", sep="\t")
         for (qid, q), row in zip(self._questions.items(), gold.itertuples()):
+
             q_startword = self.get_q_startword(q['text'])
             if q_startword not in q_startwords or q['difficulty'] not in q_difficulties:
                 continue

@@ -1,0 +1,1092 @@
+{'what', 'how', 'where', 'had', 'who', 'when', 'why', 'did'}
+Hard
+=========================================
+sch
+There once was a lion.
+The lion was sleeping in a lair.
+The lion awaked because a mouse ran into the face of the lion.
+The lion lost temper and seized the mouse with the paw of the lion.
+The lion began attacking the mouse.
+The mouse began to be extremely frightened and piteously entreated the lion to spare it.
+The mouse said that -- if the lion were to free the mouse -- the mouse would repay kindness.
+The lion began to be amused.
+The lion laughed aloud because he thought that the mouse is extremely not able to help him.
+The lion good-naturedly freed the mouse.
+Opportunity arrived.
+A trapper spread some net in order to catch a big game.
+The lion entangled himself in the net.
+The mouse heard that the lion was roaring with anger.
+The mouse recognized the voice of the lion.
+The mouse ran to the lion.
+The mouse immediately began gnawing the rope of the net with the tooth of the mouse.
+The mouse soon succeeded in freeing the lion.
+The mouse said that the lion had aloud laughed because he thought that the mouse is extremely not able to help him.
+The mouse said that the lion was seeing that the mouse is able to help him.
+=========================================
+question before sub:
+Who expressed mirth?
+{Question_Text}: Who expressed mirth ?
+answer_type:Sch
+SCORING fables-06-16
+Comparing Gold   "the lion"
+      and Resp   "There once was a lion."
+
+RECALL:    0.500
+PRECISION: 0.167
+F-measure: 0.250
+
+=========================================
+question before sub:
+Who gnawed the bungee?
+{Question_Text}: Who gnaw the rope ?
+answer_type:Sch
+SCORING fables-06-17
+Comparing Gold   "the mouse"
+      and Resp   "The mouse immediately began gnawing the rope of the net with the tooth of the mouse."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+question before sub:
+Why did the Lion lose his temper?
+{Question_Text}: Why did the Lion lose his temper ?
+answer_type:Sch
+SCORING fables-06-18
+Comparing Gold   "because he thought that the mouse is extremely not able to help him."
+      and Resp   "The lion lost temper and seized the mouse with the paw of the lion."
+
+RECALL:    0.214
+PRECISION: 0.273
+F-measure: 0.240
+
+=========================================
+question before sub:
+Who entangled himself in the meshing?
+{Question_Text}: Who entangle himself in the net ?
+answer_type:Sch
+SCORING fables-06-19
+Comparing Gold   "the lion"
+      and Resp   "The lion entangled himself in the net."
+
+RECALL:    1.000
+PRECISION: 0.286
+F-measure: 0.444
+
+=========================================
+question before sub:
+What did the hunter spread?
+{Question_Text}: What did the trapper spread ?
+answer_type:Sch
+SCORING fables-06-20
+Comparing Gold   "some net"
+      and Resp   "A trapper spread some net in order to catch a big game."
+
+RECALL:    1.000
+PRECISION: 0.167
+F-measure: 0.286
+
+=========================================
+question before sub:
+Who would reward kindness?
+{Question_Text}: Who would reward forgivingness ?
+answer_type:Sch
+SCORING fables-06-25
+Comparing Gold   "the mouse"
+      and Resp   "The mouse said that -- if the lion were to free the mouse -- the mouse would repay kindness."
+
+RECALL:    1.000
+PRECISION: 0.143
+F-measure: 0.250
+
+=========================================
+question before sub:
+What did the mouse know?
+{Question_Text}: What did the mouse recognize ?
+answer_type:Sch
+SCORING fables-06-26
+Comparing Gold   "the voice of the lion"
+      and Resp   "The mouse recognized the voice of the lion."
+
+RECALL:    1.000
+PRECISION: 0.571
+F-measure: 0.727
+
+=========================================
+question before sub:
+What did the lion take with the paw of the lion?
+{Question_Text}: What did the lion take with the paw of the lion ?
+answer_type:Sch
+SCORING fables-06-27
+Comparing Gold   "the mouse"
+      and Resp   "The lion lost temper and seized the mouse with the paw of the lion."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+question before sub:
+Why did the lion wake up?
+{Question_Text}: Why did the lion awake up ?
+answer_type:Sch
+SCORING fables-06-28
+Comparing Gold   "because a mouse ran into the face of the lion."
+      and Resp   "The lion awaked because a mouse ran into the face of the lion."
+
+RECALL:    1.000
+PRECISION: 0.909
+F-measure: 0.952
+
+=========================================
+sch
+Once, storm was occurring in Louisiana.
+A narrator watched a channel named Weather Channel and watched some local news media.
+The narrator went back to a store named Home Depot in order to purchase a portable generator.
+The narrator filled a group of cars and filled the container of some gasoline.
+The narrator purchased an important group of things.
+Storm occurred.
+The narrator lost electricity.
+Some wind occurred.
+An area of a neighborhood of the narrator had a large group of pine trees and had a group of oak trees.
+The narrator stood up on a patio and watched a large tree.
+The tree split apart and fell on the yard of a neighbor.
+The narrator began to be nervous because it owned a group of trees and near the house of the narrator.
+The narrator began to be concerned because -- if the first tree were to later fall, and were to later fall on the house of the narrator -- the house of the narrator would have begun to be damaged, and the family of the narrator would begin to be wounded.
+The wife of the narrator stayed in the safe area of some home, a dog stayed in the area of the home, and the group of children of the narrator stayed in the area of the home.
+The narrator heard loud noise.
+The first tree fell onto a RV of the neighbor, and the narrator looked through the window of the narrator.
+The group of trees began to be falling.
+A fourth (#2) tree fell on a lawn mower.
+The fourth tree fell on a golf cart.
+The group of trees didn't fall on the house of the narrator.
+A group of neighbors didn't begin to be fortunate.
+President Bush came into Baton Rouge and in order to assess Baton Rouge.
+The group of friends of the cabinet of a governor named Jindal restored order, and the narrator had the group of friends of the cabinet of Jindal.
+Storm stopped.
+The narrator didn't have electricity because a group of power lines was down.
+The generator didn't begin to be working.
+The narrator brought the generator in repair.
+The parent of the narrator had electricity.
+The narrator brought the family of the narrator to the house of the parent of the narrator.
+The group of power lines began to be down over a city, and the fourth tree began to be down over the city.
+=========================================
+question before sub:
+What began to be down over a municipality?
+{Question_Text}: What began to be down over a city ?
+answer_type:Sch
+SCORING blogs-03-16
+Comparing Gold   "the group of power lines"
+      and Resp   "A group of neighbors didn't begin to be fortunate."
+
+RECALL:    0.400
+PRECISION: 0.182
+F-measure: 0.250
+
+=========================================
+question before sub:
+What happened in Louisiana?
+{Question_Text}: What happened in Louisiana ?
+answer_type:Sch
+SCORING blogs-03-17
+Comparing Gold   "storm"
+      and Resp   "Once, storm was occurring in Louisiana."
+
+RECALL:    1.000
+PRECISION: 0.125
+F-measure: 0.222
+
+=========================================
+question before sub:
+Who bought a portable generator?
+{Question_Text}: Who purchase a portable generator ?
+answer_type:Sch
+SCORING blogs-03-18
+Comparing Gold   "the narrator"
+      and Resp   "The narrator went back to a store named Home Depot in order to purchase a portable generator."
+
+RECALL:    1.000
+PRECISION: 0.125
+F-measure: 0.222
+
+=========================================
+question before sub:
+Where was the tempest occurring?
+{Question_Text}: Where was the tempest occurring ?
+answer_type:Sch
+SCORING blogs-03-19
+Comparing Gold   "in louisiana"
+      and Resp   "The narrator went back to a store named Home Depot in order to purchase a portable generator."
+
+RECALL:    0.500
+PRECISION: 0.062
+F-measure: 0.111
+
+=========================================
+question before sub:
+Who filled the container of some gasoline?
+{Question_Text}: Who fill the container of some gasoline ?
+answer_type:Sch
+SCORING blogs-03-20
+Comparing Gold   "the narrator"
+      and Resp   "The narrator filled a group of cars and filled the container of some gasoline."
+
+RECALL:    1.000
+PRECISION: 0.167
+F-measure: 0.286
+
+=========================================
+sch
+An oven broke because the broiler of the oven activated.
+The oven scorched a group of treats and created some fire.
+The husband of a narrator who owned a house and owned the oven attempted for the husband of the narrator to retrieve the group of treats and discovered that the oven had created the fire.
+The husband of the narrator unsuccessfully tried to eliminate the fire.
+The husband of the narrator quickly shut the door of the oven in order to prevent the fire spreading.
+The narrator retrieved a fire extinguisher.
+The husband of the narrator opened the door of the oven.
+The fire ascended to the ceiling of the house.
+The oven began to be broken, and the fire extinguisher eliminated the fire.
+The fire didn't damage the group of things of the house.
+The house aired, and the husband of the narrator and the narrator cleaned the house in order for the house to be normal.
+The husband of the narrator and the narrator used some griddle and used a toaster oven.
+The narrator ordered a new second oven.
+The narrator began to be excited because she had ordered the second oven.
+=========================================
+question before sub:
+What made some fire?
+{Question_Text}: What create some fire ?
+answer_type:Sch
+SCORING blogs-06-16
+Comparing Gold   "the oven"
+      and Resp   "The oven scorched a group of treats and created some fire."
+
+RECALL:    1.000
+PRECISION: 0.167
+F-measure: 0.286
+
+=========================================
+question before sub:
+Who tried to extinguish the fire?
+{Question_Text}: Who tried to eliminate the fire ?
+answer_type:Sch
+SCORING blogs-06-17
+Comparing Gold   "the husband of the narrator"
+      and Resp   "The husband of the narrator unsuccessfully tried to eliminate the fire."
+
+RECALL:    1.000
+PRECISION: 0.400
+F-measure: 0.571
+
+=========================================
+question before sub:
+What broke because the broiler of the oven tripped?
+{Question_Text}: What damage because the oven of the oven activate ?
+answer_type:Sch
+SCORING blogs-06-18
+Comparing Gold   "an oven"
+      and Resp   "An oven broke because the broiler of the oven activated."
+
+RECALL:    1.000
+PRECISION: 0.222
+F-measure: 0.364
+
+=========================================
+question before sub:
+What did the husband of the narrator quickly close?
+{Question_Text}: What did the husband of the narrator quickly close ?
+answer_type:Sch
+SCORING blogs-06-21
+Comparing Gold   "the door of the oven"
+      and Resp   "The husband of the narrator quickly shut the door of the oven in order to prevent the fire spreading."
+
+RECALL:    1.000
+PRECISION: 0.267
+F-measure: 0.421
+
+=========================================
+question before sub:
+What did the narrator recover?
+{Question_Text}: What did the narrator recover ?
+answer_type:Sch
+SCORING blogs-06-22
+Comparing Gold   " the group of treats"
+      and Resp   "The husband of a narrator who owned a house and owned the oven attempted for the husband of the narrator to retrieve the group of treats and discovered that the oven had created the fire."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+sch
+There once was a crow.
+The crow was sitting on a branch of a tree.
+Some cheese was in the beak of the crow.
+A fox observed the crow and tried to discover how to get the cheese.
+The fox came and stood under the tree.
+The fox looked toward the crow and said that he saw a noble bird who was above him.
+The fox said that the beauty of the bird was incomparable.
+The fox said that the hue of the plumage of the bird was exquisite.
+The fox said that -- if the sweetness of the voice of the bird is equal to the fairness of the appearance of the bird -- the bird would be undoubtedly the queen of every bird.
+The crow felt that the fox had flattered her and cawed loudly in order for she to show him that she was able to sing.
+The cheese fell.
+The fox snatched the cheese, said that the crow was able to sing and the fox said that the crow needed wits.
+=========================================
+question before sub:
+Who did the fox notice?
+{Question_Text}: Who did the fox notice ?
+answer_type:Sch
+SCORING fables-01-14
+Comparing Gold   "the crow"
+      and Resp   "The fox came and stood under the tree."
+
+RECALL:    0.500
+PRECISION: 0.125
+F-measure: 0.200
+
+=========================================
+question before sub:
+Who observed the corvine bird?
+{Question_Text}: Who observed the corvine bird ?
+answer_type:Sch
+SCORING fables-01-15
+Comparing Gold   "a fox"
+      and Resp   "The fox looked toward the crow and said that he saw a noble bird who was above him."
+
+RECALL:    1.000
+PRECISION: 0.111
+F-measure: 0.200
+
+=========================================
+question before sub:
+Who needed intelligence?
+{Question_Text}: Who needed wits ?
+answer_type:Sch
+SCORING fables-01-16
+Comparing Gold   "the crow"
+      and Resp   "The fox snatched the cheese, said that the crow was able to sing and the fox said that the crow needed wits."
+
+RECALL:    1.000
+PRECISION: 0.125
+F-measure: 0.222
+
+=========================================
+question before sub:
+Who was perched on a branch?
+{Question_Text}: Who was sit on a branch ?
+answer_type:Sch
+SCORING fables-01-17
+Comparing Gold   "the crow"
+      and Resp   "The crow was sitting on a branch of a tree."
+
+RECALL:    1.000
+PRECISION: 0.200
+F-measure: 0.333
+
+=========================================
+question before sub:
+Who felt buttered up?
+{Question_Text}: Who feel buttered up ?
+answer_type:Sch
+SCORING fables-01-18
+Comparing Gold   "the crow"
+      and Resp   "The crow felt that the fox had flattered her and cawed loudly in order for she to show him that she was able to sing."
+
+RECALL:    1.000
+PRECISION: 0.091
+F-measure: 0.167
+
+=========================================
+sch
+There once was a fat bull.
+The bull was grazing in a meadow.
+A lion watched the bull and salivated because the lion wanted to eat the bull.
+The lion didn't attack the bull because the lion feared sharp every horn of the bull.
+The lion began to be hungry and decided to attempt to kill the bull.
+The lion planned to trick the bull because the lion wasn't able to fight the bull.
+The lion walked toward the bull and began to feign that the lion was friendly.
+The lion said to the bull that the lion admired the body of the bull, admired the head of the bull, he admired every shoulder of the bull and admired every thigh of the bull.
+The lion advised the bull to remove every horn of the bull because every horn of the bull was ugly.
+The lion succeeded in persuading the bull to remove every horn of the bull.
+The lion ate the bull, and the bull began to be defenseless.
+=========================================
+question before sub:
+Who did the big cat witness?
+{Question_Text}: Who did the big lion witness ?
+answer_type:Sch
+SCORING fables-02-19
+Comparing Gold   "the bull"
+      and Resp   "The lion didn't attack the bull because the lion feared sharp every horn of the bull."
+
+RECALL:    1.000
+PRECISION: 0.154
+F-measure: 0.267
+
+=========================================
+question before sub:
+Why did not the lion strike the bull?
+{Question_Text}: Why did not the lion strike the bull ?
+answer_type:Sch
+SCORING fables-02-20
+Comparing Gold   "because the lion feared sharp every horn of the bull."
+      and Resp   "The lion didn't attack the bull because the lion feared sharp every horn of the bull."
+
+RECALL:    1.000
+PRECISION: 0.769
+F-measure: 0.870
+
+=========================================
+question before sub:
+What did the lion gobble?
+{Question_Text}: What did the lion gobble ?
+answer_type:Sch
+SCORING fables-02-21
+Comparing Gold   "the bull"
+      and Resp   "The lion didn't attack the bull because the lion feared sharp every horn of the bull."
+
+RECALL:    1.000
+PRECISION: 0.154
+F-measure: 0.267
+
+=========================================
+question before sub:
+What did the lion consume?
+{Question_Text}: What did the lion consume ?
+answer_type:Sch
+SCORING fables-02-22
+Comparing Gold   "the bull"
+      and Resp   "The lion didn't attack the bull because the lion feared sharp every horn of the bull."
+
+RECALL:    1.000
+PRECISION: 0.154
+F-measure: 0.267
+
+=========================================
+question before sub:
+Who tried to kill the bull?
+{Question_Text}: Who tried to kill the bull ?
+answer_type:Sch
+SCORING fables-02-23
+Comparing Gold   "the lion"
+      and Resp   "The lion began to be hungry and decided to attempt to kill the bull."
+
+RECALL:    1.000
+PRECISION: 0.167
+F-measure: 0.286
+
+=========================================
+sch
+A summit meeting named G20 summit started on eventful today.
+G20 summit happened annually.
+A world and many leader came and talked about it running a government.
+A people protested because it disagreed about a view.
+The people protested peacefully on a street.
+The people rebelled and created riot.
+The people burned a police car and threw a thing at a police.
+The police alleviated the people of riot.
+The police fired a tear gas at the people and fired a bullet at the people, and the people smashed a window.
+=========================================
+question before sub:
+Who blasted tear gas?
+{Question_Text}: Who smash tear tear_gas ?
+answer_type:Sch
+SCORING blogs-01-19
+Comparing Gold   "the police"
+      and Resp   "The police fired a tear gas at the people and fired a bullet at the people, and the people smashed a window."
+
+RECALL:    1.000
+PRECISION: 0.143
+F-measure: 0.250
+
+=========================================
+question before sub:
+Who created disorder?
+{Question_Text}: Who created rioting ?
+answer_type:Sch
+SCORING blogs-01-20
+Comparing Gold   "the people"
+      and Resp   "The people rebelled and created riot."
+
+RECALL:    1.000
+PRECISION: 0.286
+F-measure: 0.444
+
+=========================================
+question before sub:
+Who fired a chemical weapon?
+{Question_Text}: Who fired a chemical weapon ?
+answer_type:Sch
+SCORING blogs-01-21
+Comparing Gold   "the police"
+      and Resp   "A summit meeting named G20 summit started on eventful today."
+
+RECALL:    0.000
+PRECISION: 0.000
+F-measure: 0.000
+
+=========================================
+question before sub:
+Who revolted?
+{Question_Text}: Who revolted ?
+answer_type:Sch
+SCORING blogs-01-22
+Comparing Gold   "the people"
+      and Resp   "A summit meeting named G20 summit started on eventful today."
+
+RECALL:    0.000
+PRECISION: 0.000
+F-measure: 0.000
+
+=========================================
+question before sub:
+What combusted?
+{Question_Text}: What combusted ?
+answer_type:Sch
+SCORING blogs-01-23
+Comparing Gold   "a police car"
+      and Resp   "A summit meeting named G20 summit started on eventful today."
+
+RECALL:    0.333
+PRECISION: 0.100
+F-measure: 0.154
+
+=========================================
+question before sub:
+Who was a slug fired at?
+{Question_Text}: Who was a bullet fired at ?
+answer_type:Sch
+SCORING blogs-01-24
+Comparing Gold   "the people"
+      and Resp   "The police fired a tear gas at the people and fired a bullet at the people, and the people smashed a window."
+
+RECALL:    1.000
+PRECISION: 0.143
+F-measure: 0.250
+
+=========================================
+sch
+A clever fox invited a stork to dine.
+The fox only served some soup in a flat and large dish.
+The fox lapped the soup with relish.
+The stork attempted to drink some savory broth and failed.
+The fox believed that distress was amusing.
+The stork shortly invited the fox to dine.
+The stork presented the fox with a pitcher.
+The stork easily fitted the long bill of the stork into the long and narrow neck of the pitcher.
+The stork enjoied some dinner.
+The fox began to be hungry and began to be helpless because he wasn't able to reach some food that was in the pitcher.
+=========================================
+question before sub:
+Who tried to drink some savory broth and failed?
+{Question_Text}: Who tried to drink some savory broth and fail ?
+answer_type:Sch
+SCORING fables-04-14
+Comparing Gold   "the stork"
+      and Resp   "The stork attempted to drink some savory broth and failed."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+question before sub:
+Who tried to drink some savory stock?
+{Question_Text}: Who tried to drink some savory soup ?
+answer_type:Sch
+SCORING fables-04-15
+Comparing Gold   "the stork"
+      and Resp   "The stork attempted to drink some savory broth and failed."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+question before sub:
+What did the canine serve?
+{Question_Text}: What did the fox serve ?
+answer_type:Sch
+SCORING fables-04-16
+Comparing Gold   "some soup in a flat and large dish"
+      and Resp   "The fox only served some soup in a flat and large dish."
+
+RECALL:    1.000
+PRECISION: 0.615
+F-measure: 0.762
+
+=========================================
+question before sub:
+Who attempted to drink some savory soup?
+{Question_Text}: Who attempted to drink some savory soup ?
+answer_type:Sch
+SCORING fables-04-17
+Comparing Gold   "the stork"
+      and Resp   "The stork attempted to drink some savory broth and failed."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+sch
+There once was a group of students and a narrator.
+The narrator was a teacher, owned some white slip and owned a desk.
+The narrator was teaching the group of students language.
+The narrator checked the group of students for presence and stood at the front of a classroom.
+The slip fell because the not-functional elastic of the slip was dysfunctional.
+The group of students saw that the slip had fallen because the elastic of the slip was dysfunctional.
+The narrator noticed that the ankle of the narrator was observed.
+The narrator nervously looked toward the ankle of the narrator and observed that the slip had fallen because the elastic of the slip was dysfunctional.
+The narrator glanced around the group of students.
+The narrator carefully stepped over the slip.
+The narrator feigned bewilderment.
+The narrator lifted the slip and inserted it into a bottom drawer of the desk.
+The narrator resumed teaching, and the group of students didn't react.
+The narrator later feared for the group of students to tell a parent of the group of students that the group of students had seen that the slip had fallen because the elastic of the slip was dysfunctional.
+=========================================
+question before sub:
+Who detected that the ankle of the narrator was observed?
+{Question_Text}: Who detected that the ankle of the narrator was observed ?
+answer_type:Sch
+SCORING blogs-05-16
+Comparing Gold   "the narrator"
+      and Resp   "The narrator noticed that the ankle of the narrator was observed."
+
+RECALL:    1.000
+PRECISION: 0.222
+F-measure: 0.364
+
+=========================================
+question before sub:
+What did the narrator raise?
+{Question_Text}: What did the narrator raise ?
+answer_type:Sch
+SCORING blogs-05-17
+Comparing Gold   "the slip"
+      and Resp   "The narrator was a teacher, owned some white slip and owned a desk."
+
+RECALL:    1.000
+PRECISION: 0.154
+F-measure: 0.267
+
+=========================================
+question before sub:
+What did the narrator see the group of students for?
+{Question_Text}: What did the narrator see the group of students for ?
+answer_type:Sch
+SCORING blogs-05-20
+Comparing Gold   "presence"
+      and Resp   "The narrator later feared for the group of students to tell a parent of the group of students that the group of students had seen that the slip had fallen because the elastic of the slip was dysfunctional."
+
+RECALL:    0.000
+PRECISION: 0.000
+F-measure: 0.000
+
+=========================================
+sch
+There once was a fox and a fowl.
+The fox was nightly prowling a yard.
+He was stealing the fowl.
+An agriculturist began to be annoyed by the fox.
+The agriculturist set a trap and caught the fox.
+The agriculturist tied some fiber onto the tail of the fox and in order to retaliate.
+The agriculturist kindled the fiber and freed the fox.
+The agriculturist began to be unlucky because the fox ran into a field.
+Some corn began to be ripe in the field and began to be ready to a harvest.
+The corn ignited and burned completely.
+The agriculturist lost a crop.
+=========================================
+question before sub:
+Who was stealing the chicken?
+{Question_Text}: Who was steal the domestic_fowl ?
+answer_type:Sch
+SCORING fables-05-14
+Comparing Gold   "the fox"
+      and Resp   "He was stealing the fowl."
+
+RECALL:    0.500
+PRECISION: 0.167
+F-measure: 0.250
+
+=========================================
+question before sub:
+What did the agriculturist ignite?
+{Question_Text}: What did the agriculturist ignite ?
+answer_type:Sch
+SCORING fables-05-15
+Comparing Gold   "the fiber"
+      and Resp   "The agriculturist set a trap and caught the fox."
+
+RECALL:    0.500
+PRECISION: 0.111
+F-measure: 0.182
+
+=========================================
+question before sub:
+Who did the agriculturist unloosen?
+{Question_Text}: Who did the agriculturist unloosen ?
+answer_type:Sch
+SCORING fables-05-16
+Comparing Gold   "the fox"
+      and Resp   "The agriculturist set a trap and caught the fox."
+
+RECALL:    1.000
+PRECISION: 0.222
+F-measure: 0.364
+
+=========================================
+sch
+A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man.
+The narrator stayed with the young man and didn't aid him because the young man had broken the neck of the young man.
+The young man died on the spot of the yard of the narrator.
+The narrator later went back to the spot of the yard of the narrator and decided to talk to the young man because it wanted the young man to know the narrator regretting that it had not aided him.
+The narrator saw some bright flash in a group of trees that was above the narrator.
+The narrator thought for the brother of the narrator to use the flashlight of the brother of the narrator.
+The narrator entered the house of the narrator and heard that the asleep family of the narrator was asleep.
+The narrator began to wonder that the flash was an orb
+=========================================
+question before sub:
+What did the narrator go into?
+{Question_Text}: What did the narrator die into ?
+answer_type:Sch
+SCORING blogs-02-17
+Comparing Gold   "the house of the narrator"
+      and Resp   "The young man died on the spot of the yard of the narrator."
+
+RECALL:    0.750
+PRECISION: 0.300
+F-measure: 0.429
+
+=========================================
+question before sub:
+Who was catching some Zs?
+{Question_Text}: Who was catching some Zs ?
+answer_type:Sch
+SCORING blogs-02-18
+Comparing Gold   "the family of the narrator"
+      and Resp   "A young man long ago crashed the motorbike of the young man on the front yard of a narrator and broke the neck of the young man."
+
+RECALL:    0.750
+PRECISION: 0.176
+F-measure: 0.286
+
+=========================================
+question before sub:
+Who walked in the house of the narrator?
+{Question_Text}: Who walked in the house of the narrator ?
+answer_type:Sch
+SCORING blogs-02-19
+Comparing Gold   "the narrator"
+      and Resp   "The narrator entered the house of the narrator and heard that the asleep family of the narrator was asleep."
+
+RECALL:    1.000
+PRECISION: 0.167
+F-measure: 0.286
+
+=========================================
+question before sub:
+What did the narrator perceive?
+{Question_Text}: What did the narrator perceive ?
+answer_type:Sch
+SCORING blogs-02-20
+Comparing Gold   "some bright flash"
+      and Resp   "The narrator stayed with the young man and didn't aid him because the young man had broken the neck of the young man."
+
+RECALL:    0.000
+PRECISION: 0.000
+F-measure: 0.000
+
+=========================================
+sch
+ The narrator placed the bowl on the deck in order for Benjamin to drink the bowl's water.
+The bowl was popular.
+The birds drank the bowl's water.
+The birds bathed themselves in the bowl.
+The birds organized themselves on the deck's railing in order for the birds to wait.
+The squirrels drank the bowl's water.
+The squirrel approached the bowl.
+The squirrel was startled.
+The squirrel leaped because the squirrel was startled.
+The squirrel fell over the deck's railing because the squirrel leaped because the squirrel was startled.
+The squirrel held the deck's railing with the squirrel's paw.
+The squirrel's paw slipped off the deck's railing.
+The squirrel fell.
+=========================================
+question before sub:
+Where did the birds form themselves?
+{Question_Text}: Where did the birds organize themselves ?
+answer_type:Sch
+SCORING blogs-04-15
+Comparing Gold   "on the deck's railing"
+      and Resp   "The birds organized themselves on the deck's railing in order for the birds to wait."
+
+RECALL:    1.000
+PRECISION: 0.357
+F-measure: 0.526
+
+=========================================
+sch
+An eagle swooped toward a serpent and seized it in order for he to devour it.
+The eagle fought with the serpent, and the serpent coiled around him.
+A countryman who owned a drinking vessel tried to help the eagle to escape.
+The eagle escaped, and the countryman freed the eagle from the serpent.
+The serpent spat some poison in the drinking vessel.
+The countryman decided to sip from the drinking vessel.
+The eagle spilled the drinking vessel.
+=========================================
+question before sub:
+Who swooped towards a snake?
+{Question_Text}: Who swoop towards a snake ?
+answer_type:Sch
+SCORING fables-03-22
+Comparing Gold   "an eagle"
+      and Resp   "An eagle swooped toward a serpent and seized it in order for he to devour it."
+
+RECALL:    1.000
+PRECISION: 0.125
+F-measure: 0.222
+
+=========================================
+question before sub:
+Who spiraled around the eagle?
+{Question_Text}: Who coil around the eagle ?
+answer_type:Sch
+SCORING fables-03-23
+Comparing Gold   "an eagle"
+      and Resp   "The eagle fought with the serpent, and the serpent coiled around him."
+
+RECALL:    0.500
+PRECISION: 0.091
+F-measure: 0.154
+
+=========================================
+question before sub:
+What did the bird of prey descend toward?
+{Question_Text}: What did the bird of prey descend toward ?
+answer_type:Sch
+SCORING fables-03-24
+Comparing Gold   "a serpent"
+      and Resp   "An eagle swooped toward a serpent and seized it in order for he to devour it."
+
+RECALL:    1.000
+PRECISION: 0.125
+F-measure: 0.222
+
+=========================================
+question before sub:
+Who skirmished with the serpent?
+{Question_Text}: Who fight with the snake ?
+answer_type:Sch
+SCORING fables-03-25
+Comparing Gold   "the eagle"
+      and Resp   "The eagle fought with the serpent, and the serpent coiled around him."
+
+RECALL:    1.000
+PRECISION: 0.182
+F-measure: 0.308
+
+=========================================
+question before sub:
+Who tried to support the eagle?
+{Question_Text}: Who decide to support the eagle ?
+answer_type:Sch
+SCORING fables-03-26
+Comparing Gold   "the countryman"
+      and Resp   "The eagle fought with the serpent, and the serpent coiled around him."
+
+RECALL:    0.500
+PRECISION: 0.091
+F-measure: 0.154
+
+=========================================
+question before sub:
+Where did the serpent spat some toxin?
+{Question_Text}: Where did the snake spit some poison ?
+answer_type:Sch
+SCORING fables-03-27
+Comparing Gold   "the drinking vessel"
+      and Resp   "The serpent spat some poison in the drinking vessel."
+
+RECALL:    1.000
+PRECISION: 0.333
+F-measure: 0.500
+
+=========================================
+text
+Maxine was a happy frog that lived in a beautiful pond by the river.
+She loved to play in the water and take a bath every day.
+But her friends, Martin, Edgar, and Cindy didn't like to take baths.
+So one day when she was swimming alone, she met a new friend named Thomas.
+Thomas loved to take lots of baths, so he became friends with Maxine.
+But Martin, Edgar, and Cindy didn't like Thomas.
+So one day when Maxine and Thomas were swimming, Cindy did something mean.
+She threw rocks at Maxine and Thomas.
+Maxine's dad saw what happened and he was very mad.
+He went over and yelled at Cindy for what she did.
+After that Cindy didn't throw any rocks, and Maxine and Thomas could swim together and take lots of baths.
+They were very happy since they could play in the water as much as they wanted without other frogs being mean to them.
+=========================================
+{Question_Text}: What did Cindy throw?
+answer_type:Story
+SCORING mc500.train.25.2
+Comparing Gold   "rocks"
+      and Resp   "After that Cindy didn't throw any rocks, and Maxine and Thomas could swim together and take lots of baths."
+
+RECALL:    1.000
+PRECISION: 0.050
+F-measure: 0.095
+
+=========================================
+{Question_Text}: Who did Maxine meet?
+answer_type:Story
+SCORING mc500.train.25.3
+Comparing Gold   "a new friend"
+      and Resp   "Maxine was a happy frog that lived in a beautiful pond by the river."
+
+RECALL:    0.333
+PRECISION: 0.071
+F-measure: 0.118
+
+=========================================
+text
+Alyssa got to the beach after a long trip.
+She's from Charlotte.
+She traveled from Atlanta.
+She's now in Miami.
+She went to Miami to visit some friends.
+But she wanted some time to herself at the beach, so she went there first.
+After going swimming and laying out, she went to her friend Ellen's house.
+Ellen greeted Alyssa and they both had some lemonade to drink.
+Alyssa called her friends Kristin and Rachel to meet at Ellen's house.
+The girls traded stories and caught up on their lives.
+It was a happy time for everyone.
+The girls went to a restaurant for dinner.
+The restaurant had a special on catfish.
+Alyssa enjoyed the restaurant's special.
+Ellen ordered a salad.
+Kristin had soup.
+Rachel had a steak.
+After eating, the ladies went back to Ellen's house to have fun.
+They had lots of fun.
+They stayed the night because they were tired.
+Alyssa was happy to spend time with her friends again.
+=========================================
+{Question_Text}: Did Alyssa take a long trip?
+answer_type:Story
+SCORING mc500.train.0.18
+Comparing Gold   "yes"
+      and Resp   "Alyssa got to the beach after a long trip."
+
+RECALL:    0.000
+PRECISION: 0.000
+F-measure: 0.000
+
+=========================================
+{Question_Text}: What city is Alyssa in?
+answer_type:Story
+SCORING mc500.train.0.19
+Comparing Gold   "miami"
+      and Resp   "Alyssa got to the beach after a long trip."
+
+RECALL:    0.000
+PRECISION: 0.000
+F-measure: 0.000
+
+=========================================
+text
+It was Saturday afternoon and Andrew was bored.
+He had been watching TV all day.
+He told his dad, "There's nothing to do!"
+Andrew's dad said, "I think the newspaper is here.
+Maybe we can find an idea in the newspaper."
+Andrew looked outside the window and saw the newspaper by the door.
+On the front was a picture of an elephant.
+He picked up the newspaper and brought it to his dad.
+Andrew and his dad read the story.
+The circus was in town!
+Andrew had never been to the circus.
+He asked his dad, "Can we go?"
+"Yes, we can,' Andrew's dad said, 'but first you need to feed your goldfish."
+Andrew fed his goldfish some goldfish food.
+He promised to bring it some peanuts from the circus for later.
+Andrew and his dad went to the circus.
+The people and animals at the circus did lots of tricks.
+The elephant even went down a slide!
+Andrew and his dad ate lots of peanuts.
+There weren't any peanuts left to bring home to the goldfish.
+Andrew and his dad had a lot of fun at the circus.
+=========================================
+{Question_Text}: What was on the front page of the newspaper?
+answer_type:Story
+SCORING mc500.train.23.23
+Comparing Gold   "a picture of an elephant"
+      and Resp   "On the front was a picture of an elephant."
+
+RECALL:    1.000
+PRECISION: 0.500
+F-measure: 0.667
+
+=========================================
+{Question_Text}: why weren't there any peanuts left?
+answer_type:Story
+SCORING mc500.train.23.24
+Comparing Gold   "andrew and his dad ate them"
+      and Resp   "There weren't any peanuts left to bring home to the goldfish."
+
+RECALL:    0.000
+PRECISION: 0.000
+F-measure: 0.000
+
+=========================================
+text
+Kelly woke up one morning and went outside to her back yard.
+She was in a hurry because it was Mother's Day and she had to collect flowers before her mom woke up to give to her as a present.
+She was going to give her mom the biggest, most beautiful bunch of flowers her mother had ever seen.
+She knew where the best flowers were in her yard.
+She got a lot of different sized flowers.
+The red ones were big, the orange ones were small, and the green ones were in the middle.
+After Kelly collected all of the flowers, she went inside and tied them together with string.
+After that, she had to hide the flowers in a secret spot.
+She hoped her baby sister Morgan, who was still in diapers, wouldn't find the flowers and eat them.
+Kelly was worried, so she hid them in a new spot that was up higher.
+Finally, her mother woke up at 8:30 AM, and Kelly was excited!
+Kelly gave her mother the flowers.
+Her mother's favorite was the red one.
+=========================================
+{Question_Text}: What did she tie together with a string?
+answer_type:Story
+SCORING mc500.train.18.22
+Comparing Gold   "the flowers"
+      and Resp   "After Kelly collected all of the flowers, she went inside and tied them together with string."
+
+RECALL:    1.000
+PRECISION: 0.111
+F-measure: 0.200
+
+=========================================
+{Question_Text}: where did she pick flowers flowers?
+answer_type:Story
+SCORING mc500.train.18.23
+Comparing Gold   "her back yard"
+      and Resp   "She was in a hurry because it was Mother's Day and she had to collect flowers before her mom woke up to give to her as a present."
+
+RECALL:    0.333
+PRECISION: 0.042
+F-measure: 0.074
+
+
+
+Finished processing 326 questions
+*************************************************************************
+
+FINAL RESULTS
+
+
+AVERAGE RECAL =     0.7752
+AVERAGE PRECISION = 0.1915
+AVERAGE F-MEASURE = 0.2864
+
+*************************************************************************
+
+
+Process finished with exit code 0
